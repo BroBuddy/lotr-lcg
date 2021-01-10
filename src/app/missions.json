@@ -2766,5 +2766,201 @@
         "image": "24003.jpg"
       }
     ]
+  },
+  {
+    "id": 15,
+    "text": "Elrond is disturbed by the report of Arwen’s journeyto Rivendell. He has requsted that the heroes discoverthe source of the increased Orc activity along the MistyMountains. This mission has led the party South to Moria,but the Doors of Durin are blocked by a deep, dark lake.As the heroes make their way around its waters, an ancientevil stirs from within its depths. A desperate battle begins,and the heroes must drive the creature away or find safetyin the mines.",
+    "questDeck": [
+      "1501A.jpg",
+      "1501B.jpg",
+      "1502A.jpg",
+      "1502B.jpg"
+    ],
+    "activeLocation": null,
+    "stagingArea": [],
+    "encounterDeck": [
+      {
+        "type": "enemy",
+        "image": "21001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "21001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "21001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "21001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "21002.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "21002.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "21002.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "21003.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "21003.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "21003.jpg"
+      },
+      {
+        "type": "location",
+        "image": "21004.jpg"
+      },
+      {
+        "type": "location",
+        "image": "21005.jpg"
+      },
+      {
+        "type": "location",
+        "image": "21005.jpg"
+      },
+      {
+        "type": "location",
+        "image": "21006.jpg"
+      },
+      {
+        "type": "location",
+        "image": "21006.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25002.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25003.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25003.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25004.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25004.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25005.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25005.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25005.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "25006.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "25007.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "25007.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "25007.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25009.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25009.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25009.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25009.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25010.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25010.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25010.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25010.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25011.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25011.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25011.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "25011.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "25012.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "25012.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "25012.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "25012.jpg"
+      }
+    ],
+    "discardPile": [
+      {
+        "type": "enemy",
+        "image": "25008.jpg"
+      },
+      {
+        "type": "location",
+        "image": "25001.jpg"
+      }
+    ]
   }
 ]

@@ -2962,5 +2962,265 @@
         "image": "25001.jpg"
       }
     ]
+  },
+  {
+    "id": 16,
+    "text": "",
+    "questDeck": [
+      "1601A.jpg",
+      "1601B.jpg",
+      "1602A.jpg",
+      "1602B.jpg"
+    ],
+    "activeLocation": null,
+    "stagingArea": [],
+    "encounterDeck": [
+      {
+        "type": "enemy",
+        "image": "19001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "19001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "19002.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "19003.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "19003.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "19003.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "19004.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "19004.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "19004.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "19005.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "19005.jpg"
+      },
+      {
+        "type": "location",
+        "image": "19006.jpg"
+      },
+      {
+        "type": "location",
+        "image": "19006.jpg"
+      },
+      {
+        "type": "location",
+        "image": "19006.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "18001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "18001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "18001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "18001.jpg"
+      },
+      {
+        "type": "location",
+        "image": "18002.jpg"
+      },
+      {
+        "type": "location",
+        "image": "18002.jpg"
+      },
+      {
+        "type": "location",
+        "image": "18002.jpg"
+      },
+      {
+        "type": "location",
+        "image": "18003.jpg"
+      },
+      {
+        "type": "location",
+        "image": "18003.jpg"
+      },
+      {
+        "type": "location",
+        "image": "18004.jpg"
+      },
+      {
+        "type": "location",
+        "image": "18004.jpg"
+      },
+      {
+        "type": "location",
+        "image": "18004.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "18005.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "18006.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "18006.jpg"
+      },
+      {
+        "type": "treachery",
+        "image": "18006.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26001.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26002.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26002.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26002.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26003.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26003.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26004.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26004.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26005.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26005.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26006.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26006.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26007.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26007.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26007.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26007.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26008.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26009.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26009.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26010.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26010.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26010.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26011.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26011.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26011.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26011.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26012.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26013.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26013.jpg"
+      },
+      {
+        "type": "enemy",
+        "image": "26013.jpg"
+      }
+    ],
+    "discardPile": [
+      {
+        "type": "objective",
+        "image": "18007.jpg"
+      }
+    ]
   }
 ]

@@ -1,0 +1,36 @@
+@import '../node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+html, body { height: 100%; }
+body {
+  background-attachment: fixed;
+  background-image: url("/assets/img/middle-earth.png");
+  background-size: cover;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.container { padding: 15px }
+
+mat-card { z-index: 10000; background-color: rgba(0,0,0,0.5) !important; }
+img { &:hover { z-index: 1000; } }
+
+.mat-button-toggle-group {
+  .mat-button-toggle-label-content {
+    line-height: normal !important;
+    padding: 1px 5px !important;
+  }
+
+  .mat-button-toggle-checked {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+}
+
+.mark-box {
+  position: relative;
+
+  .mark-button {
+    position: absolute;
+    left: 3px;
+  }
+}

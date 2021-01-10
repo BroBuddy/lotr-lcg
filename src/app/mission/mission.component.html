@@ -1,0 +1,117 @@
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid" *ngIf="shuffled">
+  <div fxFlex="19">
+    <img src="/assets/img/deck.jpg" height="340" alt="" hspace="3" vspace="3" (click)="onDrawCard()" *ngIf="encounterDeck.length" />
+  </div>
+
+  <div fxFlex="64" fxLayoutAlign="center">
+    <span *ngFor="let card of stagingArea; let i = index;" class="mark-box">
+      <mat-button-toggle-group *ngIf="card.type !== 'treachery'" class="mark-button">
+        <mat-button-toggle [value]="number" [checked]="number === 0" *ngFor="let number of [0,1]">
+          {{ number }}
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+
+      <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="340" hspace="3" vspace="3" (click)="onCardActivation(i, card)" />
+    </span>
+  </div>
+
+  <div fxFlex="17">
+    <span *ngIf="activeLocation" class="mark-box">
+      <mat-button-toggle-group class="mark-button">
+        <mat-button-toggle [value]="number" [checked]="number === 0" *ngFor="let number of [0,1,2,3,4,5,6]">
+          {{ number }}
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+
+      <img [src]="'/assets/img/encounter/' + activeLocation.image" class="zoom" height="340" alt="" hspace="3" vspace="3" (click)="onUpdateLocation()" />
+    </span>
+  </div>
+
+  <div fxFlex="19">
+    <span *ngIf="shadowCard">
+     <img [src]="'/assets/img/encounter/' + shadowCard.image" class="zoom" height="340" alt="" hspace="3" vspace="3" (click)="onDiscardShadow()" />
+    </span>
+
+    <span *ngIf="!shadowCard">
+     <img src="/assets/img/deck.jpg" height="340" alt="" hspace="3" vspace="3" (click)="onDrawShadow()" *ngIf="encounterDeck.length" />
+    </span>
+  </div>
+
+  <div fxFlex="55" fxLayoutAlign="center">
+    <span *ngFor="let card of engagingArea;" class="mark-box">
+      <mat-button-toggle-group class="mark-button">
+        <mat-button-toggle [value]="number" [checked]="number === 0" *ngFor="let number of [0,1,2,3,4,5,6,7,8,9]">
+          {{ number }}
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+
+      <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="340" hspace="3" vspace="3" (click)="onDefeatEnemy(card)" />
+    </span>
+  </div>
+
+  <div fxFlex="26">
+    <span class="mark-box">
+      <mat-button-toggle-group class="mark-button">
+        <mat-button-toggle [value]="number" [checked]="number === 0" *ngFor="let number of [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]">
+          {{ number }}
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+
+      <img [src]="'/assets/img/mission/' + questDeck[questStep]" width="400" alt="" hspace="3" vspace="3" (click)="onChangeQuest()" />
+    </span>
+  </div>
+
+  <div fxFlex="100">
+    <span *ngFor="let card of discardPile;" class="mark-box">
+      <mat-button-toggle-group class="mark-button">
+        <mat-button-toggle (click)="onResetCard('encounter', card)">
+          E
+        </mat-button-toggle>
+        <mat-button-toggle (click)="onResetCard('staging', card)">
+          S
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+
+      <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="150" hspace="3" vspace="3" />
+    </span>
+  </div>
+</div>
+
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid" *ngIf="!shuffled">
+  <div fxFlex="100">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Mission {{ id }}</mat-card-title>
+        <mat-card-subtitle>Deck size: {{ encounterDeck.length + stagingArea.length + discardPile.length + (activeLocation ? 1 : 0) }}</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+        <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+          <div fxFlex="15">
+            <p>{{ text }}</p>
+
+            <button mat-raised-button color="primary" (click)="onShuffleEncounter()">Shuffle</button>
+          </div>
+
+          <div fxFlex="85">
+            <span *ngFor="let card of encounterDeck;">
+              <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="165" hspace="3" vspace="3" />
+            </span>
+
+            <span *ngFor="let card of stagingArea;">
+              <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="165" hspace="3" vspace="3" />
+            </span>
+
+            <span *ngFor="let card of discardPile;">
+              <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="165" hspace="3" vspace="3" />
+            </span>
+
+            <span *ngIf="activeLocation">
+              <img [src]="'/assets/img/encounter/' + activeLocation.image" class="zoom" [alt]="activeLocation.type" height="165" hspace="3" vspace="3" />
+            </span>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

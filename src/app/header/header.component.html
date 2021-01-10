@@ -1,0 +1,18 @@
+<mat-toolbar color="accent" fxLayoutAlign="space-between">
+  <button mat-button routerLink="/">Lord of the rings</button>
+
+  <div class="threat-box" fxLayoutAlign="space-around center">
+    <button mat-icon-button (click)="decreaseThreat()">
+      <mat-icon>remove_circle_outline</mat-icon>
+    </button>
+
+    <div class="threat-count">
+      {{ threat }}
+    </div>
+
+    <button mat-icon-button (click)="increaseThreat()">
+      <mat-icon>add_circle_outline</mat-icon>
+    </button>
+  </div>
+  <div></div>
+</mat-toolbar>

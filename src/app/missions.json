@@ -2965,7 +2965,7 @@
   },
   {
     "id": 16,
-    "text": "",
+    "text": "The Mines of Moria are a dark labyrinth of narrow tunnelsand wide passages, natural caves and impressive cavernsof Dwarven workmanship. The heroes must make their wayeastward, discovering what they can about the Orcs, andperhaps even meeting up with Balin for more information.But it is easy to get lost in the darkness… ",
     "questDeck": [
       "1601A.jpg",
       "1601B.jpg",
@@ -3096,79 +3096,79 @@
         "image": "18006.jpg"
       },
       {
-        "type": "enemy",
+        "type": "objective",
         "image": "26001.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26002.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26002.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26002.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26003.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26003.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26004.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26004.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26005.jpg"
       },
       {
-        "type": "enemy",
+        "type": "location",
         "image": "26005.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26006.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26006.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26007.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26007.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26007.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26007.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26008.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26009.jpg"
       },
       {
-        "type": "enemy",
+        "type": "treachery",
         "image": "26009.jpg"
       },
       {

@@ -3821,7 +3821,12 @@
           "type": "location",
           "image": "29003.jpg"
         },
-        "stagingArea": [],
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "29002.jpg"
+          }
+        ],
         "encounterDeck": [
           {
             "type": "enemy",
@@ -3898,10 +3903,6 @@
           {
             "type": "treachery",
             "image": "32005.jpg"
-          },
-          {
-            "type": "enemy",
-            "image": "29002.jpg"
           },
           {
             "type": "enemy",

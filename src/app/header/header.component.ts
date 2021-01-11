@@ -3,7 +3,18 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styles: [`
+    mat-toolbar {
+      background-color: rgba(0,0,0,0.5) !important;
+      color: #fff !important;
+    }
+  
+    .threat-box {
+      .threat-count {
+        margin: 3px 10px;
+      }
+    }`
+  ]
 })
 export class HeaderComponent {
 

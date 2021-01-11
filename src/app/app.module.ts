@@ -10,12 +10,14 @@ import { HeaderComponent } from './header/header.component';
 import { MaterialModule } from './material.module';
 import {MissionComponent} from './mission/mission.component';
 import {HomeComponent} from './home/home.component';
+import {RulesComponent} from './rules/rules.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
+    RulesComponent,
     MissionComponent
   ],
   imports: [

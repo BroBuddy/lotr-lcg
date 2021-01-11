@@ -1,5 +1,8 @@
 <mat-toolbar color="accent" fxLayoutAlign="space-between">
-  <button mat-button routerLink="/">Lord of the rings</button>
+  <button mat-button routerLink="/">
+    <mat-icon>home</mat-icon>
+    Lord of the rings
+  </button>
 
   <div class="threat-box" fxLayoutAlign="space-around center">
     <button mat-icon-button (click)="decreaseThreat()">
@@ -14,5 +17,9 @@
       <mat-icon>add_circle_outline</mat-icon>
     </button>
   </div>
-  <div></div>
+
+  <button mat-button routerLink="/rules">
+    <mat-icon>description</mat-icon>
+    Rules of play
+  </button>
 </mat-toolbar>

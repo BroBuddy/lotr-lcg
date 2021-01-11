@@ -18,12 +18,12 @@ export class MissionComponent implements OnInit {
   public text: string;
   public shuffled = false;
   public cardsPlayed = 0;
-  public questDeck = [];
+  public questDeck: any[] = [];
   public questStep = 0;
-  public engagingArea = [];
-  public stagingArea = [];
-  public encounterDeck = [];
-  public discardPile = [];
+  public engagingArea: any[] = [];
+  public stagingArea: any[] = [];
+  public encounterDeck: any[] = [];
+  public discardPile: any[] = [];
   public activeLocation = null;
   public shadowCard = null;
 

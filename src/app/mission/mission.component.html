@@ -62,19 +62,45 @@
   </div>
 
   <div fxFlex="100">
-    <span *ngFor="let card of discardPile;" class="mark-box">
-      <mat-button-toggle-group class="mark-button">
-        <mat-button-toggle (click)="onResetCard('encounter', card)">
-          Deck
-        </mat-button-toggle>
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Discard pile: {{ discardPile.length }}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
 
-        <mat-button-toggle (click)="onResetCard('staging', card)">
-          Area
-        </mat-button-toggle>
-      </mat-button-toggle-group>
+        <div>
+          <span *ngFor="let card of discardPile;" class="mark-box">
+            <mat-button-toggle-group class="mark-button">
+              <mat-button-toggle (click)="onResetCard('encounter', card)">
+                Deck
+              </mat-button-toggle>
 
-      <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="150" hspace="3" vspace="3" />
-    </span>
+              <mat-button-toggle (click)="onResetCard('staging', card)">
+                Area
+              </mat-button-toggle>
+            </mat-button-toggle-group>
+
+            <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="150" hspace="3" vspace="3" />
+          </span>
+        </div>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Encounter deck: {{ encounterDeck.length }}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div>
+          <span *ngFor="let card of encounterDeck;" class="mark-box">
+            <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="150" hspace="3" vspace="3" />
+          </span>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
   </div>
 </div>
 

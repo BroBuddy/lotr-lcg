@@ -3799,5 +3799,198 @@
         ]
       }
     ]
+  },
+  {
+    "id": 3,
+    "title": "Heirs of Númenor",
+    "missions": [
+      {
+        "id": 19,
+        "difficult": 7,
+        "title": "Peril in Pelargir",
+        "text": "The shadow of Sauron has risen with increasing violence against the kingdom of Gondor. Our heroes have travelled southeast by ship from the Grey Havens at the request of the White Council, ready to aid the descendants of Númenor in their defense against the forces of Mordor. Upon reaching the port of Pelargir, they are greeted by Lord Alcaron, a nobleman from the city of Minas Tirith. Lord Alcaron has urgent information for Faramir, but he is frightened that the Enemy is after him. He asks the heroes to deliver a scroll to Faramir. The heroes agree when a band of ruffians appear, intent on intercepting the message...",
+        "questDeck": [
+          "1901A.jpg",
+          "1901B.jpg",
+          "1902A.jpg",
+          "1902B.jpg",
+          "1903A.jpg",
+          "1903B.jpg"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "29003.jpg"
+        },
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "38001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38002.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "38003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "38003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "32001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "32001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "32001.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32003.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "32004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "32005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "32005.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "29002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "29002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "29002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "29002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "29002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "29004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "29004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "29005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "29005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "29006.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "29006.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "29006.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "29006.jpg"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "29001.jpg"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "difficult": 8,
+        "title": "",
+        "text": "Having reached the eaves of Ithilien, our heroes enter the green woodlands in search of Faramir, seeking to deliver to him the scroll of Lord Alcaron. There they are met by Celador, a ranger of Gondor, who informs the heroes that Faramir has taken his men to Cair Andros in anticipation of an assault against the island fortress. Celador offers to bring the heroes to Cair Andros by secret paths–after the rangers ambush a company of Southrons marching north on the Ithilien road. Grateful for Celador’s offer and unable to stand by while his men do battle, our heroes volunteer to fight alongside his rangers...",
+        "questDeck": [
+          "2001A.jpg",
+          "2001B.jpg",
+          "2002A.jpg",
+          "2ß02B.jpg"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 21,
+        "difficult": 8,
+        "title": "",
+        "text": "The island fortress of Cair Andros guards Gondor’s northernmost causeways over the Anduin. Our heroes reach the causeway and enter the fortress as skirmishers appear on the eastern shore. They find Faramir in the Citadel, and deliver to him the scroll of Lord Alcaron. Drums are heard, and horns, and the tramping of many feet. An army of Orcs and Southrons prepare a threepronged assault, and the heroes gird themselves for battle. For if Cair Andros falls, the doom of Gondor is nigh...",
+        "questDeck": [
+          "2101A.jpg",
+          "2101B.jpg",
+          "2102A.jpg",
+          "2102B.jpg"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      }
+    ]
   }
 ]

@@ -7,21 +7,19 @@ import { Component } from '@angular/core';
     mat-toolbar {
       background-color: rgba(0,0,0,0.5) !important;
       color: #fff !important;
-    }
-  
-    .threat-box {
-      .threat-count {
-        margin: 3px 10px;
-      }
     }`
   ]
 })
 export class HeaderComponent {
 
-  public threat = 24;
+  public threat = 28;
 
-  decreaseThreat(): void {
-    this.threat--;
+  decreaseThreat(amount?: number): void {
+    if (amount) {
+      this.threat = this.threat - amount;
+    } else {
+      this.threat--;
+    }
   }
 
   increaseThreat(): void {

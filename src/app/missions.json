@@ -3556,13 +3556,247 @@
       {
         "id": 18,
         "difficult": 8,
-        "title": "",
-        "text": "",
-        "questDeck": [],
+        "title": "Shadow and Flame",
+        "text": "The heroes have escaped from the darkness below the mines, and find themselves in the Third Deep, near the East-gate. But as Orcs begin to swarm, a foe more terrible towers before them. Durin's Bane has risen from the depths, to stalk the halls of the Dwarves once more…",
+        "questDeck": [
+          "1801A.jpg",
+          "1801B.jpg",
+          "1802A.jpg",
+          "1802B.jpg",
+          "1803A.jpg",
+          "1803B.jpg"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "28010.jpg"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "19001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "19006.jpg"
+          },
+          {
+            "type": "location",
+            "image": "19006.jpg"
+          },
+          {
+            "type": "location",
+            "image": "19006.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "22001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "22001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "22001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "22002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "22002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "22002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "22002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "22002.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "22003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "22003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "22003.jpg"
+          },
+          {
+            "type": "location",
+            "image": "22004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "22004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "28002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "28003.jpg"
+          },
+          {
+            "type": "location",
+            "image": "28003.jpg"
+          },
+          {
+            "type": "location",
+            "image": "28003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28006.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28006.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28006.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28007.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28007.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28007.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28008.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28008.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28009.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28009.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28009.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "28011.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "28011.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "28011.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28012.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28012.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28013.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "28013.jpg"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "location",
+            "image": "28001.jpg"
+          }
+        ]
       }
     ]
   }

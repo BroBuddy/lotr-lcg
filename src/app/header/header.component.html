@@ -4,17 +4,25 @@
     Lord of the rings
   </button>
 
-  <div class="threat-box" fxLayoutAlign="space-around center">
+  <div fxLayoutAlign="space-around center">
+    <button mat-button (click)="decreaseThreat(5)">
+      Gandalf
+    </button>
+
     <button mat-icon-button (click)="decreaseThreat()">
       <mat-icon>remove_circle_outline</mat-icon>
     </button>
 
-    <div class="threat-count">
+    <button mat-button>
       {{ threat }}
-    </div>
+    </button>
 
     <button mat-icon-button (click)="increaseThreat()">
       <mat-icon>add_circle_outline</mat-icon>
+    </button>
+
+    <button mat-button (click)="decreaseThreat(6)">
+      Galadhrim
     </button>
   </div>
 

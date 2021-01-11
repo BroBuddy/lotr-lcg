@@ -12,7 +12,9 @@ import Missions from '../missions.json';
   styleUrls: ['./mission.component.scss']
 })
 export class MissionComponent implements OnInit {
-  public id: number;
+  public cId: number;
+  public mId: number;
+  public title: string;
   public text: string;
   public shuffled = false;
   public cardsPlayed = 0;
@@ -31,20 +33,24 @@ export class MissionComponent implements OnInit {
     this.route.params
       .subscribe(
         (params: Params) => {
-          this.id = params.id;
+          this.cId = params.cId;
+          this.mId = params.mId;
         }
       );
 
     this.fetchMission()
-      .pipe(map(data => data[this.id - 1]))
+      .pipe(map(data => data[(this.cId - 1)]))
       .subscribe(data => {
-        if (data) {
-          this.text = data.text;
-          this.questDeck = data.questDeck;
-          this.activeLocation = data.activeLocation;
-          this.stagingArea = data.stagingArea;
-          this.encounterDeck = data.encounterDeck;
-          this.discardPile = data.discardPile;
+        const index = data.missions.findIndex((item) => item.id === Number(this.mId));
+
+        if (data.missions[index]) {
+          this.text = data.missions[index].text;
+          this.title = data.missions[index].title;
+          this.questDeck = data.missions[index].questDeck;
+          this.activeLocation = data.missions[index].activeLocation;
+          this.stagingArea = data.missions[index].stagingArea;
+          this.encounterDeck = data.missions[index].encounterDeck;
+          this.discardPile = data.missions[index].discardPile;
         }
       });
   }

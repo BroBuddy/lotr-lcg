@@ -11,7 +11,7 @@ import Missions from '../missions.json';
 })
 export class HomeComponent implements OnInit {
 
-  public missions: number;
+  public missions: any;
 
   ngOnInit(): void {
     this.fetchMission()

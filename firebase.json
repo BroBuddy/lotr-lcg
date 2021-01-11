@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/lord-of-the-rings",
     "ignore": [
       "firebase.json",
       "**/.*",

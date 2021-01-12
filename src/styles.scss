@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-body, p, button, mat-card-title, mat-card-subtitle, mat-panel-title {
+body, button, .mat-tab-label-content, mat-card-title, mat-card-subtitle, mat-panel-title {
   font-family: "Redressed" !important;
   font-size: 18px !important;
 }
@@ -37,7 +37,7 @@ img {
 }
 
 p {
-  line-height: 1.3em !important;
+  line-height: 1.5em !important;
 }
 
 .container { padding: 15px }

@@ -26,6 +26,7 @@ export class MissionComponent implements OnInit {
   public discardPile: any[] = [];
   public activeLocation = null;
   public shadowCard = null;
+  public previewCard = null;
 
   constructor(private route: ActivatedRoute) {}
 
@@ -51,6 +52,7 @@ export class MissionComponent implements OnInit {
           this.stagingArea = data.missions[index].stagingArea;
           this.encounterDeck = data.missions[index].encounterDeck;
           this.discardPile = data.missions[index].discardPile;
+          this.previewCard = this.encounterDeck[0];
         }
       });
   }
@@ -137,12 +139,8 @@ export class MissionComponent implements OnInit {
     this.discardPile.push(card);
   }
 
-  onChangeQuest(): void {
-    if (this.questStep < (this.questDeck.length - 1)) {
-      this.questStep++;
-    } else {
-      this.questStep = 0;
-    }
+  onChangeQuest(step: number): void {
+    this.questStep = step;
   }
 
   onResetCard(type: string, card: any): void {
@@ -158,5 +156,13 @@ export class MissionComponent implements OnInit {
       index = discardPile.findIndex((item) => item === card);
 
     this.discardPile = discardPile.slice(0, Number(index)).concat(discardPile.slice(Number(index) + 1));
+  }
+
+  onPreviewCard(card: any): void {
+    this.previewCard = card;
+  }
+
+  trackByFn(index: number): number {
+    return index;
   }
 }

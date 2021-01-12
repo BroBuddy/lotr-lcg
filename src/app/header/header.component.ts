@@ -14,6 +14,10 @@ export class HeaderComponent {
 
   public threat = 28;
 
+  setThreat(amount?: number): void {
+    this.threat = amount;
+  }
+
   decreaseThreat(amount?: number): void {
     if (amount) {
       this.threat = this.threat - amount;

@@ -141,7 +141,7 @@
             </span>
 
             <span *ngIf="activeLocation">
-              <img [src]="'/assets/img/encounter/' + activeLocation.image" [alt]="activeLocation.type" height="130" hspace="3" vspace="3" (click)="onPreviewCard(card)" />
+              <img [src]="'/assets/img/encounter/' + activeLocation.image" [alt]="activeLocation.type" height="130" hspace="3" vspace="3" (click)="onPreviewCard(activeLocation)" />
             </span>
           </div>
 

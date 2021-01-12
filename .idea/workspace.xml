@@ -7,9 +7,6 @@
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/material.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/material.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/mission/mission.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mission/mission.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/mission/mission.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mission/mission.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/mission/mission.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mission/mission.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

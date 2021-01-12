@@ -13,6 +13,7 @@ import {HomeComponent} from './home/home.component';
 import {RulesComponent} from './rules/rules.component';
 import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
+import {GlossaryComponent} from './glossary/glossary.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import {CardComponent} from './card/card.component';
     HomeComponent,
     RulesComponent,
     MissionComponent,
+    GlossaryComponent,
     CardComponent,
     CounterComponent
   ],

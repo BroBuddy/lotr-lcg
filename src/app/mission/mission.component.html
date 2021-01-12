@@ -49,45 +49,53 @@
 
   <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
     <div fxFlex="100">
-      <mat-accordion>
-        <mat-expansion-panel>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              Discard pile: {{ discardPile.length }}
-            </mat-panel-title>
-          </mat-expansion-panel-header>
+      <mat-card>
+        <mat-card-content>
+          <mat-tab-group color="accent" animationDuration="0ms">
+            <mat-tab>
+              <ng-template mat-tab-label>
+                Discard pile: {{ discardPile.length }}
+              </ng-template>
 
-          <div>
-          <span *ngFor="let card of discardPile; trackBy: trackByFn" class="mark-box">
-            <mat-button-toggle-group class="mark-button">
-              <mat-button-toggle (click)="onResetCard('encounter', card)">
-                Deck
-              </mat-button-toggle>
+              <div>
+            <span *ngFor="let card of discardPile; trackBy: trackByFn" class="mark-box">
+              <mat-button-toggle-group class="mark-button">
+                <mat-button-toggle (click)="onResetCard('encounter', card)">
+                  Deck
+                </mat-button-toggle>
 
-              <mat-button-toggle (click)="onResetCard('staging', card)">
-                Area
-              </mat-button-toggle>
-            </mat-button-toggle-group>
+                <mat-button-toggle (click)="onResetCard('staging', card)">
+                  Area
+                </mat-button-toggle>
+              </mat-button-toggle-group>
 
-            <img [src]="'/assets/img/encounter/' + card.image" [alt]="card.type" height="150" hspace="3" vspace="3" />
-          </span>
-          </div>
-        </mat-expansion-panel>
+              <img [src]="'/assets/img/encounter/' + card.image" [alt]="card.type" height="150" hspace="3" vspace="3" />
+            </span>
+              </div>
+            </mat-tab>
 
-        <mat-expansion-panel>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              Encounter deck: {{ encounterDeck.length }}
-            </mat-panel-title>
-          </mat-expansion-panel-header>
+            <mat-tab>
+              <ng-template mat-tab-label>
+                Encounter deck: {{ encounterDeck.length }}
+              </ng-template>
 
-          <div>
-          <span *ngFor="let card of encounterDeck; trackBy: trackByFn" class="mark-box">
-            <img [src]="'/assets/img/encounter/' + card.image" [alt]="card.type" height="150" hspace="3" vspace="3" />
-          </span>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
+              <div>
+            <span *ngFor="let card of encounterDeck; trackBy: trackByFn" class="mark-box">
+              <img [src]="'/assets/img/encounter/' + card.image" [alt]="card.type" height="150" hspace="3" vspace="3" />
+            </span>
+              </div>
+            </mat-tab>
+
+            <mat-tab>
+              <ng-template mat-tab-label>
+                Glossary
+              </ng-template>
+
+              <app-glossary></app-glossary>
+            </mat-tab>
+          </mat-tab-group>
+        </mat-card-content>
+      </mat-card>
     </div>
   </div>
 </ng-container>

@@ -6,6 +6,7 @@ import {
   MatCardModule,
   MatExpansionModule,
   MatIconModule,
+  MatTabsModule,
   MatToolbarModule,
   MatTooltipModule
 } from '@angular/material';
@@ -17,6 +18,7 @@ const modules = [
   MatCardModule,
   MatExpansionModule,
   MatIconModule,
+  MatTabsModule,
   MatToolbarModule,
   MatTooltipModule
 ];

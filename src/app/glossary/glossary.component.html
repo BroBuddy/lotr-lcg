@@ -1,15 +1,33 @@
 <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-    <div fxFlex="100" *ngFor="let keyword of keywords; trackBy: trackByFn">
+    <div fxFlex="50">
         <mat-accordion>
-            <mat-expansion-panel>
-                <mat-expansion-panel-header>
-                    <mat-panel-title>
-                        {{ keyword.title }}
-                    </mat-panel-title>
-                </mat-expansion-panel-header>
+            <ng-container *ngFor="let keyword of keywords; let i = index; trackBy: trackByFn">
+                <mat-expansion-panel *ngIf="i <= (keywords.length / 2)">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            {{ keyword.title }}
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
 
-                <p>{{ keyword.text }}</p>
-            </mat-expansion-panel>
+                    <p>{{ keyword.text }}</p>
+                </mat-expansion-panel>
+            </ng-container>
+        </mat-accordion>
+    </div>
+
+    <div fxFlex="50">
+        <mat-accordion>
+            <ng-container *ngFor="let keyword of keywords; let i = index; trackBy: trackByFn">
+                <mat-expansion-panel *ngIf="i >= (keywords.length / 2)">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            {{ keyword.title }}
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+
+                    <p>{{ keyword.text }}</p>
+                </mat-expansion-panel>
+            </ng-container>
         </mat-accordion>
     </div>
 </div>

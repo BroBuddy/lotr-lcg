@@ -1,0 +1,7 @@
+<div class="badge">
+    <img [src]="'/assets/img/encounter/' + card.image" class="zoom" [alt]="card.type" height="340" hspace="5" vspace="5" (click)="onCardActivation()" />
+
+    <span (click)="increaseNumber()">
+        {{ number }}
+    </span>
+</div>

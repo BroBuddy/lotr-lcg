@@ -15,13 +15,34 @@ body, p, button, mat-card-title, mat-card-subtitle, mat-panel-title {
   font-size: 18px !important;
 }
 
+img {
+  box-shadow: 2px 2px 4px #000;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 250ms all ease-out;
+
+  &:hover {
+    border-color: #eee;
+    transform: rotate(3deg) scale(1.1);
+    z-index: 1000;
+  }
+
+  &.zoom {
+    transition: 250ms ease-in-out all;
+
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+}
+
 p {
   line-height: 1.3em !important;
 }
 
 .container { padding: 15px }
 
-mat-card, mat-expansion-panel { z-index: 10000; background-color: rgba(0,0,0,0.5) !important; }
+hr, mat-card, mat-expansion-panel { z-index: 10000; background-color: rgba(0,0,0,0.5) !important; border: none; }
 img { &:hover { z-index: 1000; } }
 
 .mat-button-toggle-group {

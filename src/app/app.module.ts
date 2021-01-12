@@ -11,6 +11,8 @@ import { MaterialModule } from './material.module';
 import {MissionComponent} from './mission/mission.component';
 import {HomeComponent} from './home/home.component';
 import {RulesComponent} from './rules/rules.component';
+import {CounterComponent} from './counter/counter.component';
+import {CardComponent} from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {RulesComponent} from './rules/rules.component';
     HeaderComponent,
     HomeComponent,
     RulesComponent,
-    MissionComponent
+    MissionComponent,
+    CardComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,6 @@ import {RulesComponent} from './rules/rules.component';
     MaterialModule,
     DndModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

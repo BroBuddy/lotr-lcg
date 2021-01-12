@@ -31,6 +31,8 @@ export class MissionComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
+    // this.onShuffleEncounter();
+
     this.route.params
       .subscribe(
         (params: Params) => {
@@ -83,7 +85,7 @@ export class MissionComponent implements OnInit {
     this.cardsPlayed++;
   }
 
-  onCardActivation(i: number, card: any): void {
+  onCardActivation(card: any): void {
     switch (card.type) {
       case 'treachery':
       case 'objective': {
@@ -140,7 +142,9 @@ export class MissionComponent implements OnInit {
   }
 
   onChangeQuest(step: number): void {
-    this.questStep = step;
+    if (step <= (this.questDeck.length - 1)) {
+      this.questStep = step;
+    }
   }
 
   onResetCard(type: string, card: any): void {

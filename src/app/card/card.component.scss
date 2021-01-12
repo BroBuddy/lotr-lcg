@@ -1,0 +1,23 @@
+:host {
+  position: relative;
+  z-index: 200;
+
+  span {
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    left: 210px;
+    text-align: center;
+    transition: ease-in-out all 250ms;
+    width: 20px;
+    z-index: 300;
+
+    &:hover {
+      background-color: #666;
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
+}

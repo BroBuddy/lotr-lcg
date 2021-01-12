@@ -1,19 +1,7 @@
-img {
-  border: 1px solid #424242;
-  border-radius: 15px;
-  cursor: pointer;
 
-  &:hover {
-    border-color: #eee;
-  }
-
-  &.zoom {
-    transition: 300ms ease-in-out all;
-
-    &:hover {
-      transform: scale(1.4);
-    }
-  }
+.area-zone {
+  border-bottom: 10px solid #000;
+  margin-bottom: 20px;
 }
 
 .content {

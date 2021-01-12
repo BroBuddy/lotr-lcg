@@ -1,0 +1,5 @@
+<mat-button-toggle-group class="mark-button">
+    <mat-button-toggle [value]="i" [checked]="i === 0" *ngFor="let item of [].constructor(maxCounter); let i = index; trackBy: trackByFn">
+        {{ i }}
+    </mat-button-toggle>
+</mat-button-toggle-group>

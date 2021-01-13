@@ -40,7 +40,7 @@ p {
   line-height: 1.5em !important;
 }
 
-.container { padding: 15px }
+.container { padding: 15px; max-width: 100%; }
 
 hr, mat-card, mat-expansion-panel { z-index: 10000; background-color: rgba(0,0,0,0.5) !important; border: none; }
 img { &:hover { z-index: 1000; } }

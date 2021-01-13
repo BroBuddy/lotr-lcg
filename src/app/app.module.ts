@@ -1,12 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import {AngularFirestore,} from '@angular/fire/firestore';
-import {AngularFireStorageModule} from '@angular/fire/storage';
-import {AngularFireModule} from '@angular/fire';
 import { DndModule } from 'ngx-drag-drop';
 
-import {environment} from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -18,7 +14,6 @@ import {RulesComponent} from './rules/rules.component';
 import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
 import {GlossaryComponent} from './glossary/glossary.component';
-import {FirebaseImageDirective} from './directive/firebase-image.directive';
 
 @NgModule({
   declarations: [
@@ -29,8 +24,7 @@ import {FirebaseImageDirective} from './directive/firebase-image.directive';
     MissionComponent,
     GlossaryComponent,
     CardComponent,
-    CounterComponent,
-    FirebaseImageDirective
+    CounterComponent
   ],
   imports: [
     BrowserModule,
@@ -38,11 +32,8 @@ import {FirebaseImageDirective} from './directive/firebase-image.directive';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MaterialModule,
-    DndModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireStorageModule
+    DndModule
   ],
-  providers: [AngularFirestore],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

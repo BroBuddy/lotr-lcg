@@ -3963,17 +3963,170 @@
       {
         "id": 20,
         "difficult": 8,
-        "title": "",
+        "title": "Into Ithilien",
         "text": "Having reached the eaves of Ithilien, our heroes enter the green woodlands in search of Faramir, seeking to deliver to him the scroll of Lord Alcaron. There they are met by Celador, a ranger of Gondor, who informs the heroes that Faramir has taken his men to Cair Andros in anticipation of an assault against the island fortress. Celador offers to bring the heroes to Cair Andros by secret paths–after the rangers ambush a company of Southrons marching north on the Ithilien road. Grateful for Celador’s offer and unable to stand by while his men do battle, our heroes volunteer to fight alongside his rangers...",
         "questDeck": [
           "2001A.jpg",
           "2001B.jpg",
           "2002A.jpg",
-          "2ß02B.jpg"
+          "2002B.jpg",
+          "2003A.jpg",
+          "2003B.jpg",
+          "2004A.jpg",
+          "2004B.jpg"
         ],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
+        "activeLocation": {
+          "type": "location",
+          "image": "30004.jpg"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "30001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "30003.jpg"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "36001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "36004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "36004.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "35001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "35001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "35001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "35002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "35002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "35002.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "35003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "35003.jpg"
+          },
+          {
+            "type": "location",
+            "image": "34001.jpg"
+          },
+          {
+            "type": "location",
+            "image": "34001.jpg"
+          },
+          {
+            "type": "location",
+            "image": "34001.jpg"
+          },
+          {
+            "type": "location",
+            "image": "34002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "34002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "34002.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "34003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "34003.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "30002.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "30002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "30003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "30003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "30003.jpg"
+          },
+          {
+            "type": "location",
+            "image": "30004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "30005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "30005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "30005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "30005.jpg"
+          }
+        ],
         "discardPile": []
       },
       {

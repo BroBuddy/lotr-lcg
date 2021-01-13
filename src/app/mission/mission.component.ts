@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Params} from '@angular/router';
+import {ToastrService} from 'ngx-toastr';
 
 import {map} from 'rxjs/operators';
 import {Observable, of} from 'rxjs';
@@ -15,6 +16,7 @@ export class MissionComponent implements OnInit {
   public cId: number;
   public mId: number;
   public title: string;
+  public difficult: number;
   public text: string;
   public shuffled = false;
   public cardsPlayed = 0;
@@ -28,7 +30,7 @@ export class MissionComponent implements OnInit {
   public shadowCard = null;
   public previewCard = null;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private toastr: ToastrService) {}
 
   ngOnInit(): void {
     // this.onShuffleEncounter();
@@ -49,6 +51,7 @@ export class MissionComponent implements OnInit {
         if (data.missions[index]) {
           this.text = data.missions[index].text;
           this.title = data.missions[index].title;
+          this.difficult = data.missions[index].difficult;
           this.questDeck = data.missions[index].questDeck;
           this.activeLocation = data.missions[index].activeLocation;
           this.stagingArea = data.missions[index].stagingArea;
@@ -95,6 +98,7 @@ export class MissionComponent implements OnInit {
       case 'treachery':
       case 'objective': {
         this.discardPile.push(card);
+        this.removeCardFromStaging(card);
         break;
       }
       case 'location': {
@@ -103,26 +107,32 @@ export class MissionComponent implements OnInit {
       }
       default: {
         this.engagingArea.unshift(card);
+        this.removeCardFromStaging(card);
         break;
       }
     }
+  }
 
+  removeCardFromStaging(card: any): void {
     const stagingArea = [...this.stagingArea],
-      index = stagingArea.findIndex((item) => item === card);
+        index = stagingArea.findIndex((item) => item === card);
 
     this.stagingArea = stagingArea.slice(0, Number(index)).concat(stagingArea.slice(Number(index) + 1));
   }
 
-  onUpdateLocation(card?: any): void {
-    if (this.activeLocation) {
+  onUpdateLocation(card: any): void {
+    if (this.activeLocation === card) {
       this.discardPile.push(this.activeLocation);
       this.activeLocation = null;
-    }
-
-    if (card) {
-      setTimeout(() => {
-        this.activeLocation = card;
-      }, 100);
+    } else {
+      if (this.activeLocation) {
+        this.toastr.warning('Active location still occupied');
+      } else {
+        setTimeout(() => {
+          this.removeCardFromStaging(card);
+          this.activeLocation = card;
+        }, 100);
+      }
     }
   }
 
@@ -156,9 +166,12 @@ export class MissionComponent implements OnInit {
     if (type === 'encounter') {
       this.encounterDeck.push(card);
       this.onShuffleEncounter();
+      this.toastr.info('Deck was shuffled');
     } else {
       this.stagingArea.unshift(card);
+      this.toastr.info('Card was played');
     }
+
     this.cardsPlayed++;
 
     const discardPile = [...this.discardPile],
@@ -168,10 +181,11 @@ export class MissionComponent implements OnInit {
   }
 
   onChooseCard(card: any, index: number): void {
-    console.log(index, 'card', card);
     this.stagingArea.unshift(card);
 
     this.encounterDeck = this.encounterDeck.slice(0, Number(index)).concat(this.encounterDeck.slice(Number(index) + 1));
+
+    this.toastr.info('Card was played');
   }
 
   onPreviewCard(card: any): void {

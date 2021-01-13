@@ -18,7 +18,7 @@
 
     <div fxFlex="18" fxLayoutAlign="end">
       <span *ngIf="activeLocation" class="mark-box">
-        <app-card [card]="activeLocation" (activateCard)="onUpdateLocation()"></app-card>
+        <app-card [card]="activeLocation" (activateCard)="onUpdateLocation(activeLocation)"></app-card>
       </span>
     </div>
   </div>
@@ -137,7 +137,13 @@
   <div fxFlex="100">
     <mat-card>
       <mat-card-header>
-        <mat-card-title>{{ title }}</mat-card-title>
+        <mat-card-title>
+          {{ title }}
+
+          <button mat-button [color]="difficult <= 4 ? 'accent' : (difficult >= 7 ? 'primary' : 'warn')">
+            {{ difficult <= 4 ? 'Easy' : (difficult >= 7 ? 'Hard' : 'Medium') }}
+          </button>
+        </mat-card-title>
         <mat-card-subtitle>Deck size: {{ encounterDeck?.length + stagingArea?.length + discardPile?.length + (activeLocation ? 1 : 0) }}</mat-card-subtitle>
       </mat-card-header>
 
@@ -146,7 +152,7 @@
           <div fxFlex="20">
             <p>{{ text }}</p>
 
-            <button mat-raised-button color="accent" [disabled]="!encounterDeck?.length" (click)="onShuffleEncounter()">
+            <button mat-button color="primary" [disabled]="!encounterDeck?.length" (click)="onShuffleEncounter()">
               <mat-icon>wifi_protected_setup</mat-icon>
               Shuffle &amp; Start
             </button>

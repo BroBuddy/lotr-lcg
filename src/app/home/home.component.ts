@@ -25,4 +25,8 @@ export class HomeComponent implements OnInit {
     return of(Missions);
   }
 
+  trackByFn(index: number): number {
+    return index;
+  }
+
 }

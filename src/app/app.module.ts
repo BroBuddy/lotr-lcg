@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { DndModule } from 'ngx-drag-drop';
+import {ToastrModule, ToastrService} from 'ngx-toastr';
 import {LazyLoadImageModule} from 'ng-lazyload-image';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -32,8 +33,17 @@ import {GlossaryComponent} from './glossary/glossary.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-      LazyLoadImageModule,
+    LazyLoadImageModule,
     MaterialModule,
+    ToastrModule.forRoot({
+      timeOut: 2000,
+      easing: 'ease-in',
+      easeTime: 500,
+      progressBar: false,
+      closeButton: false,
+      newestOnTop: true,
+      preventDuplicates: true,
+    }),
     DndModule
   ],
   bootstrap: [AppComponent]

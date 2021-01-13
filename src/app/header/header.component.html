@@ -1,13 +1,12 @@
 <mat-toolbar color="accent" fxLayoutAlign="space-between">
   <div fxLayoutAlign="space-around center">
     <button mat-button routerLink="/">
-      <mat-icon>home</mat-icon>
       Lord of the rings
     </button>
   </div>
 
   <div fxLayoutAlign="space-around center">
-    <button mat-button color="accent" (click)="decreaseThreat(5)">
+    <button mat-button color="warn" (click)="decreaseThreat(5)">
       Gandalf
     </button>
 
@@ -23,14 +22,13 @@
       <mat-icon>add_circle_outline</mat-icon>
     </button>
 
-    <button mat-button color="accent" (click)="decreaseThreat(6)">
+    <button mat-button color="warn" (click)="decreaseThreat(6)">
       Galadhrim
     </button>
   </div>
 
   <div fxLayoutAlign="space-around center">
     <button mat-button routerLink="/rules">
-      <mat-icon>description</mat-icon>
       Rules of play
     </button>
   </div>

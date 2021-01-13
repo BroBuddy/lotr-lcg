@@ -1,5 +1,5 @@
 <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-  <div fxFlex="50" *ngFor="let cycle of missions;">
+  <div fxFlex="33" *ngFor="let cycle of missions;">
     <mat-card>
       <mat-card-header>
         <mat-card-title>{{ cycle.title }}</mat-card-title>
@@ -8,15 +8,25 @@
 
       <mat-card-content fxLayoutAlign="space-between">
         <div>
-          <div *ngFor="let mission of cycle.missions;">
-            <button mat-button [routerLink]="'/mission/' + cycle.id + '/' + mission.id" [disabled]="!mission.title">{{ mission.title ? mission.title : 'not available' }}</button>
-            <mat-icon *ngFor="let i of [].constructor(mission.difficult)">start</mat-icon>
+          <div *ngFor="let mission of cycle.missions; trackBy: trackByFn">
+            <button mat-button disabled>#{{ mission.id }}</button>
+
+            <button mat-button
+                    [routerLink]="'/mission/' + cycle.id + '/' + mission.id"
+                    [disabled]="!mission.title">
+              {{ mission.title ? mission.title : 'not available' }}
+            </button>
+
+            <button mat-button [color]="mission.difficult <= 4 ? 'accent' : (mission.difficult >= 7 ? 'primary' : 'warn')">
+              {{ mission.difficult <= 4 ? 'Easy' : (mission.difficult >= 7 ? 'Hard' : 'Medium') }}
+            </button>
           </div>
         </div>
 
         <img [defaultImage]="'https://via.placeholder.com/200x200/000/?text=LOTR'"
              [lazyLoad]="'../../assets/img/thumbnail/' + cycle.id + '.png'"
-             alt="" height="200" width="200 "/>
+             [ngStyle]="{ 'margin-right': '10px' }"
+             alt="" height="200" width="200" />
       </mat-card-content>
     </mat-card>
   </div>

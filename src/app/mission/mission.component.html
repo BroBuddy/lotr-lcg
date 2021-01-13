@@ -152,6 +152,16 @@
           <div fxFlex="20">
             <p>{{ text }}</p>
 
+            <button mat-button color="accent" (click)="onStartReading()">
+              <mat-icon>play_circle_outline</mat-icon>
+              Read
+            </button>
+
+            <button mat-button color="accent" (click)="onPauseReading()">
+              <mat-icon>pause_circle_outline</mat-icon>
+              Stop
+            </button>
+
             <button mat-button color="primary" [disabled]="!encounterDeck?.length" (click)="onShuffleEncounter()">
               <mat-icon>wifi_protected_setup</mat-icon>
               Shuffle &amp; Start

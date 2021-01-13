@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute, Params} from '@angular/router';
 import {ToastrService} from 'ngx-toastr';
+import Speech from 'speak-tts';
 
 import {map} from 'rxjs/operators';
 import {Observable, of} from 'rxjs';
@@ -12,7 +13,7 @@ import Missions from '../missions.json';
   templateUrl: './mission.component.html',
   styleUrls: ['./mission.component.scss']
 })
-export class MissionComponent implements OnInit {
+export class MissionComponent implements OnInit, OnDestroy {
   public cId: number;
   public mId: number;
   public title: string;
@@ -29,11 +30,13 @@ export class MissionComponent implements OnInit {
   public activeLocation = null;
   public shadowCard = null;
   public previewCard = null;
+  public speech: any;
 
   constructor(private route: ActivatedRoute, private toastr: ToastrService) {}
 
   ngOnInit(): void {
     // this.onShuffleEncounter();
+    this.initSpeech();
 
     this.route.params
       .subscribe(
@@ -65,11 +68,38 @@ export class MissionComponent implements OnInit {
       });
   }
 
+  initSpeech(): void {
+    this.speech = new Speech();
+
+    if (this.speech.hasBrowserSupport()) {
+      this.speech.init({
+        volume: 1,
+        lang: 'en-GB',
+        rate: 1,
+        pitch: 1,
+        voice: 'Daniel',
+        splitSentences: false
+      });
+    }
+  }
+
+  onStartReading(): void {
+    this.speech.speak({
+      text: this.text
+    });
+  }
+
+  onPauseReading(): void {
+    this.speech.pause();
+  }
+
   fetchMission(): Observable<any> {
     return of(Missions);
   }
 
   onShuffleEncounter(): void {
+    this.speech.cancel();
+
     if (this.encounterDeck) {
       let shuffleTime = 0;
 
@@ -198,5 +228,9 @@ export class MissionComponent implements OnInit {
 
   trackByFn(index: number): number {
     return index;
+  }
+
+  ngOnDestroy(): void {
+    this.speech.cancel();
   }
 }

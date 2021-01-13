@@ -4132,17 +4132,185 @@
       {
         "id": 21,
         "difficult": 8,
-        "title": "",
+        "title": "The Siege of Cair Andros",
         "text": "The island fortress of Cair Andros guards Gondor’s northernmost causeways over the Anduin. Our heroes reach the causeway and enter the fortress as skirmishers appear on the eastern shore. They find Faramir in the Citadel, and deliver to him the scroll of Lord Alcaron. Drums are heard, and horns, and the tramping of many feet. An army of Orcs and Southrons prepare a threepronged assault, and the heroes gird themselves for battle. For if Cair Andros falls, the doom of Gondor is nigh...",
         "questDeck": [
           "2101A.jpg",
           "2101B.jpg",
           "2102A.jpg",
-          "2102B.jpg"
+          "2102B.jpg",
+          "2103A.jpg",
+          "2103B.jpg",
+          "2104A.jpg",
+          "2104B.jpg",
+          "2105A.jpg",
+          "2105B.jpg"
         ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "31004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "31005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "31006.jpg"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "38001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "38002.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "38003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "38003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "37001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "37002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "37002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "37002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "37003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "37003.jpg"
+          },
+          {
+            "type": "location",
+            "image": "37004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "37004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "37005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "37005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "37006.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "36003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "36004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "36004.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "31001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "31001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "31001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "31002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "31002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "31002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "31003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "31003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "31007.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "31007.jpg"
+          }
+        ],
         "discardPile": []
       }
     ]

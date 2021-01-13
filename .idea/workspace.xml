@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b70523cd-ef27-422f-83db-87002a0250b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/directive/firebase-image.directive.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/directive/firebase-image.directive.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/middle-earth.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/middle-earth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

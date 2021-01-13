@@ -15,6 +15,7 @@ export class CardComponent {
  @Output() activateCard: Subject<any> = new Subject<any>();
 
   onCardActivation(): void {
+    this.number = 0;
     this.activateCard.next(this.card);
   }
 

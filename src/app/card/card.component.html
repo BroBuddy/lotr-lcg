@@ -8,7 +8,7 @@
          hspace="8"
          (click)="onCardActivation()" />
 
-    <span *ngIf="card.type !== 'treachery'"
+    <span *ngIf="card.type === 'enemy' || card.type === 'location'"
           (click)="increaseNumber()"
           [ngClass]="card.type">
         {{ number }}

@@ -163,7 +163,11 @@ export class MissionComponent implements OnInit {
   }
 
   onPreviewCard(card: any): void {
-    this.previewCard = card;
+    this.previewCard = null;
+
+    setTimeout(() => {
+      this.previewCard = card;
+    }, 0);
   }
 
   trackByFn(index: number): number {

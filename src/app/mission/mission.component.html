@@ -38,10 +38,18 @@
       <span class="mark-box">
         <app-counter [maxCounter]="17"></app-counter>
 
-        <img [src]="'/assets/img/mission/' + questDeck[questStep]" [matTooltip]="'Quest deck'" [matTooltipPosition]="'left'" width="400" alt="" hspace="5" vspace="5" (click)="onChangeQuest(questStep + 1)" />
+        <img [src]="'/assets/img/quest/' + questDeck[questStep]"
+             [matTooltip]="'Quest deck'"
+             [matTooltipPosition]="'left'"
+             width="400"
+             alt=""
+             hspace="5"
+             vspace="5"
+             (click)="onChangeQuest(questStep + 1)" />
+        <br />
 
         <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">
-          <img [src]="'/assets/img/mission/' + questDeck[i]" width="50" alt="" hspace="1" vspace="1" (click)="onChangeQuest(i)" />
+          <img [src]="'/assets/img/quest/' + questDeck[i]" width="50" alt="" hspace="1" vspace="1" (click)="onChangeQuest(i)" />
         </span>
       </span>
     </div>
@@ -139,7 +147,7 @@
 
           <div fxFlex="20">
             <ng-container *ngIf="previewCard; else enlargeImage">
-              <img [src]="'/assets/img/encounter/' + previewCard.image" [alt]="previewCard.type" width="300" hspace="3" vspace="3" (click)="onPreviewCard(null)" />
+              <img [src]="'/assets/img/encounter/' + previewCard.image" alt="" width="300" hspace="3" vspace="3" (click)="onPreviewCard(null)" />
             </ng-container>
 
             <ng-template #enlargeImage>

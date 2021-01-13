@@ -5,11 +5,12 @@
          alt=""
          height="340"
          width="240"
-         hspace="5"
-         vspace="5"
+         hspace="8"
          (click)="onCardActivation()" />
 
-    <span (click)="increaseNumber()">
+    <span *ngIf="card.type !== 'treachery'"
+          (click)="increaseNumber()"
+          [ngClass]="card.type">
         {{ number }}
     </span>
 </div>

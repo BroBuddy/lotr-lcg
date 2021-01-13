@@ -1,22 +1,22 @@
 <ng-container *ngIf="shuffled">
   <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-    <div fxFlex="19">
+    <div fxFlex="18" fxLayoutAlign="start">
       <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
            [lazyLoad]="'/assets/img/deck.jpg'"
            [matTooltip]="'Encounter deck'"
            [matTooltipPosition]="'right'"
-           height="340" wid="240" alt="" vspace="5"
+           height="340" width="240" alt=""
            (click)="onDrawCard()"
            *ngIf="encounterDeck?.length" />
     </div>
 
     <div fxFlex="64" fxLayoutAlign="center">
-      <span *ngFor="let card of stagingArea; let i = index; trackBy: trackByFn" class="mark-box">
-        <app-card *ngIf="card.type !== 'treachery'" [card]="card" (activateCard)="onCardActivation(card)"></app-card>
+      <span *ngFor="let card of stagingArea; let i = index; trackBy: trackByFn">
+        <app-card [card]="card" (activateCard)="onCardActivation(card)"></app-card>
       </span>
     </div>
 
-    <div fxFlex="17">
+    <div fxFlex="18" fxLayoutAlign="end">
       <span *ngIf="activeLocation" class="mark-box">
         <app-card [card]="activeLocation" (activateCard)="onUpdateLocation()"></app-card>
       </span>
@@ -24,13 +24,13 @@
   </div>
 
   <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-    <div fxFlex="19">
+    <div fxFlex="18" fxLayoutAlign="start">
       <ng-container *ngIf="shadowCard">
        <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
             [lazyLoad]="'/assets/img/encounter/' + shadowCard.image"
             [matTooltip]="'Shadow card'"
             [matTooltipPosition]="'right'"
-            class="zoom" height="340" width="240" alt="" vspace="5"
+            class="zoom" height="340" width="240" alt=""
             (click)="onDiscardShadow()" />
       </ng-container>
 
@@ -39,7 +39,7 @@
             [lazyLoad]="'/assets/img/shadow.jpg'"
             [matTooltip]="'Shadow card'"
             [matTooltipPosition]="'right'"
-            height="340" width="240" alt="" vspace="5"
+            height="340" width="240" alt=""
             (click)="onDrawShadow()"
             *ngIf="encounterDeck?.length" />
       </ng-container>
@@ -51,7 +51,7 @@
       </span>
     </div>
 
-    <div fxFlex="26">
+    <div fxFlex="27" fxLayoutAlign="end">
       <div class="mark-box" *ngIf="questDeck?.length >= 1">
         <app-counter [maxCounter]="17"></app-counter>
 
@@ -62,8 +62,6 @@
              height="284"
              width="400"
              alt=""
-             hspace="5"
-             vspace="5"
              (click)="onChangeQuest(questStep + 1)" />
         <br />
 
@@ -96,8 +94,7 @@
                     </mat-button-toggle>
                   </mat-button-toggle-group>
 
-                  <img [defaultImage]="'https://via.placeholder.com/106x150/000/?text=LOTR'"
-                       [lazyLoad]="'/assets/img/encounter/' + card.image"
+                  <img [src]="'/assets/img/encounter/' + card.image"
                        alt="" height="150" width="106" hspace="3" vspace="3" />
                 </span>
               </div>
@@ -109,9 +106,14 @@
               </ng-template>
 
               <div>
-                <span *ngFor="let card of encounterDeck; trackBy: trackByFn" class="mark-box">
-                  <img [defaultImage]="'https://via.placeholder.com/106x150/000/?text=LOTR'"
-                       [lazyLoad]="'/assets/img/encounter/' + card.image"
+                <span *ngFor="let card of encounterDeck; let i = index; trackBy: trackByFn" class="mark-box">
+                  <mat-button-toggle-group class="mark-button">
+                    <mat-button-toggle (click)="onChooseCard(card, i)">
+                      Area
+                    </mat-button-toggle>
+                  </mat-button-toggle-group>
+
+                  <img [src]="'/assets/img/encounter/' + card.image"
                        alt="" height="150" width="106" hspace="3" vspace="3" />
                 </span>
               </div>
@@ -154,35 +156,35 @@
             <span *ngFor="let card of encounterDeck; trackBy: trackByFn">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
                    [lazyLoad]="'/assets/img/encounter/' + card.image"
-                   alt="" height="130" width="92" hspace="3" vspace="3"
+                   alt="" height="130" width="92" hspace="8" vspace="8"
                    (click)="onPreviewCard(card)" />
             </span>
 
             <span *ngFor="let card of stagingArea; trackBy: trackByFn">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
                    [lazyLoad]="'/assets/img/encounter/' + card.image"
-                   alt="" height="130" width="92" hspace="3" vspace="3"
+                   alt="" height="130" width="92" hspace="8" vspace="8"
                    (click)="onPreviewCard(card)" />
             </span>
 
             <span *ngFor="let card of discardPile; trackBy: trackByFn">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
                    [lazyLoad]="'/assets/img/encounter/' + card.image"
-                   alt="" height="130" width="92" hspace="3" vspace="3"
+                   alt="" height="130" width="92" hspace="8" vspace="8"
                    (click)="onPreviewCard(card)" />
             </span>
 
             <span *ngIf="activeLocation">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
                    [lazyLoad]="'/assets/img/encounter/' + activeLocation.image"
-                   alt="" height="130" width="92" hspace="3" vspace="3"
+                   alt="" height="130" width="92" hspace="8" vspace="8"
                    (click)="onPreviewCard(activeLocation)" />
             </span>
           </div>
 
           <div fxFlex="20">
             <ng-container *ngIf="previewCard; else enlargeImage">
-              <img [src]="'/assets/img/encounter/' + previewCard.image" alt="" width="300" hspace="3" vspace="3" (click)="onPreviewCard(null)" />
+              <img [src]="'/assets/img/encounter/' + previewCard.image" alt="" width="300" (click)="onPreviewCard(null)" />
             </ng-container>
 
             <ng-template #enlargeImage>

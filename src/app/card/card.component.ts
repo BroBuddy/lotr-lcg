@@ -19,7 +19,7 @@ export class CardComponent {
   }
 
   increaseNumber(): void {
-    this.number++
+    this.number++;
   }
 
 }

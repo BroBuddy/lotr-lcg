@@ -167,6 +167,13 @@ export class MissionComponent implements OnInit {
     this.discardPile = discardPile.slice(0, Number(index)).concat(discardPile.slice(Number(index) + 1));
   }
 
+  onChooseCard(card: any, index: number): void {
+    console.log(index, 'card', card);
+    this.stagingArea.unshift(card);
+
+    this.encounterDeck = this.encounterDeck.slice(0, Number(index)).concat(this.encounterDeck.slice(Number(index) + 1));
+  }
+
   onPreviewCard(card: any): void {
     this.previewCard = null;
 

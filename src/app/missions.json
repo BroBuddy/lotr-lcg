@@ -2352,13 +2352,239 @@
       {
         "id": 12,
         "difficult": 6,
-        "title": "",
-        "text": "",
-        "questDeck": [],
+        "title": "Flight from Moria",
+        "text": "Balin’s colony ended in death and darkness. After paying their respects at his tomb, the heroes fought their way out of the Goblin infested Seventh Level and made their way down toward the gate. But exiting Moria will not be easy, for a shadowy form masses at the end of the hall, and fear and terror go before it. The heroes must escape Moria before it is too late.",
+        "questDeck": [
+          "1201A.jpg",
+          "1201B.jpg",
+          "1202A.jpg",
+          "1202B.jpg",
+          "1202A2.jpg",
+          "1202B2.jpg",
+          "1202A3.jpg",
+          "1202B3.jpg",
+          "1202A4.jpg",
+          "1202B4.jpg",
+          "1202A5.jpg",
+          "1202B5.jpg",
+          "1202A6.jpg",
+          "1202B6.jpg",
+          "1202A7.jpg",
+          "1202B7.jpg",
+          "1202A8.jpg",
+          "1202B8.jpg"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "16001.jpg"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "treachery",
+            "image": "20001.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "20001.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "20001.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "20002.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "20002.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "20003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "20003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "20004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "20005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "20006.jpg"
+          },
+          {
+            "type": "location",
+            "image": "20006.jpg"
+          },
+          {
+            "type": "location",
+            "image": "20006.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "19003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "19005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "19006.jpg"
+          },
+          {
+            "type": "location",
+            "image": "19006.jpg"
+          },
+          {
+            "type": "location",
+            "image": "19006.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "17001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "17002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "17002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "17002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "17002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "17002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "17003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "17003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "17004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "17004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "17004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "17005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "17005.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16004.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16005.jpg"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "16004.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16004.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "16004.jpg"
+          }
+        ]
       },
       {
         "id": 13,
@@ -4318,10 +4544,212 @@
         "difficult": 6,
         "title": "The Steward's Fear",
         "text": "The heroes arrive in Minas Tirith with news of victory at Cair Andros and a message for Lord Alcaron from Faramir. Upon arriving at the city, they learn that Lord Alcaron is traveling on important business north in Anórien. Even so, the heroes are soon furtively summoned to the White Tower by none other than Denethor, the Steward of Gondor himself. Word has come to Denethor of the heroes’ bravery in the defense of Cair Andros, and he’s learned the heroes have the confidence of Lord Alcaron. In Denethor’s mind, such trusted new arrivals are perfectly suited for a special task of a clandestine nature.",
-        "questDeck": [],
+        "questDeck": [
+          "2201A.jpg",
+          "2201B.jpg",
+          "2202A.jpg",
+          "2202B.jpg",
+          "2203A.jpg",
+          "2203B.jpg"
+        ],
         "activeLocation": null,
         "stagingArea": [],
-        "discardPile": []
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "32001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "32001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "32001.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32002.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32003.jpg"
+          },
+          {
+            "type": "location",
+            "image": "32003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "32004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "32005.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "32005.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "33001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "33001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "33001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "33002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "33002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "33003.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "33004.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "33004.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "39001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "39001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "39001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "39001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "39001.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "39002.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "39003.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "39004.jpg"
+          },
+          {
+            "type": "location",
+            "image": "39005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "39005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "39005.jpg"
+          },
+          {
+            "type": "location",
+            "image": "39007.jpg"
+          },
+          {
+            "type": "location",
+            "image": "39007.jpg"
+          },
+          {
+            "type": "location",
+            "image": "39008.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "39010.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "39010.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "39011.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "39011.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "39011.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "39012.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "39012.jpg"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "location",
+            "image": "39006.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "39013.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "39014.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "39015.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "39016.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "39017.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "39018.jpg"
+          },
+          {
+            "type": "location",
+            "image": "39009.jpg"
+          }
+        ]
       },
       {
         "id": 23,
@@ -4331,6 +4759,7 @@
         "questDeck": [],
         "activeLocation": null,
         "stagingArea": [],
+        "encounterDeck": [],
         "discardPile": []
       },
       {
@@ -4341,6 +4770,7 @@
         "questDeck": [],
         "activeLocation": null,
         "stagingArea": [],
+        "encounterDeck": [],
         "discardPile": []
       },
       {
@@ -4351,6 +4781,7 @@
         "questDeck": [],
         "activeLocation": null,
         "stagingArea": [],
+        "encounterDeck": [],
         "discardPile": []
       },
       {
@@ -4361,6 +4792,7 @@
         "questDeck": [],
         "activeLocation": null,
         "stagingArea": [],
+        "encounterDeck": [],
         "discardPile": []
       },
       {
@@ -4371,6 +4803,7 @@
         "questDeck": [],
         "activeLocation": null,
         "stagingArea": [],
+        "encounterDeck": [],
         "discardPile": []
       }
     ]

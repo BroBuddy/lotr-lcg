@@ -144,7 +144,7 @@
           <div fxFlex="20">
             <p>{{ text }}</p>
 
-            <button mat-raised-button color="accent" [disabled]="!encounterDeck" (click)="onShuffleEncounter()">
+            <button mat-raised-button color="accent" [disabled]="!encounterDeck?.length" (click)="onShuffleEncounter()">
               <mat-icon>wifi_protected_setup</mat-icon>
               Shuffle &amp; Start
             </button>

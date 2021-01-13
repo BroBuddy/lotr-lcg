@@ -55,7 +55,7 @@ export class MissionComponent implements OnInit {
           this.encounterDeck = data.missions[index].encounterDeck;
           this.discardPile = data.missions[index].discardPile;
 
-          if (this.encounterDeck) {
+          if (this.encounterDeck.length) {
             this.previewCard = this.encounterDeck[0];
           }
         }

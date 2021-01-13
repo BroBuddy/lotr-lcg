@@ -14,7 +14,10 @@
           </div>
         </div>
 
-        <img [src]="'../../assets/img/thumbnail/' + cycle.id + '.png'" alt="" height="200" />
+        <img [defaultImage]="'https://www.placecage.com/200/200'"
+             [lazyLoad]="'../../assets/img/thumbnail/' + cycle.id + '.png'"
+             alt=""
+             height="200" />
       </mat-card-content>
     </mat-card>
   </div>

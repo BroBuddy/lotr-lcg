@@ -1,8 +1,10 @@
 <div class="badge">
-    <img [src]="'/assets/img/encounter/' + card.image"
+    <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
+         [lazyLoad]="'/assets/img/encounter/' + card.image"
          class="zoom"
          alt=""
          height="340"
+         width="240"
          hspace="5"
          vspace="5"
          (click)="onCardActivation()" />

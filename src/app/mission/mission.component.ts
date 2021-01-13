@@ -54,7 +54,10 @@ export class MissionComponent implements OnInit {
           this.stagingArea = data.missions[index].stagingArea;
           this.encounterDeck = data.missions[index].encounterDeck;
           this.discardPile = data.missions[index].discardPile;
-          this.previewCard = this.encounterDeck[0];
+
+          if (this.encounterDeck) {
+            this.previewCard = this.encounterDeck[0];
+          }
         }
       });
   }
@@ -64,19 +67,21 @@ export class MissionComponent implements OnInit {
   }
 
   onShuffleEncounter(): void {
-    let shuffleTime = 0;
+    if (this.encounterDeck) {
+      let shuffleTime = 0;
 
-    do {
-      for (let i = this.encounterDeck.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [this.encounterDeck[i], this.encounterDeck[j]] = [this.encounterDeck[j], this.encounterDeck[i]];
+      do {
+        for (let i = this.encounterDeck.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [this.encounterDeck[i], this.encounterDeck[j]] = [this.encounterDeck[j], this.encounterDeck[i]];
+        }
+
+        shuffleTime++;
       }
+      while (shuffleTime >= 3);
 
-      shuffleTime++;
+      this.shuffled = true;
     }
-    while (shuffleTime >= 3);
-
-    this.shuffled = true;
   }
 
   onDrawCard(): void {

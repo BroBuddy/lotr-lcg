@@ -4312,6 +4312,66 @@
           }
         ],
         "discardPile": []
+      },
+      {
+        "id": 22,
+        "difficult": 6,
+        "title": "The Steward's Fear",
+        "text": "The heroes arrive in Minas Tirith with news of victory at Cair Andros and a message for Lord Alcaron from Faramir. Upon arriving at the city, they learn that Lord Alcaron is traveling on important business north in Anórien. Even so, the heroes are soon furtively summoned to the White Tower by none other than Denethor, the Steward of Gondor himself. Word has come to Denethor of the heroes’ bravery in the defense of Cair Andros, and he’s learned the heroes have the confidence of Lord Alcaron. In Denethor’s mind, such trusted new arrivals are perfectly suited for a special task of a clandestine nature.",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "discardPile": []
+      },
+      {
+        "id": 23,
+        "difficult": 6,
+        "title": "The Drúadan Forest",
+        "text": "The heroes have unmasked a dangerous conspiracy within the walls of Minas Tirith, but the nameless mastermind of the cabal managed to escape the city before his true identity was revealed. At the request of Denethor, the heroes have pursued the clever villain and his henchmen northward. The conspirators’ trail has lead them north beyond the Rammas Echor, and then west to the doorstep of the Drúadan Forest, an ancient land with a hostile reputation. Now our heroes move to track their quarry among its ancient trees and strange stones... ",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "discardPile": []
+      },
+      {
+        "id": 24,
+        "difficult": 3,
+        "title": "Encounter at Amon Dîn",
+        "text": "Having escaped from the Drúadan Forest and witnessed the demise of the conspirators by the arrows of the Woses, the heroes have begun their journey back to Minas Tirith. In the morning of the second day, they awoke to a grim sight. Dozens of columns of smoke were rising across the hilly farmlands of Anórien. It seems death had crossed the Anduin after all.",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "discardPile": []
+      },
+      {
+        "id": 25,
+        "difficult": 5,
+        "title": "Assault on Osgiliath",
+        "text": "After saving the villagers near Amon Dîn, the heroes have joined with Lord Alcaron to assist Lord Boromir’s forces in retaking Osgiliath. At the army encampment, you are thrilled to again meet Lord Faramir, and you are introduced to his brother Boromir, eldest son of Denethor and renowned hero of Gondor. Nestled on both sides of the Anduin lies old Osgiliath, a crossroads city bridging the great river. In the long war against Mordor, control of Osgiliath has been a critical piece. One that Boromir means to reclaim. ",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "discardPile": []
+      },
+      {
+        "id": 26,
+        "difficult": 6,
+        "title": "The Blood of Gondor",
+        "text": "In a great victory for Gondor, the city of Osgiliath has been retaken and the river Anduin is once more under the Steward’s control. Alongside the Lords Boromir, Faramir, and Alcaron, the heroes fought bravely to recapture the ancient city. With the defeated forces of orcs and evil men retreating eastward, Lord Alcaron had urged Boromir to pursue the scattered enemy. “Don’t let a single one of them return to foul the Pelennor again!” Alcaron pleaded. “We should hunt them. Pursue them until their black bones break on the mountains.” Flush with the confidence of victory and swayed by the nobleman’s passion, Boromir agreed and asked his brother to take on this endeavor with his rangers. Faramir reluctantly consented.",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "discardPile": []
+      },
+      {
+        "id": 27,
+        "difficult": 8,
+        "title": "The Morgul Vale",
+        "text": "While pursuing the scattered enemy forces into Ithilien, Faramir’s company of rangers are ambushed by orcs near the old crossroads. During the ensuing fight, both Lord Faramir and Lord Alcaron are captured. At the thought of Denethor’s son in Sauron’s torture chambers, the heroes begin a desperate pursuit. Following frantic hours of tracking, they find themselves at the mouth of the dread Morgul Valley. As the Dead City comes into distant view, they have come upon their quarry at last. ",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "discardPile": []
       }
     ]
   }

@@ -7,7 +7,7 @@
            [matTooltipPosition]="'right'"
            height="340" wid="240" alt="" vspace="5"
            (click)="onDrawCard()"
-           *ngIf="encounterDeck.length" />
+           *ngIf="encounterDeck?.length" />
     </div>
 
     <div fxFlex="64" fxLayoutAlign="center">
@@ -41,7 +41,7 @@
             [matTooltipPosition]="'right'"
             height="340" width="240" alt="" vspace="5"
             (click)="onDrawShadow()"
-            *ngIf="encounterDeck.length" />
+            *ngIf="encounterDeck?.length" />
       </ng-container>
     </div>
 
@@ -52,7 +52,7 @@
     </div>
 
     <div fxFlex="26">
-      <span class="mark-box">
+      <div class="mark-box" *ngIf="questDeck?.length >= 1">
         <app-counter [maxCounter]="17"></app-counter>
 
         <img [defaultImage]="'https://via.placeholder.com/400x284/000/?text=LOTR'"
@@ -70,7 +70,7 @@
         <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">
           <img [src]="'/assets/img/quest/' + questDeck[i]" width="50" alt="" hspace="1" vspace="1" (click)="onChangeQuest(i)" />
         </span>
-      </span>
+      </div>
     </div>
   </div>
 
@@ -81,7 +81,7 @@
           <mat-tab-group color="accent" animationDuration="0ms">
             <mat-tab>
               <ng-template mat-tab-label>
-                Discard pile: {{ discardPile.length }}
+                Discard pile: {{ discardPile?.length }}
               </ng-template>
 
               <div>
@@ -105,7 +105,7 @@
 
             <mat-tab>
               <ng-template mat-tab-label>
-                Encounter deck: {{ encounterDeck.length }}
+                Encounter deck: {{ encounterDeck?.length }}
               </ng-template>
 
               <div>
@@ -136,7 +136,7 @@
     <mat-card>
       <mat-card-header>
         <mat-card-title>{{ title }}</mat-card-title>
-        <mat-card-subtitle>Deck size: {{ encounterDeck.length + stagingArea.length + discardPile.length + (activeLocation ? 1 : 0) }}</mat-card-subtitle>
+        <mat-card-subtitle>Deck size: {{ encounterDeck?.length + stagingArea?.length + discardPile?.length + (activeLocation ? 1 : 0) }}</mat-card-subtitle>
       </mat-card-header>
 
       <mat-card-content>
@@ -144,7 +144,7 @@
           <div fxFlex="20">
             <p>{{ text }}</p>
 
-            <button mat-raised-button color="accent" (click)="onShuffleEncounter()">
+            <button mat-raised-button color="accent" [disabled]="!encounterDeck" (click)="onShuffleEncounter()">
               <mat-icon>wifi_protected_setup</mat-icon>
               Shuffle &amp; Start
             </button>

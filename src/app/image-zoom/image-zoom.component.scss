@@ -1,0 +1,13 @@
+img {
+  position: absolute;
+  top: 20px;
+  z-index: 10000;
+
+  &.left {
+    left: 20px;
+  }
+
+  &.right {
+    right: 20px;
+  }
+}

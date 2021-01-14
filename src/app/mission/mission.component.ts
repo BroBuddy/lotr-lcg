@@ -7,6 +7,7 @@ import {map} from 'rxjs/operators';
 import {Observable, of} from 'rxjs';
 
 import Missions from '../missions.json';
+import {ImageZoomService} from "../image-zoom/image-zoom.service";
 
 @Component({
   selector: 'app-mission',
@@ -30,9 +31,10 @@ export class MissionComponent implements OnInit, OnDestroy {
   public activeLocation = null;
   public shadowCard = null;
   public previewCard = null;
+  public progress = 0;
   public speech: any;
 
-  constructor(private route: ActivatedRoute, private toastr: ToastrService) {}
+  constructor(private route: ActivatedRoute, private toastr: ToastrService, public zoomService: ImageZoomService) {}
 
   ngOnInit(): void {
     // this.onShuffleEncounter();
@@ -60,10 +62,6 @@ export class MissionComponent implements OnInit, OnDestroy {
           this.stagingArea = data.missions[index].stagingArea;
           this.encounterDeck = data.missions[index].encounterDeck;
           this.discardPile = data.missions[index].discardPile;
-
-          if (this.encounterDeck.length) {
-            this.previewCard = this.encounterDeck[0];
-          }
         }
       });
   }
@@ -97,8 +95,23 @@ export class MissionComponent implements OnInit, OnDestroy {
     return of(Missions);
   }
 
+  increaseProgress(): void {
+    this.progress++;
+  }
+
+  decreaseProgress(): void {
+    if (this.progress >= 1) {
+      this.progress--;}
+  }
+
+  setProgress(progress: number): void {
+    this.progress = progress;
+  }
+
   onShuffleEncounter(): void {
-    this.speech.cancel();
+    if (this.speech) {
+      this.speech.cancel();
+    }
 
     if (this.encounterDeck) {
       let shuffleTime = 0;
@@ -124,6 +137,8 @@ export class MissionComponent implements OnInit, OnDestroy {
   }
 
   onCardActivation(card: any): void {
+    this.zoomService.mouseout();
+
     switch (card.type) {
       case 'treachery':
       case 'objective': {
@@ -136,7 +151,7 @@ export class MissionComponent implements OnInit, OnDestroy {
         break;
       }
       default: {
-        this.engagingArea.unshift(card);
+        this.engagingArea.push(card);
         this.removeCardFromStaging(card);
         break;
       }
@@ -151,12 +166,14 @@ export class MissionComponent implements OnInit, OnDestroy {
   }
 
   onUpdateLocation(card: any): void {
+    this.zoomService.mouseout();
+
     if (this.activeLocation === card) {
       this.discardPile.push(this.activeLocation);
       this.activeLocation = null;
     } else {
       if (this.activeLocation) {
-        this.toastr.warning('Active location still occupied');
+        this.toastr.error('Active location still occupied');
       } else {
         setTimeout(() => {
           this.removeCardFromStaging(card);
@@ -167,17 +184,25 @@ export class MissionComponent implements OnInit, OnDestroy {
   }
 
   onDrawShadow(): void {
-    this.shadowCard = this.encounterDeck[0];
-    this.encounterDeck.shift();
-    this.cardsPlayed++;
+    if (this.engagingArea.length) {
+      this.shadowCard = this.encounterDeck[0];
+      this.encounterDeck.shift();
+      this.cardsPlayed++;
+    } else {
+      this.toastr.error('No enemy engaged');
+    }
   }
 
   onDiscardShadow(): void {
+    this.zoomService.mouseout();
+
     this.discardPile.push(this.shadowCard);
     this.shadowCard = null;
   }
 
   onDefeatEnemy(card: any): void {
+    this.zoomService.mouseout();
+
     const engagingArea = [...this.engagingArea],
       index = engagingArea.findIndex((item) => item === card);
 
@@ -187,6 +212,8 @@ export class MissionComponent implements OnInit, OnDestroy {
   }
 
   onChangeQuest(step: number): void {
+    this.progress = 0;
+
     if (step <= (this.questDeck.length - 1)) {
       this.questStep = step;
     }
@@ -231,6 +258,8 @@ export class MissionComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.speech.cancel();
+    if (this.speech) {
+      this.speech.cancel();
+    }
   }
 }

@@ -1,76 +1,89 @@
 <ng-container *ngIf="shuffled">
-  <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-    <div fxFlex="18" fxLayoutAlign="start">
-      <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
+  <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="5px grid">
+    <div fxFlex="15" fxLayoutAlign="start">
+      <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
            [lazyLoad]="'/assets/img/deck.jpg'"
            [matTooltip]="'Encounter deck'"
            [matTooltipPosition]="'right'"
-           height="340" width="240" alt=""
+           width="150" height="210" alt=""
            (click)="onDrawCard()"
            *ngIf="encounterDeck?.length" />
     </div>
 
-    <div fxFlex="64" fxLayoutAlign="center">
+    <div fxFlex="70" fxLayoutAlign="center">
       <span *ngFor="let card of stagingArea; let i = index; trackBy: trackByFn">
         <app-card [card]="card" (activateCard)="onCardActivation(card)"></app-card>
       </span>
     </div>
 
-    <div fxFlex="18" fxLayoutAlign="end">
+    <div fxFlex="15" fxLayoutAlign="end">
       <span *ngIf="activeLocation" class="mark-box">
         <app-card [card]="activeLocation" (activateCard)="onUpdateLocation(activeLocation)"></app-card>
       </span>
     </div>
   </div>
 
+  <div [ngStyle]="{ 'margin': '150px 0' }"></div>
+
   <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-    <div fxFlex="18" fxLayoutAlign="start">
+    <div fxFlex="15" fxLayoutAlign="start">
       <ng-container *ngIf="shadowCard">
-       <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
+       <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
             [lazyLoad]="'/assets/img/encounter/' + shadowCard.image"
             [matTooltip]="'Shadow card'"
             [matTooltipPosition]="'right'"
-            class="zoom" height="340" width="240" alt=""
+            (mouseover)="zoomService.mouseover('/assets/img/encounter/', shadowCard.image, 'left')"
+            (mouseout)="zoomService.mouseout()"
+            width="150" height="210" alt=""
             (click)="onDiscardShadow()" />
       </ng-container>
 
       <ng-container *ngIf="!shadowCard">
-       <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
+       <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
             [lazyLoad]="'/assets/img/shadow.jpg'"
             [matTooltip]="'Shadow card'"
             [matTooltipPosition]="'right'"
-            height="340" width="240" alt=""
+            width="150" height="210" alt=""
             (click)="onDrawShadow()"
             *ngIf="encounterDeck?.length" />
       </ng-container>
     </div>
 
-    <div fxFlex="55" fxLayoutAlign="center">
+    <div fxFlex="70" fxLayoutAlign="center">
       <span *ngFor="let card of engagingArea; trackBy: trackByFn" class="mark-box">
         <app-card [card]="card" (activateCard)="onDefeatEnemy(card)"></app-card>
       </span>
     </div>
 
-    <div fxFlex="27" fxLayoutAlign="end">
+    <div fxFlex="15" fxLayoutAlign="end">
       <div class="mark-box" *ngIf="questDeck?.length >= 1">
-        <app-counter [maxCounter]="17"></app-counter>
+        <div fxLayoutAlign="space-around">
+          <button mat-icon-button color="accent" (click)="decreaseProgress()">
+            <mat-icon>remove_circle_outline</mat-icon>
+          </button>
 
-        <img [defaultImage]="'https://via.placeholder.com/400x284/000/?text=LOTR'"
-             [lazyLoad]="'/assets/img/quest/' + questDeck[questStep]"
-             [matTooltip]="'Quest deck'"
-             [matTooltipPosition]="'left'"
-             height="284"
-             width="400"
-             alt=""
-             (click)="onChangeQuest(questStep + 1)" />
-        <br />
+          <button mat-button color="primary" (click)="setProgress(0)">
+            {{ progress }}
+          </button>
+
+          <button mat-icon-button color="accent" (click)="increaseProgress()">
+            <mat-icon>add_circle_outline</mat-icon>
+          </button>
+        </div>
 
         <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">
-          <img [src]="'/assets/img/quest/' + questDeck[i]" width="50" alt="" hspace="1" vspace="1" (click)="onChangeQuest(i)" />
+          <img [src]="'/assets/img/quest/' + questDeck[i]"
+               (mouseover)="zoomService.mouseover('/assets/img/quest/', questDeck[i], 'left')"
+               (mouseout)="zoomService.mouseout()"
+               width="105" alt="" hspace="4" vspace="4"
+               [ngClass]="questStep === i ? 'active-quest' : 'inactive-quest'"
+               (click)="onChangeQuest(i)" />
         </span>
       </div>
     </div>
   </div>
+
+  <div [ngStyle]="{ 'margin': '150px 0' }"></div>
 
   <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
     <div fxFlex="100">
@@ -173,28 +186,32 @@
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
                    [lazyLoad]="'/assets/img/encounter/' + card.image"
                    alt="" height="130" width="92" hspace="8" vspace="8"
-                   (click)="onPreviewCard(card)" />
+                   (mouseover)="onPreviewCard(card)"
+                   (mouseout)="onPreviewCard(null)" />
             </span>
 
             <span *ngFor="let card of stagingArea; trackBy: trackByFn">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
                    [lazyLoad]="'/assets/img/encounter/' + card.image"
                    alt="" height="130" width="92" hspace="8" vspace="8"
-                   (click)="onPreviewCard(card)" />
+                   (mouseover)="onPreviewCard(card)"
+                   (mouseout)="onPreviewCard(null)" />
             </span>
 
             <span *ngFor="let card of discardPile; trackBy: trackByFn">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
                    [lazyLoad]="'/assets/img/encounter/' + card.image"
                    alt="" height="130" width="92" hspace="8" vspace="8"
-                   (click)="onPreviewCard(card)" />
+                   (mouseover)="onPreviewCard(card)"
+                   (mouseout)="onPreviewCard(null)" />
             </span>
 
             <span *ngIf="activeLocation">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
                    [lazyLoad]="'/assets/img/encounter/' + activeLocation.image"
                    alt="" height="130" width="92" hspace="8" vspace="8"
-                   (click)="onPreviewCard(activeLocation)" />
+                   (mouseover)="onPreviewCard(activeLocation)"
+                   (mouseout)="onPreviewCard(null)" />
             </span>
           </div>
 
@@ -206,7 +223,7 @@
             <ng-template #enlargeImage>
               <button mat-button type="button">
                 <mat-icon>info</mat-icon>
-                Click image to enlarge
+                Hover image to enlarge
               </button>
             </ng-template>
           </div>

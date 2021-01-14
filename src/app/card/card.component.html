@@ -1,11 +1,13 @@
 <div class="badge">
     <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
          [lazyLoad]="'/assets/img/encounter/' + card.image"
-         class="zoom"
          alt=""
-         height="340"
-         width="240"
-         hspace="8"
+         width="150"
+         height="213"
+         hspace="10"
+         vspace="10"
+         (mouseover)="zoomService.mouseover('/assets/img/encounter/', card.image, card.type === 'location' ? 'left' : 'right')"
+         (mouseout)="zoomService.mouseout()"
          (click)="onCardActivation()" />
 
     <span *ngIf="card.type === 'enemy' || card.type === 'location'"

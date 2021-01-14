@@ -1,0 +1,5 @@
+<img *ngIf="show$ | async"
+     [ngClass]="position$ | async"
+     [src]="(path$ | async) + '' + (card$ | async)"
+     [width]="(path$ | async).indexOf('quest') != -1 ? '450' : '300'"
+     alt="" />

@@ -16,6 +16,7 @@ import {RulesComponent} from './rules/rules.component';
 import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
 import {GlossaryComponent} from './glossary/glossary.component';
+import {ImageZoomComponent} from './image-zoom/image-zoom.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {GlossaryComponent} from './glossary/glossary.component';
     MissionComponent,
     GlossaryComponent,
     CardComponent,
-    CounterComponent
+    CounterComponent,
+    ImageZoomComponent,
   ],
   imports: [
     BrowserModule,

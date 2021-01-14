@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './header.component.html',
   styles: [`
     mat-toolbar {
-      background-color: rgba(0,0,0,0.5) !important;
+      background-color: rgba(0,0,0,0.7) !important;
       color: #fff !important;
     }`
   ]

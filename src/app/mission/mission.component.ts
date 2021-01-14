@@ -95,19 +95,6 @@ export class MissionComponent implements OnInit, OnDestroy {
     return of(Missions);
   }
 
-  increaseProgress(): void {
-    this.progress++;
-  }
-
-  decreaseProgress(): void {
-    if (this.progress >= 1) {
-      this.progress--;}
-  }
-
-  setProgress(progress: number): void {
-    this.progress = progress;
-  }
-
   onShuffleEncounter(): void {
     if (this.speech) {
       this.speech.cancel();

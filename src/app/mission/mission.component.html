@@ -1,5 +1,5 @@
 <ng-container *ngIf="shuffled">
-  <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="5px grid">
+  <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="5px grid" [ngStyle]="{ 'height': '435px' }">
     <div fxFlex="15" fxLayoutAlign="start">
       <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
            [lazyLoad]="'/assets/img/deck.jpg'"
@@ -17,15 +17,16 @@
     </div>
 
     <div fxFlex="15" fxLayoutAlign="end">
-      <span *ngIf="activeLocation" class="mark-box">
-        <app-card [card]="activeLocation" (activateCard)="onUpdateLocation(activeLocation)"></app-card>
+      <span *ngIf="activeLocation">
+        <app-card [card]="activeLocation"
+                  (activateCard)="onUpdateLocation(activeLocation)"
+                  [matTooltip]="'Active location'"
+                  [matTooltipPosition]="'left'"></app-card>
       </span>
     </div>
   </div>
 
-  <div [ngStyle]="{ 'margin': '150px 0' }"></div>
-
-  <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+  <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid" [ngStyle]="{ 'height': '370px' }">
     <div fxFlex="15" fxLayoutAlign="start">
       <ng-container *ngIf="shadowCard">
        <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
@@ -57,25 +58,15 @@
 
     <div fxFlex="15" fxLayoutAlign="end">
       <div class="mark-box" *ngIf="questDeck?.length >= 1">
-        <div fxLayoutAlign="space-around">
-          <button mat-icon-button color="accent" (click)="decreaseProgress()">
-            <mat-icon>remove_circle_outline</mat-icon>
-          </button>
-
-          <button mat-button color="primary" (click)="setProgress(0)">
-            {{ progress }}
-          </button>
-
-          <button mat-icon-button color="accent" (click)="increaseProgress()">
-            <mat-icon>add_circle_outline</mat-icon>
-          </button>
-        </div>
+        <app-counter></app-counter>
 
         <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">
-          <img [src]="'/assets/img/quest/' + questDeck[i]"
-               (mouseover)="zoomService.mouseover('/assets/img/quest/', questDeck[i], 'left')"
+          <img [src]="'/assets/img/quest/' + quest"
+               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest, 'left')"
                (mouseout)="zoomService.mouseout()"
-               width="105" alt="" hspace="4" vspace="4"
+               width="105" alt="" hspace="5" vspace="5"
+               [matTooltip]="'Quest card'"
+               [matTooltipPosition]="'left'"
                [ngClass]="questStep === i ? 'active-quest' : 'inactive-quest'"
                (click)="onChangeQuest(i)" />
         </span>
@@ -83,7 +74,7 @@
     </div>
   </div>
 
-  <div [ngStyle]="{ 'margin': '150px 0' }"></div>
+  <div [ngStyle]="{ 'margin': '100px 0' }"></div>
 
   <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
     <div fxFlex="100">
@@ -95,21 +86,18 @@
                 Discard pile: {{ discardPile?.length }}
               </ng-template>
 
-              <div>
-                <span *ngFor="let card of discardPile; trackBy: trackByFn" class="mark-box">
-                  <mat-button-toggle-group class="mark-button">
-                    <mat-button-toggle (click)="onResetCard('encounter', card)">
-                      Deck
-                    </mat-button-toggle>
+              <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+                <ng-container *ngFor="let card of discardPile; trackBy: trackByFn">
+                  <div fxFlex="25">
+                    <button mat-button color="warn" (click)="onResetCard('encounter', card)">
+                      <mat-icon>wifi_protected_setup</mat-icon>
+                    </button>
 
-                    <mat-button-toggle (click)="onResetCard('staging', card)">
-                      Area
-                    </mat-button-toggle>
-                  </mat-button-toggle-group>
-
-                  <img [src]="'/assets/img/encounter/' + card.image"
-                       alt="" height="150" width="106" hspace="3" vspace="3" />
-                </span>
+                    <button mat-button (click)="onResetCard('staging', card)">
+                      {{ card.image.substr(2, card.image.length) }}
+                    </button>
+                  </div>
+                </ng-container>
               </div>
             </mat-tab>
 
@@ -118,17 +106,14 @@
                 Encounter deck: {{ encounterDeck?.length }}
               </ng-template>
 
-              <div>
-                <span *ngFor="let card of encounterDeck; let i = index; trackBy: trackByFn" class="mark-box">
-                  <mat-button-toggle-group class="mark-button">
-                    <mat-button-toggle (click)="onChooseCard(card, i)">
-                      Area
-                    </mat-button-toggle>
-                  </mat-button-toggle-group>
-
-                  <img [src]="'/assets/img/encounter/' + card.image"
-                       alt="" height="150" width="106" hspace="3" vspace="3" />
-                </span>
+              <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+                <ng-container *ngFor="let card of encounterDeck; let i = index; trackBy: trackByFn">
+                  <div fxFlex="25">
+                    <button mat-button (click)="onChooseCard(card, i)">
+                      {{ card.image.substr(2, card.image.length) }}
+                    </button>
+                  </div>
+                </ng-container>
               </div>
             </mat-tab>
 
@@ -175,7 +160,7 @@
               Stop
             </button>
 
-            <button mat-button color="primary" [disabled]="!encounterDeck?.length" (click)="onShuffleEncounter()">
+            <button mat-button color="warn" [disabled]="!encounterDeck?.length" (click)="onShuffleEncounter()">
               <mat-icon>wifi_protected_setup</mat-icon>
               Shuffle &amp; Start
             </button>

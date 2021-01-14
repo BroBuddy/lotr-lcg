@@ -1,5 +1,13 @@
-<mat-button-toggle-group class="mark-button">
-    <mat-button-toggle [value]="i" [checked]="i === 0" *ngFor="let item of [].constructor(maxCounter); let i = index; trackBy: trackByFn">
-        {{ i }}
-    </mat-button-toggle>
-</mat-button-toggle-group>
+<div fxLayoutAlign="space-around">
+    <button mat-icon-button color="accent" (click)="decreaseProgress()">
+        <mat-icon>remove_circle_outline</mat-icon>
+    </button>
+
+    <button mat-button color="warn" (click)="setProgress(0)">
+        {{ progress }}
+    </button>
+
+    <button mat-icon-button color="accent" (click)="increaseProgress()">
+        <mat-icon>add_circle_outline</mat-icon>
+    </button>
+</div>

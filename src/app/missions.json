@@ -20,149 +20,149 @@
         "stagingArea": [
           {
             "type": "enemy",
-            "image": "04001.jpg"
+            "image": "Forest-Spider.jpg"
           },
           {
             "type": "location",
-            "image": "04004.jpg"
+            "image": "Old-Forest-Road.jpg"
           }
         ],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "01001.jpg"
+            "image": "King-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "01001.jpg"
+            "image": "King-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "01002.jpg"
+            "image": "Hummerhorns.jpg"
           },
           {
             "type": "enemy",
-            "image": "01003.jpg"
+            "image": "Ungoliants-Spawn.jpg"
           },
           {
             "type": "location",
-            "image": "01004.jpg"
+            "image": "Great-Forest-Web.jpg"
           },
           {
             "type": "location",
-            "image": "01004.jpg"
+            "image": "Great-Forest-Web.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "treachery",
-            "image": "01006.jpg"
+            "image": "Eyes-of-the-Forest.jpg"
           },
           {
             "type": "treachery",
-            "image": "01007.jpg"
+            "image": "Caught-in-a-Web.jpg"
           },
           {
             "type": "treachery",
-            "image": "01007.jpg"
+            "image": "Caught-in-a-Web.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03002.jpg"
+            "image": "Chieftan-Ufthak.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "treachery",
-            "image": "03004.jpg"
+            "image": "Driven-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "enemy",
-            "image": "04001.jpg"
+            "image": "Forest-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "04001.jpg"
+            "image": "Forest-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "04001.jpg"
+            "image": "Forest-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "04002.jpg"
+            "image": "East-Bight-Patrol.jpg"
           },
           {
             "type": "enemy",
-            "image": "04003.jpg"
+            "image": "Black-Forest-Bats.jpg"
           },
           {
             "type": "location",
-            "image": "04004.jpg"
+            "image": "Old-Forest-Road.jpg"
           },
           {
             "type": "location",
-            "image": "04005.jpg"
+            "image": "Forest-Gate.jpg"
           },
           {
             "type": "location",
-            "image": "04005.jpg"
+            "image": "Forest-Gate.jpg"
           }
         ],
         "discardPile": []
@@ -184,193 +184,193 @@
         "stagingArea": [
           {
             "type": "enemy",
-            "image": "02002.jpg"
+            "image": "Hill-Troll.jpg"
           }
         ],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07003.jpg"
+            "image": "Pursued-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "07003.jpg"
+            "image": "Pursued-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "07004.jpg"
+            "image": "Treacherous-Fog.jpg"
           },
           {
             "type": "treachery",
-            "image": "07004.jpg"
+            "image": "Treacherous-Fog.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03002.jpg"
+            "image": "Chieftan-Ufthak.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "treachery",
-            "image": "03004.jpg"
+            "image": "Driven-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "enemy",
-            "image": "02001.jpg"
+            "image": "Wolf-Rider.jpg"
           },
           {
             "type": "enemy",
-            "image": "02002.jpg"
+            "image": "Hill-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "02003.jpg"
+            "image": "Goblin-Sniper.jpg"
           },
           {
             "type": "enemy",
-            "image": "02003.jpg"
+            "image": "Goblin-Sniper.jpg"
           },
           {
             "type": "enemy",
-            "image": "02004.jpg"
+            "image": "Marsh-Adder.jpg"
           },
           {
             "type": "enemy",
-            "image": "02005.jpg"
+            "image": "Wargs.jpg"
           },
           {
             "type": "enemy",
-            "image": "02005.jpg"
+            "image": "Wargs.jpg"
           },
           {
             "type": "treachery",
-            "image": "02006.jpg"
+            "image": "Despair.jpg"
           },
           {
             "type": "treachery",
-            "image": "02006.jpg"
+            "image": "Despair.jpg"
           },
           {
             "type": "location",
-            "image": "02007.jpg"
+            "image": "The-Brown-Lands.jpg"
           },
           {
             "type": "location",
-            "image": "02007.jpg"
+            "image": "The-Brown-Lands.jpg"
           },
           {
             "type": "location",
-            "image": "02008.jpg"
+            "image": "The-East-Bight.jpg"
           },
           {
             "type": "location",
-            "image": "02008.jpg"
+            "image": "The-East-Bight.jpg"
           },
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "treachery",
-            "image": "06002.jpg"
+            "image": "Massing-at-Night.jpg"
           },
           {
             "type": "location",
-            "image": "06003.jpg"
+            "image": "Banks-of-the-Anduin.jpg"
           },
           {
             "type": "location",
-            "image": "06003.jpg"
+            "image": "Banks-of-the-Anduin.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           }
         ],
         "discardPile": []
@@ -393,169 +393,169 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "01001.jpg"
+            "image": "King-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "01001.jpg"
+            "image": "King-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "01002.jpg"
+            "image": "Hummerhorns.jpg"
           },
           {
             "type": "enemy",
-            "image": "01003.jpg"
+            "image": "Ungoliants-Spawn.jpg"
           },
           {
             "type": "location",
-            "image": "01004.jpg"
+            "image": "Great-Forest-Web.jpg"
           },
           {
             "type": "location",
-            "image": "01004.jpg"
+            "image": "Great-Forest-Web.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "treachery",
-            "image": "01006.jpg"
+            "image": "Eyes-of-the-Forest.jpg"
           },
           {
             "type": "treachery",
-            "image": "01007.jpg"
+            "image": "Caught-in-a-Web.jpg"
           },
           {
             "type": "treachery",
-            "image": "01007.jpg"
+            "image": "Caught-in-a-Web.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03002.jpg"
+            "image": "Chieftan-Ufthak.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "treachery",
-            "image": "03004.jpg"
+            "image": "Driven-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "enemy",
-            "image": "05001.jpg"
+            "image": "Dungeon-Jailor.jpg"
           },
           {
             "type": "enemy",
-            "image": "05001.jpg"
+            "image": "Dungeon-Jailor.jpg"
           },
           {
             "type": "enemy",
-            "image": "05003.jpg"
+            "image": "Cavern-Guardian.jpg"
           },
           {
             "type": "enemy",
-            "image": "05003.jpg"
+            "image": "Cavern-Guardian.jpg"
           },
           {
             "type": "treachery",
-            "image": "05004.jpg"
+            "image": "Under-the-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "05004.jpg"
+            "image": "Under-the-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "05005.jpg"
+            "image": "Iron-Shackles.jpg"
           },
           {
             "type": "location",
-            "image": "05006.jpg"
+            "image": "Endless-Caverns.jpg"
           },
           {
             "type": "location",
-            "image": "05006.jpg"
+            "image": "Endless-Caverns.jpg"
           },
           {
             "type": "location",
-            "image": "05007.jpg"
+            "image": "Tower-Gate.jpg"
           },
           {
             "type": "location",
-            "image": "05007.jpg"
+            "image": "Tower-Gate.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "enemy",
-            "image": "05002.jpg"
+            "image": "Nazgul-of-Dol-Guldur.jpg"
           },
           {
             "type": "objective",
-            "image": "05008.jpg"
+            "image": "Gandalfs-Map.jpg"
           },
           {
             "type": "objective",
-            "image": "05009.jpg"
+            "image": "Dungeon-Torch.jpg"
           },
           {
             "type": "objective",
-            "image": "05010.jpg"
+            "image": "Shadow-Key.jpg"
           }
         ]
       },
@@ -577,79 +577,79 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "treachery",
-            "image": "06002.jpg"
+            "image": "Massing-at-Night.jpg"
           },
           {
             "type": "location",
-            "image": "06003.jpg"
+            "image": "Banks-of-the-Anduin.jpg"
           },
           {
             "type": "location",
-            "image": "06003.jpg"
+            "image": "Banks-of-the-Anduin.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07003.jpg"
+            "image": "Pursued-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "07003.jpg"
+            "image": "Pursued-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "07004.jpg"
+            "image": "Treacherous-Fog.jpg"
           },
           {
             "type": "treachery",
-            "image": "07004.jpg"
+            "image": "Treacherous-Fog.jpg"
           },
           {
             "type": "objective",
@@ -791,95 +791,95 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "enemy",
-            "image": "06001.jpg"
+            "image": "Misty-Mountain-Goblins.jpg"
           },
           {
             "type": "treachery",
-            "image": "06002.jpg"
+            "image": "Massing-at-Night.jpg"
           },
           {
             "type": "location",
-            "image": "06003.jpg"
+            "image": "Banks-of-the-Anduin.jpg"
           },
           {
             "type": "location",
-            "image": "06003.jpg"
+            "image": "Banks-of-the-Anduin.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           },
           {
             "type": "location",
-            "image": "06004.jpg"
+            "image": "Gladden-Fields.jpg"
           },
           {
             "type": "enemy",
-            "image": "02001.jpg"
+            "image": "Wolf-Rider.jpg"
           },
           {
             "type": "enemy",
-            "image": "02002.jpg"
+            "image": "Hill-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "02002.jpg"
+            "image": "Hill-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "02003.jpg"
+            "image": "Goblin-Sniper.jpg"
           },
           {
             "type": "enemy",
-            "image": "02003.jpg"
+            "image": "Goblin-Sniper.jpg"
           },
           {
             "type": "enemy",
-            "image": "02004.jpg"
+            "image": "Marsh-Adder.jpg"
           },
           {
             "type": "enemy",
-            "image": "02005.jpg"
+            "image": "Wargs.jpg"
           },
           {
             "type": "enemy",
-            "image": "02005.jpg"
+            "image": "Wargs.jpg"
           },
           {
             "type": "treachery",
-            "image": "02006.jpg"
+            "image": "Despair.jpg"
           },
           {
             "type": "treachery",
-            "image": "02006.jpg"
+            "image": "Despair.jpg"
           },
           {
             "type": "location",
-            "image": "02007.jpg"
+            "image": "The-Brown-Lands.jpg"
           },
           {
             "type": "location",
-            "image": "02007.jpg"
+            "image": "The-Brown-Lands.jpg"
           },
           {
             "type": "location",
-            "image": "02008.jpg"
+            "image": "The-East-Bight.jpg"
           },
           {
             "type": "location",
-            "image": "02008.jpg"
+            "image": "The-East-Bight.jpg"
           },
           {
             "type": "objective",
@@ -1024,107 +1024,107 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03002.jpg"
+            "image": "Chieftan-Ufthak.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "treachery",
-            "image": "03004.jpg"
+            "image": "Driven-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "enemy",
-            "image": "01001.jpg"
+            "image": "King-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "01001.jpg"
+            "image": "King-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "01002.jpg"
+            "image": "Hummerhorns.jpg"
           },
           {
             "type": "enemy",
-            "image": "01003.jpg"
+            "image": "Ungoliants-Spawn.jpg"
           },
           {
             "type": "location",
-            "image": "01004.jpg"
+            "image": "Great-Forest-Web.jpg"
           },
           {
             "type": "location",
-            "image": "01004.jpg"
+            "image": "Great-Forest-Web.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "treachery",
-            "image": "01006.jpg"
+            "image": "Eyes-of-the-Forest.jpg"
           },
           {
             "type": "treachery",
-            "image": "01007.jpg"
+            "image": "Caught-in-a-Web.jpg"
           },
           {
             "type": "treachery",
-            "image": "01007.jpg"
+            "image": "Caught-in-a-Web.jpg"
           },
           {
             "type": "objective",
@@ -1265,99 +1265,99 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03001.jpg"
+            "image": "Dol-Guldur-Orcs-Enemy.jpg"
           },
           {
             "type": "enemy",
-            "image": "03002.jpg"
+            "image": "Chieftan-Ufthak.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "03003.jpg"
+            "image": "Dol-Guldur-Beastmaster.jpg"
           },
           {
             "type": "treachery",
-            "image": "03004.jpg"
+            "image": "Driven-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "treachery",
-            "image": "03005.jpg"
+            "image": "The-Necromancers-Reach.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03006.jpg"
+            "image": "Necromancers-Pass.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "location",
-            "image": "03007.jpg"
+            "image": "Enchanted-Stream.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07003.jpg"
+            "image": "Pursued-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "07003.jpg"
+            "image": "Pursued-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "07004.jpg"
+            "image": "Treacherous-Fog.jpg"
           },
           {
             "type": "treachery",
-            "image": "07004.jpg"
+            "image": "Treacherous-Fog.jpg"
           },
           {
             "type": "location",
@@ -1499,99 +1499,99 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "enemy",
-            "image": "07001.jpg"
+            "image": "Eastern-Crows.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07002.jpg"
+            "image": "Evil-Storm.jpg"
           },
           {
             "type": "treachery",
-            "image": "07003.jpg"
+            "image": "Pursued-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "07003.jpg"
+            "image": "Pursued-by-Shadow.jpg"
           },
           {
             "type": "treachery",
-            "image": "07004.jpg"
+            "image": "Treacherous-Fog.jpg"
           },
           {
             "type": "treachery",
-            "image": "07004.jpg"
+            "image": "Treacherous-Fog.jpg"
           },
           {
             "type": "enemy",
-            "image": "02001.jpg"
+            "image": "Wolf-Rider.jpg"
           },
           {
             "type": "enemy",
-            "image": "02002.jpg"
+            "image": "Hill-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "02002.jpg"
+            "image": "Hill-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "02003.jpg"
+            "image": "Goblin-Sniper.jpg"
           },
           {
             "type": "enemy",
-            "image": "02003.jpg"
+            "image": "Goblin-Sniper.jpg"
           },
           {
             "type": "enemy",
-            "image": "02004.jpg"
+            "image": "Marsh-Adder.jpg"
           },
           {
             "type": "enemy",
-            "image": "02005.jpg"
+            "image": "Wargs.jpg"
           },
           {
             "type": "enemy",
-            "image": "02005.jpg"
+            "image": "Wargs.jpg"
           },
           {
             "type": "treachery",
-            "image": "02006.jpg"
+            "image": "Despair.jpg"
           },
           {
             "type": "treachery",
-            "image": "02006.jpg"
+            "image": "Despair.jpg"
           },
           {
             "type": "location",
-            "image": "02007.jpg"
+            "image": "The-Brown-Lands.jpg"
           },
           {
             "type": "location",
-            "image": "02007.jpg"
+            "image": "The-Brown-Lands.jpg"
           },
           {
             "type": "location",
-            "image": "02008.jpg"
+            "image": "The-East-Bight.jpg"
           },
           {
             "type": "location",
-            "image": "02008.jpg"
+            "image": "The-East-Bight.jpg"
           },
           {
             "type": "treachery",
@@ -1737,107 +1737,107 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "01001.jpg"
+            "image": "King-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "01001.jpg"
+            "image": "King-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "01002.jpg"
+            "image": "Hummerhorns.jpg"
           },
           {
             "type": "enemy",
-            "image": "01003.jpg"
+            "image": "Ungoliants-Spawn.jpg"
           },
           {
             "type": "location",
-            "image": "01004.jpg"
+            "image": "Great-Forest-Web.jpg"
           },
           {
             "type": "location",
-            "image": "01004.jpg"
+            "image": "Great-Forest-Web.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "01005.jpg"
+            "image": "Mountains-of-Mirkwood.jpg"
           },
           {
             "type": "treachery",
-            "image": "01006.jpg"
+            "image": "Eyes-of-the-Forest.jpg"
           },
           {
             "type": "treachery",
-            "image": "01007.jpg"
+            "image": "Caught-in-a-Web.jpg"
           },
           {
             "type": "treachery",
-            "image": "01007.jpg"
+            "image": "Caught-in-a-Web.jpg"
           },
           {
             "type": "enemy",
-            "image": "02001.jpg"
+            "image": "Wolf-Rider.jpg"
           },
           {
             "type": "enemy",
-            "image": "02002.jpg"
+            "image": "Hill-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "02002.jpg"
+            "image": "Hill-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "02003.jpg"
+            "image": "Goblin-Sniper.jpg"
           },
           {
             "type": "enemy",
-            "image": "02003.jpg"
+            "image": "Goblin-Sniper.jpg"
           },
           {
             "type": "enemy",
-            "image": "02004.jpg"
+            "image": "Marsh-Adder.jpg"
           },
           {
             "type": "enemy",
-            "image": "02005.jpg"
+            "image": "Wargs.jpg"
           },
           {
             "type": "enemy",
-            "image": "02005.jpg"
+            "image": "Wargs.jpg"
           },
           {
             "type": "treachery",
-            "image": "02006.jpg"
+            "image": "Despair.jpg"
           },
           {
             "type": "treachery",
-            "image": "02006.jpg"
+            "image": "Despair.jpg"
           },
           {
             "type": "location",
-            "image": "02007.jpg"
+            "image": "The-Brown-Lands.jpg"
           },
           {
             "type": "location",
-            "image": "02007.jpg"
+            "image": "The-Brown-Lands.jpg"
           },
           {
             "type": "location",
-            "image": "02008.jpg"
+            "image": "The-East-Bight.jpg"
           },
           {
             "type": "location",
-            "image": "02008.jpg"
+            "image": "The-East-Bight.jpg"
           },
           {
             "type": "location",

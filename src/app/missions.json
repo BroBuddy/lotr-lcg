@@ -653,119 +653,119 @@
           },
           {
             "type": "objective",
-            "image": "08001.jpg"
+            "image": "1/Signs-of-Gollum.jpg"
           },
           {
             "type": "objective",
-            "image": "08001.jpg"
+            "image": "1/Signs-of-Gollum.jpg"
           },
           {
             "type": "objective",
-            "image": "08001.jpg"
+            "image": "1/Signs-of-Gollum.jpg"
           },
           {
             "type": "objective",
-            "image": "08001.jpg"
+            "image": "1/Signs-of-Gollum.jpg"
           },
           {
             "type": "location",
-            "image": "08002.jpg"
+            "image": "1/The-Old-Ford.jpg"
           },
           {
             "type": "location",
-            "image": "08002.jpg"
+            "image": "1/The-Old-Ford.jpg"
           },
           {
             "type": "location",
-            "image": "08003.jpg"
+            "image": "1/The-Eaves-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "08003.jpg"
+            "image": "1/The-Eaves-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "08003.jpg"
+            "image": "1/The-Eaves-of-Mirkwood.jpg"
           },
           {
             "type": "location",
-            "image": "08004.jpg"
+            "image": "1/River-Ninglor.jpg"
           },
           {
             "type": "location",
-            "image": "08004.jpg"
+            "image": "1/River-Ninglor.jpg"
           },
           {
             "type": "location",
-            "image": "08005.jpg"
+            "image": "1/The-East-Bank.jpg"
           },
           {
             "type": "location",
-            "image": "08005.jpg"
+            "image": "1/The-East-Bank.jpg"
           },
           {
             "type": "location",
-            "image": "08006.jpg"
+            "image": "1/The-West-Bank.jpg"
           },
           {
             "type": "location",
-            "image": "08006.jpg"
+            "image": "1/The-West-Bank.jpg"
           },
           {
             "type": "enemy",
-            "image": "08007.jpg"
+            "image": "1/Goblintown-Scavengers.jpg"
           },
           {
             "type": "enemy",
-            "image": "08007.jpg"
+            "image": "1/Goblintown-Scavengers.jpg"
           },
           {
             "type": "enemy",
-            "image": "08008.jpg"
+            "image": "1/Hunters-from-Mordor.jpg"
           },
           {
             "type": "enemy",
-            "image": "08008.jpg"
+            "image": "1/Hunters-from-Mordor.jpg"
           },
           {
             "type": "enemy",
-            "image": "08008.jpg"
+            "image": "1/Hunters-from-Mordor.jpg"
           },
           {
             "type": "enemy",
-            "image": "08008.jpg"
+            "image": "1/Hunters-from-Mordor.jpg"
           },
           {
             "type": "enemy",
-            "image": "08008.jpg"
+            "image": "1/Hunters-from-Mordor.jpg"
           },
           {
             "type": "treachery",
-            "image": "08009.jpg"
+            "image": "1/False-Lead.jpg"
           },
           {
             "type": "treachery",
-            "image": "08009.jpg"
+            "image": "1/False-Lead.jpg"
           },
           {
             "type": "treachery",
-            "image": "08010.jpg"
+            "image": "1/Flooding.jpg"
           },
           {
             "type": "treachery",
-            "image": "08010.jpg"
+            "image": "1/Flooding.jpg"
           },
           {
             "type": "treachery",
-            "image": "08011.jpg"
+            "image": "1/Old-Wives-Tales.jpg"
           },
           {
             "type": "treachery",
-            "image": "08011.jpg"
+            "image": "1/Old-Wives-Tales.jpg"
           },
           {
             "type": "treachery",
-            "image": "08011.jpg"
+            "image": "1/Old-Wives-Tales.jpg"
           }
         ],
         "discardPile": []
@@ -785,7 +785,7 @@
         "stagingArea": [
           {
             "type": "location",
-            "image": "09007.jpg"
+            "image": "1/The-Carrock.jpg"
           }
         ],
         "encounterDeck": [
@@ -883,121 +883,121 @@
           },
           {
             "type": "objective",
-            "image": "09001.jpg"
+            "image": "1/Grimbeorn-the-Old.jpg"
           },
           {
             "type": "enemy",
-            "image": "09006.jpg"
+            "image": "1/Muck-Adder.jpg"
           },
           {
             "type": "enemy",
-            "image": "09006.jpg"
+            "image": "1/Muck-Adder.jpg"
           },
           {
             "type": "enemy",
-            "image": "09006.jpg"
+            "image": "1/Muck-Adder.jpg"
           },
           {
             "type": "enemy",
-            "image": "09006.jpg"
+            "image": "1/Muck-Adder.jpg"
           },
           {
             "type": "location",
-            "image": "09008.jpg"
+            "image": "1/River-Langflood.jpg"
           },
           {
             "type": "location",
-            "image": "09008.jpg"
+            "image": "1/River-Langflood.jpg"
           },
           {
             "type": "location",
-            "image": "09008.jpg"
+            "image": "1/River-Langflood.jpg"
           },
           {
             "type": "location",
-            "image": "09008.jpg"
+            "image": "1/River-Langflood.jpg"
           },
           {
             "type": "location",
-            "image": "09009.jpg"
+            "image": "1/Bee-Pastures.jpg"
           },
           {
             "type": "location",
-            "image": "09009.jpg"
+            "image": "1/Bee-Pastures.jpg"
           },
           {
             "type": "location",
-            "image": "09009.jpg"
+            "image": "1/Bee-Pastures.jpg"
           },
           {
             "type": "location",
-            "image": "09010.jpg"
+            "image": "1/Oak-wood-Grove.jpg"
           },
           {
             "type": "location",
-            "image": "09010.jpg"
+            "image": "1/Oak-wood-Grove.jpg"
           },
           {
             "type": "location",
-            "image": "09010.jpg"
+            "image": "1/Oak-wood-Grove.jpg"
           },
           {
             "type": "treachery",
-            "image": "09011.jpg"
+            "image": "1/A-Frightened-Beast.jpg"
           },
           {
             "type": "treachery",
-            "image": "09011.jpg"
+            "image": "1/A-Frightened-Beast.jpg"
           },
           {
             "type": "treachery",
-            "image": "09011.jpg"
+            "image": "1/A-Frightened-Beast.jpg"
           },
           {
             "type": "treachery",
-            "image": "09012.jpg"
+            "image": "1/Sacked.jpg"
           },
           {
             "type": "treachery",
-            "image": "09012.jpg"
+            "image": "1/Sacked.jpg"
           },
           {
             "type": "treachery",
-            "image": "09013.jpg"
+            "image": "1/Roasted-Slowly.jpg"
           },
           {
             "type": "treachery",
-            "image": "09013.jpg"
+            "image": "1/Roasted-Slowly.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "enemy",
-            "image": "09002.jpg"
+            "image": "1/Louis.jpg"
           },
           {
             "type": "enemy",
-            "image": "09003.jpg"
+            "image": "1/Morris.jpg"
           },
           {
             "type": "enemy",
-            "image": "09004.jpg"
+            "image": "1/Stuart.jpg"
           },
           {
             "type": "enemy",
-            "image": "09005.jpg"
+            "image": "1/Rupert.jpg"
           },
           {
             "type": "treachery",
-            "image": "09012.jpg"
+            "image": "1/Sacked.jpg"
           },
           {
             "type": "treachery",
-            "image": "09012.jpg"
+            "image": "1/Sacked.jpg"
           },
           {
             "type": "treachery",
-            "image": "09012.jpg"
+            "image": "1/Sacked.jpg"
           }
         ]
       },
@@ -1018,7 +1018,7 @@
         "stagingArea": [
           {
             "type": "location",
-            "image": "10003.jpg"
+            "image": "1/Rhosgobel.jpg"
           }
         ],
         "encounterDeck": [
@@ -1128,117 +1128,117 @@
           },
           {
             "type": "objective",
-            "image": "10001.jpg"
+            "image": "1/Athelas.jpg"
           },
           {
             "type": "objective",
-            "image": "10001.jpg"
+            "image": "1/Athelas.jpg"
           },
           {
             "type": "objective",
-            "image": "10001.jpg"
+            "image": "1/Athelas.jpg"
           },
           {
             "type": "objective",
-            "image": "10001.jpg"
+            "image": "1/Athelas.jpg"
           },
           {
             "type": "location",
-            "image": "10004.jpg"
+            "image": "1/Forest-Grove.jpg"
           },
           {
             "type": "location",
-            "image": "10004.jpg"
+            "image": "1/Forest-Grove.jpg"
           },
           {
             "type": "location",
-            "image": "10004.jpg"
+            "image": "1/Forest-Grove.jpg"
           },
           {
             "type": "location",
-            "image": "10004.jpg"
+            "image": "1/Forest-Grove.jpg"
           },
           {
             "type": "treachery",
-            "image": "10005.jpg"
+            "image": "1/Exhaustion.jpg"
           },
           {
             "type": "treachery",
-            "image": "10005.jpg"
+            "image": "1/Exhaustion.jpg"
           },
           {
             "type": "treachery",
-            "image": "10005.jpg"
+            "image": "1/Exhaustion.jpg"
           },
           {
             "type": "treachery",
-            "image": "10005.jpg"
+            "image": "1/Exhaustion.jpg"
           },
           {
             "type": "treachery",
-            "image": "10006.jpg"
+            "image": "1/Swarming-Insects.jpg"
           },
           {
             "type": "treachery",
-            "image": "10006.jpg"
+            "image": "1/Swarming-Insects.jpg"
           },
           {
             "type": "treachery",
-            "image": "10006.jpg"
+            "image": "1/Swarming-Insects.jpg"
           },
           {
             "type": "treachery",
-            "image": "10006.jpg"
+            "image": "1/Swarming-Insects.jpg"
           },
           {
             "type": "treachery",
-            "image": "10007.jpg"
+            "image": "1/Festering-Wounds.jpg"
           },
           {
             "type": "treachery",
-            "image": "10007.jpg"
+            "image": "1/Festering-Wounds.jpg"
           },
           {
             "type": "enemy",
-            "image": "10008.jpg"
+            "image": "1/Mirkwood-Flock.jpg"
           },
           {
             "type": "enemy",
-            "image": "10008.jpg"
+            "image": "1/Mirkwood-Flock.jpg"
           },
           {
             "type": "enemy",
-            "image": "10008.jpg"
+            "image": "1/Mirkwood-Flock.jpg"
           },
           {
             "type": "enemy",
-            "image": "10008.jpg"
+            "image": "1/Mirkwood-Flock.jpg"
           },
           {
             "type": "enemy",
-            "image": "10009.jpg"
+            "image": "1/Black-Forest-Bats-2.jpg"
           },
           {
             "type": "enemy",
-            "image": "10009.jpg"
+            "image": "1/Black-Forest-Bats-2.jpg"
           },
           {
             "type": "enemy",
-            "image": "10009.jpg"
+            "image": "1/Black-Forest-Bats-2.jpg"
           },
           {
             "type": "enemy",
-            "image": "10009.jpg"
+            "image": "1/Black-Forest-Bats-2.jpg"
           },
           {
             "type": "enemy",
-            "image": "10009.jpg"
+            "image": "1/Black-Forest-Bats-2.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "10002.jpg"
+            "image": "1/Wilyador.jpg"
           }
         ]
       },
@@ -1255,11 +1255,11 @@
         "stagingArea": [
           {
             "type": "location",
-            "image": "11001.jpg"
+            "image": "1/Amon-Hen.jpg"
           },
           {
             "type": "location",
-            "image": "11002.jpg"
+            "image": "1/Amon-Lhaw.jpg"
           }
         ],
         "encounterDeck": [
@@ -1361,119 +1361,119 @@
           },
           {
             "type": "location",
-            "image": "11003.jpg"
+            "image": "1/The-East-Wall-of-Rohan.jpg"
           },
           {
             "type": "location",
-            "image": "11003.jpg"
+            "image": "1/The-East-Wall-of-Rohan.jpg"
           },
           {
             "type": "location",
-            "image": "11004.jpg"
+            "image": "1/The-North-Stair.jpg"
           },
           {
             "type": "location",
-            "image": "11004.jpg"
+            "image": "1/The-North-Stair.jpg"
           },
           {
             "type": "location",
-            "image": "11005.jpg"
+            "image": "1/Rauros-Falls.jpg"
           },
           {
             "type": "location",
-            "image": "11005.jpg"
+            "image": "1/Rauros-Falls.jpg"
           },
           {
             "type": "location",
-            "image": "11006.jpg"
+            "image": "1/The-Shores-of-Nen-Hithoel.jpg"
           },
           {
             "type": "location",
-            "image": "11006.jpg"
+            "image": "1/The-Shores-of-Nen-Hithoel.jpg"
           },
           {
             "type": "location",
-            "image": "11006.jpg"
+            "image": "1/The-Shores-of-Nen-Hithoel.jpg"
           },
           {
             "type": "location",
-            "image": "11007.jpg"
+            "image": "1/The-Outer-Ridge.jpg"
           },
           {
             "type": "location",
-            "image": "11007.jpg"
+            "image": "1/The-Outer-Ridge.jpg"
           },
           {
             "type": "location",
-            "image": "11007.jpg"
+            "image": "1/The-Outer-Ridge.jpg"
           },
           {
             "type": "location",
-            "image": "11008.jpg"
+            "image": "1/The-Highlands.jpg"
           },
           {
             "type": "location",
-            "image": "11008.jpg"
+            "image": "1/The-Highlands.jpg"
           },
           {
             "type": "location",
-            "image": "11008.jpg"
+            "image": "1/The-Highlands.jpg"
           },
           {
             "type": "location",
-            "image": "11008.jpg"
+            "image": "1/The-Highlands.jpg"
           },
           {
             "type": "treachery",
-            "image": "11009.jpg"
+            "image": "1/Impassable-Chasm.jpg"
           },
           {
             "type": "treachery",
-            "image": "11009.jpg"
+            "image": "1/Impassable-Chasm.jpg"
           },
           {
             "type": "treachery",
-            "image": "11009.jpg"
+            "image": "1/Impassable-Chasm.jpg"
           },
           {
             "type": "treachery",
-            "image": "11009.jpg"
+            "image": "1/Impassable-Chasm.jpg"
           },
           {
             "type": "treachery",
-            "image": "11010.jpg"
+            "image": "1/Rockslide.jpg"
           },
           {
             "type": "treachery",
-            "image": "11010.jpg"
+            "image": "1/Rockslide.jpg"
           },
           {
             "type": "treachery",
-            "image": "11010.jpg"
+            "image": "1/Rockslide.jpg"
           },
           {
             "type": "treachery",
-            "image": "11011.jpg"
+            "image": "1/Slick-Footing.jpg"
           },
           {
             "type": "treachery",
-            "image": "11011.jpg"
+            "image": "1/Slick-Footing.jpg"
           },
           {
             "type": "treachery",
-            "image": "11011.jpg"
+            "image": "1/Slick-Footing.jpg"
           },
           {
             "type": "enemy",
-            "image": "11012.jpg"
+            "image": "1/Orc-Horse-Thieves.jpg"
           },
           {
             "type": "enemy",
-            "image": "11012.jpg"
+            "image": "1/Orc-Horse-Thieves.jpg"
           },
           {
             "type": "enemy",
-            "image": "11012.jpg"
+            "image": "1/Orc-Horse-Thieves.jpg"
           }
         ],
         "discardPile": []
@@ -1493,7 +1493,7 @@
         "stagingArea": [
           {
             "type": "objective",
-            "image": "12001.jpg"
+            "image": "1/Gollum.jpg"
           }
         ],
         "encounterDeck": [
@@ -1595,119 +1595,119 @@
           },
           {
             "type": "treachery",
-            "image": "12002.jpg"
+            "image": "1/A-Wisp-of-Pale-Sheen.jpg"
           },
           {
             "type": "treachery",
-            "image": "12002.jpg"
+            "image": "1/A-Wisp-of-Pale-Sheen.jpg"
           },
           {
             "type": "treachery",
-            "image": "12002.jpg"
+            "image": "1/A-Wisp-of-Pale-Sheen.jpg"
           },
           {
             "type": "treachery",
-            "image": "12003.jpg"
+            "image": "1/Nightfall.jpg"
           },
           {
             "type": "treachery",
-            "image": "12003.jpg"
+            "image": "1/Nightfall.jpg"
           },
           {
             "type": "treachery",
-            "image": "12003.jpg"
+            "image": "1/Nightfall.jpg"
           },
           {
             "type": "treachery",
-            "image": "12004.jpg"
+            "image": "1/Through-the-Mist.jpg"
           },
           {
             "type": "treachery",
-            "image": "12004.jpg"
+            "image": "1/Through-the-Mist.jpg"
           },
           {
             "type": "treachery",
-            "image": "12004.jpg"
+            "image": "1/Through-the-Mist.jpg"
           },
           {
             "type": "treachery",
-            "image": "12005.jpg"
+            "image": "1/The-Lights-of-the-Dead.jpg"
           },
           {
             "type": "treachery",
-            "image": "12005.jpg"
+            "image": "1/The-Lights-of-the-Dead.jpg"
           },
           {
             "type": "treachery",
-            "image": "12005.jpg"
+            "image": "1/The-Lights-of-the-Dead.jpg"
           },
           {
             "type": "treachery",
-            "image": "12005.jpg"
+            "image": "1/The-Lights-of-the-Dead.jpg"
           },
           {
             "type": "enemy",
-            "image": "12006.jpg"
+            "image": "1/Giant-Marsh-Worm.jpg"
           },
           {
             "type": "enemy",
-            "image": "12006.jpg"
+            "image": "1/Giant-Marsh-Worm.jpg"
           },
           {
             "type": "enemy",
-            "image": "12006.jpg"
+            "image": "1/Giant-Marsh-Worm.jpg"
           },
           {
             "type": "enemy",
-            "image": "12006.jpg"
+            "image": "1/Giant-Marsh-Worm.jpg"
           },
           {
             "type": "location",
-            "image": "12007.jpg"
+            "image": "1/Impassable-Bog.jpg"
           },
           {
             "type": "location",
-            "image": "12007.jpg"
+            "image": "1/Impassable-Bog.jpg"
           },
           {
             "type": "location",
-            "image": "12007.jpg"
+            "image": "1/Impassable-Bog.jpg"
           },
           {
             "type": "location",
-            "image": "12007.jpg"
+            "image": "1/Impassable-Bog.jpg"
           },
           {
             "type": "location",
-            "image": "12008.jpg"
+            "image": "1/The-Heart-of-the-Marshes.jpg"
           },
           {
             "type": "location",
-            "image": "12008.jpg"
+            "image": "1/The-Heart-of-the-Marshes.jpg"
           },
           {
             "type": "location",
-            "image": "12008.jpg"
+            "image": "1/The-Heart-of-the-Marshes.jpg"
           },
           {
             "type": "location",
-            "image": "12008.jpg"
+            "image": "1/The-Heart-of-the-Marshes.jpg"
           },
           {
             "type": "location",
-            "image": "12009.jpg"
+            "image": "1/Fens-and-Mires.jpg"
           },
           {
             "type": "location",
-            "image": "12009.jpg"
+            "image": "1/Fens-and-Mires.jpg"
           },
           {
             "type": "location",
-            "image": "12009.jpg"
+            "image": "1/Fens-and-Mires.jpg"
           },
           {
             "type": "location",
-            "image": "12009.jpg"
+            "image": "1/Fens-and-Mires.jpg"
           }
         ],
         "discardPile": []
@@ -1731,7 +1731,7 @@
         "stagingArea": [
           {
             "type": "objective",
-            "image": "13001.jpg"
+            "image": "1/Gollum-2.jpg"
           }
         ],
         "encounterDeck": [
@@ -1841,111 +1841,111 @@
           },
           {
             "type": "location",
-            "image": "13002.jpg"
+            "image": "1/The-Spiders-Ring.jpg"
           },
           {
             "type": "location",
-            "image": "13002.jpg"
+            "image": "1/The-Spiders-Ring.jpg"
           },
           {
             "type": "location",
-            "image": "13002.jpg"
+            "image": "1/The-Spiders-Ring.jpg"
           },
           {
             "type": "location",
-            "image": "13002.jpg"
+            "image": "1/The-Spiders-Ring.jpg"
           },
           {
             "type": "location",
-            "image": "13003.jpg"
+            "image": "1/Dry-Watercourse.jpg"
           },
           {
             "type": "location",
-            "image": "13003.jpg"
+            "image": "1/Dry-Watercourse.jpg"
           },
           {
             "type": "location",
-            "image": "13003.jpg"
+            "image": "1/Dry-Watercourse.jpg"
           },
           {
             "type": "location",
-            "image": "13004.jpg"
+            "image": "1/Woodmans-Glade.jpg"
           },
           {
             "type": "location",
-            "image": "13004.jpg"
+            "image": "1/Woodmans-Glade.jpg"
           },
           {
             "type": "location",
-            "image": "13004.jpg"
+            "image": "1/Woodmans-Glade.jpg"
           },
           {
             "type": "location",
-            "image": "13005.jpg"
+            "image": "1/Wood-Elf-Path.jpg"
           },
           {
             "type": "location",
-            "image": "13005.jpg"
+            "image": "1/Wood-Elf-Path.jpg"
           },
           {
             "type": "location",
-            "image": "13005.jpg"
+            "image": "1/Wood-Elf-Path.jpg"
           },
           {
             "type": "treachery",
-            "image": "13006.jpg"
+            "image": "1/Gollums-Anguish.jpg"
           },
           {
             "type": "treachery",
-            "image": "13006.jpg"
+            "image": "1/Gollums-Anguish.jpg"
           },
           {
             "type": "treachery",
-            "image": "13007.jpg"
+            "image": "1/Gollums-Bite.jpg"
           },
           {
             "type": "treachery",
-            "image": "13007.jpg"
+            "image": "1/Gollums-Bite.jpg"
           },
           {
             "type": "treachery",
-            "image": "13008.jpg"
+            "image": "1/Wasted-Provisions.jpg"
           },
           {
             "type": "treachery",
-            "image": "13008.jpg"
+            "image": "1/Wasted-Provisions.jpg"
           },
           {
             "type": "treachery",
-            "image": "13008.jpg"
+            "image": "1/Wasted-Provisions.jpg"
           },
           {
             "type": "enemy",
-            "image": "13009.jpg"
+            "image": "1/Mirkwood-Bats.jpg"
           },
           {
             "type": "enemy",
-            "image": "13009.jpg"
+            "image": "1/Mirkwood-Bats.jpg"
           },
           {
             "type": "enemy",
-            "image": "13009.jpg"
+            "image": "1/Mirkwood-Bats.jpg"
           },
           {
             "type": "enemy",
-            "image": "13009.jpg"
+            "image": "1/Mirkwood-Bats.jpg"
           },
           {
             "type": "enemy",
-            "image": "13010.jpg"
+            "image": "1/Attercop-Attercop.jpg"
           },
           {
             "type": "enemy",
-            "image": "13010.jpg"
+            "image": "1/Attercop-Attercop.jpg"
           },
           {
             "type": "enemy",
-            "image": "13010.jpg"
+            "image": "1/Attercop-Attercop.jpg"
           }
         ],
         "discardPile": []

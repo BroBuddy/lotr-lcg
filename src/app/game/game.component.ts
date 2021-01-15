@@ -1,21 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute, Params} from '@angular/router';
-import {ToastrService} from 'ngx-toastr';
+import {ActivatedRoute, Params} from "@angular/router";
+import {ToastrService} from "ngx-toastr";
 
-import {Observable, of} from 'rxjs';
-import {map} from 'rxjs/operators';
+import {Observable, of} from "rxjs";
+import {map} from "rxjs/operators";
 
-import {ImageZoomService} from '../image-zoom/image-zoom.service';
-import Missions from '../mission/mission-data.json';
+import {ImageZoomService} from "../image-zoom/image-zoom.service";
+import Missions from "../mission/mission-data.json";
 
 @Component({
-  selector: 'app-quest',
-  templateUrl: './quest.component.html',
+  selector: 'app-game',
+  templateUrl: './game.component.html',
   styles: [`.inactive-quest {
     filter: grayscale(100%);
   }`]
 })
-export class QuestComponent implements OnInit {
+export class GameComponent implements OnInit {
   public cId: number;
   public mId: number;
 

@@ -17,7 +17,7 @@ import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
 import {GlossaryComponent} from './glossary/glossary.component';
 import {ImageZoomComponent} from './image-zoom/image-zoom.component';
-import {QuestComponent} from './quest/quest.component';
+import {GameComponent} from './game/game.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +25,12 @@ import {QuestComponent} from './quest/quest.component';
     HeaderComponent,
     HomeComponent,
     RulesComponent,
+    GameComponent,
     MissionComponent,
     GlossaryComponent,
     CardComponent,
     CounterComponent,
-    ImageZoomComponent,
-    QuestComponent
+    ImageZoomComponent
   ],
   imports: [
     BrowserModule,

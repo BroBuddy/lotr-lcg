@@ -8,17 +8,17 @@
 
       <mat-card-content fxLayoutAlign="space-between">
         <div>
-          <div *ngFor="let mission of cycle.missions; trackBy: trackByFn">
-            <button mat-button disabled>#{{ mission.id }}</button>
+          <div *ngFor="let scenario of cycle.missions; trackBy: trackByFn">
+            <button mat-button disabled>#{{ scenario.id }}</button>
 
             <button mat-button
-                    [routerLink]="'/mission/' + cycle.id + '/' + mission.id"
-                    [disabled]="!mission.title">
-              {{ mission.title ? mission.title : 'not available' }}
+                    [routerLink]="'/cycle/' + cycle.id + '/scenario/' + scenario.id"
+                    [disabled]="!scenario.title">
+              {{ scenario.title ? scenario.title : 'not available' }}
             </button>
 
-            <button mat-button [color]="mission.difficult <= 4 ? 'accent' : (mission.difficult >= 7 ? 'primary' : 'warn')">
-              {{ mission.difficult <= 4 ? 'Easy' : (mission.difficult >= 7 ? 'Hard' : 'Medium') }}
+            <button mat-button [color]="scenario.difficult <= 4 ? 'accent' : (scenario.difficult >= 7 ? 'primary' : 'warn')">
+              {{ scenario.difficult <= 4 ? 'Easy' : (scenario.difficult >= 7 ? 'Hard' : 'Medium') }}
             </button>
           </div>
         </div>

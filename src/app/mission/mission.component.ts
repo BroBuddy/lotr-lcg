@@ -16,7 +16,7 @@ import Missions from './mission-data.json';
 })
 export class MissionComponent implements OnInit, OnDestroy {
   public cId: number;
-  public mId: number;
+  public sId: number;
 
   public title: string;
   public difficult: number;
@@ -48,14 +48,14 @@ export class MissionComponent implements OnInit, OnDestroy {
       .subscribe(
         (params: Params) => {
           this.cId = params.cId;
-          this.mId = params.mId;
+          this.sId = params.sId;
         }
       );
 
     this.fetchMission()
       .pipe(map(data => data[(this.cId - 1)]))
       .subscribe(data => {
-        const index = data.missions.findIndex((item) => item.id === Number(this.mId));
+        const index = data.missions.findIndex((item) => item.id === Number(this.sId));
 
         if (data.missions[index]) {
           this.text = data.missions[index].text;
@@ -94,7 +94,7 @@ export class MissionComponent implements OnInit, OnDestroy {
       this.speech.cancel();
     }
 
-    this.router.navigate(['quest'], { relativeTo: this.route });
+    this.router.navigate(['game'], { relativeTo: this.route });
   }
 
   onPreviewCard(card: any): void {

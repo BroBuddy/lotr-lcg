@@ -5477,5 +5477,110 @@
         "discardPile": []
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "The Voice of Isengard",
+    "missions": [
+      {
+        "id": 28,
+        "difficult": 6,
+        "title": "The Fords of Isen",
+        "text": "The heroes came upon the dead rider as the afternoon darkened and the rain threatened to turn to ice. They found him facedown on the old road where he lay still and broken among the yellowing grasses. Life had been hacked from his body with axes, nearly destroying the sigil of Rohan on his hauberk. Not far from him lay the remains of his horse, a proud Mearas slain by black-fletched arrows in its graceful neck. As they dismounted to prepare a simple cairn for the body, a gust of western wind suddenly carried the familiar clangor of steel and screams. The dead man’s killers had found new victims. Rain and aching bodies momentarily forgotten, the heroes remounted and urged their horses to speed. ",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 29,
+        "difficult": 7,
+        "title": "To Catch an Orc",
+        "text": "Saruman received Gríma and his escort at the steps of Orthanc. The strange black tower rose coldly from the midst of Isengard’s luscious gardens. It’s ebon walls seemed out of place among the greenery of the vale and stood in stark contrast to Saruman’s brilliant white robes. Saruman, somehow, had already known about the affair at the ford. He lavished praise on the heroes for their rescue, and reassured Threol. The Dunlendings have grown daring of late, dear Captain.” The wizard spoke with a silky voice. It was a voice that enthralled, a voice that rung wiser than the wind, and its faint lilt was as encouraging as dawn itself. “Such an attack surely could not have been imagined until this ambush.”",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 30,
+        "difficult": 4,
+        "title": "Into Fangorn",
+        "text": "Mugash was free and running. The sickness lingered in his body, but he savored its malevolent presence. Because of it, his tormentors had thought him near death and loosened his bonds. The fools had even fed him. Mugash’s arms and legs stung. His joints were swollen and throbbing where the ropes had tied him to the poles. His limbs had been useless the first few miles of his escape, and he’d crawled like a worm down the mountainside, pushing himself forward with shoulders and hips. The great Orc had laughed at the pain. His way, the way of the Uruk, was not one of stealth and silence, but last night on the mountainside, stealth and silence had been his closest friends. He flexed his hands. Through the pain he felt strength returning. He had outwitted the hated bright-eyed humans, and now he was free. ",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 31,
+        "difficult": 8,
+        "title": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 32,
+        "difficult": 7,
+        "title": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 33,
+        "difficult": 4,
+        "title": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 34,
+        "difficult": 7,
+        "title": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 35,
+        "difficult": 6,
+        "title": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 36,
+        "difficult": 7,
+        "title": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      }
+    ]
   }
 ]

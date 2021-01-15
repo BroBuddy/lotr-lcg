@@ -42,7 +42,7 @@ p {
 
 .container { padding: 15px; max-width: 100%; }
 
-mat-card, mat-expansion-panel { z-index: 10000; background-color: rgba(0,0,0,0.7) !important; border: none; }
+mat-card, .mat-menu-panel, mat-expansion-panel { z-index: 10000; background-color: rgba(0,0,0,0.7) !important; border: none; }
 img { &:hover { z-index: 1000; } }
 
 .mat-button-toggle-group {

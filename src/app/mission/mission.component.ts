@@ -37,7 +37,7 @@ export class MissionComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute, private toastr: ToastrService, public zoomService: ImageZoomService) {}
 
   ngOnInit(): void {
-    // this.onShuffleEncounter();
+    this.onShuffleEncounter();
     this.initSpeech();
 
     this.route.params
@@ -145,6 +145,25 @@ export class MissionComponent implements OnInit, OnDestroy {
     }
   }
 
+  onCardDeactivation(card: any, type: string): void {
+    switch (type) {
+      case 'engaging': {
+        this.removeCardFromEngaging(card);
+        break;
+      }
+      case 'location': {
+        this.onUpdateLocation(card, false);
+        break;
+      }
+      default: {
+        this.removeCardFromStaging(card);
+        break;
+      }
+    }
+    this.encounterDeck.push(card);
+    this.onShuffleEncounter();
+  }
+
   removeCardFromStaging(card: any): void {
     const stagingArea = [...this.stagingArea],
         index = stagingArea.findIndex((item) => item === card);
@@ -152,11 +171,20 @@ export class MissionComponent implements OnInit, OnDestroy {
     this.stagingArea = stagingArea.slice(0, Number(index)).concat(stagingArea.slice(Number(index) + 1));
   }
 
-  onUpdateLocation(card: any): void {
+  removeCardFromEngaging(card: any): void {
+    const engagingArea = [...this.engagingArea],
+        index = engagingArea.findIndex((item) => item === card);
+
+    this.engagingArea = engagingArea.slice(0, Number(index)).concat(engagingArea.slice(Number(index) + 1));
+  }
+
+  onUpdateLocation(card: any, discovered?: boolean): void {
     this.zoomService.mouseout();
 
     if (this.activeLocation === card) {
-      this.discardPile.push(this.activeLocation);
+      if (discovered) {
+        this.discardPile.push(this.activeLocation);
+      }
       this.activeLocation = null;
     } else {
       if (this.activeLocation) {
@@ -187,7 +215,7 @@ export class MissionComponent implements OnInit, OnDestroy {
     this.shadowCard = null;
   }
 
-  onDefeatEnemy(card: any): void {
+  onDefeatEnemy(card: any, defeated: boolean): void {
     this.zoomService.mouseout();
 
     const engagingArea = [...this.engagingArea],
@@ -195,7 +223,9 @@ export class MissionComponent implements OnInit, OnDestroy {
 
     this.engagingArea = engagingArea.slice(0, Number(index)).concat(engagingArea.slice(Number(index) + 1));
 
-    this.discardPile.push(card);
+    if (defeated) {
+      this.discardPile.push(card);
+    }
   }
 
   onChangeQuest(step: number): void {

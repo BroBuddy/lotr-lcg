@@ -28,7 +28,7 @@ import {ImageZoomComponent} from './image-zoom/image-zoom.component';
     GlossaryComponent,
     CardComponent,
     CounterComponent,
-    ImageZoomComponent,
+    ImageZoomComponent
   ],
   imports: [
     BrowserModule,

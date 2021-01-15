@@ -6,9 +6,20 @@
          height="213"
          hspace="10"
          vspace="10"
+         [matMenuTriggerFor]="menu"
          (mouseover)="zoomService.mouseover('/assets/img/encounter/', card.image, card.type === 'location' ? 'left' : 'right')"
-         (mouseout)="zoomService.mouseout()"
-         (click)="onCardActivation()" />
+         (mouseout)="zoomService.mouseout()" />
+
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="onCardActivation()">
+            <mat-icon>pan_tool</mat-icon>
+            Play card</button>
+
+        <button mat-menu-item (click)="onCardDectivation()">
+            <mat-icon>wifi_protected_setup</mat-icon>
+            Shuffle back
+        </button>
+    </mat-menu>
 
     <span *ngIf="card.type === 'enemy' || card.type === 'location'"
           (click)="increaseNumber()"

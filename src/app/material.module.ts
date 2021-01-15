@@ -6,6 +6,7 @@ import {
   MatCardModule,
   MatExpansionModule,
   MatIconModule,
+  MatMenuModule,
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule
@@ -18,6 +19,7 @@ const modules = [
   MatCardModule,
   MatExpansionModule,
   MatIconModule,
+  MatMenuModule,
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule

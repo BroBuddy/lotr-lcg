@@ -37,7 +37,7 @@ export class MissionComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute, private toastr: ToastrService, public zoomService: ImageZoomService) {}
 
   ngOnInit(): void {
-    this.onShuffleEncounter();
+    // this.onShuffleEncounter();
     this.initSpeech();
 
     this.route.params

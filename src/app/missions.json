@@ -1971,223 +1971,223 @@
         ],
         "activeLocation": {
           "type": "location",
-          "image": "14003.jpg"
+          "image": "2/East-gate.jpg"
         },
         "stagingArea": [],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18003.jpg"
+            "image": "2/Lightless-Passage.jpg"
           },
           {
             "type": "location",
-            "image": "18003.jpg"
+            "image": "2/Lightless-Passage.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "treachery",
-            "image": "18005.jpg"
+            "image": "2/Many-Roads.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20002.jpg"
+            "image": "2/Crumbling-Ruin.jpg"
           },
           {
             "type": "treachery",
-            "image": "20002.jpg"
+            "image": "2/Crumbling-Ruin.jpg"
           },
           {
             "type": "treachery",
-            "image": "20003.jpg"
+            "image": "2/Dark-and-Dreadful.jpg"
           },
           {
             "type": "treachery",
-            "image": "20003.jpg"
+            "image": "2/Dark-and-Dreadful.jpg"
           },
           {
             "type": "treachery",
-            "image": "20004.jpg"
+            "image": "2/Sudden-Pitfall.jpg"
           },
           {
             "type": "location",
-            "image": "20005.jpg"
+            "image": "2/Dreadful-Gap.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "location",
-            "image": "22004.jpg"
+            "image": "2/Goblin-Tunnels.jpg"
           },
           {
             "type": "location",
-            "image": "22004.jpg"
+            "image": "2/Goblin-Tunnels.jpg"
           },
           {
             "type": "enemy",
-            "image": "14001.jpg"
+            "image": "2/Patrol-Leader.jpg"
           },
           {
             "type": "enemy",
-            "image": "14001.jpg"
+            "image": "2/Patrol-Leader.jpg"
           },
           {
             "type": "treachery",
-            "image": "14002.jpg"
+            "image": "2/Signs-of-Conflict.jpg"
           },
           {
             "type": "treachery",
-            "image": "14002.jpg"
+            "image": "2/Signs-of-Conflict.jpg"
           },
           {
             "type": "treachery",
-            "image": "14002.jpg"
+            "image": "2/Signs-of-Conflict.jpg"
           },
           {
             "type": "treachery",
-            "image": "14002.jpg"
+            "image": "2/Signs-of-Conflict.jpg"
           },
           {
             "type": "treachery",
-            "image": "14002.jpg"
+            "image": "2/Signs-of-Conflict.jpg"
           },
           {
             "type": "location",
-            "image": "14006.jpg"
+            "image": "2/Stairs-of-Nain.jpg"
           },
           {
             "type": "location",
-            "image": "14006.jpg"
+            "image": "2/Stairs-of-Nain.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "18007.jpg"
+            "image": "2/Cave-Torch.jpg"
           },
           {
             "type": "location",
-            "image": "14004.jpg"
+            "image": "2/First-Hall.jpg"
           },
           {
             "type": "location",
-            "image": "14005.jpg"
+            "image": "2/Bridge-of-Khazad-dum.jpg"
           }
         ]
       },
@@ -2207,145 +2207,145 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "location",
-            "image": "22004.jpg"
+            "image": "2/Goblin-Tunnels.jpg"
           },
           {
             "type": "location",
-            "image": "22004.jpg"
+            "image": "2/Goblin-Tunnels.jpg"
           },
           {
             "type": "enemy",
-            "image": "17001.jpg"
+            "image": "2/Chieftain-of-the-Pit.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17003.jpg"
+            "image": "2/Goblin-Archer.jpg"
           },
           {
             "type": "enemy",
-            "image": "17003.jpg"
+            "image": "2/Goblin-Archer.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "location",
-            "image": "17005.jpg"
+            "image": "2/Plundered-Armoury.jpg"
           },
           {
             "type": "location",
-            "image": "17005.jpg"
+            "image": "2/Plundered-Armoury.jpg"
           },
           {
             "type": "enemy",
-            "image": "15001.jpg"
+            "image": "2/Cave-troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "15001.jpg"
+            "image": "2/Cave-troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "15002.jpg"
+            "image": "2/Orc-Horn-Blower.jpg"
           },
           {
             "type": "treachery",
-            "image": "15003.jpg"
+            "image": "2/Hidden-Threat.jpg"
           },
           {
             "type": "treachery",
-            "image": "15003.jpg"
+            "image": "2/Hidden-Threat.jpg"
           },
           {
             "type": "location",
-            "image": "15004.jpg"
+            "image": "2/Upper-Hall.jpg"
           },
           {
             "type": "location",
-            "image": "15004.jpg"
+            "image": "2/Upper-Hall.jpg"
           },
           {
             "type": "location",
-            "image": "15004.jpg"
+            "image": "2/Upper-Hall.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "15005.jpg"
+            "image": "2/Book-of-Mazarbul.jpg"
           }
         ]
       },
@@ -2359,16 +2359,6 @@
           "1201B.jpg",
           "1202A.jpg",
           "1202B.jpg",
-          "1202A2.jpg",
-          "1202B2.jpg",
-          "1202A3.jpg",
-          "1202B3.jpg",
-          "1202A4.jpg",
-          "1202B4.jpg",
-          "1202A5.jpg",
-          "1202B5.jpg",
-          "1202A6.jpg",
-          "1202B6.jpg",
           "1202A7.jpg",
           "1202B7.jpg",
           "1202A8.jpg",
@@ -2378,211 +2368,211 @@
         "stagingArea": [
           {
             "type": "enemy",
-            "image": "16001.jpg"
+            "image": "2/The-Nameless-Fear.jpg"
           }
         ],
         "encounterDeck": [
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20002.jpg"
+            "image": "2/Crumbling-Ruin.jpg"
           },
           {
             "type": "treachery",
-            "image": "20002.jpg"
+            "image": "2/Crumbling-Ruin.jpg"
           },
           {
             "type": "treachery",
-            "image": "20003.jpg"
+            "image": "2/Dark-and-Dreadful.jpg"
           },
           {
             "type": "treachery",
-            "image": "20003.jpg"
+            "image": "2/Dark-and-Dreadful.jpg"
           },
           {
             "type": "treachery",
-            "image": "20004.jpg"
+            "image": "2/Sudden-Pitfall.jpg"
           },
           {
             "type": "location",
-            "image": "20005.jpg"
+            "image": "2/Dreadful-Gap.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "enemy",
-            "image": "19001.jpg"
+            "image": "2/Great-Cave-troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "19001.jpg"
+            "image": "2/Great-Cave-troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "19002.jpg"
+            "image": "2/Orc-Drummer.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19005.jpg"
+            "image": "2/Massing-in-the-Deep.jpg"
           },
           {
             "type": "treachery",
-            "image": "19005.jpg"
+            "image": "2/Massing-in-the-Deep.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "enemy",
-            "image": "17001.jpg"
+            "image": "2/Chieftain-of-the-Pit.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17003.jpg"
+            "image": "2/Goblin-Archer.jpg"
           },
           {
             "type": "enemy",
-            "image": "17003.jpg"
+            "image": "2/Goblin-Archer.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "location",
-            "image": "17005.jpg"
+            "image": "2/Plundered-Armoury.jpg"
           },
           {
             "type": "location",
-            "image": "17005.jpg"
+            "image": "2/Plundered-Armoury.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16002.jpg"
+            "type": "treachery",
+            "image": "2/New-Devilry.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16002.jpg"
+            "type": "treachery",
+            "image": "2/New-Devilry.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16002.jpg"
+            "type": "treachery",
+            "image": "2/New-Devilry.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16003.jpg"
+            "type": "treachery",
+            "image": "2/Shadow-of-Fear.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16003.jpg"
+            "type": "treachery",
+            "image": "2/Shadow-of-Fear.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16003.jpg"
+            "type": "treachery",
+            "image": "2/Shadow-of-Fear.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16004.jpg"
+            "type": "treachery",
+            "image": "2/A-Foe-Beyond.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16005.jpg"
+            "type": "objective",
+            "image": "2/Abandoned-Tools.jpg"
           }
         ],
         "discardPile": [
           {
-            "type": "enemy",
-            "image": "16004.jpg"
+            "type": "treachery",
+            "image": "2/A-Foe-Beyond.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16004.jpg"
+            "type": "treachery",
+            "image": "2/A-Foe-Beyond.jpg"
           },
           {
-            "type": "enemy",
-            "image": "16004.jpg"
+            "type": "treachery",
+            "image": "2/A-Foe-Beyond.jpg"
           }
         ]
       },
@@ -2603,183 +2593,183 @@
         "stagingArea": [
           {
             "type": "location",
-            "image": "23002.jpg"
+            "image": "2/Caradhras.jpg"
           }
         ],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "location",
-            "image": "21004.jpg"
+            "image": "2/Knees-of-the-Mountain.jpg"
           },
           {
             "type": "location",
-            "image": "21005.jpg"
+            "image": "2/Turbulent-Waters.jpg"
           },
           {
             "type": "location",
-            "image": "21005.jpg"
+            "image": "2/Turbulent-Waters.jpg"
           },
           {
             "type": "location",
-            "image": "21006.jpg"
+            "image": "2/Warg-Lair.jpg"
           },
           {
             "type": "location",
-            "image": "21006.jpg"
+            "image": "2/Warg-Lair.jpg"
           },
           {
             "type": "location",
-            "image": "23003.jpg"
+            "image": "2/Fanuidhol.jpg"
           },
           {
             "type": "location",
-            "image": "23004.jpg"
+            "image": "2/Celebdil.jpg"
           },
           {
             "type": "location",
-            "image": "23005.jpg"
+            "image": "2/The-Dimrill-Stair.jpg"
           },
           {
             "type": "location",
-            "image": "23006.jpg"
+            "image": "2/Rocky-Crags.jpg"
           },
           {
             "type": "location",
-            "image": "23006.jpg"
+            "image": "2/Rocky-Crags.jpg"
           },
           {
             "type": "location",
-            "image": "23006.jpg"
+            "image": "2/Rocky-Crags.jpg"
           },
           {
             "type": "treachery",
-            "image": "23007.jpg"
+            "image": "2/Fell-Voices.jpg"
           },
           {
             "type": "treachery",
-            "image": "23007.jpg"
+            "image": "2/Fell-Voices.jpg"
           },
           {
             "type": "treachery",
-            "image": "23008.jpg"
+            "image": "2/Fallen-Stones.jpg"
           },
           {
             "type": "treachery",
-            "image": "23008.jpg"
+            "image": "2/Fallen-Stones.jpg"
           },
           {
             "type": "treachery",
-            "image": "23010.jpg"
+            "image": "2/Freezing-Cold.jpg"
           },
           {
             "type": "treachery",
-            "image": "23010.jpg"
+            "image": "2/Freezing-Cold.jpg"
           },
           {
             "type": "treachery",
-            "image": "23010.jpg"
+            "image": "2/Freezing-Cold.jpg"
           },
           {
             "type": "treachery",
-            "image": "23011.jpg"
+            "image": "2/Avalanche.jpg"
           },
           {
             "type": "enemy",
-            "image": "23012.jpg"
+            "image": "2/Mountain-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "23012.jpg"
+            "image": "2/Mountain-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "23012.jpg"
+            "image": "2/Mountain-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "23013.jpg"
+            "image": "2/Mountain-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "23013.jpg"
+            "image": "2/Mountain-Troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "23014.jpg"
+            "image": "2/Snow-Warg.jpg"
           },
           {
             "type": "enemy",
-            "image": "23014.jpg"
+            "image": "2/Snow-Warg.jpg"
           },
           {
             "type": "enemy",
-            "image": "23014.jpg"
+            "image": "2/Snow-Warg.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "23001.jpg"
+            "image": "2/Arwen-Undomiel.jpg"
           },
           {
             "type": "treachery",
-            "image": "23009.jpg"
+            "image": "2/Snowstorm.jpg"
           },
           {
             "type": "treachery",
-            "image": "23009.jpg"
+            "image": "2/Snowstorm.jpg"
           },
           {
             "type": "treachery",
-            "image": "23009.jpg"
+            "image": "2/Snowstorm.jpg"
           },
           {
             "type": "treachery",
-            "image": "23009.jpg"
+            "image": "2/Snowstorm.jpg"
           },
           {
             "type": "treachery",
-            "image": "23009.jpg"
+            "image": "2/Snowstorm.jpg"
           }
         ]
       },
@@ -2801,233 +2791,233 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "17001.jpg"
+            "image": "2/Chieftain-of-the-Pit.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17002.jpg"
+            "image": "2/Goblin-Spearman.jpg"
           },
           {
             "type": "enemy",
-            "image": "17003.jpg"
+            "image": "2/Goblin-Archer.jpg"
           },
           {
             "type": "enemy",
-            "image": "17003.jpg"
+            "image": "2/Goblin-Archer.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "treachery",
-            "image": "17004.jpg"
+            "image": "2/Undisturbed-Bones.jpg"
           },
           {
             "type": "location",
-            "image": "17005.jpg"
+            "image": "2/Plundered-Armoury.jpg"
           },
           {
             "type": "location",
-            "image": "17005.jpg"
+            "image": "2/Plundered-Armoury.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "location",
-            "image": "21004.jpg"
+            "image": "2/Knees-of-the-Mountain.jpg"
           },
           {
             "type": "location",
-            "image": "21005.jpg"
+            "image": "2/Turbulent-Waters.jpg"
           },
           {
             "type": "location",
-            "image": "21005.jpg"
+            "image": "2/Turbulent-Waters.jpg"
           },
           {
             "type": "location",
-            "image": "21006.jpg"
+            "image": "2/Warg-Lair.jpg"
           },
           {
             "type": "location",
-            "image": "21006.jpg"
+            "image": "2/Warg-Lair.jpg"
           },
           {
             "type": "location",
-            "image": "24002.jpg"
+            "image": "2/Ruined-Road.jpg"
           },
           {
             "type": "location",
-            "image": "24002.jpg"
+            "image": "2/Ruined-Road.jpg"
           },
           {
             "type": "location",
-            "image": "24004.jpg"
+            "image": "2/Pathless-Country.jpg"
           },
           {
             "type": "location",
-            "image": "24004.jpg"
+            "image": "2/Pathless-Country.jpg"
           },
           {
             "type": "location",
-            "image": "24004.jpg"
+            "image": "2/Pathless-Country.jpg"
           },
           {
             "type": "location",
-            "image": "24005.jpg"
+            "image": "2/Barren-Hills.jpg"
           },
           {
             "type": "location",
-            "image": "24005.jpg"
+            "image": "2/Barren-Hills.jpg"
           },
           {
             "type": "treachery",
-            "image": "24006.jpg"
+            "image": "2/Sleeping-Sentry.jpg"
           },
           {
             "type": "treachery",
-            "image": "24006.jpg"
+            "image": "2/Sleeping-Sentry.jpg"
           },
           {
             "type": "treachery",
-            "image": "24007.jpg"
+            "image": "2/Followed-by-Night.jpg"
           },
           {
             "type": "treachery",
-            "image": "24007.jpg"
+            "image": "2/Followed-by-Night.jpg"
           },
           {
             "type": "treachery",
-            "image": "24007.jpg"
+            "image": "2/Followed-by-Night.jpg"
           },
           {
             "type": "treachery",
-            "image": "24008.jpg"
+            "image": "2/Orc-Ambush.jpg"
           },
           {
             "type": "treachery",
-            "image": "24008.jpg"
+            "image": "2/Orc-Ambush.jpg"
           },
           {
             "type": "enemy",
-            "image": "24009.jpg"
+            "image": "2/Goblin-Taskmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "24009.jpg"
+            "image": "2/Goblin-Taskmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "24009.jpg"
+            "image": "2/Goblin-Taskmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "24009.jpg"
+            "image": "2/Goblin-Taskmaster.jpg"
           },
           {
             "type": "enemy",
-            "image": "24010.jpg"
+            "image": "2/Orc-Raiders.jpg"
           },
           {
             "type": "enemy",
-            "image": "24010.jpg"
+            "image": "2/Orc-Raiders.jpg"
           },
           {
             "type": "enemy",
-            "image": "24010.jpg"
+            "image": "2/Orc-Raiders.jpg"
           },
           {
             "type": "enemy",
-            "image": "24011.jpg"
+            "image": "2/Crebain.jpg"
           },
           {
             "type": "enemy",
-            "image": "24011.jpg"
+            "image": "2/Crebain.jpg"
           },
           {
             "type": "enemy",
-            "image": "24011.jpg"
+            "image": "2/Crebain.jpg"
           },
           {
             "type": "enemy",
-            "image": "24012.jpg"
+            "image": "2/Wild-Bear.jpg"
           },
           {
             "type": "enemy",
-            "image": "24012.jpg"
+            "image": "2/Wild-Bear.jpg"
           },
           {
             "type": "enemy",
-            "image": "24012.jpg"
+            "image": "2/Wild-Bear.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "24001.jpg"
+            "image": "2/Arwen-Undomiel-2.jpg"
           },
           {
             "type": "location",
-            "image": "24003.jpg"
+            "image": "2/Goblin-Gate.jpg"
           }
         ]
       },
@@ -3047,185 +3037,185 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21001.jpg"
+            "image": "2/Black-Uruks.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "enemy",
-            "image": "21002.jpg"
+            "image": "2/Mountain-Warg.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "treachery",
-            "image": "21003.jpg"
+            "image": "2/Bitter-Wind.jpg"
           },
           {
             "type": "location",
-            "image": "21004.jpg"
+            "image": "2/Knees-of-the-Mountain.jpg"
           },
           {
             "type": "location",
-            "image": "21005.jpg"
+            "image": "2/Turbulent-Waters.jpg"
           },
           {
             "type": "location",
-            "image": "21005.jpg"
+            "image": "2/Turbulent-Waters.jpg"
           },
           {
             "type": "location",
-            "image": "21006.jpg"
+            "image": "2/Warg-Lair.jpg"
           },
           {
             "type": "location",
-            "image": "21006.jpg"
+            "image": "2/Warg-Lair.jpg"
           },
           {
             "type": "location",
-            "image": "25002.jpg"
+            "image": "2/Stair-Falls.jpg"
           },
           {
             "type": "location",
-            "image": "25003.jpg"
+            "image": "2/Perilous-Swamp.jpg"
           },
           {
             "type": "location",
-            "image": "25003.jpg"
+            "image": "2/Perilous-Swamp.jpg"
           },
           {
             "type": "location",
-            "image": "25004.jpg"
+            "image": "2/Makeshift-Passage.jpg"
           },
           {
             "type": "location",
-            "image": "25004.jpg"
+            "image": "2/Makeshift-Passage.jpg"
           },
           {
             "type": "location",
-            "image": "25005.jpg"
+            "image": "2/Stagnant-Creek.jpg"
           },
           {
             "type": "location",
-            "image": "25005.jpg"
+            "image": "2/Stagnant-Creek.jpg"
           },
           {
             "type": "location",
-            "image": "25005.jpg"
+            "image": "2/Stagnant-Creek.jpg"
           },
           {
             "type": "treachery",
-            "image": "25006.jpg"
+            "image": "2/Ill-Purpose.jpg"
           },
           {
             "type": "treachery",
-            "image": "25007.jpg"
+            "image": "2/Disturbed-Waters.jpg"
           },
           {
             "type": "treachery",
-            "image": "25007.jpg"
+            "image": "2/Disturbed-Waters.jpg"
           },
           {
             "type": "treachery",
-            "image": "25007.jpg"
+            "image": "2/Disturbed-Waters.jpg"
           },
           {
             "type": "enemy",
-            "image": "25009.jpg"
+            "image": "2/Grasping-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25009.jpg"
+            "image": "2/Grasping-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25009.jpg"
+            "image": "2/Grasping-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25009.jpg"
+            "image": "2/Grasping-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25010.jpg"
+            "image": "2/Thrashing-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25010.jpg"
+            "image": "2/Thrashing-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25010.jpg"
+            "image": "2/Thrashing-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25010.jpg"
+            "image": "2/Thrashing-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25011.jpg"
+            "image": "2/Striking-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25011.jpg"
+            "image": "2/Striking-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25011.jpg"
+            "image": "2/Striking-Tentacle.jpg"
           },
           {
             "type": "enemy",
-            "image": "25011.jpg"
+            "image": "2/Striking-Tentacle.jpg"
           },
           {
             "type": "treachery",
-            "image": "25012.jpg"
+            "image": "2/Wrapped.jpg"
           },
           {
             "type": "treachery",
-            "image": "25012.jpg"
+            "image": "2/Wrapped.jpg"
           },
           {
             "type": "treachery",
-            "image": "25012.jpg"
+            "image": "2/Wrapped.jpg"
           },
           {
             "type": "treachery",
-            "image": "25012.jpg"
+            "image": "2/Wrapped.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "enemy",
-            "image": "25008.jpg"
+            "image": "2/The-Watcher.jpg"
           },
           {
             "type": "location",
-            "image": "25001.jpg"
+            "image": "2/Doors-of-Durin.jpg"
           }
         ]
       },
@@ -3245,123 +3235,123 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "19001.jpg"
+            "image": "2/Great-Cave-troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "19001.jpg"
+            "image": "2/Great-Cave-troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "19002.jpg"
+            "image": "2/Orc-Drummer.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19005.jpg"
+            "image": "2/Massing-in-the-Deep.jpg"
           },
           {
             "type": "treachery",
-            "image": "19005.jpg"
+            "image": "2/Massing-in-the-Deep.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18003.jpg"
+            "image": "2/Lightless-Passage.jpg"
           },
           {
             "type": "location",
-            "image": "18003.jpg"
+            "image": "2/Lightless-Passage.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "treachery",
-            "image": "18005.jpg"
+            "image": "2/Many-Roads.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "objective",
@@ -3487,7 +3477,7 @@
         "discardPile": [
           {
             "type": "objective",
-            "image": "18007.jpg"
+            "image": "2/Cave-Torch.jpg"
           }
         ]
       },
@@ -3513,167 +3503,167 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "location",
-            "image": "22004.jpg"
+            "image": "2/Goblin-Tunnels.jpg"
           },
           {
             "type": "location",
-            "image": "22004.jpg"
+            "image": "2/Goblin-Tunnels.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "enemy",
-            "image": "18001.jpg"
+            "image": "2/Goblin-Follower.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18002.jpg"
+            "image": "2/Branching-Paths.jpg"
           },
           {
             "type": "location",
-            "image": "18003.jpg"
+            "image": "2/Lightless-Passage.jpg"
           },
           {
             "type": "location",
-            "image": "18003.jpg"
+            "image": "2/Lightless-Passage.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "location",
-            "image": "18004.jpg"
+            "image": "2/Zigil-Mineshaft.jpg"
           },
           {
             "type": "treachery",
-            "image": "18005.jpg"
+            "image": "2/Many-Roads.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "treachery",
-            "image": "18006.jpg"
+            "image": "2/Burning-Low.jpg"
           },
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20001.jpg"
+            "image": "2/Cave-In.jpg"
           },
           {
             "type": "treachery",
-            "image": "20002.jpg"
+            "image": "2/Crumbling-Ruin.jpg"
           },
           {
             "type": "treachery",
-            "image": "20002.jpg"
+            "image": "2/Crumbling-Ruin.jpg"
           },
           {
             "type": "treachery",
-            "image": "20003.jpg"
+            "image": "2/Dark-and-Dreadful.jpg"
           },
           {
             "type": "treachery",
-            "image": "20003.jpg"
+            "image": "2/Dark-and-Dreadful.jpg"
           },
           {
             "type": "treachery",
-            "image": "20004.jpg"
+            "image": "2/Sudden-Pitfall.jpg"
           },
           {
             "type": "location",
-            "image": "20005.jpg"
+            "image": "2/Dreadful-Gap.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "location",
-            "image": "20006.jpg"
+            "image": "2/Fouled-Well.jpg"
           },
           {
             "type": "location",
@@ -3775,7 +3765,7 @@
           },
           {
             "type": "objective",
-            "image": "18007.jpg"
+            "image": "2/Cave-Torch.jpg"
           }
         ]
       },
@@ -3802,111 +3792,111 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "19001.jpg"
+            "image": "2/Great-Cave-troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "19001.jpg"
+            "image": "2/Great-Cave-troll.jpg"
           },
           {
             "type": "enemy",
-            "image": "19002.jpg"
+            "image": "2/Orc-Drummer.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "enemy",
-            "image": "19003.jpg"
+            "image": "2/Stray-Goblin.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19004.jpg"
+            "image": "2/Chance-Encounter.jpg"
           },
           {
             "type": "treachery",
-            "image": "19005.jpg"
+            "image": "2/Massing-in-the-Deep.jpg"
           },
           {
             "type": "treachery",
-            "image": "19005.jpg"
+            "image": "2/Massing-in-the-Deep.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "location",
-            "image": "19006.jpg"
+            "image": "2/The-Mountains-Roots.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22001.jpg"
+            "image": "2/Goblin-Scout.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "enemy",
-            "image": "22002.jpg"
+            "image": "2/Goblin-Swordsman.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "treachery",
-            "image": "22003.jpg"
+            "image": "2/Watchful-Eyes.jpg"
           },
           {
             "type": "location",
-            "image": "22004.jpg"
+            "image": "2/Goblin-Tunnels.jpg"
           },
           {
             "type": "location",
-            "image": "22004.jpg"
+            "image": "2/Goblin-Tunnels.jpg"
           },
           {
             "type": "location",

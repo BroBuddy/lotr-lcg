@@ -33,10 +33,10 @@
             </button>
           </div>
 
-          <div fxFlex="60">
+          <div fxFlex="57">
             <span *ngFor="let card of encounterDeck; trackBy: trackByFn">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
-                   [lazyLoad]="'/assets/img/encounter/' + card.image"
+                   [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
                    alt="" height="130" width="92" hspace="8" vspace="8"
                    (mouseover)="onPreviewCard(card)"
                    (mouseout)="onPreviewCard(null)" />
@@ -44,7 +44,7 @@
 
             <span *ngFor="let card of stagingArea; trackBy: trackByFn">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
-                   [lazyLoad]="'/assets/img/encounter/' + card.image"
+                   [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
                    alt="" height="130" width="92" hspace="8" vspace="8"
                    (mouseover)="onPreviewCard(card)"
                    (mouseout)="onPreviewCard(null)" />
@@ -52,7 +52,7 @@
 
             <span *ngFor="let card of discardPile; trackBy: trackByFn">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
-                   [lazyLoad]="'/assets/img/encounter/' + card.image"
+                   [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
                    alt="" height="130" width="92" hspace="8" vspace="8"
                    (mouseover)="onPreviewCard(card)"
                    (mouseout)="onPreviewCard(null)" />
@@ -60,16 +60,16 @@
 
             <span *ngIf="activeLocation">
               <img [defaultImage]="'https://via.placeholder.com/92x130/000/?text=LOTR'"
-                   [lazyLoad]="'/assets/img/encounter/' + activeLocation.image"
+                   [lazyLoad]="'/assets/img/encounter/' + activeLocation.image + '.jpg'"
                    alt="" height="130" width="92" hspace="8" vspace="8"
                    (mouseover)="onPreviewCard(activeLocation)"
                    (mouseout)="onPreviewCard(null)" />
             </span>
           </div>
 
-          <div fxFlex="20">
+          <div fxFlex="23">
             <ng-container *ngIf="previewCard; else enlargeImage">
-              <img [src]="'/assets/img/encounter/' + previewCard.image" alt="" width="300" (click)="onPreviewCard(null)" />
+              <img [src]="'/assets/img/encounter/' + previewCard.image + '.jpg'" alt="" width="330" (click)="onPreviewCard(null)" />
             </ng-container>
 
             <ng-template #enlargeImage>

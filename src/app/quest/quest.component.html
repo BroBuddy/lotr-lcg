@@ -1,4 +1,4 @@
-<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="5px grid" [ngStyle]="{ 'height': '430px' }">
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="5px grid" [ngStyle]="{ 'height': '505px' }">
     <div fxFlex="15" fxLayoutAlign="start">
         <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
              [lazyLoad]="'/assets/img/deck.jpg'"
@@ -28,11 +28,11 @@
     </div>
 </div>
 
-<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid" [ngStyle]="{ 'height': '470px' }">
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid" [ngStyle]="{ 'height': '540px' }">
     <div fxFlex="15" fxLayoutAlign="start">
         <ng-container *ngIf="shadowCard">
             <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
-                 [lazyLoad]="'/assets/img/encounter/' + shadowCard.image"
+                 [lazyLoad]="'/assets/img/encounter/' + shadowCard.image + '.jpg'"
                  [matTooltip]="'Shadow card'"
                  [matTooltipPosition]="'right'"
                  (mouseover)="zoomService.mouseover('/assets/img/encounter/', shadowCard.image, 'left')"
@@ -65,8 +65,8 @@
             <app-counter></app-counter>
 
             <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">
-          <img [src]="'/assets/img/quest/' + quest"
-               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest, 'left')"
+          <img [src]="'/assets/img/quest/' + quest + '.jpg'"
+               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest + '.jpg', 'left')"
                (mouseout)="zoomService.mouseout()"
                width="105" alt="" hspace="5" vspace="5"
                [matTooltip]="'Quest card'"
@@ -85,6 +85,14 @@
                 <mat-tab-group color="accent" animationDuration="0ms">
                     <mat-tab>
                         <ng-template mat-tab-label>
+                            Glossary
+                        </ng-template>
+
+                        <app-glossary></app-glossary>
+                    </mat-tab>
+
+                    <mat-tab>
+                        <ng-template mat-tab-label>
                             Discard pile: {{ discardPile?.length }}
                         </ng-template>
 
@@ -101,6 +109,7 @@
 
                                     <button mat-button type="button" color="accent">
                                         {{ card.image.substr(2, card.image.length) }}
+                                        ({{ card.type.substr(0, 1) | uppercase }})
                                     </button>
                                 </div>
                             </ng-container>
@@ -121,18 +130,11 @@
 
                                     <button mat-button type="button" color="accent">
                                         {{ card.image.substr(2, card.image.length) }}
+                                        ({{ card.type.substr(0, 1) | uppercase }})
                                     </button>
                                 </div>
                             </ng-container>
                         </div>
-                    </mat-tab>
-
-                    <mat-tab>
-                        <ng-template mat-tab-label>
-                            Glossary
-                        </ng-template>
-
-                        <app-glossary></app-glossary>
                     </mat-tab>
                 </mat-tab-group>
             </mat-card-content>

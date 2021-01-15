@@ -2,15 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 @import '~ngx-toastr/toastr';
 
-html, body { height: 100%; }
 body {
-  // background-attachment: fixed;
   background-image: url("/assets/img/playmat.jpg");
-  background-size: cover;
+  background-size: auto;
+  height: 100%;
   margin: 0;
 }
 
-body, button, .mat-tab-label-content, mat-card-title, mat-card-subtitle, mat-panel-title {
+.container {
+  max-width: 100%;
+  padding: 15px 0 15px 15px;
+}
+
+button,
+.mat-tab-label-content,
+mat-card-title,
+mat-card-subtitle,
+mat-panel-title {
   font-family: "Redressed" !important;
   font-size: 18px !important;
 }
@@ -40,19 +48,13 @@ p {
   line-height: 1.5em !important;
 }
 
-.container { padding: 15px; max-width: 100%; }
+mat-card,
+.mat-menu-panel {
+  background-color: rgba(0,0,0,0.7) !important;
+  z-index: 400;
+}
 
-mat-card, .mat-menu-panel, mat-expansion-panel { z-index: 10000; background-color: rgba(0,0,0,0.7) !important; border: none; }
-img { &:hover { z-index: 1000; } }
-
-.mat-button-toggle-group {
-  .mat-button-toggle-label-content {
-    line-height: normal !important;
-    padding: 1px 5px !important;
-  }
-
-  .mat-button-toggle-checked {
-    background-color: #fff !important;
-    color: #000 !important;
-  }
+mat-expansion-panel {
+  background-color: transparent !important;
+  z-index: 400;
 }

@@ -1,13 +1,11 @@
 <div>
     <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
-         [lazyLoad]="'/assets/img/encounter/' + card.image"
+         [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
          alt=""
-         width="150"
-         height="213"
-         hspace="10"
-         vspace="10"
+         width="150" height="213"
+         hspace="10" vspace="10"
          [matMenuTriggerFor]="menu"
-         (mouseover)="zoomService.mouseover('/assets/img/encounter/', card.image, card.type === 'location' ? 'left' : 'right')"
+         (mouseover)="zoomService.mouseover('/assets/img/encounter/', card.image + '.jpg', card.type === 'location' ? 'left' : 'right')"
          (mouseout)="zoomService.mouseout()" />
 
     <mat-menu #menu="matMenu">

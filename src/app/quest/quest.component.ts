@@ -161,12 +161,8 @@ export class QuestComponent implements OnInit {
   }
 
   onDrawShadow(): void {
-    if (this.engagingArea.length) {
-      this.shadowCard = this.encounterDeck[0];
-      this.encounterDeck.shift();
-    } else {
-      this.toastr.error('No enemy engaged');
-    }
+    this.shadowCard = this.encounterDeck[0];
+    this.encounterDeck.shift();
   }
 
   onDiscardShadow(): void {

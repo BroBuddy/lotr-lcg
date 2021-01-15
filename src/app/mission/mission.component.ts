@@ -118,7 +118,7 @@ export class MissionComponent implements OnInit, OnDestroy {
   }
 
   onDrawCard(): void {
-    this.stagingArea.unshift(this.encounterDeck[0]);
+    this.stagingArea.push(this.encounterDeck[0]);
     this.encounterDeck.shift();
     this.cardsPlayed++;
   }

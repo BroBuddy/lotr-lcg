@@ -51,13 +51,13 @@
     </div>
 
     <div fxFlex="70" fxLayoutAlign="center">
-      <span *ngFor="let card of engagingArea; trackBy: trackByFn" class="mark-box">
+      <span *ngFor="let card of engagingArea; trackBy: trackByFn">
         <app-card [card]="card" (activateCard)="onDefeatEnemy(card)"></app-card>
       </span>
     </div>
 
     <div fxFlex="15" fxLayoutAlign="end">
-      <div class="mark-box" *ngIf="questDeck?.length >= 1">
+      <div *ngIf="questDeck?.length >= 1">
         <app-counter></app-counter>
 
         <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">

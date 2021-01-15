@@ -5,6 +5,7 @@
          width="150"
          height="213"
          hspace="10"
+         vspace="10"
          (mouseover)="zoomService.mouseover('/assets/img/encounter/', card.image, card.type === 'location' ? 'left' : 'right')"
          (mouseout)="zoomService.mouseout()"
          (click)="onCardActivation()" />

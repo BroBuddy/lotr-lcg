@@ -56,12 +56,3 @@ img { &:hover { z-index: 1000; } }
     color: #000 !important;
   }
 }
-
-.mark-box {
-  position: relative;
-
-  .mark-button {
-    position: absolute;
-    left: 2px;
-  }
-}

@@ -35,7 +35,7 @@
                  [lazyLoad]="'/assets/img/encounter/' + shadowCard.image + '.jpg'"
                  [matTooltip]="'Shadow card'"
                  [matTooltipPosition]="'right'"
-                 (mouseover)="zoomService.mouseover('/assets/img/encounter/', shadowCard.image, 'left')"
+                 (mouseover)="zoomService.mouseover('/assets/img/encounter/', shadowCard.image + '.jpg', 'left')"
                  (mouseout)="zoomService.mouseout()"
                  width="150" height="210" alt=""
                  (click)="onDiscardShadow()" />

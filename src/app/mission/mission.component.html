@@ -94,12 +94,12 @@
               <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
                 <ng-container *ngFor="let card of discardPile; trackBy: trackByFn">
                   <div fxFlex="25">
-                    <button mat-button color="warn" type="button" (click)="onResetCard('staging', card)">
-                      <mat-icon>pan_tool</mat-icon>
+                    <button mat-button type="button" (click)="onResetCard('encounter', card)">
+                      <mat-icon>wifi_protected_setup</mat-icon>
                     </button>
 
-                    <button mat-button color="warn" type="button" (click)="onResetCard('encounter', card)">
-                      <mat-icon>wifi_protected_setup</mat-icon>
+                    <button mat-button type="button" (click)="onResetCard('staging', card)">
+                      <mat-icon>pan_tool</mat-icon>
                     </button>
 
                     <button mat-button type="button" color="accent">
@@ -118,7 +118,7 @@
               <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
                 <ng-container *ngFor="let card of encounterDeck; let i = index; trackBy: trackByFn">
                   <div fxFlex="25">
-                    <button mat-button color="warn" type="button" (click)="onChooseCard(card, i)">
+                    <button mat-button type="button" (click)="onChooseCard(card, i)">
                       <mat-icon>pan_tool</mat-icon>
                     </button>
 

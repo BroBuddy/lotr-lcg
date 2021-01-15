@@ -4035,144 +4035,144 @@
         ],
         "activeLocation": {
           "type": "location",
-          "image": "29003.jpg"
+          "image": "3/The-Leaping-Fish-Location.jpg"
         },
         "stagingArea": [
           {
             "type": "enemy",
-            "image": "29002.jpg"
+            "image": "3/Harbor-Thug.jpg"
           }
         ],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "38001.jpg"
+            "image": "3/Orc-Rabble.jpg"
           },
           {
             "type": "enemy",
-            "image": "38001.jpg"
+            "image": "3/Orc-Rabble.jpg"
           },
           {
             "type": "enemy",
-            "image": "38001.jpg"
+            "image": "3/Orc-Rabble.jpg"
           },
           {
             "type": "enemy",
-            "image": "38002.jpg"
+            "image": "3/Orc-Arsonist.jpg"
           },
           {
             "type": "enemy",
-            "image": "38002.jpg"
+            "image": "3/Orc-Arsonist.jpg"
           },
           {
             "type": "enemy",
-            "image": "38002.jpg"
+            "image": "3/Orc-Arsonist.jpg"
           },
           {
             "type": "treachery",
-            "image": "38003.jpg"
+            "image": "3/Scourge-of-Mordor.jpg"
           },
           {
             "type": "treachery",
-            "image": "38003.jpg"
+            "image": "3/Scourge-of-Mordor.jpg"
           },
           {
             "type": "enemy",
-            "image": "32001.jpg"
+            "image": "3/Pickpocket.jpg"
           },
           {
             "type": "enemy",
-            "image": "32001.jpg"
+            "image": "3/Pickpocket.jpg"
           },
           {
             "type": "enemy",
-            "image": "32001.jpg"
+            "image": "3/Pickpocket.jpg"
           },
           {
             "type": "location",
-            "image": "32002.jpg"
+            "image": "3/City-Street.jpg"
           },
           {
             "type": "location",
-            "image": "32002.jpg"
+            "image": "3/City-Street.jpg"
           },
           {
             "type": "location",
-            "image": "32002.jpg"
+            "image": "3/City-Street.jpg"
           },
           {
             "type": "location",
-            "image": "32003.jpg"
+            "image": "3/Market-Square.jpg"
           },
           {
             "type": "location",
-            "image": "32003.jpg"
+            "image": "3/Market-Square.jpg"
           },
           {
             "type": "treachery",
-            "image": "32004.jpg"
+            "image": "3/Lost-in-the-City.jpg"
           },
           {
             "type": "treachery",
-            "image": "32005.jpg"
+            "image": "3/Local-Trouble.jpg"
           },
           {
             "type": "treachery",
-            "image": "32005.jpg"
+            "image": "3/Local-Trouble.jpg"
           },
           {
             "type": "enemy",
-            "image": "29002.jpg"
+            "image": "3/Harbor-Thug.jpg"
           },
           {
             "type": "enemy",
-            "image": "29002.jpg"
+            "image": "3/Harbor-Thug.jpg"
           },
           {
             "type": "enemy",
-            "image": "29002.jpg"
+            "image": "3/Harbor-Thug.jpg"
           },
           {
             "type": "enemy",
-            "image": "29002.jpg"
+            "image": "3/Harbor-Thug.jpg"
           },
           {
             "type": "location",
-            "image": "29004.jpg"
+            "image": "3/Pelargir-Docks.jpg"
           },
           {
             "type": "location",
-            "image": "29004.jpg"
+            "image": "3/Pelargir-Docks.jpg"
           },
           {
             "type": "location",
-            "image": "29005.jpg"
+            "image": "3/Harbor-Storehouse.jpg"
           },
           {
             "type": "location",
-            "image": "29005.jpg"
+            "image": "3/Harbor-Storehouse.jpg"
           },
           {
             "type": "treachery",
-            "image": "29006.jpg"
+            "image": "3/Collateral-Damage.jpg"
           },
           {
             "type": "treachery",
-            "image": "29006.jpg"
+            "image": "3/Collateral-Damage.jpg"
           },
           {
             "type": "treachery",
-            "image": "29006.jpg"
+            "image": "3/Collateral-Damage.jpg"
           },
           {
             "type": "treachery",
-            "image": "29006.jpg"
+            "image": "3/Collateral-Damage.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "29001.jpg"
+            "image": "3/Alcarons-Scroll.jpg"
           }
         ]
       },
@@ -4193,154 +4193,154 @@
         ],
         "activeLocation": {
           "type": "location",
-          "image": "30004.jpg"
+          "image": "3/Ithilien-Road.jpg"
         },
         "stagingArea": [
           {
             "type": "objective",
-            "image": "30001.jpg"
+            "image": "3/Celador.jpg"
           },
           {
             "type": "enemy",
-            "image": "30003.jpg"
+            "image": "3/Southron-Company.jpg"
           }
         ],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "36001.jpg"
+            "image": "3/Southron-Mercenaries.jpg"
           },
           {
             "type": "enemy",
-            "image": "36001.jpg"
+            "image": "3/Southron-Mercenaries.jpg"
           },
           {
             "type": "enemy",
-            "image": "36001.jpg"
+            "image": "3/Southron-Mercenaries.jpg"
           },
           {
             "type": "enemy",
-            "image": "36002.jpg"
+            "image": "3/Haradrim-Elite.jpg"
           },
           {
             "type": "enemy",
-            "image": "36002.jpg"
+            "image": "3/Haradrim-Elite.jpg"
           },
           {
             "type": "enemy",
-            "image": "36003.jpg"
+            "image": "3/Mumak.jpg"
           },
           {
             "type": "treachery",
-            "image": "36004.jpg"
+            "image": "3/Southron-Support.jpg"
           },
           {
             "type": "treachery",
-            "image": "36004.jpg"
+            "image": "3/Southron-Support.jpg"
           },
           {
             "type": "enemy",
-            "image": "35001.jpg"
+            "image": "3/Morgul-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "35001.jpg"
+            "image": "3/Morgul-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "35001.jpg"
+            "image": "3/Morgul-Spider.jpg"
           },
           {
             "type": "enemy",
-            "image": "35002.jpg"
+            "image": "3/Forest-Bat.jpg"
           },
           {
             "type": "enemy",
-            "image": "35002.jpg"
+            "image": "3/Forest-Bat.jpg"
           },
           {
             "type": "enemy",
-            "image": "35002.jpg"
+            "image": "3/Forest-Bat.jpg"
           },
           {
             "type": "treachery",
-            "image": "35003.jpg"
+            "image": "3/Watcher-in-the-Wood.jpg"
           },
           {
             "type": "treachery",
-            "image": "35003.jpg"
+            "image": "3/Watcher-in-the-Wood.jpg"
           },
           {
             "type": "location",
-            "image": "34001.jpg"
+            "image": "3/Overgrown-Trail.jpg"
           },
           {
             "type": "location",
-            "image": "34001.jpg"
+            "image": "3/Overgrown-Trail.jpg"
           },
           {
             "type": "location",
-            "image": "34001.jpg"
+            "image": "3/Overgrown-Trail.jpg"
           },
           {
             "type": "location",
-            "image": "34002.jpg"
+            "image": "3/Secluded-Glade.jpg"
           },
           {
             "type": "location",
-            "image": "34002.jpg"
+            "image": "3/Secluded-Glade.jpg"
           },
           {
             "type": "location",
-            "image": "34002.jpg"
+            "image": "3/Secluded-Glade.jpg"
           },
           {
             "type": "treachery",
-            "image": "34003.jpg"
+            "image": "3/Lost-Companion.jpg"
           },
           {
             "type": "treachery",
-            "image": "34003.jpg"
+            "image": "3/Lost-Companion.jpg"
           },
           {
             "type": "objective",
-            "image": "30002.jpg"
+            "image": "3/Ithilien-Guardian.jpg"
           },
           {
             "type": "objective",
-            "image": "30002.jpg"
+            "image": "3/Ithilien-Guardian.jpg"
           },
           {
             "type": "enemy",
-            "image": "30003.jpg"
+            "image": "3/Southron-Company.jpg"
           },
           {
             "type": "enemy",
-            "image": "30003.jpg"
+            "image": "3/Southron-Company.jpg"
           },
           {
             "type": "enemy",
-            "image": "30003.jpg"
+            "image": "3/Southron-Company.jpg"
           },
           {
             "type": "location",
-            "image": "30004.jpg"
+            "image": "3/Ithilien-Road.jpg"
           },
           {
             "type": "treachery",
-            "image": "30005.jpg"
+            "image": "3/Blocking-Wargs.jpg"
           },
           {
             "type": "treachery",
-            "image": "30005.jpg"
+            "image": "3/Blocking-Wargs.jpg"
           },
           {
             "type": "treachery",
-            "image": "30005.jpg"
+            "image": "3/Blocking-Wargs.jpg"
           },
           {
             "type": "treachery",
-            "image": "30005.jpg"
+            "image": "3/Blocking-Wargs.jpg"
           }
         ],
         "discardPile": []
@@ -4366,165 +4366,165 @@
         "stagingArea": [
           {
             "type": "location",
-            "image": "31004.jpg"
+            "image": "3/The-Citadel.jpg"
           },
           {
             "type": "location",
-            "image": "31005.jpg"
+            "image": "3/The-Approach.jpg"
           },
           {
             "type": "location",
-            "image": "31006.jpg"
+            "image": "3/The-Banks.jpg"
           }
         ],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "38001.jpg"
+            "image": "3/Orc-Rabble.jpg"
           },
           {
             "type": "enemy",
-            "image": "38001.jpg"
+            "image": "3/Orc-Rabble.jpg"
           },
           {
             "type": "enemy",
-            "image": "38001.jpg"
+            "image": "3/Orc-Rabble.jpg"
           },
           {
             "type": "enemy",
-            "image": "38002.jpg"
+            "image": "3/Orc-Arsonist.jpg"
           },
           {
             "type": "enemy",
-            "image": "38002.jpg"
+            "image": "3/Orc-Arsonist.jpg"
           },
           {
             "type": "enemy",
-            "image": "38002.jpg"
+            "image": "3/Orc-Arsonist.jpg"
           },
           {
             "type": "treachery",
-            "image": "38003.jpg"
+            "image": "3/Scourge-of-Mordor.jpg"
           },
           {
             "type": "treachery",
-            "image": "38003.jpg"
+            "image": "3/Scourge-of-Mordor.jpg"
           },
           {
             "type": "enemy",
-            "image": "37001.jpg"
+            "image": "3/Lieutenant-of-Mordor.jpg"
           },
           {
             "type": "enemy",
-            "image": "37002.jpg"
+            "image": "3/Orc-Arbalesters.jpg"
           },
           {
             "type": "enemy",
-            "image": "37002.jpg"
+            "image": "3/Orc-Arbalesters.jpg"
           },
           {
             "type": "enemy",
-            "image": "37002.jpg"
+            "image": "3/Orc-Arbalesters.jpg"
           },
           {
             "type": "enemy",
-            "image": "37003.jpg"
+            "image": "3/Orc-Vanguard.jpg"
           },
           {
             "type": "enemy",
-            "image": "37003.jpg"
+            "image": "3/Orc-Vanguard.jpg"
           },
           {
             "type": "location",
-            "image": "37004.jpg"
+            "image": "3/Orc-War-Camp.jpg"
           },
           {
             "type": "location",
-            "image": "37004.jpg"
+            "image": "3/Orc-War-Camp.jpg"
           },
           {
             "type": "treachery",
-            "image": "37005.jpg"
+            "image": "3/The-Masters-Malice.jpg"
           },
           {
             "type": "treachery",
-            "image": "37005.jpg"
+            "image": "3/The-Masters-Malice.jpg"
           },
           {
             "type": "treachery",
-            "image": "37006.jpg"
+            "image": "3/The-Power-of-Mordor.jpg"
           },
           {
             "type": "enemy",
-            "image": "36001.jpg"
+            "image": "3/Southron-Mercenaries.jpg"
           },
           {
             "type": "enemy",
-            "image": "36001.jpg"
+            "image": "3/Southron-Mercenaries.jpg"
           },
           {
             "type": "enemy",
-            "image": "36001.jpg"
+            "image": "3/Southron-Mercenaries.jpg"
           },
           {
             "type": "enemy",
-            "image": "36002.jpg"
+            "image": "3/Haradrim-Elite.jpg"
           },
           {
             "type": "enemy",
-            "image": "36002.jpg"
+            "image": "3/Haradrim-Elite.jpg"
           },
           {
             "type": "enemy",
-            "image": "36003.jpg"
+            "image": "3/Mumak.jpg"
           },
           {
             "type": "treachery",
-            "image": "36004.jpg"
+            "image": "3/Southron-Support.jpg"
           },
           {
             "type": "treachery",
-            "image": "36004.jpg"
+            "image": "3/Southron-Support.jpg"
           },
           {
             "type": "enemy",
-            "image": "31001.jpg"
+            "image": "3/Orc-Scramblers.jpg"
           },
           {
             "type": "enemy",
-            "image": "31001.jpg"
+            "image": "3/Orc-Scramblers.jpg"
           },
           {
             "type": "enemy",
-            "image": "31001.jpg"
+            "image": "3/Orc-Scramblers.jpg"
           },
           {
             "type": "enemy",
-            "image": "31002.jpg"
+            "image": "3/Battering-Ram.jpg"
           },
           {
             "type": "enemy",
-            "image": "31002.jpg"
+            "image": "3/Battering-Ram.jpg"
           },
           {
             "type": "enemy",
-            "image": "31002.jpg"
+            "image": "3/Battering-Ram.jpg"
           },
           {
             "type": "enemy",
-            "image": "31003.jpg"
+            "image": "3/Siege-Raft.jpg"
           },
           {
             "type": "enemy",
-            "image": "31003.jpg"
+            "image": "3/Siege-Raft.jpg"
           },
           {
             "type": "treachery",
-            "image": "31007.jpg"
+            "image": "3/Orc-Assault.jpg"
           },
           {
             "type": "treachery",
-            "image": "31007.jpg"
+            "image": "3/Orc-Assault.jpg"
           }
         ],
         "discardPile": []
@@ -4547,197 +4547,197 @@
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "32001.jpg"
+            "image": "3/Pickpocket.jpg"
           },
           {
             "type": "enemy",
-            "image": "32001.jpg"
+            "image": "3/Pickpocket.jpg"
           },
           {
             "type": "enemy",
-            "image": "32001.jpg"
+            "image": "3/Pickpocket.jpg"
           },
           {
             "type": "location",
-            "image": "32002.jpg"
+            "image": "3/City-Street.jpg"
           },
           {
             "type": "location",
-            "image": "32002.jpg"
+            "image": "3/City-Street.jpg"
           },
           {
             "type": "location",
-            "image": "32002.jpg"
+            "image": "3/City-Street.jpg"
           },
           {
             "type": "location",
-            "image": "32003.jpg"
+            "image": "3/Market-Square.jpg"
           },
           {
             "type": "location",
-            "image": "32003.jpg"
+            "image": "3/Market-Square.jpg"
           },
           {
             "type": "treachery",
-            "image": "32004.jpg"
+            "image": "3/Lost-in-the-City.jpg"
           },
           {
             "type": "treachery",
-            "image": "32005.jpg"
+            "image": "3/Local-Trouble.jpg"
           },
           {
             "type": "treachery",
-            "image": "32005.jpg"
+            "image": "3/Local-Trouble.jpg"
           },
           {
             "type": "enemy",
-            "image": "33001.jpg"
+            "image": "3/Zealous-Traitor.jpg"
           },
           {
             "type": "enemy",
-            "image": "33001.jpg"
+            "image": "3/Zealous-Traitor.jpg"
           },
           {
             "type": "enemy",
-            "image": "33001.jpg"
+            "image": "3/Zealous-Traitor.jpg"
           },
           {
             "type": "enemy",
-            "image": "33002.jpg"
+            "image": "3/Lossarnach-Bandit.jpg"
           },
           {
             "type": "enemy",
-            "image": "33002.jpg"
+            "image": "3/Lossarnach-Bandit.jpg"
           },
           {
             "type": "enemy",
-            "image": "33003.jpg"
+            "image": "3/Umbar-Assassin.jpg"
           },
           {
             "type": "treachery",
-            "image": "33004.jpg"
+            "image": "3/Lurking-in-Shadows.jpg"
           },
           {
             "type": "treachery",
-            "image": "33004.jpg"
+            "image": "3/Lurking-in-Shadows.jpg"
           },
           {
             "type": "enemy",
-            "image": "39001.jpg"
+            "image": "3/Underworld-Dissident.jpg"
           },
           {
             "type": "enemy",
-            "image": "39001.jpg"
+            "image": "3/Underworld-Dissident.jpg"
           },
           {
             "type": "enemy",
-            "image": "39001.jpg"
+            "image": "3/Underworld-Dissident.jpg"
           },
           {
             "type": "enemy",
-            "image": "39001.jpg"
+            "image": "3/Underworld-Dissident.jpg"
           },
           {
             "type": "enemy",
-            "image": "39001.jpg"
+            "image": "3/Underworld-Dissident.jpg"
           },
           {
             "type": "enemy",
-            "image": "39002.jpg"
+            "image": "3/Daughter-of-Beruthiel.jpg"
           },
           {
             "type": "enemy",
-            "image": "39003.jpg"
+            "image": "3/The-Hand-of-Castamir.jpg"
           },
           {
             "type": "enemy",
-            "image": "39004.jpg"
+            "image": "3/Telemnars-Bane.jpg"
           },
           {
             "type": "location",
-            "image": "39005.jpg"
+            "image": "3/Sewers.jpg"
           },
           {
             "type": "location",
-            "image": "39005.jpg"
+            "image": "3/Sewers.jpg"
           },
           {
             "type": "location",
-            "image": "39005.jpg"
+            "image": "3/Sewers.jpg"
           },
           {
             "type": "location",
-            "image": "39007.jpg"
+            "image": "3/Storehouse.jpg"
           },
           {
             "type": "location",
-            "image": "39007.jpg"
+            "image": "3/Storehouse.jpg"
           },
           {
             "type": "location",
-            "image": "39008.jpg"
+            "image": "3/Houses-of-the-Dead.jpg"
           },
           {
             "type": "treachery",
-            "image": "39010.jpg"
+            "image": "3/Unwelcome-Discovery.jpg"
           },
           {
             "type": "treachery",
-            "image": "39010.jpg"
+            "image": "3/Unwelcome-Discovery.jpg"
           },
           {
             "type": "treachery",
-            "image": "39011.jpg"
+            "image": "3/A-Knife-in-the-Back.jpg"
           },
           {
             "type": "treachery",
-            "image": "39011.jpg"
+            "image": "3/A-Knife-in-the-Back.jpg"
           },
           {
             "type": "treachery",
-            "image": "39011.jpg"
+            "image": "3/A-Knife-in-the-Back.jpg"
           },
           {
             "type": "treachery",
-            "image": "39012.jpg"
+            "image": "3/False-Lead.jpg"
           },
           {
             "type": "treachery",
-            "image": "39012.jpg"
+            "image": "3/False-Lead.jpg"
           }
         ],
         "discardPile": [
           {
             "type": "location",
-            "image": "39006.jpg"
+            "image": "3/Roots-of-Mindolluin.jpg"
           },
           {
             "type": "objective",
-            "image": "39013.jpg"
+            "image": "3/A-Scrap-of-History.jpg"
           },
           {
             "type": "objective",
-            "image": "39014.jpg"
+            "image": "3/Secret-Map.jpg"
           },
           {
             "type": "objective",
-            "image": "39015.jpg"
+            "image": "3/A-Prisoner.jpg"
           },
           {
             "type": "objective",
-            "image": "39016.jpg"
+            "image": "3/Unholy-Alliance.jpg"
           },
           {
             "type": "objective",
-            "image": "39017.jpg"
+            "image": "3/Up-in-Flames.jpg"
           },
           {
             "type": "objective",
-            "image": "39018.jpg"
+            "image": "3/Poisoned-Counsels.jpg"
           },
           {
             "type": "location",
-            "image": "39009.jpg"
+            "image": "3/The-Fourth-Star.jpg"
           }
         ]
       },
@@ -4746,22 +4746,338 @@
         "difficult": 6,
         "title": "The Drúadan Forest",
         "text": "The heroes have unmasked a dangerous conspiracy within the walls of Minas Tirith, but the nameless mastermind of the cabal managed to escape the city before his true identity was revealed. At the request of Denethor, the heroes have pursued the clever villain and his henchmen northward. The conspirators’ trail has lead them north beyond the Rammas Echor, and then west to the doorstep of the Drúadan Forest, an ancient land with a hostile reputation. Now our heroes move to track their quarry among its ancient trees and strange stones... ",
-        "questDeck": [],
+        "questDeck": [
+          "2301A.jpg",
+          "2301B.jpg",
+          "2302A.jpg",
+          "2302B.jpg",
+          "2303A.jpg",
+          "2303B.jpg"
+        ],
         "activeLocation": null,
         "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lost-Companion.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lost-Companion.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Drummer.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Drummer.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Drummer.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Elite.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Elite.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Elite.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Hunter.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Hunter.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Hunter.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Hunter.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Thief.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Thief.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Thief.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Ancestral-Clearing.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Garden-of-Poisons.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Garden-of-Poisons.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Garden-of-Poisons.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Glade-of-Cleansing.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Glade-of-Cleansing.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Glade-of-Cleansing.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Men-in-the-Dark.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Men-in-the-Dark.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Men-in-the-Dark.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Stars-in-Sky.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Stars-in-Sky.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Stars-in-Sky.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Leaves-on-Tree.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Leaves-on-Tree.jpg"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "3/Dru-buri-Dru.jpg"
+          }
+        ]
       },
       {
         "id": 24,
         "difficult": 3,
         "title": "Encounter at Amon Dîn",
         "text": "Having escaped from the Drúadan Forest and witnessed the demise of the conspirators by the arrows of the Woses, the heroes have begun their journey back to Minas Tirith. In the morning of the second day, they awoke to a grim sight. Dozens of columns of smoke were rising across the hilly farmlands of Anórien. It seems death had crossed the Anduin after all.",
-        "questDeck": [],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "questDeck": [
+          "2401A.jpg",
+          "2401B.jpg",
+          "2402A.jpg",
+          "2402B.jpg"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "3/Burning-Farmhouse.jpg"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "3/Lord-Alcaron.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "3/Rescued-Villagers.jpg"
+          },
+          {
+            "type": "objective",
+            "image": "3/Dead-Villagers.jpg"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Marauding-Orc.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Marauding-Orc.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Marauding-Orc.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Marauding-Orc.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ravager.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ravager.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ravager.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Craven-Eagle.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Craven-Eagle.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Burning-Farmhouse.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Burning-Farmhouse.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Burning-Farmhouse.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Gondorian-Hamlet.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Gondorian-Hamlet.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Gondorian-Hamlet.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Gondorian-Hamlet.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Farmhouse.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Farmhouse.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Farmhouse.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Burnt-Homestead.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Burnt-Homestead.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Trapped-Inside.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Trapped-Inside.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Panicked.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Panicked.jpg"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "3/Ghulat.jpg"
+          }
+        ]
       },
       {
         "id": 25,

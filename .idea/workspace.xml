@@ -4,31 +4,72 @@
     <list default="true" id="b70523cd-ef27-422f-83db-87002a0250b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/card/card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/card/card.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/mission/mission.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mission/mission.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/missions.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/missions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/26013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/27009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/29001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/29002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/29003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/29004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/29005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/29006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/30001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/30002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/30003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/30004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/30005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/31001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/31002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/31003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/31004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/31005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/31006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/31007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/32001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/32002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/32003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/32004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/32005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/33001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/33002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/33003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/33004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/34001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/34002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/34003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/35001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/35002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/35003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/36001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/36002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/36003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/36004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/37001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/37002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/37003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/37004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/37005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/37006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/38001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/38002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/38003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/encounter/39018.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +159,7 @@
       <workItem from="1610300842584" duration="315000" />
       <workItem from="1610360705072" duration="10574000" />
       <workItem from="1610548630839" duration="9331000" />
-      <workItem from="1610629553351" duration="20085000" />
+      <workItem from="1610629553351" duration="23356000" />
     </task>
     <servers />
   </component>

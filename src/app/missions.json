@@ -5084,10 +5084,215 @@
         "difficult": 5,
         "title": "Assault on Osgiliath",
         "text": "After saving the villagers near Amon Dîn, the heroes have joined with Lord Alcaron to assist Lord Boromir’s forces in retaking Osgiliath. At the army encampment, you are thrilled to again meet Lord Faramir, and you are introduced to his brother Boromir, eldest son of Denethor and renowned hero of Gondor. Nestled on both sides of the Anduin lies old Osgiliath, a crossroads city bridging the great river. In the long war against Mordor, control of Osgiliath has been a critical piece. One that Boromir means to reclaim. ",
-        "questDeck": [],
+        "questDeck": [
+          "2501A.jpg",
+          "2501B.jpg"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Lieutenant.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/West-Gate.jpg"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Lieutenant-of-Mordor.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Power-of-Mordor.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Haradrim-Elite.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Haradrim-Elite.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Mumak.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Southron-Support.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Southron-Support.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Lieutenant.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Soldier.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Soldier.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Soldier.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Soldier.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Phalanx.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Phalanx.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Phalanx.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Commander.jpg"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Commander.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Kings-Library.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Ancient-Harbor.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Old-Bridge.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/West-Quarter.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/West-Quarter.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/East-Quarter.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/East-Quarter.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Square.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Square.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Square.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Tower.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Tower.jpg"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Tower.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Pinned-Down.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Pinned-Down.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Street-Fighting.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Street-Fighting.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Counter-attack.jpg"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Counter-attack.jpg"
+          }
+        ],
         "discardPile": []
       },
       {

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import {Observable, of} from 'rxjs';
 
-import Missions from '../missions.json';
+import Missions from '../mission/mission-data.json';
 
 @Component({
   selector: 'app-home',

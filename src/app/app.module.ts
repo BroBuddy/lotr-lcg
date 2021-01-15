@@ -17,6 +17,7 @@ import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
 import {GlossaryComponent} from './glossary/glossary.component';
 import {ImageZoomComponent} from './image-zoom/image-zoom.component';
+import {QuestComponent} from './quest/quest.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {ImageZoomComponent} from './image-zoom/image-zoom.component';
     GlossaryComponent,
     CardComponent,
     CounterComponent,
-    ImageZoomComponent
+    ImageZoomComponent,
+    QuestComponent
   ],
   imports: [
     BrowserModule,

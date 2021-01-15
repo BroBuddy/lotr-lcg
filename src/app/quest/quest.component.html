@@ -1,0 +1,141 @@
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="5px grid" [ngStyle]="{ 'height': '430px' }">
+    <div fxFlex="15" fxLayoutAlign="start">
+        <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
+             [lazyLoad]="'/assets/img/deck.jpg'"
+             [matTooltip]="'Encounter deck'"
+             [matTooltipPosition]="'right'"
+             width="150" height="210" alt=""
+             (click)="onDrawCard()"
+             *ngIf="encounterDeck?.length" />
+    </div>
+
+    <div fxFlex="70" fxLayoutAlign="center">
+      <span *ngFor="let card of stagingArea; let i = index; trackBy: trackByFn">
+        <app-card [card]="card"
+                  (activateCard)="onCardActivation(card)"
+                  (deactivateCard)="onCardDeactivation(card, 'staging')"></app-card>
+      </span>
+    </div>
+
+    <div fxFlex="15" fxLayoutAlign="end">
+      <span *ngIf="activeLocation">
+        <app-card [card]="activeLocation"
+                  (activateCard)="onUpdateLocation(activeLocation, true)"
+                  (deactivateCard)="onCardDeactivation(activeLocation, 'location')"
+                  [matTooltip]="'Active location'"
+                  [matTooltipPosition]="'left'"></app-card>
+      </span>
+    </div>
+</div>
+
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid" [ngStyle]="{ 'height': '470px' }">
+    <div fxFlex="15" fxLayoutAlign="start">
+        <ng-container *ngIf="shadowCard">
+            <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
+                 [lazyLoad]="'/assets/img/encounter/' + shadowCard.image"
+                 [matTooltip]="'Shadow card'"
+                 [matTooltipPosition]="'right'"
+                 (mouseover)="zoomService.mouseover('/assets/img/encounter/', shadowCard.image, 'left')"
+                 (mouseout)="zoomService.mouseout()"
+                 width="150" height="210" alt=""
+                 (click)="onDiscardShadow()" />
+        </ng-container>
+
+        <ng-container *ngIf="!shadowCard">
+            <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
+                 [lazyLoad]="'/assets/img/shadow.jpg'"
+                 [matTooltip]="'Shadow card'"
+                 [matTooltipPosition]="'right'"
+                 width="150" height="210" alt=""
+                 (click)="onDrawShadow()"
+                 *ngIf="encounterDeck?.length" />
+        </ng-container>
+    </div>
+
+    <div fxFlex="70" fxLayoutAlign="center">
+      <span *ngFor="let card of engagingArea; trackBy: trackByFn">
+        <app-card [card]="card"
+                  (activateCard)="onDefeatEnemy(card, true)"
+                  (deactivateCard)="onCardDeactivation(card, 'engaging')"></app-card>
+      </span>
+    </div>
+
+    <div fxFlex="15" fxLayoutAlign="end">
+        <div *ngIf="questDeck?.length >= 1">
+            <app-counter></app-counter>
+
+            <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">
+          <img [src]="'/assets/img/quest/' + quest"
+               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest, 'left')"
+               (mouseout)="zoomService.mouseout()"
+               width="105" alt="" hspace="5" vspace="5"
+               [matTooltip]="'Quest card'"
+               [matTooltipPosition]="'left'"
+               [ngClass]="questStep === i ? 'active-quest' : 'inactive-quest'"
+               (click)="onChangeQuest(i)" />
+        </span>
+        </div>
+    </div>
+</div>
+
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+    <div fxFlex="100">
+        <mat-card>
+            <mat-card-content>
+                <mat-tab-group color="accent" animationDuration="0ms">
+                    <mat-tab>
+                        <ng-template mat-tab-label>
+                            Discard pile: {{ discardPile?.length }}
+                        </ng-template>
+
+                        <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+                            <ng-container *ngFor="let card of discardPile; trackBy: trackByFn">
+                                <div fxFlex="25">
+                                    <button mat-button type="button" (click)="onResetCard('encounter', card)">
+                                        <mat-icon>wifi_protected_setup</mat-icon>
+                                    </button>
+
+                                    <button mat-button type="button" (click)="onResetCard('staging', card)">
+                                        <mat-icon>pan_tool</mat-icon>
+                                    </button>
+
+                                    <button mat-button type="button" color="accent">
+                                        {{ card.image.substr(2, card.image.length) }}
+                                    </button>
+                                </div>
+                            </ng-container>
+                        </div>
+                    </mat-tab>
+
+                    <mat-tab>
+                        <ng-template mat-tab-label>
+                            Encounter deck: {{ encounterDeck?.length }}
+                        </ng-template>
+
+                        <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+                            <ng-container *ngFor="let card of encounterDeck; let i = index; trackBy: trackByFn">
+                                <div fxFlex="25">
+                                    <button mat-button type="button" (click)="onChooseCard(card, i)">
+                                        <mat-icon>pan_tool</mat-icon>
+                                    </button>
+
+                                    <button mat-button type="button" color="accent">
+                                        {{ card.image.substr(2, card.image.length) }}
+                                    </button>
+                                </div>
+                            </ng-container>
+                        </div>
+                    </mat-tab>
+
+                    <mat-tab>
+                        <ng-template mat-tab-label>
+                            Glossary
+                        </ng-template>
+
+                        <app-glossary></app-glossary>
+                    </mat-tab>
+                </mat-tab-group>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

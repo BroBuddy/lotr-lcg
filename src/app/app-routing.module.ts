@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import {MissionComponent} from './mission/mission.component';
 import {RulesComponent} from './rules/rules.component';
+import {QuestComponent} from './quest/quest.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'mission/:cId/:mId',
     component: MissionComponent
+  },
+  {
+    path: 'mission/:cId/:mId/quest',
+    component: QuestComponent
   }
 ];
 

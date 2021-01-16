@@ -147,10 +147,12 @@ export class GameComponent implements OnInit {
       if (discovered) {
         this.discardPile.push(this.activeLocation);
       }
+
       this.activeLocation = null;
     } else {
       if (this.activeLocation) {
-        this.toastr.error('Active location still occupied');
+        this.discardPile.push(card);
+        this.removeCardFromStaging(card);
       } else {
         setTimeout(() => {
           this.removeCardFromStaging(card);
@@ -199,7 +201,7 @@ export class GameComponent implements OnInit {
       this.onShuffleEncounter();
       this.toastr.info('Deck was shuffled');
     } else {
-      this.stagingArea.unshift(card);
+      this.stagingArea.push(card);
     }
 
     const discardPile = [...this.discardPile],
@@ -209,7 +211,7 @@ export class GameComponent implements OnInit {
   }
 
   onChooseCard(card: any, index: number): void {
-    this.stagingArea.unshift(card);
+    this.stagingArea.push(card);
 
     this.encounterDeck = this.encounterDeck.slice(0, Number(index)).concat(this.encounterDeck.slice(Number(index) + 1));
   }

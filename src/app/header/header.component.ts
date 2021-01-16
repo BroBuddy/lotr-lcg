@@ -12,22 +12,32 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  public threat = 28;
+  public playerCount = 1;
+  public firstPlayerThreat = 28;
+  public secondPlayerThreat = 28;
 
-  setThreat(amount?: number): void {
-    this.threat = amount;
-  }
-
-  decreaseThreat(amount?: number): void {
-    if (amount) {
-      this.threat = this.threat - amount;
+  setThreat(player: string, amount?: number): void {
+    if (player === 'first') {
+      this.firstPlayerThreat = amount;
     } else {
-      this.threat--;
+      this.secondPlayerThreat = amount;
     }
   }
 
-  increaseThreat(): void {
-    this.threat++;
+  decreaseThreat(player: string): void {
+    if (player === 'first') {
+      this.firstPlayerThreat--;
+    } else {
+      this.secondPlayerThreat--;
+    }
+  }
+
+  increaseThreat(player: string): void {
+    if (player === 'first') {
+      this.firstPlayerThreat++;
+    } else {
+      this.secondPlayerThreat++;
+    }
   }
 
 }

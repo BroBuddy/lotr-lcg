@@ -6,25 +6,49 @@
   </div>
 
   <div fxLayoutAlign="space-around center">
-    <button mat-button color="warn" (click)="decreaseThreat(5)">
-      Gandalf
-    </button>
+    <div [ngStyle]="{ 'width': '140px' }" fxLayoutAlign="center">
+      <button mat-icon-button (click)="decreaseThreat('first')">
+        <mat-icon>remove_circle_outline</mat-icon>
+      </button>
 
-    <button mat-icon-button (click)="decreaseThreat()">
-      <mat-icon>remove_circle_outline</mat-icon>
-    </button>
+      <button mat-button color="accent" (click)="setThreat('first', 28)">
+        {{ firstPlayerThreat }}
+      </button>
 
-    <button mat-button (click)="setThreat(28)">
-      {{ threat }}
-    </button>
+      <button mat-icon-button (click)="increaseThreat('first')">
+        <mat-icon>add_circle_outline</mat-icon>
+      </button>
+    </div>
 
-    <button mat-icon-button (click)="increaseThreat()">
-      <mat-icon>add_circle_outline</mat-icon>
-    </button>
+    <div [ngStyle]="{ 'width': '100px' }" fxLayoutAlign="center">
+      <button mat-icon-button
+              *ngIf="playerCount === 1"
+              (click)="playerCount = 2">
+        <mat-icon color="accent">person_add</mat-icon>
+      </button>
 
-    <button mat-button color="warn" (click)="decreaseThreat(6)">
-      Galadhrim
-    </button>
+      <button mat-icon-button
+              *ngIf="playerCount === 2"
+              (click)="playerCount = 1">
+        <mat-icon color="accent">person_remove</mat-icon>
+      </button>
+    </div>
+
+    <div [ngStyle]="{ 'width': '140px' }" fxLayoutAlign="center">
+      <ng-container *ngIf="playerCount >= 2">
+        <button mat-icon-button (click)="decreaseThreat('second')">
+          <mat-icon>remove_circle_outline</mat-icon>
+        </button>
+
+        <button mat-button color="accent" (click)="setThreat('second', 28)">
+          {{ secondPlayerThreat }}
+        </button>
+
+        <button mat-icon-button (click)="increaseThreat('second')">
+          <mat-icon>add_circle_outline</mat-icon>
+        </button>
+      </ng-container>
+    </div>
   </div>
 
   <div fxLayoutAlign="space-around center">

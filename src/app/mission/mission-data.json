@@ -5470,11 +5470,213 @@
         "difficult": 8,
         "title": "The Morgul Vale",
         "text": "While pursuing the scattered enemy forces into Ithilien, Faramir’s company of rangers are ambushed by orcs near the old crossroads. During the ensuing fight, both Lord Faramir and Lord Alcaron are captured. At the thought of Denethor’s son in Sauron’s torture chambers, the heroes begin a desperate pursuit. Following frantic hours of tracking, they find themselves at the mouth of the dread Morgul Valley. As the Dead City comes into distant view, they have come upon their quarry at last. ",
-        "questDeck": [],
+        "questDeck": [
+          "2701A",
+          "2701B",
+          "2702A",
+          "2702B",
+          "2703A",
+          "2703B"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "3/To-the-Tower"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Murzag"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Vale"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Watcher-in-the-Wood"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Watcher-in-the-Wood"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Lieutenant-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Power-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Sorcerer"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Sorcerer"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Tracker"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Tracker"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Tracker"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Vale"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Vale"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Impenetrable-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Impenetrable-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Sleepless-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Sleepless-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Dead-City-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Dead-City-Looms"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "3/Lord-Alcaron-3"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Nazgul-of-Minas-Morgul"
+          },
+          {
+            "type": "location",
+            "image": "3/The-White-Bridge"
+          }
+        ]
       }
     ]
   },

@@ -5689,10 +5689,155 @@
         "difficult": 6,
         "title": "The Fords of Isen",
         "text": "The heroes came upon the dead rider as the afternoon darkened and the rain threatened to turn to ice. They found him facedown on the old road where he lay still and broken among the yellowing grasses. Life had been hacked from his body with axes, nearly destroying the sigil of Rohan on his hauberk. Not far from him lay the remains of his horse, a proud Mearas slain by black-fletched arrows in its graceful neck. As they dismounted to prepare a simple cairn for the body, a gust of western wind suddenly carried the familiar clangor of steel and screams. The dead man’s killers had found new victims. Rain and aching bodies momentarily forgotten, the heroes remounted and urged their horses to speed. ",
-        "questDeck": [],
+        "questDeck": [
+          "2801A",
+          "2801B",
+          "2802A",
+          "2802B",
+          "2803A",
+          "2803B"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "4/Grima"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Islet"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunlending-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunlending-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Raider"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Raider"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Old-Hatreds"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Old-Hatreds"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Fords-of-Isen"
+          },
+          {
+            "type": "location",
+            "image": "4/Fords-of-Isen"
+          },
+          {
+            "type": "location",
+            "image": "4/Fords-of-Isen"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Kings-Road"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Kings-Road"
+          },
+          {
+            "type": "location",
+            "image": "4/Gap-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "4/Gap-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "4/Gap-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "4/Gap-of-Rohan"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Pillaging-and-Burning"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Pillaging-and-Burning"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Down-from-the-Hills"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Ill-Tidings"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Ill-Tidings"
+          }
+        ],
         "discardPile": []
       },
       {
@@ -5700,16 +5845,174 @@
         "difficult": 7,
         "title": "To Catch an Orc",
         "text": "Saruman received Gríma and his escort at the steps of Orthanc. The strange black tower rose coldly from the midst of Isengard’s luscious gardens. It’s ebon walls seemed out of place among the greenery of the vale and stood in stark contrast to Saruman’s brilliant white robes. Saruman, somehow, had already known about the affair at the ford. He lavished praise on the heroes for their rescue, and reassured Threol. The Dunlendings have grown daring of late, dear Captain.” The wizard spoke with a silky voice. It was a voice that enthralled, a voice that rung wiser than the wind, and its faint lilt was as encouraging as dawn itself. “Such an attack surely could not have been imagined until this ambush.”",
-        "questDeck": [],
+        "questDeck": [
+          "2901A",
+          "2901B",
+          "2902A",
+          "2902B",
+          "2903A",
+          "2903B"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "4/Methedras"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands-Location"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands-Location"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands-Location"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Methedras-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Methedras-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Methedras-Orc"
+          },
+          {
+            "type": "location",
+            "image": "4/Methedras"
+          },
+          {
+            "type": "location",
+            "image": "4/Methedras"
+          },
+          {
+            "type": "location",
+            "image": "4/Methedras"
+          },
+          {
+            "type": "location",
+            "image": "4/Orc-Cave"
+          },
+          {
+            "type": "location",
+            "image": "4/Orc-Cave"
+          },
+          {
+            "type": "location",
+            "image": "4/Orc-Cave"
+          },
+          {
+            "type": "location",
+            "image": "4/Mugashs-Lair"
+          },
+          {
+            "type": "location",
+            "image": "4/Mugashs-Lair"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Territory"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Territory"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Mugash"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Mugashs-Guard"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Mugashs-Guard"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Mugashs-Guard"
+          }
+        ]
       },
       {
         "id": 30,
         "difficult": 4,
-        "title": "Into Fangorn",
+        "title": "",
         "text": "Mugash was free and running. The sickness lingered in his body, but he savored its malevolent presence. Because of it, his tormentors had thought him near death and loosened his bonds. The fools had even fed him. Mugash’s arms and legs stung. His joints were swollen and throbbing where the ropes had tied him to the poles. His limbs had been useless the first few miles of his escape, and he’d crawled like a worm down the mountainside, pushing himself forward with shoulders and hips. The great Orc had laughed at the pain. His way, the way of the Uruk, was not one of stealth and silence, but last night on the mountainside, stealth and silence had been his closest friends. He flexed his hands. Through the pain he felt strength returning. He had outwitted the hated bright-eyed humans, and now he was free. ",
         "questDeck": [],
         "activeLocation": null,

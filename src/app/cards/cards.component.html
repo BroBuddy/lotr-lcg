@@ -1,0 +1,69 @@
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+    <div fxFlex="100">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Cards</mat-card-title>
+                <mat-card-subtitle>Card size: {{ cardsSize }}</mat-card-subtitle>
+            </mat-card-header>
+
+            <mat-card-content>
+                <table mat-table [dataSource]="cards" matSort>
+                    <ng-container matColumnDef="name">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.name }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="sphere_name">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Sphere </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.sphere_name }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="type_name">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Type </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.type_name }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="threat">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Threat </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.threat }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="willpower">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Willpower </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.willpower }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="attack">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Attack </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.attack }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="defense">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Defense </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.defense }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="health">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Health </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.health }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="traits">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Traits </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.traits }} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="pack_name">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Pack </th>
+                        <td mat-cell *matCellDef="let element"> {{ element.pack_name }} </td>
+                    </ng-container>
+
+                    <tr mat-header-row *matHeaderRowDef="columns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+                </table>
+
+                <mat-paginator [pageSizeOptions]="[12, 24, 36]" showFirstLastButtons></mat-paginator>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

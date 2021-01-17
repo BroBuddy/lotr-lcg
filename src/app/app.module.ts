@@ -19,6 +19,8 @@ import {ImageZoomComponent} from './image-zoom/image-zoom.component';
 import {GameComponent} from './game/game.component';
 import {RulesComponent} from './rules/rules.component';
 import {PacksComponent} from './packs/packs.component';
+import {CardsComponent} from './cards/cards.component';
+import {KeywordsComponent} from './keywords/keywords.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import {PacksComponent} from './packs/packs.component';
     MissionComponent,
     GlossaryComponent,
     CardComponent,
+    CardsComponent,
+    KeywordsComponent,
     CounterComponent,
     ImageZoomComponent
   ],

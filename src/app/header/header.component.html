@@ -52,12 +52,30 @@
   </div>
 
   <div fxLayoutAlign="space-around center">
-    <button mat-button routerLink="/packs">
-      Packs
+    <button mat-icon-button [matMenuTriggerFor]="navi">
+      <mat-icon>more_vert</mat-icon>
     </button>
 
-    <button mat-button routerLink="/rules">
-      Rules of play
-    </button>
+    <mat-menu #navi="matMenu">
+      <button mat-menu-item routerLink="/cards">
+        <mat-icon>content_copy</mat-icon>
+        Cards
+      </button>
+
+      <button mat-menu-item routerLink="/packs">
+        <mat-icon>redeem</mat-icon>
+        Packs
+      </button>
+
+      <button mat-menu-item routerLink="/keywords">
+        <mat-icon>menu_book</mat-icon>
+        Keywords
+      </button>
+
+      <button mat-menu-item routerLink="/rules">
+        <mat-icon>description</mat-icon>
+        Rules of play
+      </button>
+    </mat-menu>
   </div>
 </mat-toolbar>

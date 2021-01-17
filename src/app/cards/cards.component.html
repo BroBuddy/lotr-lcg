@@ -13,14 +13,20 @@
                         <td mat-cell *matCellDef="let element"> {{ element.name }} </td>
                     </ng-container>
 
-                    <ng-container matColumnDef="sphere_name">
+                    <ng-container matColumnDef="sphere_code">
                         <th mat-header-cell *matHeaderCellDef mat-sort-header> Sphere </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.sphere_name }} </td>
+                        <td mat-cell *matCellDef="let element">
+                            <span [ngClass]="'icon icon-' + element.sphere_code"></span>
+                            {{ element.sphere_name }}
+                        </td>
                     </ng-container>
 
-                    <ng-container matColumnDef="type_name">
+                    <ng-container matColumnDef="type_code">
                         <th mat-header-cell *matHeaderCellDef mat-sort-header> Type </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.type_name }} </td>
+                        <td mat-cell *matCellDef="let element">
+                            <span [ngClass]="'icon icon-' + element.type_code"></span>
+                            {{ element.type_name }}
+                        </td>
                     </ng-container>
 
                     <ng-container matColumnDef="threat">

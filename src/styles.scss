@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 @import '~ngx-toastr/toastr';
 
+@font-face {
+  font-family: "Icons";
+  src: local("Icons"), url(./assets/fonts/Icons.ttf) format("truetype");
+}
+
 body {
   background-image: url("/assets/img/playmat.jpg");
   background-size: auto;
@@ -59,4 +64,111 @@ mat-card,
 mat-expansion-panel {
   background-color: transparent !important;
   z-index: 400;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tactics:before {
+  color: #c00106;
+  content: "\e60a";
+}
+
+.icon-spirit:before {
+  color: #00b1d4;
+  content: "\e608";
+}
+
+.icon-leadership:before {
+  color: #ad62a5;
+  content: "\e609";
+}
+
+.icon-lore:before {
+  color: #51b848;
+  content: "\e60b";
+}
+
+.icon-neutral:before {
+  content: "\e60e";
+}
+
+.icon-baggins:before {
+  color: #b39e26;
+  content: "\e60c";
+}
+
+.icon-fellowship:before {
+  color: #b56c0c;
+  content: "\e60d";
+}
+
+.icon-hero,
+.icon-ally,
+.icon-event,
+.icon-attachment {
+  position: relative;
+
+  :before {
+    opacity: 0;
+  }
+
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+  }
+}
+
+.icon-hero {
+  &:before {
+    content: "\e622";
+  }
+
+  &:after {
+    content: "\e61b";
+  }
+}
+
+.icon-ally {
+  &:before {
+    content: "\e623";
+  }
+
+  &:after {
+    content: "\e61c";
+  }
+}
+
+.icon-event {
+  &:before {
+    content: "\e625";
+  }
+
+  &:after {
+    content: "\e61e";
+  }
+}
+
+
+.icon-attachment {
+  &:before {
+    content: "\e624";
+  }
+
+  &:after {
+    content: "\e61d";
+  }
 }

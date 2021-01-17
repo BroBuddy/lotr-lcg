@@ -17,7 +17,7 @@ export class CardsComponent implements OnInit, AfterViewInit {
 
     public cards: any = [];
     public cardsSize: number;
-    public columns: string[] = ['name', 'sphere_name', 'type_name', 'threat', 'willpower', 'attack', 'defense', 'health', 'traits', 'pack_name'];
+    public columns: string[] = ['name', 'sphere_code', 'type_code', 'threat', 'willpower', 'attack', 'defense', 'health', 'traits', 'pack_name'];
 
     @ViewChild(MatPaginator, { static: false } as any) paginator: MatPaginator;
     @ViewChild(MatSort, { static: false } as any) sort: MatSort;

@@ -20,10 +20,11 @@ body {
 }
 
 button,
-.mat-tab-label-content,
 mat-card-title,
 mat-card-subtitle,
-mat-panel-title {
+mat-panel-title,
+.toast-container,
+.mat-tab-label-content {
   font-family: "Redressed" !important;
   font-size: 18px !important;
 }

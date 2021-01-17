@@ -11,7 +11,10 @@
         <mat-icon>remove_circle_outline</mat-icon>
       </button>
 
-      <button mat-button color="accent" (click)="setThreat('first', 28)">
+      <button mat-button
+              [matTooltip]="'Threat Tracker'"
+              [color]="firstPlayerThreat <= 49 ? 'accent' : 'warn'"
+              (click)="setThreat('first', 28)">
         {{ firstPlayerThreat }}
       </button>
 
@@ -40,7 +43,10 @@
           <mat-icon>remove_circle_outline</mat-icon>
         </button>
 
-        <button mat-button color="accent" (click)="setThreat('second', 28)">
+        <button mat-button
+                [matTooltip]="'Threat Tracker'"
+                [color]="secondPlayerThreat <= 49 ? 'accent' : 'warn'"
+                (click)="setThreat('second', 28)">
           {{ secondPlayerThreat }}
         </button>
 

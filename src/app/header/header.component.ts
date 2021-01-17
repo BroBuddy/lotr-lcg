@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ToastrService} from 'ngx-toastr';
 
 @Component({
   selector: 'app-header',
@@ -16,6 +17,8 @@ export class HeaderComponent {
   public firstPlayerThreat = 28;
   public secondPlayerThreat = 28;
 
+  constructor(private toastr: ToastrService) {}
+
   setThreat(player: string, amount?: number): void {
     if (player === 'first') {
       this.firstPlayerThreat = amount;
@@ -26,17 +29,33 @@ export class HeaderComponent {
 
   decreaseThreat(player: string): void {
     if (player === 'first') {
-      this.firstPlayerThreat--;
+      if (this.firstPlayerThreat >= 1) {
+        this.firstPlayerThreat--;
+      }
     } else {
-      this.secondPlayerThreat--;
+      if (this.secondPlayerThreat >= 1) {
+        this.secondPlayerThreat--;
+      }
     }
   }
 
   increaseThreat(player: string): void {
     if (player === 'first') {
-      this.firstPlayerThreat++;
+      if (this.firstPlayerThreat <= 49) {
+        this.firstPlayerThreat++;
+
+        if(this.firstPlayerThreat === 50) {
+          this.toastr.error('1st player is eliminated');
+        }
+      }
     } else {
-      this.secondPlayerThreat++;
+      if (this.secondPlayerThreat <= 49) {
+        this.secondPlayerThreat++;
+
+        if(this.secondPlayerThreat === 50) {
+          this.toastr.error('2nd player is eliminated');
+        }
+      }
     }
   }
 

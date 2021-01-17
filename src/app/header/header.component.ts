@@ -59,4 +59,8 @@ export class HeaderComponent {
     }
   }
 
+  onOpenLink(url: string): void {
+    window.open(url, '_blank');
+  }
+
 }

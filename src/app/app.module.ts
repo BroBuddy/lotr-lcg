@@ -17,7 +17,6 @@ import {CardComponent} from './card/card.component';
 import {GlossaryComponent} from './glossary/glossary.component';
 import {ImageZoomComponent} from './image-zoom/image-zoom.component';
 import {GameComponent} from './game/game.component';
-import {RulesComponent} from './rules/rules.component';
 import {PacksComponent} from './packs/packs.component';
 import {CardsComponent} from './cards/cards.component';
 import {KeywordsComponent} from './keywords/keywords.component';
@@ -28,7 +27,6 @@ import {KeywordsComponent} from './keywords/keywords.component';
     HeaderComponent,
     HomeComponent,
     PacksComponent,
-    RulesComponent,
     GameComponent,
     MissionComponent,
     GlossaryComponent,

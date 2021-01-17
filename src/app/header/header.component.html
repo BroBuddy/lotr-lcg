@@ -1,7 +1,28 @@
 <mat-toolbar color="accent" fxLayoutAlign="space-between">
   <div fxLayoutAlign="space-around center">
-    <button mat-button routerLink="/">
-      Lord of the rings
+    <button mat-icon-button type="button" [matMenuTriggerFor]="navi">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <mat-menu #navi="matMenu">
+      <button mat-menu-item routerLink="/cards">
+        <mat-icon>content_copy</mat-icon>
+        Cards
+      </button>
+
+      <button mat-menu-item routerLink="/packs">
+        <mat-icon>redeem</mat-icon>
+        Packs
+      </button>
+
+      <button mat-menu-item routerLink="/keywords">
+        <mat-icon>menu_book</mat-icon>
+        Keywords
+      </button>
+    </mat-menu>
+
+    <button mat-button type="button" routerLink="/">
+      Lord of the rings - The card game
     </button>
   </div>
 
@@ -58,30 +79,14 @@
   </div>
 
   <div fxLayoutAlign="space-around center">
-    <button mat-icon-button [matMenuTriggerFor]="navi">
-      <mat-icon>more_vert</mat-icon>
+    <button mat-button (click)="onOpenLink('https://www.youtube.com/watch?list=PLC3E0FF573F545F56&v=iMyPOFf7Vy4&feature=emb_title&ab_channel=FantasyFlightGames')">
+      <mat-icon>play_circle_outline</mat-icon>
+      Tutorial
     </button>
 
-    <mat-menu #navi="matMenu">
-      <button mat-menu-item routerLink="/cards">
-        <mat-icon>content_copy</mat-icon>
-        Cards
-      </button>
-
-      <button mat-menu-item routerLink="/packs">
-        <mat-icon>redeem</mat-icon>
-        Packs
-      </button>
-
-      <button mat-menu-item routerLink="/keywords">
-        <mat-icon>menu_book</mat-icon>
-        Keywords
-      </button>
-
-      <button mat-menu-item routerLink="/rules">
-        <mat-icon>description</mat-icon>
-        Rules of play
-      </button>
-    </mat-menu>
+    <button mat-button (click)="onOpenLink('https://images-cdn.fantasyflightgames.com/ffg_content/lotr-lcg/LOTR%20Rules.pdf')">
+      <mat-icon>description</mat-icon>
+      Rules of play
+    </button>
   </div>
 </mat-toolbar>

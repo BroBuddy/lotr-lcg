@@ -7,6 +7,9 @@ import {BehaviorSubject} from 'rxjs';
 })
 export class ImageZoomService {
 
+  private standard = new BehaviorSubject<boolean>(false);
+  readonly standard$ = this.standard.asObservable();
+
   private show = new BehaviorSubject<boolean>(false);
   readonly show$ = this.show.asObservable();
 
@@ -19,11 +22,12 @@ export class ImageZoomService {
   private position = new BehaviorSubject<string>(null);
   readonly position$ = this.position.asObservable();
 
-  mouseover(path: string, card: any, position: string): void {
-    this.showZoom(card, path, position);
+  mouseover(path: string, card: any, position: string, standard = true): void {
+    this.showZoom(card, path, position, standard);
   }
 
-  showZoom(card: any, path: string, position: string): void {
+  showZoom(card: any, path: string, position: string, standard: boolean): void {
+    this.standard.next(standard);
     this.card.next(card);
     this.path.next(path);
     this.position.next(position);
@@ -35,6 +39,7 @@ export class ImageZoomService {
   }
 
   hideZoom(): void {
+    this.standard.next(false);
     this.show.next(false);
     this.card.next(null);
     this.path.next(null);

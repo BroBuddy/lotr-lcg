@@ -5915,15 +5915,15 @@
           },
           {
             "type": "location",
-            "image": "4/Broken-Lands-Location"
+            "image": "4/Broken-Lands"
           },
           {
             "type": "location",
-            "image": "4/Broken-Lands-Location"
+            "image": "4/Broken-Lands"
           },
           {
             "type": "location",
-            "image": "4/Broken-Lands-Location"
+            "image": "4/Broken-Lands"
           },
           {
             "type": "treachery",
@@ -6012,12 +6012,161 @@
       {
         "id": 30,
         "difficult": 4,
-        "title": "",
+        "title": "Into Fangorn",
         "text": "Mugash was free and running. The sickness lingered in his body, but he savored its malevolent presence. Because of it, his tormentors had thought him near death and loosened his bonds. The fools had even fed him. Mugash’s arms and legs stung. His joints were swollen and throbbing where the ropes had tied him to the poles. His limbs had been useless the first few miles of his escape, and he’d crawled like a worm down the mountainside, pushing himself forward with shoulders and hips. The great Orc had laughed at the pain. His way, the way of the Uruk, was not one of stealth and silence, but last night on the mountainside, stealth and silence had been his closest friends. He flexed his hands. Through the pain he felt strength returning. He had outwitted the hated bright-eyed humans, and now he was free. ",
-        "questDeck": [],
+        "questDeck": [
+          "3001A",
+          "3001B",
+          "3002A",
+          "3002B",
+          "3003A",
+          "3003B"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "4/Edge-of-Fangorn"
+          },
+          {
+            "type": "objective",
+            "image": "4/Mugash-2"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dark-Hearted-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dark-Hearted-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dark-Hearted-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dark-Hearted-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Angry-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Angry-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Angry-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Deadly-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Deadly-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Deadly-Huorn"
+          },
+          {
+            "type": "location",
+            "image": "4/Heart-of-Fangorn"
+          },
+          {
+            "type": "location",
+            "image": "4/Heart-of-Fangorn"
+          },
+          {
+            "type": "location",
+            "image": "4/Heart-of-Fangorn"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Forests-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Forests-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Forests-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Forests-Malice"
+          }
+        ],
         "discardPile": []
       },
       {

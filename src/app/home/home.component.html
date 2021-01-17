@@ -12,13 +12,29 @@
             <button mat-button disabled>#{{ scenario.id }}</button>
 
             <button mat-button
+                    type="button"
                     [routerLink]="'/cycle/' + cycle.id + '/scenario/' + scenario.id"
                     [disabled]="!scenario.title">
               {{ scenario.title ? scenario.title : 'not available' }}
             </button>
 
-            <button mat-button [color]="scenario.difficult <= 4 ? 'accent' : (scenario.difficult >= 7 ? 'primary' : 'warn')">
-              {{ scenario.difficult <= 4 ? 'Easy' : (scenario.difficult >= 7 ? 'Hard' : 'Medium') }}
+            <button mat-button
+                    type="button"
+                    [matTooltip]="scenario.difficult"
+                    [matTooltipPosition]="'right'"
+                    [color]="scenario.difficult <= 4 ? 'accent' : (scenario.difficult >= 7 ? 'primary' : 'warn')">
+              <ng-container [ngSwitch]="scenario.difficult">
+                <ng-container *ngSwitchCase="1">Very easy</ng-container>
+                <ng-container *ngSwitchCase="2">Very easy</ng-container>
+                <ng-container *ngSwitchCase="3">Easy</ng-container>
+                <ng-container *ngSwitchCase="4">Easy</ng-container>
+                <ng-container *ngSwitchCase="5">Medium</ng-container>
+                <ng-container *ngSwitchCase="6">Medium</ng-container>
+                <ng-container *ngSwitchCase="7">Hard</ng-container>
+                <ng-container *ngSwitchCase="8">Hard</ng-container>
+                <ng-container *ngSwitchCase="9">Very hard</ng-container>
+                <ng-container *ngSwitchCase="10">Very hard</ng-container>
+              </ng-container>
             </button>
           </div>
         </div>

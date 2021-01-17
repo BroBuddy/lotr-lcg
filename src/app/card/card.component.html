@@ -3,7 +3,7 @@
          [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
          alt=""
          width="150" height="213"
-         hspace="10" vspace="10"
+         hspace="8" vspace="8"
          [matMenuTriggerFor]="menu"
          (mouseover)="zoomService.mouseover('/assets/img/encounter/', card.image + '.jpg', card.type === 'location' ? 'left' : 'right')"
          (mouseout)="zoomService.mouseout()" />

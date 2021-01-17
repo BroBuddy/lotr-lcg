@@ -5,6 +5,7 @@
              [matTooltip]="'Encounter deck'"
              [matTooltipPosition]="'right'"
              width="150" height="210" alt=""
+             hspace="8" vspace="8"
              (click)="onDrawCard()"
              *ngIf="encounterDeck?.length" />
     </div>
@@ -38,6 +39,7 @@
                  (mouseover)="zoomService.mouseover('/assets/img/encounter/', shadowCard.image + '.jpg', 'left')"
                  (mouseout)="zoomService.mouseout()"
                  width="150" height="210" alt=""
+                 hspace="8" vspace="8"
                  (click)="onDiscardShadow()" />
         </ng-container>
 
@@ -47,6 +49,7 @@
                  [matTooltip]="'Shadow card'"
                  [matTooltipPosition]="'right'"
                  width="150" height="210" alt=""
+                 hspace="8" vspace="8"
                  (click)="onDrawShadow()"
                  *ngIf="encounterDeck?.length" />
         </ng-container>
@@ -66,7 +69,7 @@
 
             <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">
           <img [src]="'/assets/img/quest/' + quest + '.jpg'"
-               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest + '.jpg', 'left')"
+               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest + '.jpg', 'left', false)"
                (mouseout)="zoomService.mouseout()"
                width="105" alt="" hspace="5" vspace="5"
                [matTooltip]="'Quest card'"

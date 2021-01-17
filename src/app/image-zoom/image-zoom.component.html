@@ -1,5 +1,8 @@
 <img *ngIf="show$ | async"
      [ngClass]="position$ | async"
      [src]="(path$ | async) + '' + (card$ | async)"
-     width="400"
+     [width]="(standard$ | async) ? '350' : '500'"
      alt="" />
+<pre>
+   {{ (standard$ | async) }}
+</pre>

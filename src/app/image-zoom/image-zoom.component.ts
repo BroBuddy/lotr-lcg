@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core'
 
-import {Observable} from "rxjs";
+import {Observable} from 'rxjs';
 
-import {ImageZoomService} from "./image-zoom.service";
+import {ImageZoomService} from './image-zoom.service';
 
 @Component({
   selector: 'app-image-zoom',
@@ -12,6 +12,7 @@ import {ImageZoomService} from "./image-zoom.service";
 export class ImageZoomComponent implements OnInit {
 
   public show$: Observable<boolean>;
+  public standard$: Observable<boolean>;
   public card$: Observable<string>;
   public path$: Observable<string>;
   public position$: Observable<string>;
@@ -20,6 +21,7 @@ export class ImageZoomComponent implements OnInit {
 
   ngOnInit(): void {
     this.show$ = this.zoomService.show$;
+    this.standard$ = this.zoomService.standard$;
     this.card$ = this.zoomService.card$;
     this.path$ = this.zoomService.path$;
     this.position$ = this.zoomService.position$;

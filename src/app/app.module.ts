@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { DndModule } from 'ngx-drag-drop';
-import {ToastrModule, ToastrService} from 'ngx-toastr';
+import {ToastrModule} from 'ngx-toastr';
 import {LazyLoadImageModule} from 'ng-lazyload-image';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,18 +12,20 @@ import { HeaderComponent } from './header/header.component';
 import { MaterialModule } from './material.module';
 import {MissionComponent} from './mission/mission.component';
 import {HomeComponent} from './home/home.component';
-import {RulesComponent} from './rules/rules.component';
 import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
 import {GlossaryComponent} from './glossary/glossary.component';
 import {ImageZoomComponent} from './image-zoom/image-zoom.component';
 import {GameComponent} from './game/game.component';
+import {RulesComponent} from './rules/rules.component';
+import {PacksComponent} from './packs/packs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
+    PacksComponent,
     RulesComponent,
     GameComponent,
     MissionComponent,

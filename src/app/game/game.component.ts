@@ -1,18 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute, Params} from "@angular/router";
-import {ToastrService} from "ngx-toastr";
+import {ActivatedRoute, Params} from '@angular/router';
+import {ToastrService} from 'ngx-toastr';
 
-import {Observable, of} from "rxjs";
-import {map} from "rxjs/operators";
+import {Observable, of} from 'rxjs';
+import {map} from 'rxjs/operators';
 
-import {ImageZoomService} from "../image-zoom/image-zoom.service";
-import Missions from "../mission/mission-data.json";
+import {ImageZoomService} from '../image-zoom/image-zoom.service';
+import Missions from '../mission/mission-data.json';
 
 @Component({
   selector: 'app-game',
   templateUrl: './game.component.html',
   styles: [`.inactive-quest {
     filter: grayscale(100%);
+    opacity: 0.75;
+    transform: scale(0.85);
   }`]
 })
 export class GameComponent implements OnInit {
@@ -37,27 +39,27 @@ export class GameComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params
-        .subscribe(
-            (params: Params) => {
-              this.cId = params.cId;
-              this.mId = params.mId;
-            }
-        );
+      .subscribe(
+        (params: Params) => {
+          this.cId = params.cId;
+          this.mId = params.mId;
+        }
+      );
 
     this.fetchMission()
-        .pipe(map(data => data[(this.cId - 1)]))
-        .subscribe(data => {
-          const index = data.missions.findIndex((item) => item.id === Number(this.mId));
+      .pipe(map(data => data[(this.cId - 1)]))
+      .subscribe(data => {
+        const index = data.missions.findIndex((item) => item.id === Number(this.mId));
 
-          if (data.missions[index]) {
-            this.stagingArea = data.missions[index].stagingArea;
-            this.encounterDeck = data.missions[index].encounterDeck;
-            this.discardPile = data.missions[index].discardPile;
-            this.activeLocation = data.missions[index].activeLocation;
-            this.questDeck = data.missions[index].questDeck;
-            this.onShuffleEncounter();
-          }
-        });
+        if (data.missions[index]) {
+          this.stagingArea = data.missions[index].stagingArea;
+          this.encounterDeck = data.missions[index].encounterDeck;
+          this.discardPile = data.missions[index].discardPile;
+          this.activeLocation = data.missions[index].activeLocation;
+          this.questDeck = data.missions[index].questDeck;
+          this.onShuffleEncounter();
+        }
+      });
   }
 
   fetchMission(): Observable<any> {
@@ -104,9 +106,6 @@ export class GameComponent implements OnInit {
       default: {
         this.engagingArea.push(card);
         this.removeCardFromStaging(card);
-        if (!this.shadowCard) {
-          this.onDrawShadow();
-        }
         break;
       }
     }
@@ -217,12 +216,16 @@ export class GameComponent implements OnInit {
         index = discardPile.findIndex((item) => item === card);
 
     this.discardPile = discardPile.slice(0, Number(index)).concat(discardPile.slice(Number(index) + 1));
+
+    this.toastr.success('Card was played');
   }
 
   onChooseCard(card: any, index: number): void {
     this.stagingArea.push(card);
 
     this.encounterDeck = this.encounterDeck.slice(0, Number(index)).concat(this.encounterDeck.slice(Number(index) + 1));
+
+    this.toastr.success('Card was played');
   }
 
   onResetDiscardPile(): void {

@@ -2,7 +2,7 @@
     <div fxFlex="50">
         <mat-accordion>
             <ng-container *ngFor="let keyword of keywords; let i = index; trackBy: trackByFn">
-                <mat-expansion-panel *ngIf="i <= (keywords.length / 2)">
+                <mat-expansion-panel *ngIf="i < (keywords.length / 2)">
                     <mat-expansion-panel-header>
                         <mat-panel-title>
                             {{ keyword.title }}

@@ -15,7 +15,7 @@ export class GlossaryComponent {
           'as the result of this effect, then no further engagement checks are made against it.'
     },
     {
-      title: 'Archery',
+      title: 'Archery X',
       text: 'While a card with the archery keyword is in play, players must deal damage to character cards in play ' +
           'equal to the specified archery value at the beginning of each combat phase. This damage can be dealt to ' +
           'characters under any player’s control, and it can be divided among the players as they see fit. If there ' +
@@ -39,7 +39,7 @@ export class GlossaryComponent {
           'to the top of the encounter deck.'
     },
     {
-      title: 'Doomed',
+      title: 'Doomed X',
       text: 'If an encounter card with the doomed keyword is revealed during the staging step of the quest phase, ' +
           'each player must raise his threat level by the specified value.'
     },
@@ -81,7 +81,7 @@ export class GlossaryComponent {
           'leaves play, attachments with the permanent keyword attached to that hero are removed from the game.'
     },
     {
-      title: 'Prowl',
+      title: 'Prowl X',
       text: 'When an encounter card with the prowl keyword is revealed from the encounter deck, the players (as a ' +
           'group) must discard the specified number of resources from their heroes’ resource pools. If the players ' +
           'do not have enough resources to match the specified value, then they must discard as many resources as ' +
@@ -95,7 +95,7 @@ export class GlossaryComponent {
           'case, the character must exhaust and meet any other requirements necessary to make the attack.'
     },
     {
-      title: 'Regenerate',
+      title: 'Regenerate X',
       text: 'An enemy with the Regenerate keyword heals damage from itself equal to the specified amount each round. ' +
           'This takes place immediately following the passing of the first player token during the Refresh Phase, and ' +
           'occurs before player actions.'
@@ -107,12 +107,25 @@ export class GlossaryComponent {
           'the restricted attachments must moved to its owners discard pile.'
     },
     {
-      title: 'Sack',
+      title: 'Sack X',
       text: 'When the keyword Sack X is triggered by the encounter deck, the first player draws the top X cards from ' +
           'the sack deck and resolves the “When Sacked” effects on those cards. If players are instructed to draw ' +
           'multiple cards from the sack deck, those cards are drawn and resolved one at a time. If the Sack X keyword ' +
           'is triggered and there are no cards remaining in the sack deck, the Sack X effect is ignored. If a Sack card ' +
           'leaves play for any reason, shuffle it back into the sack deck.'
+    },
+    {
+      title: 'Searches X',
+      text: 'The Searches X keyword represents the heroes search for the Orc captain, Mugash. When a location with the' +
+          'Searches X keyword leaves play, the player (or players) identified by that location reveals the top X cards' +
+          'of his out-of-play deck. Players who reveal cards this way add each revealed enemy to the staging area,' +
+          'choose 1 player card to take into their hand, and discard the rest.'
+    },
+    {
+      title: 'Secrecy X',
+      text: 'Secrecy lowers the cost to play the card by the specified value, provided the threat of the player who is' +
+          'playing the card is 20 or below. Secrecy only applies when the card is played from hand, and never modifies' +
+          'the printed cost of the card.'
     },
     {
       title: 'Sentinel',
@@ -134,7 +147,16 @@ export class GlossaryComponent {
           'when revealed effects on the card.'
     },
     {
-      title: 'Underworld',
+      title: 'Time X',
+      text: 'Time X is a new keyword that represents the urgency of the heroes’ quest. When a card with the Time X' +
+          'keyword is revealed, the players put X resource tokens on that card. These tokens are called time counters.' +
+          'At the end of each refresh phase, remove 1 time counter from each card with the Time X keyword, if able.' +
+          'When the last time counter is removed, there will be a triggered effect that resolves on that card. Some' +
+          'encounter cards will also remove time counters, making it more difficult for the players to predict when' +
+          'they will run out of time.'
+    },
+    {
+      title: 'Underworld X',
       text: 'When a location with the underworld keyword enters play, take cards from the top underworld deck equal to ' +
           'the specified value and stack them facedown underneath that location. When a location leaves play, any ' +
           'facedown cards stacked underneath that location are revealed one at a time, and added to the staging area. ' +
@@ -143,7 +165,7 @@ export class GlossaryComponent {
           'deck, then the underwold keyword has no eccect.'
     },
     {
-      title: 'Victory',
+      title: 'Victory X',
       text: 'Some enemy and location cards award victory points when they are defeated. When such a card leaves play,' +
           'one player should place it near his threat dial to remind the players of the victory points when they are' +
           'scoring at the end of the game. It is recommended that one player collects all the victory cards the players' +

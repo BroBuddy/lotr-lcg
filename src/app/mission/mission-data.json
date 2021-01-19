@@ -14,7 +14,9 @@
           "0102A",
           "0102B",
           "0103A",
-          "0103B"
+          "0103B",
+          "0103A2",
+          "0103B2"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -6172,13 +6174,202 @@
       {
         "id": 31,
         "difficult": 8,
-        "title": "",
-        "text": "",
-        "questDeck": [],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "title": "The Dunland Trap",
+        "text": "In the circle of Isengard, the heroes were preparing themselves for the journey to Tharbad. The leader of the White Council, Saruman, had tasked them with an important quest: to find the hidden forge of Celebrimbor, the master Elf-smith who forged Rings of Power in the Second Age. The Wizard believed that knowledge of Celebrimbor’s secret forge could be learned from a Dwarf who they were to meet in Tharbad. The heroes were tightening their belts and shouldering their bags when Saruman descended the stairs of Orthanc to wish them farewell. This gold should be sufficient to convince the Dwarf, Nalir, to sell you his map, the Wizard said as he handed a heavy purse to the heroes. Guard it well. For the location of Celebrimbor’s forge is a prize beyond worth, and we dare not let the servants of the Enemy find it in our stead.",
+        "questDeck": [
+          "3101A",
+          "3101B",
+          "3102A",
+          "3102B",
+          "3103A",
+          "3103B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "4/Old-South-Road"
+        },
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Stalker"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Stalker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Stalker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Warrior"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Foothills"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Foothills"
+          },
+          {
+            "type": "location",
+            "image": "4/Hills-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Hills-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Hills-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Hills-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Plains-of-Enedwaith"
+          },
+          {
+            "type": "location",
+            "image": "4/Plains-of-Enedwaith"
+          },
+          {
+            "type": "location",
+            "image": "4/Plains-of-Enedwaith"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Stream"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Stream"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Stream"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Stream"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Frenzied-Attack"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Frenzied-Attack"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Frenzied-Attack"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Dunlending-Ambush"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Dunlending-Ambush"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Dunlending-Ambush"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Chief-Turch"
+          },
+          {
+            "type": "location",
+            "image": "4/Munuv-Duv-Ravine"
+          }
+        ]
       },
       {
         "id": 32,

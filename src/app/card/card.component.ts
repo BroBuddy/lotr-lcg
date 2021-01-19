@@ -2,7 +2,7 @@ import {Component, Input, Output} from '@angular/core';
 
 import {Subject} from 'rxjs';
 
-import {ImageZoomService} from "../image-zoom/image-zoom.service";
+import {ImageZoomService} from '../image-zoom/image-zoom.service';
 
 @Component({
   selector: 'app-card',
@@ -19,7 +19,7 @@ export class CardComponent {
 
  constructor(public zoomService: ImageZoomService) {}
 
-  onCardActivation(): void {
+    onCardActivation(): void {
     this.number = 0;
     this.activateCard.next(this.card);
   }

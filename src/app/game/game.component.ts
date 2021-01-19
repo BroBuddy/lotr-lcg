@@ -216,6 +216,18 @@ export class GameComponent implements OnInit {
     this.encounterDeck = this.encounterDeck.slice(0, Number(index)).concat(this.encounterDeck.slice(Number(index) + 1));
   }
 
+  onResetDiscardPile(): void {
+    this.encounterDeck = this.encounterDeck.concat(this.discardPile);
+    this.onShuffleEncounter();
+    this.discardPile = [];
+  }
+
+  onCreateEncounterDeck(): void {
+    this.encounterDeck = this.discardPile;
+    this.onShuffleEncounter();
+    this.discardPile = [];
+  }
+
   trackByFn(index: number): number {
     return index;
   }

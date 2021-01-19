@@ -20,6 +20,7 @@ body {
 }
 
 button,
+strong,
 mat-card-title,
 mat-card-subtitle,
 mat-panel-title,
@@ -27,6 +28,13 @@ mat-panel-title,
 .mat-tab-label-content {
   font-family: "Redressed" !important;
   font-size: 18px !important;
+}
+
+.mat-tab-label {
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  min-width: auto !important;
+  padding: 0 15px !important;
 }
 
 img {

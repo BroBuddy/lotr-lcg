@@ -20,6 +20,7 @@
                     <div fxFlex="70" fxLayoutAlign="center">
                       <span *ngFor="let card of stagingArea; let i = index; trackBy: trackByFn">
                         <app-card [card]="card"
+                                  [area]="'staging'"
                                   (activateCard)="onCardActivation(card)"
                                   (deactivateCard)="onCardDeactivation(card, 'staging')"></app-card>
                       </span>
@@ -28,6 +29,7 @@
                     <div fxFlex="15" fxLayoutAlign="end">
                       <span *ngIf="activeLocation">
                         <app-card [card]="activeLocation"
+                                  [area]="'location'"
                                   (activateCard)="onUpdateLocation(activeLocation, true)"
                                   (deactivateCard)="onCardDeactivation(activeLocation, 'location')"
                                   [matTooltip]="'Active location'"
@@ -63,6 +65,7 @@
                     <div fxFlex fxLayoutAlign="center">
                       <span *ngFor="let card of engagingArea; trackBy: trackByFn">
                         <app-card [card]="card"
+                                  [area]="'engaging'"
                                   (activateCard)="onDefeatEnemy(card, true)"
                                   (deactivateCard)="onCardDeactivation(card, 'engaging')"></app-card>
                       </span>

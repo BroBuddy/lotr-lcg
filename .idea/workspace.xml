@@ -6,14 +6,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/card/card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/card/card.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/card/card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/card/card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/counter/counter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/counter/counter.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/game/game.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game/game.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/game/game.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game/game.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/mission/mission-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mission/mission-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/playmat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/playmat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +101,7 @@
       <workItem from="1610629553351" duration="49556000" />
       <workItem from="1610881756086" duration="1227000" />
       <workItem from="1610889795080" duration="1897000" />
-      <workItem from="1611009165543" duration="5049000" />
+      <workItem from="1611009165543" duration="7117000" />
     </task>
     <servers />
   </component>

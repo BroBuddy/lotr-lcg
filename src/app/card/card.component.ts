@@ -14,17 +14,18 @@ export class CardComponent {
   public number = 0;
 
  @Input() card: any;
+ @Input() area: string;
  @Output() activateCard: Subject<any> = new Subject<any>();
  @Output() deactivateCard: Subject<any> = new Subject<any>();
 
  constructor(public zoomService: ImageZoomService) {}
 
-    onCardActivation(): void {
+  onCardActivation(): void {
     this.number = 0;
     this.activateCard.next(this.card);
   }
 
-  onCardDectivation(): void {
+  onCardDeactivation(): void {
     this.number = 0;
     this.deactivateCard.next(this.card);
   }

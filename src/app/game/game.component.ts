@@ -77,6 +77,8 @@ export class GameComponent implements OnInit {
         shuffleTime++;
       }
       while (shuffleTime < 3);
+
+      this.toastr.info('Deck was shuffled');
     }
   }
 
@@ -102,6 +104,9 @@ export class GameComponent implements OnInit {
       default: {
         this.engagingArea.push(card);
         this.removeCardFromStaging(card);
+        if (!this.shadowCard) {
+          this.onDrawShadow();
+        }
         break;
       }
     }
@@ -151,8 +156,9 @@ export class GameComponent implements OnInit {
       this.activeLocation = null;
     } else {
       if (this.activeLocation) {
-        this.discardPile.push(card);
+        this.discardPile.push(this.activeLocation);
         this.removeCardFromStaging(card);
+        this.activeLocation = card;
       } else {
         setTimeout(() => {
           this.removeCardFromStaging(card);
@@ -185,6 +191,10 @@ export class GameComponent implements OnInit {
     if (defeated) {
       this.discardPile.push(card);
     }
+
+    if(this.shadowCard) {
+      this.shadowCard = null;
+    }
   }
 
   onChangeQuest(step: number): void {
@@ -199,7 +209,6 @@ export class GameComponent implements OnInit {
     if (type === 'encounter') {
       this.encounterDeck.push(card);
       this.onShuffleEncounter();
-      this.toastr.info('Deck was shuffled');
     } else {
       this.stagingArea.push(card);
     }

@@ -9,12 +9,47 @@
          (mouseout)="zoomService.mouseout()" />
 
     <mat-menu #menu="matMenu">
-        <button mat-menu-item (click)="onCardActivation()">
-            <mat-icon>pan_tool</mat-icon>
-            Play card
-        </button>
+        <ng-container [ngSwitch]="card.type">
+            <ng-container *ngSwitchCase="'enemy'">
+                <button mat-menu-item (click)="onCardActivation()" *ngIf="area === 'staging'">
+                    <mat-icon>pan_tool</mat-icon>
+                    Attack enemy
+                </button>
 
-        <button mat-menu-item (click)="onCardDectivation()">
+                <button mat-menu-item (click)="onCardActivation()" *ngIf="area === 'engaging'">
+                    <mat-icon>pan_tool</mat-icon>
+                    Enemy defeated
+                </button>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'location'">
+                <button mat-menu-item (click)="onCardActivation()" *ngIf="area === 'staging'">
+                    <mat-icon>location_on</mat-icon>
+                    Travel to location
+                </button>
+
+                <button mat-menu-item (click)="onCardActivation()" *ngIf="area === 'location'">
+                    <mat-icon>location_on</mat-icon>
+                    Location discovered
+                </button>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'treachery'">
+                <button mat-menu-item (click)="onCardActivation()">
+                    <mat-icon>check</mat-icon>
+                    Effect resolved
+                </button>
+            </ng-container>
+
+            <ng-container *ngSwitchDefault>
+                <button mat-menu-item (click)="onCardActivation()">
+                    <mat-icon>pan_tool</mat-icon>
+                    Play
+                </button>
+            </ng-container>
+        </ng-container>
+
+        <button mat-menu-item (click)="onCardDeactivation()">
             <mat-icon>wifi_protected_setup</mat-icon>
             Shuffle back
         </button>

@@ -1,11 +1,13 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute, Params, Router} from '@angular/router';
+import {ToastrService} from 'ngx-toastr';
 import Speech from 'speak-tts';
 
 import {map} from 'rxjs/operators';
 import {Observable, of} from 'rxjs';
 
 import Missions from './mission-data.json';
+import {ImageZoomService} from '../image-zoom/image-zoom.service';
 
 @Component({
   selector: 'app-mission',
@@ -21,14 +23,11 @@ export class MissionComponent implements OnInit, OnDestroy {
   public title: string;
   public difficult: number;
   public text: string;
-  public previewCard = null;
-
-  public stagingArea: any[] = [];
+  public questDeck: any[] = [];
   public encounterDeck: any[] = [];
-  public discardPile: any[] = [];
-  public activeLocation = null;
 
   public speech: any;
+  public speechSupport: boolean;
   public speechConfig = {
     volume: 1,
     lang: 'en-GB',
@@ -39,7 +38,9 @@ export class MissionComponent implements OnInit, OnDestroy {
   };
 
   constructor(private route: ActivatedRoute,
-              private router: Router) {}
+              private router: Router,
+              private toastr: ToastrService,
+              public zoomService: ImageZoomService) {}
 
   ngOnInit(): void {
     this.initSpeech();
@@ -58,13 +59,12 @@ export class MissionComponent implements OnInit, OnDestroy {
         const index = data.missions.findIndex((item) => item.id === Number(this.sId));
 
         if (data.missions[index]) {
-          this.text = data.missions[index].text;
-          this.title = data.missions[index].title;
-          this.difficult = data.missions[index].difficult;
-          this.stagingArea = data.missions[index].stagingArea;
-          this.encounterDeck = data.missions[index].encounterDeck;
-          this.discardPile = data.missions[index].discardPile;
-          this.activeLocation = data.missions[index].activeLocation;
+          const mission = data.missions[index];
+          this.text =  mission.text;
+          this.title =  mission.title;
+          this.difficult =  mission.difficult;
+          this.questDeck =  mission.questDeck;
+          this.encounterDeck = (mission.stagingArea).concat(mission.encounterDeck).concat(mission.discardPile);
         }
       });
   }
@@ -77,7 +77,11 @@ export class MissionComponent implements OnInit, OnDestroy {
     this.speech = new Speech();
 
     if (this.speech.hasBrowserSupport()) {
+      this.speechSupport = true;
       this.speech.init(this.speechConfig);
+    } else {
+      this.speechSupport = false;
+      this.toastr.error('Browser has not speech support');
     }
   }
 
@@ -95,14 +99,6 @@ export class MissionComponent implements OnInit, OnDestroy {
     }
 
     this.router.navigate(['game'], { relativeTo: this.route });
-  }
-
-  onPreviewCard(card: any): void {
-    this.previewCard = null;
-
-    setTimeout(() => {
-      this.previewCard = card;
-    }, 0);
   }
 
   trackByFn(index: number): number {

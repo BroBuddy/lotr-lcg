@@ -6541,13 +6541,180 @@
       {
         "id": 33,
         "difficult": 4,
-        "title": "",
-        "text": "",
-        "questDeck": [],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "title": "Trouble in Tharbad",
+        "text": "Looking at Tharbad, the heroes were dubious. The river town was little more than a haven of freelancers and highwaymen, filled with dilapidated buildings amongst ruined and crumbling causeways. As soon as they entered the ancient city, they inquired with several townsfolk to discover where they might find Nalir. In due time, the heroes were pointed in the direction of a patched and ramshackle tavern, The Empty Mug. Once inside, the heroes found the Dwarf they sought sitting alone with a tankard of ale. His appearance did little to inspire confidence in the heroes, but there was a glint in his eyes when they spoke of the map that revealed a cunning mind at work. 'Aye, I have the map you seek,' he said, wiping the ale from his mouth. 'However…' he continued slowly, 'I sold it to a man earlier today, name of Bellach. A shady looking character, he was. Not the sort of man to take ‘no’ for an answer. But he offered a fair price, even if he was foul about it. I’m to meet him here at sundown to make the exchange... Unless you can offer a better price?' Nalir punctuated his question with a sly grin.",
+        "questDeck": [
+          "3301A",
+          "3301B",
+          "3302A",
+          "3302B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "4/The-Empty-Mug"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "4/Nalir"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spy-from-Mordor"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spy-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spy-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spy-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Bellachs-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Bellachs-Marauder"
+          },
+          {
+            "type": "location",
+            "image": "4/Streets-of-Tharbad"
+          },
+          {
+            "type": "location",
+            "image": "4/Streets-of-Tharbad"
+          },
+          {
+            "type": "location",
+            "image": "4/Tharbad-Hideout"
+          },
+          {
+            "type": "location",
+            "image": "4/Tharbad-Hideout"
+          },
+          {
+            "type": "location",
+            "image": "4/Ruins-of-the-Second-Age"
+          },
+          {
+            "type": "location",
+            "image": "4/Ruins-of-the-Second-Age"
+          },
+          {
+            "type": "location",
+            "image": "4/Seedy-Inn"
+          },
+          {
+            "type": "location",
+            "image": "4/Seedy-Inn"
+          },
+          {
+            "type": "location",
+            "image": "4/Hidden-Alleyway"
+          },
+          {
+            "type": "location",
+            "image": "4/Hidden-Alleyway"
+          },
+          {
+            "type": "location",
+            "image": "4/Decrepit-Rooftops"
+          },
+          {
+            "type": "location",
+            "image": "4/Decrepit-Rooftops"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Constant-Tail"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Constant-Tail"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Conspicuous-Lot"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Conspicuous-Lot"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Cornered"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Cornered"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Get-That-Dwarf"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Get-That-Dwarf"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Bellach"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Crossing-at-Tharbad"
+          }
+        ]
       },
       {
         "id": 34,

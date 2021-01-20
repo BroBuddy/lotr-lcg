@@ -1,6 +1,6 @@
 <img *ngIf="show$ | async"
      [ngClass]="position$ | async"
      [src]="(path$ | async) + '' + (card$ | async)"
-     [width]="(standard$ | async) ? '350' : '500'"
+     [width]="(standard$ | async) ? '350' : '550'"
      [ngStyle]="{ 'top': (15 + (scrollY$ | async) + 'px') }"
      alt="" />

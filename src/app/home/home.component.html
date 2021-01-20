@@ -14,7 +14,7 @@
             <button mat-button
                     type="button"
                     [routerLink]="'/cycle/' + cycle.id + '/scenario/' + scenario.id"
-                    [disabled]="!scenario.title">
+                    [disabled]="!scenario.title || scenario.id === 12 || scenario.id === 29">
               {{ scenario.title ? scenario.title : 'not available' }}
             </button>
 

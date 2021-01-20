@@ -391,7 +391,12 @@
           "0303B"
         ],
         "activeLocation": null,
-        "stagingArea": [],
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "1/Nazgul-of-Dol-Guldur"
+          }
+        ],
         "encounterDeck": [
           {
             "type": "enemy",
@@ -543,10 +548,6 @@
           }
         ],
         "discardPile": [
-          {
-            "type": "enemy",
-            "image": "1/Nazgul-of-Dol-Guldur"
-          },
           {
             "type": "objective",
             "image": "1/Gandalfs-Map"

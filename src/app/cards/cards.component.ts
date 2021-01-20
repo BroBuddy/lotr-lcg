@@ -4,7 +4,7 @@ import {MatPaginator, MatSort, MatTableDataSource} from '@angular/material';
 import {Observable, of} from 'rxjs';
 import {map} from 'rxjs/operators';
 
-import Cards from './cards-data.json';
+import Cards from './cards-encounter-data.json';
 
 @Component({
   selector: 'app-cards',
@@ -17,7 +17,7 @@ export class CardsComponent implements OnInit, AfterViewInit {
 
     public cards: any = [];
     public cardsSize: number;
-    public columns: string[] = ['name', 'sphere_code', 'type_code', 'threat', 'willpower', 'attack', 'defense', 'health', 'traits', 'pack_name'];
+    public columns: string[] = ['name', 'type', 'sphere', 'th', 'wt', 'atk', 'def', 'hp', 'trait'];
 
     @ViewChild(MatPaginator, { static: false } as any) paginator: MatPaginator;
     @ViewChild(MatSort, { static: false } as any) sort: MatSort;

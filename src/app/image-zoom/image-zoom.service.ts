@@ -19,8 +19,11 @@ export class ImageZoomService {
   private path = new BehaviorSubject<string>(null);
   readonly path$ = this.path.asObservable();
 
-  private position = new BehaviorSubject<string>(null);
+  private position = new BehaviorSubject<string>('left');
   readonly position$ = this.position.asObservable();
+
+  private scrollY = new BehaviorSubject<number>(0);
+  readonly scrollY$ = this.scrollY.asObservable();
 
   mouseover(path: string, card: any, position: string, standard = true): void {
     this.showZoom(card, path, position, standard);
@@ -32,6 +35,7 @@ export class ImageZoomService {
     this.path.next(path);
     this.position.next(position);
     this.show.next(true);
+    this.scrollY.next(window.scrollY);
   }
 
   mouseout(): void {

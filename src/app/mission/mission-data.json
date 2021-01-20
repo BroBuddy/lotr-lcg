@@ -6374,13 +6374,169 @@
       {
         "id": 32,
         "difficult": 7,
-        "title": "",
-        "text": "",
-        "questDeck": [],
+        "title": "The Three Trials",
+        "text": "The heroes were bound hand and foot inside a wood lodge of the Dunlendings. Outside they could hear the warriors of the Boar Clan celebrating their victory, when a large Dunlending entered. It was the leader of the war-party that assaulted them, and the same Wild Man who ordered them taken prisoner. He approached the heroes until he stood towering over them. The war-chief stared intently at the heroes, holding the totemic amulet taken from their baggage. 'I am Turch, chieftain of the Boar Clan. Every ten years, an amulet like this is given to a youth of great promise,' he began. 'The gift marks the height of his manhood and signals his worthiness to undertake the three trials.' His eyes grew distant, and for a moment sadness washed over his stern face. Then, with a deep breath he hardened h his face and continued, 'This amulet was given to my son.'",
+        "questDeck": [
+          "3201A",
+          "3201B",
+          "3202A",
+          "3202B",
+          "3202A2",
+          "3202B2",
+          "3202A3",
+          "3202B3",
+          "3203A",
+          "3203B"],
         "activeLocation": null,
         "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "location",
+            "image": "4/Cursed-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Cursed-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Grim-Foothills"
+          },
+          {
+            "type": "location",
+            "image": "4/Grim-Foothills"
+          },
+          {
+            "type": "location",
+            "image": "4/Grim-Foothills"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Curse-of-the-Wild-Men"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Curse-of-the-Wild-Men"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Guardians-Fury"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Guardians-Fury"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Tenacity"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Tenacity"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Tenacity"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Boars-Guardian"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Wolfs-Guardian"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Ravens-Guardian"
+          },
+          {
+            "type": "objective",
+            "image": "4/Key-of-the-Boar"
+          },
+          {
+            "type": "objective",
+            "image": "4/Key-of-the-Wolf"
+          },
+          {
+            "type": "objective",
+            "image": "4/Key-of-the-Raven"
+          },
+          {
+            "type": "location",
+            "image": "4/Hill-Barrow"
+          },
+          {
+            "type": "location",
+            "image": "4/Cave-Barrow"
+          },
+          {
+            "type": "location",
+            "image": "4/Stone-Barrow"
+          },
+          {
+            "type": "location",
+            "image": "4/Hallowed-Circle"
+          }
+        ]
       },
       {
         "id": 33,

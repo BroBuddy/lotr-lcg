@@ -16,6 +16,7 @@ export class ImageZoomComponent implements OnInit {
   public card$: Observable<string>;
   public path$: Observable<string>;
   public position$: Observable<string>;
+  public scrollY$: Observable<number>;
 
   constructor(private zoomService: ImageZoomService) {}
 
@@ -25,6 +26,7 @@ export class ImageZoomComponent implements OnInit {
     this.card$ = this.zoomService.card$;
     this.path$ = this.zoomService.path$;
     this.position$ = this.zoomService.position$;
+    this.scrollY$ = this.zoomService.scrollY$;
   }
 
 }

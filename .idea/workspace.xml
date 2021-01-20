@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b70523cd-ef27-422f-83db-87002a0250b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cards/cards-encounter-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cards/cards-player-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/card/card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/card/card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/game/game.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game/game.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/glossary/glossary.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/glossary/glossary.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cards/cards.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cards/cards.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cards/cards.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cards/cards.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/glossary/glossary.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/glossary/glossary.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/image-zoom/image-zoom.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mission/mission-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mission/mission-data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/cards" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -32,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/cards" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -102,6 +107,8 @@
       <workItem from="1610881756086" duration="1227000" />
       <workItem from="1610889795080" duration="1897000" />
       <workItem from="1611009165543" duration="8747000" />
+      <workItem from="1611150098770" duration="1813000" />
+      <workItem from="1611172398207" duration="1119000" />
     </task>
     <servers />
   </component>

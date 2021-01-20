@@ -2,4 +2,5 @@
      [ngClass]="position$ | async"
      [src]="(path$ | async) + '' + (card$ | async)"
      [width]="(standard$ | async) ? '350' : '500'"
+     [ngStyle]="{ 'top': (15 + (scrollY$ | async) + 'px') }"
      alt="" />

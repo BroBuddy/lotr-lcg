@@ -45,7 +45,7 @@ export class GlossaryComponent {
     },
     {
       title: 'Guarded',
-      text: 'The guarded keyword is a reminder on some objective cards to reveal and attach the next card of the' +
+      text: 'The guarded keyword is a reminder on some objective cards to reveal and attach the next card of the ' +
           'encounter deck to the objective when it enters the staging area from the encounter deck, and place them ' +
           'both in the staging area. The objective cannot be claimed as long as any encounter card is attached. Once ' +
           'that encounter is dealt with, the objective remains in the staging area until it is claimed. If another ' +
@@ -116,15 +116,15 @@ export class GlossaryComponent {
     },
     {
       title: 'Searches X',
-      text: 'The Searches X keyword represents the heroes search for the Orc captain, Mugash. When a location with the' +
-          'Searches X keyword leaves play, the player (or players) identified by that location reveals the top X cards' +
-          'of his out-of-play deck. Players who reveal cards this way add each revealed enemy to the staging area,' +
+      text: 'The Searches X keyword represents the heroes search for the Orc captain, Mugash. When a location with the ' +
+          'Searches X keyword leaves play, the player (or players) identified by that location reveals the top X cards ' +
+          'of his out-of-play deck. Players who reveal cards this way add each revealed enemy to the staging area, ' +
           'choose 1 player card to take into their hand, and discard the rest.'
     },
     {
       title: 'Secrecy X',
-      text: 'Secrecy lowers the cost to play the card by the specified value, provided the threat of the player who is' +
-          'playing the card is 20 or below. Secrecy only applies when the card is played from hand, and never modifies' +
+      text: 'Secrecy lowers the cost to play the card by the specified value, provided the threat of the player who is ' +
+          'playing the card is 20 or below. Secrecy only applies when the card is played from hand, and never modifies ' +
           'the printed cost of the card.'
     },
     {
@@ -148,11 +148,11 @@ export class GlossaryComponent {
     },
     {
       title: 'Time X',
-      text: 'Time X is a new keyword that represents the urgency of the heroes’ quest. When a card with the Time X' +
-          'keyword is revealed, the players put X resource tokens on that card. These tokens are called time counters.' +
-          'At the end of each refresh phase, remove 1 time counter from each card with the Time X keyword, if able.' +
-          'When the last time counter is removed, there will be a triggered effect that resolves on that card. Some' +
-          'encounter cards will also remove time counters, making it more difficult for the players to predict when' +
+      text: 'Time X is a new keyword that represents the urgency of the heroes’ quest. When a card with the Time X ' +
+          'keyword is revealed, the players put X resource tokens on that card. These tokens are called time counters. ' +
+          'At the end of each refresh phase, remove 1 time counter from each card with the Time X keyword, if able. ' +
+          'When the last time counter is removed, there will be a triggered effect that resolves on that card. Some ' +
+          'encounter cards will also remove time counters, making it more difficult for the players to predict when ' +
           'they will run out of time.'
     },
     {
@@ -166,17 +166,17 @@ export class GlossaryComponent {
     },
     {
       title: 'Victory X',
-      text: 'Some enemy and location cards award victory points when they are defeated. When such a card leaves play,' +
-          'one player should place it near his threat dial to remind the players of the victory points when they are' +
-          'scoring at the end of the game. It is recommended that one player collects all the victory cards the players' +
+      text: 'Some enemy and location cards award victory points when they are defeated. When such a card leaves play, ' +
+          'one player should place it near his threat dial to remind the players of the victory points when they are ' +
+          'scoring at the end of the game. It is recommended that one player collects all the victory cards the players ' +
           'earn during the scenario, as victory points are applied to the score of the entire group.'
     },
     {
       title: 'Villagers',
-      text: 'The villagers keyword creates tokens that represent the people living near to Amon Dîn who need the heroes' +
-          'to rescue them. When a location with the villagers keyword enters play, or a quest card with villagers is' +
-          'revealed, place resource tokens on it equal to the specified value. Resource tokens placed on a location or' +
-          'quest this way are villager tokens.Villager tokens do not count as resources. When a villager token is' +
+      text: 'The villagers keyword creates tokens that represent the people living near to Amon Dîn who need the heroes ' +
+          'to rescue them. When a location with the villagers keyword enters play, or a quest card with villagers is ' +
+          'revealed, place resource tokens on it equal to the specified value. Resource tokens placed on a location or ' +
+          'quest this way are villager tokens.Villager tokens do not count as resources. When a villager token is ' +
           'discarded, return that token to the token bank.'
     }
   ];

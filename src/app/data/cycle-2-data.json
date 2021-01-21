@@ -1,0 +1,2066 @@
+[
+  {
+    "id": 2,
+    "title": "Dwarrowdelf",
+    "missions": [
+      {
+        "id": 10,
+        "difficult": 5,
+        "title": "Into the Pit",
+        "text": "The heroes enter the mines of Moria at the behest of the White Council, carrying an important message to Balin. Balin recently led a group of Dwarves back into Moria to establish a colony in the ancient halls of his ancestors. He has not been heard from in some time. ",
+        "questDeck": [
+          "1001A",
+          "1001B",
+          "1002A",
+          "1002B",
+          "1003A",
+          "1003B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "2/East-gate"
+        },
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Lightless-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Lightless-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Many-Roads"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Crumbling-Ruin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Crumbling-Ruin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Dark-and-Dreadful"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Dark-and-Dreadful"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Sudden-Pitfall"
+          },
+          {
+            "type": "location",
+            "image": "2/Dreadful-Gap"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Tunnels"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Tunnels"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Patrol-Leader"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Patrol-Leader"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Signs-of-Conflict"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Signs-of-Conflict"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Signs-of-Conflict"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Signs-of-Conflict"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Signs-of-Conflict"
+          },
+          {
+            "type": "location",
+            "image": "2/Stairs-of-Nain"
+          },
+          {
+            "type": "location",
+            "image": "2/Stairs-of-Nain"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "2/Cave-Torch"
+          },
+          {
+            "type": "location",
+            "image": "2/First-Hall"
+          },
+          {
+            "type": "location",
+            "image": "2/Bridge-of-Khazad-dum"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "difficult": 4,
+        "title": "The Seventh Level",
+        "text": "Based on information from a dying Goblin, the heroes have made their way to the Seventh Level of Moria, still searching for any signs of Balin’s colony. The Seventh Level holds the Chamber of Records, and it is there that the Goblin said they would find Balin. An ancient tome also seems to hold clues as to the where-abouts of the colony. ",
+        "questDeck": [
+          "1101A",
+          "1101B",
+          "1102A",
+          "1102B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Tunnels"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Tunnels"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Chieftain-of-the-Pit"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Archer"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Archer"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "location",
+            "image": "2/Plundered-Armoury"
+          },
+          {
+            "type": "location",
+            "image": "2/Plundered-Armoury"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Cave-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Cave-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Orc-Horn-Blower"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Hidden-Threat"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Hidden-Threat"
+          },
+          {
+            "type": "location",
+            "image": "2/Upper-Hall"
+          },
+          {
+            "type": "location",
+            "image": "2/Upper-Hall"
+          },
+          {
+            "type": "location",
+            "image": "2/Upper-Hall"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "2/Book-of-Mazarbul"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "difficult": 6,
+        "title": "Flight from Moria",
+        "text": "Balin’s colony ended in death and darkness. After paying their respects at his tomb, the heroes fought their way out of the Goblin infested Seventh Level and made their way down toward the gate. But exiting Moria will not be easy, for a shadowy form masses at the end of the hall, and fear and terror go before it. The heroes must escape Moria before it is too late.",
+        "questDeck": [
+          "1201A",
+          "1201B",
+          "1202A",
+          "1202B",
+          "1202A7",
+          "1202B7",
+          "1202A8",
+          "1202B8"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "2/The-Nameless-Fear"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Crumbling-Ruin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Crumbling-Ruin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Dark-and-Dreadful"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Dark-and-Dreadful"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Sudden-Pitfall"
+          },
+          {
+            "type": "location",
+            "image": "2/Dreadful-Gap"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Great-Cave-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Great-Cave-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Orc-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Massing-in-the-Deep"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Massing-in-the-Deep"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Chieftain-of-the-Pit"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Archer"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Archer"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "location",
+            "image": "2/Plundered-Armoury"
+          },
+          {
+            "type": "location",
+            "image": "2/Plundered-Armoury"
+          },
+          {
+            "type": "treachery",
+            "image": "2/New-Devilry"
+          },
+          {
+            "type": "treachery",
+            "image": "2/New-Devilry"
+          },
+          {
+            "type": "treachery",
+            "image": "2/New-Devilry"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Shadow-of-Fear"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Shadow-of-Fear"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Shadow-of-Fear"
+          },
+          {
+            "type": "treachery",
+            "image": "2/A-Foe-Beyond"
+          },
+          {
+            "type": "objective",
+            "image": "2/Abandoned-Tools"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "treachery",
+            "image": "2/A-Foe-Beyond"
+          },
+          {
+            "type": "treachery",
+            "image": "2/A-Foe-Beyond"
+          },
+          {
+            "type": "treachery",
+            "image": "2/A-Foe-Beyond"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "difficult": 6,
+        "title": "The Redhorn Gate",
+        "text": "Arwen wishes to visit her father Elrond, and Celeborn has bid the heroes to escort her over the Misty Mountains and safely to Rivendell. But the season grows late, and a sudden chill has descended on the three peaks that guard the Redhorn pass.",
+        "questDeck": [
+          "1301A",
+          "1301B",
+          "1302A",
+          "1302B",
+          "1303A",
+          "1303B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "2/Caradhras"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "location",
+            "image": "2/Knees-of-the-Mountain"
+          },
+          {
+            "type": "location",
+            "image": "2/Turbulent-Waters"
+          },
+          {
+            "type": "location",
+            "image": "2/Turbulent-Waters"
+          },
+          {
+            "type": "location",
+            "image": "2/Warg-Lair"
+          },
+          {
+            "type": "location",
+            "image": "2/Warg-Lair"
+          },
+          {
+            "type": "location",
+            "image": "2/Fanuidhol"
+          },
+          {
+            "type": "location",
+            "image": "2/Celebdil"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Dimrill-Stair"
+          },
+          {
+            "type": "location",
+            "image": "2/Rocky-Crags"
+          },
+          {
+            "type": "location",
+            "image": "2/Rocky-Crags"
+          },
+          {
+            "type": "location",
+            "image": "2/Rocky-Crags"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fell-Voices"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fell-Voices"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fallen-Stones"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fallen-Stones"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Freezing-Cold"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Freezing-Cold"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Freezing-Cold"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Avalanche"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Snow-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Snow-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Snow-Warg"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "2/Arwen-Undomiel"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Snowstorm"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Snowstorm"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Snowstorm"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Snowstorm"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Snowstorm"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "difficult": 5,
+        "title": "Road to Rivendell",
+        "text": "The heroes continue their journey northward to Rivendell, escorting Arwen to visit her father Elrond. But the road is long, and Orcs ambush the party along the way. With enemies hounding the heroes’ steps, the weather drives the party ever closer to the looming mountains, and the dangers they hold.",
+        "questDeck": [
+          "1401A",
+          "1401B",
+          "1402A",
+          "1402B",
+          "1403A",
+          "1403B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "2/Chieftain-of-the-Pit"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Spearman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Archer"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Archer"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Undisturbed-Bones"
+          },
+          {
+            "type": "location",
+            "image": "2/Plundered-Armoury"
+          },
+          {
+            "type": "location",
+            "image": "2/Plundered-Armoury"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "location",
+            "image": "2/Knees-of-the-Mountain"
+          },
+          {
+            "type": "location",
+            "image": "2/Turbulent-Waters"
+          },
+          {
+            "type": "location",
+            "image": "2/Turbulent-Waters"
+          },
+          {
+            "type": "location",
+            "image": "2/Warg-Lair"
+          },
+          {
+            "type": "location",
+            "image": "2/Warg-Lair"
+          },
+          {
+            "type": "location",
+            "image": "2/Ruined-Road"
+          },
+          {
+            "type": "location",
+            "image": "2/Ruined-Road"
+          },
+          {
+            "type": "location",
+            "image": "2/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "2/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "2/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "2/Barren-Hills"
+          },
+          {
+            "type": "location",
+            "image": "2/Barren-Hills"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Sleeping-Sentry"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Sleeping-Sentry"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Followed-by-Night"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Followed-by-Night"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Followed-by-Night"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Orc-Ambush"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Orc-Ambush"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Taskmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Taskmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Taskmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Taskmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Orc-Raiders"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Orc-Raiders"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Orc-Raiders"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Crebain"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Crebain"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Crebain"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Wild-Bear"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Wild-Bear"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Wild-Bear"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "2/Arwen-Undomiel-2"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Gate"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "difficult": 6,
+        "title": "The Watcher in the Water",
+        "text": "Elrond is disturbed by the report of Arwen’s journey to Rivendell. He has requsted that the heroes discover the source of the increased Orc activity along the Misty Mountains. This mission has led the party South to Moria, but the Doors of Durin are blocked by a deep, dark lake. As the heroes make their way around its waters, an ancient evil stirs from within its depths. A desperate battle begins, and the heroes must drive the creature away or find safety in the mines.",
+        "questDeck": [
+          "1501A",
+          "1501B",
+          "1502A",
+          "1502B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Black-Uruks"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Mountain-Warg"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Bitter-Wind"
+          },
+          {
+            "type": "location",
+            "image": "2/Knees-of-the-Mountain"
+          },
+          {
+            "type": "location",
+            "image": "2/Turbulent-Waters"
+          },
+          {
+            "type": "location",
+            "image": "2/Turbulent-Waters"
+          },
+          {
+            "type": "location",
+            "image": "2/Warg-Lair"
+          },
+          {
+            "type": "location",
+            "image": "2/Warg-Lair"
+          },
+          {
+            "type": "location",
+            "image": "2/Stair-Falls"
+          },
+          {
+            "type": "location",
+            "image": "2/Perilous-Swamp"
+          },
+          {
+            "type": "location",
+            "image": "2/Perilous-Swamp"
+          },
+          {
+            "type": "location",
+            "image": "2/Makeshift-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Makeshift-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Stagnant-Creek"
+          },
+          {
+            "type": "location",
+            "image": "2/Stagnant-Creek"
+          },
+          {
+            "type": "location",
+            "image": "2/Stagnant-Creek"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Ill-Purpose"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Disturbed-Waters"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Disturbed-Waters"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Disturbed-Waters"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Grasping-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Grasping-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Grasping-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Grasping-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Thrashing-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Thrashing-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Thrashing-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Thrashing-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Striking-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Striking-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Striking-Tentacle"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Striking-Tentacle"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Wrapped"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Wrapped"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Wrapped"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Wrapped"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "2/The-Watcher"
+          },
+          {
+            "type": "location",
+            "image": "2/Doors-of-Durin"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "difficult": 4,
+        "title": "The Long Dark",
+        "text": "The Mines of Moria are a dark labyrinth of narrow tunnels and wide passages, natural caves and impressive caverns of Dwarven workmanship. The heroes must make their way eastward, discovering what they can about the Orcs, and perhaps even meeting up with Balin for more information. But it is easy to get lost in the darkness… ",
+        "questDeck": [
+          "1601A",
+          "1601B",
+          "1602A",
+          "1602B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "2/Great-Cave-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Great-Cave-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Orc-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Massing-in-the-Deep"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Massing-in-the-Deep"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Lightless-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Lightless-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Many-Roads"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "objective",
+            "image": "2/Durins-Greaves"
+          },
+          {
+            "type": "location",
+            "image": "2/Abandoned-Mine"
+          },
+          {
+            "type": "location",
+            "image": "2/Abandoned-Mine"
+          },
+          {
+            "type": "location",
+            "image": "2/Abandoned-Mine"
+          },
+          {
+            "type": "location",
+            "image": "2/Dwarven-Forge"
+          },
+          {
+            "type": "location",
+            "image": "2/Dwarven-Forge"
+          },
+          {
+            "type": "location",
+            "image": "2/Silent-Caverns"
+          },
+          {
+            "type": "location",
+            "image": "2/Silent-Caverns"
+          },
+          {
+            "type": "location",
+            "image": "2/Twisting-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Twisting-Passage"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fatigue"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fatigue"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Foul-Air"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Foul-Air"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Foul-Air"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Foul-Air"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Gathering-Ground"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Vast-and-Intricate"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Vast-and-Intricate"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Cave-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Cave-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Cave-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Sneak"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Sneak"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Sneak"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Sneak"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Warlord"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Rock-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Rock-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Rock-Adder"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "2/Cave-Torch"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "difficult": 6,
+        "title": "Foundations of Stone",
+        "text": "The walls are weeping water, and the air grows damp. A low rumble sounds from above, accompanied by the sound of rushing water. There are underground waterways in Moria that lead to deep darkness, and who knows what else…",
+        "questDeck": [
+          "1701A",
+          "1701B",
+          "1702A",
+          "1702B",
+          "1703A",
+          "1703B",
+          "1704A",
+          "1704B",
+          "1705A",
+          "1705B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Tunnels"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Tunnels"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Follower"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Branching-Paths"
+          },
+          {
+            "type": "location",
+            "image": "2/Lightless-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Lightless-Passage"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "location",
+            "image": "2/Zigil-Mineshaft"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Many-Roads"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Burning-Low"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Cave-In"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Crumbling-Ruin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Crumbling-Ruin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Dark-and-Dreadful"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Dark-and-Dreadful"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Sudden-Pitfall"
+          },
+          {
+            "type": "location",
+            "image": "2/Dreadful-Gap"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "location",
+            "image": "2/Fouled-Well"
+          },
+          {
+            "type": "location",
+            "image": "2/Drowned-Treasury"
+          },
+          {
+            "type": "location",
+            "image": "2/Drowned-Treasury"
+          },
+          {
+            "type": "location",
+            "image": "2/Drowned-Treasury"
+          },
+          {
+            "type": "location",
+            "image": "2/Mithril-Lode"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Deep-Deep-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Deep-Deep-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Deep-Deep-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Deep-Deep-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Lost-and-Alone"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Lost-and-Alone"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Nameless-Thing"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Nameless-Thing"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Nameless-Thing"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Nameless-Thing"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Nameless-Thing"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Elder-Nameless-Thing"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Elder-Nameless-Thing"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Elder-Nameless-Thing"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Moria-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Moria-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Moria-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Moria-Bats"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "2/Durins-Axe"
+          },
+          {
+            "type": "objective",
+            "image": "2/Durins-Helm"
+          },
+          {
+            "type": "objective",
+            "image": "2/Cave-Torch"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "difficult": 8,
+        "title": "Shadow and Flame",
+        "text": "The heroes have escaped from the darkness below the mines, and find themselves in the Third Deep, near the East-gate. But as Orcs begin to swarm, a foe more terrible towers before them. Durin's Bane has risen from the depths, to stalk the halls of the Dwarves once more…",
+        "questDeck": [
+          "1801A",
+          "1801B",
+          "1802A",
+          "1802B",
+          "1803A",
+          "1803B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "2/Durins-Bane"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "2/Great-Cave-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Great-Cave-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Orc-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Stray-Goblin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Chance-Encounter"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Massing-in-the-Deep"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Massing-in-the-Deep"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "location",
+            "image": "2/The-Mountains-Roots"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Goblin-Swordsman"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Watchful-Eyes"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Tunnels"
+          },
+          {
+            "type": "location",
+            "image": "2/Goblin-Tunnels"
+          },
+          {
+            "type": "location",
+            "image": "2/Second-Hall"
+          },
+          {
+            "type": "location",
+            "image": "2/Second-Deep"
+          },
+          {
+            "type": "location",
+            "image": "2/Second-Deep"
+          },
+          {
+            "type": "location",
+            "image": "2/Second-Deep"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fires-in-the-Deep"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fires-in-the-Deep"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Counter-Spell"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Counter-Spell"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Counter-Spell"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Inner-Flame"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Inner-Flame"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Inner-Flame"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Inner-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Inner-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Inner-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Whip-Lash"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Whip-Lash"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Leaping-Flame"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Leaping-Flame"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Leaping-Flame"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Ranging-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Ranging-Goblin"
+          },
+          {
+            "type": "enemy",
+            "image": "2/Ranging-Goblin"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fiery-Sword"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Fiery-Sword"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Many-Thonged-Whip"
+          },
+          {
+            "type": "treachery",
+            "image": "2/Many-Thonged-Whip"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "location",
+            "image": "2/Dark-Pit"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1666 @@
+[
+  {
+    "id": 3,
+    "title": "Against the Shadow",
+    "missions": [
+      {
+        "id": 19,
+        "difficult": 7,
+        "title": "Peril in Pelargir",
+        "text": "The shadow of Sauron has risen with increasing violence against the kingdom of Gondor. Our heroes have travelled southeast by ship from the Grey Havens at the request of the White Council, ready to aid the descendants of Númenor in their defense against the forces of Mordor. Upon reaching the port of Pelargir, they are greeted by Lord Alcaron, a nobleman from the city of Minas Tirith. Lord Alcaron has urgent information for Faramir, but he is frightened that the Enemy is after him. He asks the heroes to deliver a scroll to Faramir. The heroes agree when a band of ruffians appear, intent on intercepting the message...",
+        "questDeck": [
+          "1901A",
+          "1901B",
+          "1902A",
+          "1902B",
+          "1903A",
+          "1903B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "3/The-Leaping-Fish-Location"
+        },
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "3/Harbor-Thug"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Pickpocket"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Pickpocket"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Pickpocket"
+          },
+          {
+            "type": "location",
+            "image": "3/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "3/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "3/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "3/Market-Square"
+          },
+          {
+            "type": "location",
+            "image": "3/Market-Square"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lost-in-the-City"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Local-Trouble"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Local-Trouble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Harbor-Thug"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Harbor-Thug"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Harbor-Thug"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Harbor-Thug"
+          },
+          {
+            "type": "location",
+            "image": "3/Pelargir-Docks"
+          },
+          {
+            "type": "location",
+            "image": "3/Pelargir-Docks"
+          },
+          {
+            "type": "location",
+            "image": "3/Harbor-Storehouse"
+          },
+          {
+            "type": "location",
+            "image": "3/Harbor-Storehouse"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Collateral-Damage"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Collateral-Damage"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Collateral-Damage"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Collateral-Damage"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "3/Alcarons-Scroll"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "difficult": 8,
+        "title": "Into Ithilien",
+        "text": "Having reached the eaves of Ithilien, our heroes enter the green woodlands in search of Faramir, seeking to deliver to him the scroll of Lord Alcaron. There they are met by Celador, a ranger of Gondor, who informs the heroes that Faramir has taken his men to Cair Andros in anticipation of an assault against the island fortress. Celador offers to bring the heroes to Cair Andros by secret paths–after the rangers ambush a company of Southrons marching north on the Ithilien road. Grateful for Celador’s offer and unable to stand by while his men do battle, our heroes volunteer to fight alongside his rangers...",
+        "questDeck": [
+          "2001A",
+          "2001B",
+          "2002A",
+          "2002B",
+          "2003A",
+          "2003B",
+          "2004A",
+          "2004B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "3/Ithilien-Road"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "3/Celador"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Company"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Mumak"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Southron-Support"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Southron-Support"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Watcher-in-the-Wood"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Watcher-in-the-Wood"
+          },
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lost-Companion"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lost-Companion"
+          },
+          {
+            "type": "objective",
+            "image": "3/Ithilien-Guardian"
+          },
+          {
+            "type": "objective",
+            "image": "3/Ithilien-Guardian"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Company"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Company"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Company"
+          },
+          {
+            "type": "location",
+            "image": "3/Ithilien-Road"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Blocking-Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Blocking-Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Blocking-Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Blocking-Wargs"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 21,
+        "difficult": 8,
+        "title": "The Siege of Cair Andros",
+        "text": "The island fortress of Cair Andros guards Gondor’s northernmost causeways over the Anduin. Our heroes reach the causeway and enter the fortress as skirmishers appear on the eastern shore. They find Faramir in the Citadel, and deliver to him the scroll of Lord Alcaron. Drums are heard, and horns, and the tramping of many feet. An army of Orcs and Southrons prepare a threepronged assault, and the heroes gird themselves for battle. For if Cair Andros falls, the doom of Gondor is nigh...",
+        "questDeck": [
+          "2101A",
+          "2101B",
+          "2102A",
+          "2102B",
+          "2103A",
+          "2103B",
+          "2104A",
+          "2104B",
+          "2105A",
+          "2105B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "3/The-Citadel"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Approach"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Banks"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Lieutenant-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Power-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Mumak"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Southron-Support"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Southron-Support"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Scramblers"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Scramblers"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Scramblers"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Battering-Ram"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Battering-Ram"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Battering-Ram"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Siege-Raft"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Siege-Raft"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Orc-Assault"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Orc-Assault"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 22,
+        "difficult": 6,
+        "title": "The Steward's Fear",
+        "text": "The heroes arrive in Minas Tirith with news of victory at Cair Andros and a message for Lord Alcaron from Faramir. Upon arriving at the city, they learn that Lord Alcaron is traveling on important business north in Anórien. Even so, the heroes are soon furtively summoned to the White Tower by none other than Denethor, the Steward of Gondor himself. Word has come to Denethor of the heroes’ bravery in the defense of Cair Andros, and he’s learned the heroes have the confidence of Lord Alcaron. In Denethor’s mind, such trusted new arrivals are perfectly suited for a special task of a clandestine nature.",
+        "questDeck": [
+          "2201A",
+          "2201B",
+          "2202A",
+          "2202B",
+          "2203A",
+          "2203B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Pickpocket"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Pickpocket"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Pickpocket"
+          },
+          {
+            "type": "location",
+            "image": "3/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "3/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "3/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "3/Market-Square"
+          },
+          {
+            "type": "location",
+            "image": "3/Market-Square"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lost-in-the-City"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Local-Trouble"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Local-Trouble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Zealous-Traitor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Zealous-Traitor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Zealous-Traitor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Lossarnach-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Lossarnach-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Umbar-Assassin"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lurking-in-Shadows"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lurking-in-Shadows"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Daughter-of-Beruthiel"
+          },
+          {
+            "type": "enemy",
+            "image": "3/The-Hand-of-Castamir"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Telemnars-Bane"
+          },
+          {
+            "type": "location",
+            "image": "3/Sewers"
+          },
+          {
+            "type": "location",
+            "image": "3/Sewers"
+          },
+          {
+            "type": "location",
+            "image": "3/Sewers"
+          },
+          {
+            "type": "location",
+            "image": "3/Storehouse"
+          },
+          {
+            "type": "location",
+            "image": "3/Storehouse"
+          },
+          {
+            "type": "location",
+            "image": "3/Houses-of-the-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Unwelcome-Discovery"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Unwelcome-Discovery"
+          },
+          {
+            "type": "treachery",
+            "image": "3/A-Knife-in-the-Back"
+          },
+          {
+            "type": "treachery",
+            "image": "3/A-Knife-in-the-Back"
+          },
+          {
+            "type": "treachery",
+            "image": "3/A-Knife-in-the-Back"
+          },
+          {
+            "type": "treachery",
+            "image": "3/False-Lead"
+          },
+          {
+            "type": "treachery",
+            "image": "3/False-Lead"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "location",
+            "image": "3/Roots-of-Mindolluin"
+          },
+          {
+            "type": "objective",
+            "image": "3/A-Scrap-of-History"
+          },
+          {
+            "type": "objective",
+            "image": "3/Secret-Map"
+          },
+          {
+            "type": "objective",
+            "image": "3/A-Prisoner"
+          },
+          {
+            "type": "objective",
+            "image": "3/Unholy-Alliance"
+          },
+          {
+            "type": "objective",
+            "image": "3/Up-in-Flames"
+          },
+          {
+            "type": "objective",
+            "image": "3/Poisoned-Counsels"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Fourth-Star"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "difficult": 6,
+        "title": "The Drúadan Forest",
+        "text": "The heroes have unmasked a dangerous conspiracy within the walls of Minas Tirith, but the nameless mastermind of the cabal managed to escape the city before his true identity was revealed. At the request of Denethor, the heroes have pursued the clever villain and his henchmen northward. The conspirators’ trail has lead them north beyond the Rammas Echor, and then west to the doorstep of the Drúadan Forest, an ancient land with a hostile reputation. Now our heroes move to track their quarry among its ancient trees and strange stones... ",
+        "questDeck": [
+          "2301A",
+          "2301B",
+          "2302A",
+          "2302B",
+          "2303A",
+          "2303B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "3/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Glade"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lost-Companion"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lost-Companion"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Thief"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Thief"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Druadan-Thief"
+          },
+          {
+            "type": "location",
+            "image": "3/Ancestral-Clearing"
+          },
+          {
+            "type": "location",
+            "image": "3/Garden-of-Poisons"
+          },
+          {
+            "type": "location",
+            "image": "3/Garden-of-Poisons"
+          },
+          {
+            "type": "location",
+            "image": "3/Garden-of-Poisons"
+          },
+          {
+            "type": "location",
+            "image": "3/Glade-of-Cleansing"
+          },
+          {
+            "type": "location",
+            "image": "3/Glade-of-Cleansing"
+          },
+          {
+            "type": "location",
+            "image": "3/Glade-of-Cleansing"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Men-in-the-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Men-in-the-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Men-in-the-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Stars-in-Sky"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Stars-in-Sky"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Stars-in-Sky"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Leaves-on-Tree"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Leaves-on-Tree"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "3/Dru-buri-Dru"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "difficult": 3,
+        "title": "Encounter at Amon Dîn",
+        "text": "Having escaped from the Drúadan Forest and witnessed the demise of the conspirators by the arrows of the Woses, the heroes have begun their journey back to Minas Tirith. In the morning of the second day, they awoke to a grim sight. Dozens of columns of smoke were rising across the hilly farmlands of Anórien. It seems death had crossed the Anduin after all.",
+        "questDeck": [
+          "2401A",
+          "2401B",
+          "2402A",
+          "2402B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "3/Burning-Farmhouse"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "3/Lord-Alcaron"
+          },
+          {
+            "type": "objective",
+            "image": "3/Rescued-Villagers"
+          },
+          {
+            "type": "objective",
+            "image": "3/Dead-Villagers"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Marauding-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Marauding-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Marauding-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Marauding-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ravager"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ravager"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ravager"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Craven-Eagle"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Craven-Eagle"
+          },
+          {
+            "type": "location",
+            "image": "3/Burning-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "3/Burning-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "3/Burning-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "3/Gondorian-Hamlet"
+          },
+          {
+            "type": "location",
+            "image": "3/Gondorian-Hamlet"
+          },
+          {
+            "type": "location",
+            "image": "3/Gondorian-Hamlet"
+          },
+          {
+            "type": "location",
+            "image": "3/Gondorian-Hamlet"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "3/Secluded-Farmhouse"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Burnt-Homestead"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Burnt-Homestead"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Trapped-Inside"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Trapped-Inside"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Panicked"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Panicked"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "3/Ghulat"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "difficult": 5,
+        "title": "Assault on Osgiliath",
+        "text": "After saving the villagers near Amon Dîn, the heroes have joined with Lord Alcaron to assist Lord Boromir’s forces in retaking Osgiliath. At the army encampment, you are thrilled to again meet Lord Faramir, and you are introduced to his brother Boromir, eldest son of Denethor and renowned hero of Gondor. Nestled on both sides of the Anduin lies old Osgiliath, a crossroads city bridging the great river. In the long war against Mordor, control of Osgiliath has been a critical piece. One that Boromir means to reclaim. ",
+        "questDeck": [
+          "2501A",
+          "2501B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Lieutenant"
+          },
+          {
+            "type": "location",
+            "image": "3/West-Gate"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Lieutenant-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Power-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Mumak"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Southron-Support"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Southron-Support"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Lieutenant"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Soldier"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Soldier"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Soldier"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Uruk-Soldier"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Phalanx"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Phalanx"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Phalanx"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Commander"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Southron-Commander"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Kings-Library"
+          },
+          {
+            "type": "location",
+            "image": "3/Ancient-Harbor"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Old-Bridge"
+          },
+          {
+            "type": "location",
+            "image": "3/West-Quarter"
+          },
+          {
+            "type": "location",
+            "image": "3/West-Quarter"
+          },
+          {
+            "type": "location",
+            "image": "3/East-Quarter"
+          },
+          {
+            "type": "location",
+            "image": "3/East-Quarter"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Square"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Square"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Square"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Tower"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Tower"
+          },
+          {
+            "type": "location",
+            "image": "3/Ruined-Tower"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Pinned-Down"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Pinned-Down"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Street-Fighting"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Street-Fighting"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Counter-attack"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Counter-attack"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 26,
+        "difficult": 6,
+        "title": "The Blood of Gondor",
+        "text": "In a great victory for Gondor, the city of Osgiliath has been retaken and the river Anduin is once more under the Steward’s control. Alongside the Lords Boromir, Faramir, and Alcaron, the heroes fought bravely to recapture the ancient city. With the defeated forces of orcs and evil men retreating eastward, Lord Alcaron had urged Boromir to pursue the scattered enemy. “Don’t let a single one of them return to foul the Pelennor again!” Alcaron pleaded. “We should hunt them. Pursue them until their black bones break on the mountains.” Flush with the confidence of victory and swayed by the nobleman’s passion, Boromir agreed and asked his brother to take on this endeavor with his rangers. Faramir reluctantly consented.",
+        "questDeck": [
+          "2601A",
+          "2601B",
+          "2602A",
+          "2602B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "3/Black-Numenorean"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Cross-roads"
+          },
+          {
+            "type": "objective",
+            "image": "3/Faramir"
+          },
+          {
+            "type": "objective",
+            "image": "3/Lord-Alcaron-2"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arsonist"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Scourge-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ambusher"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ambusher"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ambusher"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Ambusher"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Brutal-Uruk"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Brutal-Uruk"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Brutal-Uruk"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Evil-Crow"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Evil-Crow"
+          },
+          {
+            "type": "location",
+            "image": "3/Southern-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Western-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Northern-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Eastern-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Dark-Woods"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Dark-Woods"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Dark-Woods"
+          },
+          {
+            "type": "location",
+            "image": "3/The-Dark-Woods"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lying-in-Wait"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lying-in-Wait"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lying-in-Wait"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Lying-in-Wait"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Mordor-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Mordor-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Mordor-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Conflict-at-the-Crossroads"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Conflict-at-the-Crossroads"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 27,
+        "difficult": 8,
+        "title": "The Morgul Vale",
+        "text": "While pursuing the scattered enemy forces into Ithilien, Faramir’s company of rangers are ambushed by orcs near the old crossroads. During the ensuing fight, both Lord Faramir and Lord Alcaron are captured. At the thought of Denethor’s son in Sauron’s torture chambers, the heroes begin a desperate pursuit. Following frantic hours of tracking, they find themselves at the mouth of the dread Morgul Valley. As the Dead City comes into distant view, they have come upon their quarry at last. ",
+        "questDeck": [
+          "2701A",
+          "2701B",
+          "2702A",
+          "2702B",
+          "2703A",
+          "2703B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "3/To-the-Tower"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Murzag"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Vale"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Forest-Bat"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Watcher-in-the-Wood"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Watcher-in-the-Wood"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Lieutenant-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Orc-Vanguard"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp"
+          },
+          {
+            "type": "location",
+            "image": "3/Orc-War-Camp"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Power-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Sorcerer"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Sorcerer"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Tracker"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Tracker"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Morgul-Tracker"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Vale"
+          },
+          {
+            "type": "location",
+            "image": "3/Morgul-Vale"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Impenetrable-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Impenetrable-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Sleepless-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Sleepless-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "3/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Dead-City-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "3/The-Dead-City-Looms"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "3/Lord-Alcaron-3"
+          },
+          {
+            "type": "enemy",
+            "image": "3/Nazgul-of-Minas-Morgul"
+          },
+          {
+            "type": "location",
+            "image": "3/The-White-Bridge"
+          }
+        ]
+      }
+    ]
+  }
+]

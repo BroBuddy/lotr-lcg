@@ -1,0 +1,1207 @@
+[
+  {
+    "id": 4,
+    "title": "The Ring-maker",
+    "missions": [
+      {
+        "id": 28,
+        "difficult": 6,
+        "title": "The Fords of Isen",
+        "text": "The heroes came upon the dead rider as the afternoon darkened and the rain threatened to turn to ice. They found him facedown on the old road where he lay still and broken among the yellowing grasses. Life had been hacked from his body with axes, nearly destroying the sigil of Rohan on his hauberk. Not far from him lay the remains of his horse, a proud Mearas slain by black-fletched arrows in its graceful neck. As they dismounted to prepare a simple cairn for the body, a gust of western wind suddenly carried the familiar clangor of steel and screams. The dead man’s killers had found new victims. Rain and aching bodies momentarily forgotten, the heroes remounted and urged their horses to speed. ",
+        "questDeck": [
+          "2801A",
+          "2801B",
+          "2802A",
+          "2802B",
+          "2803A",
+          "2803B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "4/Grima"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Islet"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunlending-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunlending-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Raider"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Raider"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Old-Hatreds"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Old-Hatreds"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Fords-of-Isen"
+          },
+          {
+            "type": "location",
+            "image": "4/Fords-of-Isen"
+          },
+          {
+            "type": "location",
+            "image": "4/Fords-of-Isen"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Kings-Road"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Kings-Road"
+          },
+          {
+            "type": "location",
+            "image": "4/Gap-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "4/Gap-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "4/Gap-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "4/Gap-of-Rohan"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Pillaging-and-Burning"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Pillaging-and-Burning"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Down-from-the-Hills"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Ill-Tidings"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Ill-Tidings"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 29,
+        "difficult": 7,
+        "title": "To Catch an Orc",
+        "text": "Saruman received Gríma and his escort at the steps of Orthanc. The strange black tower rose coldly from the midst of Isengard’s luscious gardens. It’s ebon walls seemed out of place among the greenery of the vale and stood in stark contrast to Saruman’s brilliant white robes. Saruman, somehow, had already known about the affair at the ford. He lavished praise on the heroes for their rescue, and reassured Threol. The Dunlendings have grown daring of late, dear Captain.” The wizard spoke with a silky voice. It was a voice that enthralled, a voice that rung wiser than the wind, and its faint lilt was as encouraging as dawn itself. “Such an attack surely could not have been imagined until this ambush.”",
+        "questDeck": [
+          "2901A",
+          "2901B",
+          "2902A",
+          "2902B",
+          "2903A",
+          "2903B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "4/Methedras"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Methedras-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Methedras-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Methedras-Orc"
+          },
+          {
+            "type": "location",
+            "image": "4/Methedras"
+          },
+          {
+            "type": "location",
+            "image": "4/Methedras"
+          },
+          {
+            "type": "location",
+            "image": "4/Methedras"
+          },
+          {
+            "type": "location",
+            "image": "4/Orc-Cave"
+          },
+          {
+            "type": "location",
+            "image": "4/Orc-Cave"
+          },
+          {
+            "type": "location",
+            "image": "4/Orc-Cave"
+          },
+          {
+            "type": "location",
+            "image": "4/Mugashs-Lair"
+          },
+          {
+            "type": "location",
+            "image": "4/Mugashs-Lair"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Territory"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Territory"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Mugash"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Mugashs-Guard"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Mugashs-Guard"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Mugashs-Guard"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "difficult": 4,
+        "title": "Into Fangorn",
+        "text": "Mugash was free and running. The sickness lingered in his body, but he savored its malevolent presence. Because of it, his tormentors had thought him near death and loosened his bonds. The fools had even fed him. Mugash’s arms and legs stung. His joints were swollen and throbbing where the ropes had tied him to the poles. His limbs had been useless the first few miles of his escape, and he’d crawled like a worm down the mountainside, pushing himself forward with shoulders and hips. The great Orc had laughed at the pain. His way, the way of the Uruk, was not one of stealth and silence, but last night on the mountainside, stealth and silence had been his closest friends. He flexed his hands. Through the pain he felt strength returning. He had outwitted the hated bright-eyed humans, and now he was free. ",
+        "questDeck": [
+          "3001A",
+          "3001B",
+          "3002A",
+          "3002B",
+          "3003A",
+          "3003B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "4/Edge-of-Fangorn"
+          },
+          {
+            "type": "objective",
+            "image": "4/Mugash-2"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dark-Hearted-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dark-Hearted-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dark-Hearted-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dark-Hearted-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Angry-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Angry-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Angry-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Deadly-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Deadly-Huorn"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Deadly-Huorn"
+          },
+          {
+            "type": "location",
+            "image": "4/Heart-of-Fangorn"
+          },
+          {
+            "type": "location",
+            "image": "4/Heart-of-Fangorn"
+          },
+          {
+            "type": "location",
+            "image": "4/Heart-of-Fangorn"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Forests-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Forests-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Forests-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Forests-Malice"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 31,
+        "difficult": 8,
+        "title": "The Dunland Trap",
+        "text": "In the circle of Isengard, the heroes were preparing themselves for the journey to Tharbad. The leader of the White Council, Saruman, had tasked them with an important quest: to find the hidden forge of Celebrimbor, the master Elf-smith who forged Rings of Power in the Second Age. The Wizard believed that knowledge of Celebrimbor’s secret forge could be learned from a Dwarf who they were to meet in Tharbad. The heroes were tightening their belts and shouldering their bags when Saruman descended the stairs of Orthanc to wish them farewell. This gold should be sufficient to convince the Dwarf, Nalir, to sell you his map, the Wizard said as he handed a heavy purse to the heroes. Guard it well. For the location of Celebrimbor’s forge is a prize beyond worth, and we dare not let the servants of the Enemy find it in our stead.",
+        "questDeck": [
+          "3101A",
+          "3101B",
+          "3102A",
+          "3102B",
+          "3103A",
+          "3103B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "4/Old-South-Road"
+        },
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Stalker"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Stalker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Stalker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Boar-Clan-Warrior"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Foothills"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Foothills"
+          },
+          {
+            "type": "location",
+            "image": "4/Hills-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Hills-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Hills-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Hills-of-Dunland"
+          },
+          {
+            "type": "location",
+            "image": "4/Plains-of-Enedwaith"
+          },
+          {
+            "type": "location",
+            "image": "4/Plains-of-Enedwaith"
+          },
+          {
+            "type": "location",
+            "image": "4/Plains-of-Enedwaith"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Stream"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Stream"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Stream"
+          },
+          {
+            "type": "location",
+            "image": "4/Hithaeglir-Stream"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Frenzied-Attack"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Frenzied-Attack"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Frenzied-Attack"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Dunlending-Ambush"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Dunlending-Ambush"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Dunlending-Ambush"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Chief-Turch"
+          },
+          {
+            "type": "location",
+            "image": "4/Munuv-Duv-Ravine"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "difficult": 7,
+        "title": "The Three Trials",
+        "text": "The heroes were bound hand and foot inside a wood lodge of the Dunlendings. Outside they could hear the warriors of the Boar Clan celebrating their victory, when a large Dunlending entered. It was the leader of the war-party that assaulted them, and the same Wild Man who ordered them taken prisoner. He approached the heroes until he stood towering over them. The war-chief stared intently at the heroes, holding the totemic amulet taken from their baggage. 'I am Turch, chieftain of the Boar Clan. Every ten years, an amulet like this is given to a youth of great promise,' he began. 'The gift marks the height of his manhood and signals his worthiness to undertake the three trials.' His eyes grew distant, and for a moment sadness washed over his stern face. Then, with a deep breath he hardened h his face and continued, 'This amulet was given to my son.'",
+        "questDeck": [
+          "3201A",
+          "3201B",
+          "3202A",
+          "3202B",
+          "3202A2",
+          "3202B2",
+          "3202A3",
+          "3202B3",
+          "3203A",
+          "3203B"],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "location",
+            "image": "4/Tangled-Woods"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Turned-Around"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spirit-of-the-Wild"
+          },
+          {
+            "type": "location",
+            "image": "4/Cursed-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Cursed-Forest"
+          },
+          {
+            "type": "location",
+            "image": "4/Grim-Foothills"
+          },
+          {
+            "type": "location",
+            "image": "4/Grim-Foothills"
+          },
+          {
+            "type": "location",
+            "image": "4/Grim-Foothills"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Curse-of-the-Wild-Men"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Curse-of-the-Wild-Men"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Guardians-Fury"
+          },
+          {
+            "type": "treachery",
+            "image": "4/The-Guardians-Fury"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Tenacity"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Tenacity"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Tenacity"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Boars-Guardian"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Wolfs-Guardian"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Ravens-Guardian"
+          },
+          {
+            "type": "objective",
+            "image": "4/Key-of-the-Boar"
+          },
+          {
+            "type": "objective",
+            "image": "4/Key-of-the-Wolf"
+          },
+          {
+            "type": "objective",
+            "image": "4/Key-of-the-Raven"
+          },
+          {
+            "type": "location",
+            "image": "4/Hill-Barrow"
+          },
+          {
+            "type": "location",
+            "image": "4/Cave-Barrow"
+          },
+          {
+            "type": "location",
+            "image": "4/Stone-Barrow"
+          },
+          {
+            "type": "location",
+            "image": "4/Hallowed-Circle"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "difficult": 4,
+        "title": "Trouble in Tharbad",
+        "text": "Looking at Tharbad, the heroes were dubious. The river town was little more than a haven of freelancers and highwaymen, filled with dilapidated buildings amongst ruined and crumbling causeways. As soon as they entered the ancient city, they inquired with several townsfolk to discover where they might find Nalir. In due time, the heroes were pointed in the direction of a patched and ramshackle tavern, The Empty Mug. Once inside, the heroes found the Dwarf they sought sitting alone with a tankard of ale. His appearance did little to inspire confidence in the heroes, but there was a glint in his eyes when they spoke of the map that revealed a cunning mind at work. 'Aye, I have the map you seek,' he said, wiping the ale from his mouth. 'However…' he continued slowly, 'I sold it to a man earlier today, name of Bellach. A shady looking character, he was. Not the sort of man to take ‘no’ for an answer. But he offered a fair price, even if he was foul about it. I’m to meet him here at sundown to make the exchange... Unless you can offer a better price?' Nalir punctuated his question with a sly grin.",
+        "questDeck": [
+          "3301A",
+          "3301B",
+          "3302A",
+          "3302B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "4/The-Empty-Mug"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "4/Nalir"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spy-from-Mordor"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spy-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spy-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Spy-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Bellachs-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Bellachs-Marauder"
+          },
+          {
+            "type": "location",
+            "image": "4/Streets-of-Tharbad"
+          },
+          {
+            "type": "location",
+            "image": "4/Streets-of-Tharbad"
+          },
+          {
+            "type": "location",
+            "image": "4/Tharbad-Hideout"
+          },
+          {
+            "type": "location",
+            "image": "4/Tharbad-Hideout"
+          },
+          {
+            "type": "location",
+            "image": "4/Ruins-of-the-Second-Age"
+          },
+          {
+            "type": "location",
+            "image": "4/Ruins-of-the-Second-Age"
+          },
+          {
+            "type": "location",
+            "image": "4/Seedy-Inn"
+          },
+          {
+            "type": "location",
+            "image": "4/Seedy-Inn"
+          },
+          {
+            "type": "location",
+            "image": "4/Hidden-Alleyway"
+          },
+          {
+            "type": "location",
+            "image": "4/Hidden-Alleyway"
+          },
+          {
+            "type": "location",
+            "image": "4/Decrepit-Rooftops"
+          },
+          {
+            "type": "location",
+            "image": "4/Decrepit-Rooftops"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Constant-Tail"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Constant-Tail"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Conspicuous-Lot"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Conspicuous-Lot"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Cornered"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Cornered"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Get-That-Dwarf"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Get-That-Dwarf"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Bellach"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Crossing-at-Tharbad"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "difficult": 7,
+        "title": "The Nin-in-Eilph",
+        "text": "With Bellach’s Orcs scouring the country around Tharbad looking for the Dwarf, Nalir, the heroes had chosen to flee with him into the Nîn-in-Eilph, a vast swampland that had been undisturbed for ages. By taking this path the heroes hoped they would throw the Orcs off their trail and come to Hollin on the other side. But after wandering for a day through the pathless marsh, the heroes were growing tired and Nalir’s complaints were getting louder. 'I told you this was a bad idea,' Nalir grumbled as he struggled through the marsh and sank to his chest. 'I don’t like to get closer to water than the riverbank. Dwarves don’t swim, you see.” Despite the roguish Dwarf’s protests, the heroes trudged on. The mission they had undertaken for Saruman to find Celebrimbor’s forge was important, and all the more urgent now that the Enemy was searching for it too. ",
+        "questDeck": [
+          "3401A",
+          "3401B",
+          "3402A",
+          "3402B",
+          "3403A",
+          "3403B",
+          "3404A",
+          "3404B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "4/Nalir-2"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Low-on-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Off-Track"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "treachery",
+            "image": "4/In-Need-of-Rest"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Giant-Swamp-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Giant-Swamp-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Giant-Swamp-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Giant-Swamp-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Neekerbreekers"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Neekerbreekers"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Neekerbreekers"
+          },
+          {
+            "type": "location",
+            "image": "4/Fen-of-Reeds"
+          },
+          {
+            "type": "location",
+            "image": "4/Fen-of-Reeds"
+          },
+          {
+            "type": "location",
+            "image": "4/Fen-of-Reeds"
+          },
+          {
+            "type": "location",
+            "image": "4/Finger-of-Glanduin"
+          },
+          {
+            "type": "location",
+            "image": "4/Finger-of-Glanduin"
+          },
+          {
+            "type": "location",
+            "image": "4/Finger-of-Glanduin"
+          },
+          {
+            "type": "location",
+            "image": "4/Hidden-Eyot"
+          },
+          {
+            "type": "location",
+            "image": "4/Hidden-Eyot"
+          },
+          {
+            "type": "location",
+            "image": "4/Sinking-Bog"
+          },
+          {
+            "type": "location",
+            "image": "4/Sinking-Bog"
+          },
+          {
+            "type": "location",
+            "image": "4/Sinking-Bog"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Shifting-Marshland"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Shifting-Marshland"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Shifting-Marshland"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Remnants-of-Elder-Days"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Ancient-Marsh-dweller"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "difficult": 6,
+        "title": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 36,
+        "difficult": 7,
+        "title": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      }
+    ]
+  }
+]

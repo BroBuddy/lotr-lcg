@@ -1,12 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute, Params} from '@angular/router';
 import {ToastrService} from 'ngx-toastr';
-
-import {Observable, of} from 'rxjs';
-import {map} from 'rxjs/operators';
+import { SubSink } from 'subsink';
 
 import {ImageZoomService} from '../image-zoom/image-zoom.service';
-import Missions from '../mission/mission-data.json';
+import {DataService} from '../data/data.service';
 
 @Component({
   selector: 'app-game',
@@ -17,24 +15,23 @@ import Missions from '../mission/mission-data.json';
     transform: scale(0.85);
   }`]
 })
-export class GameComponent implements OnInit {
+export class GameComponent implements OnInit, OnDestroy {
   public cId: number;
-  public mId: number;
-
+  public sId: number;
   public encounterDeck: any[] = [];
   public stagingArea: any[] = [];
   public activeLocation = null;
-
   public shadowCard = null;
   public engagingArea: any[] = [];
   public questDeck: any[] = [];
   public questStep = 0;
-
   public discardPile: any[] = [];
   public progress = 0;
+  private subs = new SubSink();
 
   constructor(private route: ActivatedRoute,
               private toastr: ToastrService,
+              private dataService: DataService,
               public zoomService: ImageZoomService) { }
 
   ngOnInit(): void {
@@ -42,28 +39,18 @@ export class GameComponent implements OnInit {
       .subscribe(
         (params: Params) => {
           this.cId = params.cId;
-          this.mId = params.mId;
+          this.sId = params.sId;
+          this.dataService.setCycle(this.cId, this.sId);
+          this.subs.sink = this.dataService.scenario$.subscribe(data => {
+            this.stagingArea = data.stagingArea;
+            this.encounterDeck = data.encounterDeck;
+            this.discardPile = data.discardPile;
+            this.activeLocation = data.activeLocation;
+            this.questDeck = data.questDeck;
+            this.onShuffleEncounter();
+          });
         }
       );
-
-    this.fetchMission()
-      .pipe(map(data => data[(this.cId - 1)]))
-      .subscribe(data => {
-        const index = data.missions.findIndex((item) => item.id === Number(this.mId));
-
-        if (data.missions[index]) {
-          this.stagingArea = data.missions[index].stagingArea;
-          this.encounterDeck = data.missions[index].encounterDeck;
-          this.discardPile = data.missions[index].discardPile;
-          this.activeLocation = data.missions[index].activeLocation;
-          this.questDeck = data.missions[index].questDeck;
-          this.onShuffleEncounter();
-        }
-      });
-  }
-
-  fetchMission(): Observable<any> {
-    return of(Missions);
   }
 
   onShuffleEncounter(): void {
@@ -191,7 +178,7 @@ export class GameComponent implements OnInit {
       this.discardPile.push(card);
     }
 
-    if(this.shadowCard) {
+    if (this.shadowCard) {
       this.shadowCard = null;
     }
   }
@@ -216,15 +203,12 @@ export class GameComponent implements OnInit {
         index = discardPile.findIndex((item) => item === card);
 
     this.discardPile = discardPile.slice(0, Number(index)).concat(discardPile.slice(Number(index) + 1));
-
     this.toastr.success('Card was played');
   }
 
   onChooseCard(card: any, index: number): void {
     this.stagingArea.push(card);
-
     this.encounterDeck = this.encounterDeck.slice(0, Number(index)).concat(this.encounterDeck.slice(Number(index) + 1));
-
     this.toastr.success('Card was played');
   }
 
@@ -244,4 +228,7 @@ export class GameComponent implements OnInit {
     return index;
   }
 
+  ngOnDestroy(): void {
+    this.subs.unsubscribe();
+  }
 }

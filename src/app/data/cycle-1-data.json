@@ -1,0 +1,1958 @@
+[
+  {
+    "id": 1,
+    "title": "Shadows of Mirkwood",
+    "missions": [
+      {
+        "id": 1,
+        "difficult": 2,
+        "title": "Passage Through Mirkwood",
+        "text": "Mirkwood has long been a dangerous place, and recently one of King Thranduil’s patrols has uncovered disconcerting signs of a gathering menace in the vicinity of Dol Guldur. A party of heroes, controlled by the players, has been assembled to carry a message through Mirkwood, down the Anduin, and eventually to Lórien, to warn Lady Galadriel of the imminent danger. ",
+        "questDeck": [
+          "0101A",
+          "0101B",
+          "0102A",
+          "0102B",
+          "0103A",
+          "0103B",
+          "0103A2",
+          "0103B2"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "1/Forest-Spider"
+          },
+          {
+            "type": "location",
+            "image": "1/Old-Forest-Road"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hummerhorns"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Ungoliants-Spawn"
+          },
+          {
+            "type": "location",
+            "image": "1/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "1/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Eyes-of-the-Forest"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Caught-in-a-Web"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Caught-in-a-Web"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Forest-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Forest-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Forest-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/East-Bight-Patrol"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Black-Forest-Bats"
+          },
+          {
+            "type": "location",
+            "image": "1/Old-Forest-Road"
+          },
+          {
+            "type": "location",
+            "image": "1/Forest-Gate"
+          },
+          {
+            "type": "location",
+            "image": "1/Forest-Gate"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 2,
+        "difficult": 5,
+        "title": "Journey Along the Anduin",
+        "text": "Having survived the dangers of Mirkwood Forest, the heroes continue their journey along the banks of the Anduin river, toward Lórien, with dire news of a gathering threat in Southern Mirkwood. ",
+        "questDeck": [
+          "0201A",
+          "0201B",
+          "0202A",
+          "0202B",
+          "0203A",
+          "0203B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "1/Hill-Troll"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Treacherous-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Treacherous-Fog"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wolf-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Marsh-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wargs"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Despair"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Despair"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bight"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Massing-at-Night"
+          },
+          {
+            "type": "location",
+            "image": "1/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "1/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 3,
+        "difficult": 8,
+        "title": "Escape from Dol Guldur",
+        "text": "While exploring in the vicinity of Dol Guldur at Lady Galadriel's request, one of the heroes' companions is captured by the Necromancer's forces, and is now awaiting interrogation in a dungeon beneath the hill. Knowing their friend's time is short, the heroes decide to attempt a desperate rescue. ",
+        "questDeck": [
+          "0301A",
+          "0301B",
+          "0302A",
+          "0302B",
+          "0303A",
+          "0303B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "1/Nazgul-of-Dol-Guldur"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hummerhorns"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Ungoliants-Spawn"
+          },
+          {
+            "type": "location",
+            "image": "1/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "1/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Eyes-of-the-Forest"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Caught-in-a-Web"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Caught-in-a-Web"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dungeon-Jailor"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dungeon-Jailor"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Cavern-Guardian"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Cavern-Guardian"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Under-the-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Under-the-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Iron-Shackles"
+          },
+          {
+            "type": "location",
+            "image": "1/Endless-Caverns"
+          },
+          {
+            "type": "location",
+            "image": "1/Endless-Caverns"
+          },
+          {
+            "type": "location",
+            "image": "1/Tower-Gate"
+          },
+          {
+            "type": "location",
+            "image": "1/Tower-Gate"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "1/Gandalfs-Map"
+          },
+          {
+            "type": "objective",
+            "image": "1/Dungeon-Torch"
+          },
+          {
+            "type": "objective",
+            "image": "1/Shadow-Key"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "difficult": 4,
+        "title": "The Hunt for Gollum",
+        "text": "At the request of Gandalf, the heroes are searching for Gollum in the Anduin Valley between the Misty Mountains and Mirkwood forest. Rumours have suggested that Gollum is in the area, and the heroes are looking for clues that might put them on the elusive creature’s trail. ",
+        "questDeck": [
+          "0401A",
+          "0401B",
+          "0402A",
+          "0402B",
+          "0403A",
+          "0403B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Massing-at-Night"
+          },
+          {
+            "type": "location",
+            "image": "1/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "1/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Treacherous-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Treacherous-Fog"
+          },
+          {
+            "type": "objective",
+            "image": "1/Signs-of-Gollum"
+          },
+          {
+            "type": "objective",
+            "image": "1/Signs-of-Gollum"
+          },
+          {
+            "type": "objective",
+            "image": "1/Signs-of-Gollum"
+          },
+          {
+            "type": "objective",
+            "image": "1/Signs-of-Gollum"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Old-Ford"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Old-Ford"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Eaves-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Eaves-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Eaves-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/River-Ninglor"
+          },
+          {
+            "type": "location",
+            "image": "1/River-Ninglor"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bank"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bank"
+          },
+          {
+            "type": "location",
+            "image": "1/The-West-Bank"
+          },
+          {
+            "type": "location",
+            "image": "1/The-West-Bank"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblintown-Scavengers"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblintown-Scavengers"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hunters-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hunters-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hunters-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hunters-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hunters-from-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "1/False-Lead"
+          },
+          {
+            "type": "treachery",
+            "image": "1/False-Lead"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Flooding"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Flooding"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Old-Wives-Tales"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Old-Wives-Tales"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Old-Wives-Tales"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 5,
+        "difficult": 6,
+        "title": "Conflict at the Carrock",
+        "text": "While searching for Gollum along the banks of the Anduin, the heroes hear rumours of a group Trolls that have come to the Carrock, bringing chaos and strife to the valley. The Beonings, led by Grimbeorn the Old, are known as the peacekeepers in the area, so the heroes set out to find Grimbeorn and assist him in driving the intrusive Trolls back to the mountains from which they came. ",
+        "questDeck": [
+          "0501A",
+          "0501B",
+          "0502A",
+          "0502B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "1/The-Carrock"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Massing-at-Night"
+          },
+          {
+            "type": "location",
+            "image": "1/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "1/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "1/Gladden-Fields"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wolf-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Marsh-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wargs"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Despair"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Despair"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bight"
+          },
+          {
+            "type": "objective",
+            "image": "1/Grimbeorn-the-Old"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Muck-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Muck-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Muck-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Muck-Adder"
+          },
+          {
+            "type": "location",
+            "image": "1/River-Langflood"
+          },
+          {
+            "type": "location",
+            "image": "1/River-Langflood"
+          },
+          {
+            "type": "location",
+            "image": "1/River-Langflood"
+          },
+          {
+            "type": "location",
+            "image": "1/River-Langflood"
+          },
+          {
+            "type": "location",
+            "image": "1/Bee-Pastures"
+          },
+          {
+            "type": "location",
+            "image": "1/Bee-Pastures"
+          },
+          {
+            "type": "location",
+            "image": "1/Bee-Pastures"
+          },
+          {
+            "type": "location",
+            "image": "1/Oak-wood-Grove"
+          },
+          {
+            "type": "location",
+            "image": "1/Oak-wood-Grove"
+          },
+          {
+            "type": "location",
+            "image": "1/Oak-wood-Grove"
+          },
+          {
+            "type": "treachery",
+            "image": "1/A-Frightened-Beast"
+          },
+          {
+            "type": "treachery",
+            "image": "1/A-Frightened-Beast"
+          },
+          {
+            "type": "treachery",
+            "image": "1/A-Frightened-Beast"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Sacked"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Sacked"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Roasted-Slowly"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Roasted-Slowly"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "1/Louis"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Morris"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Stuart"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Rupert"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Sacked"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Sacked"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Sacked"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "difficult": 6,
+        "title": "A Journey to Rhosgobel",
+        "text": "While travelling in the Anduin Valley, the heroes come across a fallen Eagle, dreadfully wounded from a recent battle with Goblins, and on the verge of death. Given their location, the heroes attempt to transport the Eagle to Rhosgobel, on the edge of Mirkwood, in the hope that the wizard Radagast can save the Eagle’s life.",
+        "questDeck": [
+          "0601A",
+          "0601B",
+          "0602A",
+          "0602B",
+          "0603A",
+          "0603B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "1/Rhosgobel"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "1/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hummerhorns"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Ungoliants-Spawn"
+          },
+          {
+            "type": "location",
+            "image": "1/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "1/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Eyes-of-the-Forest"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Caught-in-a-Web"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Caught-in-a-Web"
+          },
+          {
+            "type": "objective",
+            "image": "1/Athelas"
+          },
+          {
+            "type": "objective",
+            "image": "1/Athelas"
+          },
+          {
+            "type": "objective",
+            "image": "1/Athelas"
+          },
+          {
+            "type": "objective",
+            "image": "1/Athelas"
+          },
+          {
+            "type": "location",
+            "image": "1/Forest-Grove"
+          },
+          {
+            "type": "location",
+            "image": "1/Forest-Grove"
+          },
+          {
+            "type": "location",
+            "image": "1/Forest-Grove"
+          },
+          {
+            "type": "location",
+            "image": "1/Forest-Grove"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Exhaustion"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Exhaustion"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Exhaustion"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Exhaustion"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Swarming-Insects"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Swarming-Insects"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Swarming-Insects"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Swarming-Insects"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Festering-Wounds"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Festering-Wounds"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Mirkwood-Flock"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Mirkwood-Flock"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Mirkwood-Flock"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Mirkwood-Flock"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Black-Forest-Bats-2"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Black-Forest-Bats-2"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Black-Forest-Bats-2"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Black-Forest-Bats-2"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Black-Forest-Bats-2"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "1/Wilyador"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "difficult": 3,
+        "title": "The Hills of Emyn Muil",
+        "text": "Pursuing Gollum to the south, the heroes were led to the hills of Emyn Muil, but there the leads grew cold. Somewhere in this region, Gollum is hiding, and the heroes must explore carefully to regain the trail and resume pursuit.",
+        "questDeck": [
+          "0701A",
+          "0701B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "1/Amon-Hen"
+          },
+          {
+            "type": "location",
+            "image": "1/Amon-Lhaw"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "1/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Treacherous-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Treacherous-Fog"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Wall-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Wall-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "1/The-North-Stair"
+          },
+          {
+            "type": "location",
+            "image": "1/The-North-Stair"
+          },
+          {
+            "type": "location",
+            "image": "1/Rauros-Falls"
+          },
+          {
+            "type": "location",
+            "image": "1/Rauros-Falls"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Shores-of-Nen-Hithoel"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Shores-of-Nen-Hithoel"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Shores-of-Nen-Hithoel"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Outer-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Outer-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Outer-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Highlands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Highlands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Highlands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Highlands"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Impassable-Chasm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Impassable-Chasm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Impassable-Chasm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Impassable-Chasm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Rockslide"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Rockslide"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Rockslide"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Slick-Footing"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Slick-Footing"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Slick-Footing"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Orc-Horse-Thieves"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Orc-Horse-Thieves"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Orc-Horse-Thieves"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 8,
+        "difficult": 4,
+        "title": "The Dead Marshes",
+        "text": "After regaining his trail in the hills of Emyn Muil, the heroes have tracked Gollum to The Dead Marshes, into which he has fled in a last ditch effort to avoid pursuit. Feeling that the hunt is coming to a close, the heroes enter the treacherous marshlands, ready to capture the creature alive.",
+        "questDeck": [
+          "0801A",
+          "0801B",
+          "0802A",
+          "0802B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "1/Gollum"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Eastern-Crows"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Treacherous-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Treacherous-Fog"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wolf-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Marsh-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wargs"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Despair"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Despair"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bight"
+          },
+          {
+            "type": "treachery",
+            "image": "1/A-Wisp-of-Pale-Sheen"
+          },
+          {
+            "type": "treachery",
+            "image": "1/A-Wisp-of-Pale-Sheen"
+          },
+          {
+            "type": "treachery",
+            "image": "1/A-Wisp-of-Pale-Sheen"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Nightfall"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Nightfall"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Nightfall"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Through-the-Mist"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Through-the-Mist"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Through-the-Mist"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Lights-of-the-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Lights-of-the-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Lights-of-the-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "1/The-Lights-of-the-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Giant-Marsh-Worm"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Giant-Marsh-Worm"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Giant-Marsh-Worm"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Giant-Marsh-Worm"
+          },
+          {
+            "type": "location",
+            "image": "1/Impassable-Bog"
+          },
+          {
+            "type": "location",
+            "image": "1/Impassable-Bog"
+          },
+          {
+            "type": "location",
+            "image": "1/Impassable-Bog"
+          },
+          {
+            "type": "location",
+            "image": "1/Impassable-Bog"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Heart-of-the-Marshes"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Heart-of-the-Marshes"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Heart-of-the-Marshes"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Heart-of-the-Marshes"
+          },
+          {
+            "type": "location",
+            "image": "1/Fens-and-Mires"
+          },
+          {
+            "type": "location",
+            "image": "1/Fens-and-Mires"
+          },
+          {
+            "type": "location",
+            "image": "1/Fens-and-Mires"
+          },
+          {
+            "type": "location",
+            "image": "1/Fens-and-Mires"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 9,
+        "difficult": 7,
+        "title": "Return to Mirkwood",
+        "text": "After cornering and capturing Gollum in The Dead Marshes, the heroes must now escort the creature north, through Mirkwood forest, so that he can be held and interrogated at King Thranduil’s palace. The journey will not be easy, however: Mirkwood is always a dangerous place, the Dark Lord’s forces are eager to take Gollum for their own purposes...and Gollum himself is eager to escape.",
+        "questDeck": [
+          "0901A",
+          "0901B",
+          "0902A",
+          "0902B",
+          "0903A",
+          "0903B",
+          "0904A",
+          "0904B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "1/Gollum-2"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "1/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hummerhorns"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Ungoliants-Spawn"
+          },
+          {
+            "type": "location",
+            "image": "1/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "1/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "1/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Eyes-of-the-Forest"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Caught-in-a-Web"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Caught-in-a-Web"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wolf-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Marsh-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wargs"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Despair"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Despair"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "1/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Spiders-Ring"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Spiders-Ring"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Spiders-Ring"
+          },
+          {
+            "type": "location",
+            "image": "1/The-Spiders-Ring"
+          },
+          {
+            "type": "location",
+            "image": "1/Dry-Watercourse"
+          },
+          {
+            "type": "location",
+            "image": "1/Dry-Watercourse"
+          },
+          {
+            "type": "location",
+            "image": "1/Dry-Watercourse"
+          },
+          {
+            "type": "location",
+            "image": "1/Woodmans-Glade"
+          },
+          {
+            "type": "location",
+            "image": "1/Woodmans-Glade"
+          },
+          {
+            "type": "location",
+            "image": "1/Woodmans-Glade"
+          },
+          {
+            "type": "location",
+            "image": "1/Wood-Elf-Path"
+          },
+          {
+            "type": "location",
+            "image": "1/Wood-Elf-Path"
+          },
+          {
+            "type": "location",
+            "image": "1/Wood-Elf-Path"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Gollums-Anguish"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Gollums-Anguish"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Gollums-Bite"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Gollums-Bite"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Wasted-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Wasted-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "1/Wasted-Provisions"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Mirkwood-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Mirkwood-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Mirkwood-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Mirkwood-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Attercop-Attercop"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Attercop-Attercop"
+          },
+          {
+            "type": "enemy",
+            "image": "1/Attercop-Attercop"
+          }
+        ],
+        "discardPile": []
+      }
+    ]
+  }
+]

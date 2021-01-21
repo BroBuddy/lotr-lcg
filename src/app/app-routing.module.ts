@@ -18,7 +18,7 @@ const routes: Routes = [
     component: MissionComponent
   },
   {
-    path: 'cycle/:cId/scenario/:mId/game',
+    path: 'cycle/:cId/scenario/:sId/game',
     component: GameComponent
   },
   {

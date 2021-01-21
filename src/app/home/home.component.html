@@ -1,5 +1,6 @@
-<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-  <div fxFlex="50" *ngFor="let cycle of missions;">
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid"
+     *ngIf="cycles$ | async as cycles">
+  <div fxFlex="50" *ngFor="let cycle of cycles['value']; trackBy: trackByFn">
     <mat-card>
       <mat-card-header>
         <mat-card-title>{{ cycle.title }}</mat-card-title>

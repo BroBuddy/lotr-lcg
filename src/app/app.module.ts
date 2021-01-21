@@ -20,6 +20,7 @@ import {GameComponent} from './game/game.component';
 import {PacksComponent} from './packs/packs.component';
 import {CardsComponent} from './cards/cards.component';
 import {KeywordsComponent} from './keywords/keywords.component';
+import {DataService} from './data/data.service';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import {KeywordsComponent} from './keywords/keywords.component';
     }),
     DndModule
   ],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

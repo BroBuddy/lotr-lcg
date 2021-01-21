@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import {Observable, of} from 'rxjs';
+import {Observable} from 'rxjs';
 
-import Missions from '../mission/mission-data.json';
+import {DataService} from '../data/data.service';
 
 @Component({
   selector: 'app-home',
@@ -10,23 +10,15 @@ import Missions from '../mission/mission-data.json';
 })
 export class HomeComponent implements OnInit {
 
-  public missions: any[] = [];
+  public cycles$: Observable<any[]>;
+
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.fetchMission()
-      .subscribe(data => {
-        if (data) {
-          this.missions = data;
-        }
-      });
-  }
-
-  fetchMission(): Observable<any> {
-    return of(Missions);
+    this.cycles$ = this.dataService.cycles$;
   }
 
   trackByFn(index: number): number {
     return index;
   }
-
 }

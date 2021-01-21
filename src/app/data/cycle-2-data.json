@@ -2,7 +2,7 @@
   {
     "id": 2,
     "title": "Dwarrowdelf",
-    "missions": [
+    "scenarios": [
       {
         "id": 10,
         "difficult": 5,

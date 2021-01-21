@@ -10,13 +10,13 @@ import {ImageZoomService} from '../image-zoom/image-zoom.service';
 import {DataService} from '../data/data.service';
 
 @Component({
-  selector: 'app-mission',
-  templateUrl: './mission.component.html',
+  selector: 'app-scenario',
+  templateUrl: './scenario.component.html',
   styles: [`p {
     line-height: 1.5em;
   }`]
 })
-export class MissionComponent implements OnInit, OnDestroy {
+export class ScenarioComponent implements OnInit, OnDestroy {
   public cId: number;
   public sId: number;
   public text: string;
@@ -47,7 +47,7 @@ export class MissionComponent implements OnInit, OnDestroy {
         (params: Params) => {
           this.cId = params.cId;
           this.sId = params.sId;
-          this.dataService.setCycle(this.cId, this.sId);
+          this.dataService.setScenario(this.cId, this.sId);
           this.scenario$ = this.dataService.scenario$;
           this.subs.sink = this.dataService.scenario$.subscribe(data => this.text = data.text);
         }

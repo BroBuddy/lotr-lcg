@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Shadows of Mirkwood",
-    "missions": [
+    "scenarios": [
       {
         "id": 1,
         "difficult": 2,

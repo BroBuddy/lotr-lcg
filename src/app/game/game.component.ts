@@ -40,7 +40,7 @@ export class GameComponent implements OnInit, OnDestroy {
         (params: Params) => {
           this.cId = params.cId;
           this.sId = params.sId;
-          this.dataService.setCycle(this.cId, this.sId);
+          this.dataService.setScenario(this.cId, this.sId);
           this.subs.sink = this.dataService.scenario$.subscribe(data => {
             this.stagingArea = data.stagingArea;
             this.encounterDeck = data.encounterDeck;

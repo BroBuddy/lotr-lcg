@@ -9,7 +9,7 @@
 
       <mat-card-content fxLayoutAlign="space-between">
         <div>
-          <div *ngFor="let scenario of cycle.missions; trackBy: trackByFn">
+          <div *ngFor="let scenario of cycle.scenarios; trackBy: trackByFn">
             <button mat-button disabled>#{{ scenario.id }}</button>
 
             <button mat-button

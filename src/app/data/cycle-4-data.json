@@ -1183,24 +1183,426 @@
       {
         "id": 35,
         "difficult": 6,
-        "title": "",
-        "text": "",
-        "questDeck": [],
+        "title": "Celebrimbor's Secret",
+        "text": "Orcs were crawling over every stone and into every hole in the ruins of Ost-in-Edhil when the heroes arrived at the edge of the valley. From their vantage point, they could see the man, Bellach, as he ordered the search. 'I should’ve guessed that scum would get here first,' hissed the Dwarf. 'He must’ve led the Orcs here while we were lost in that swamp.' The heroes looked on the scene with dismay. After all their travels, it seemed they had come too late to accomplish their mission. Then Nalir noticed something that made him growl, 'He’s got the other half of my map with him! Look, he’s using it to direct the Orcs.' Suddenly the Dwarf started laughing, 'That fool! He’ll never find the hidden chamber with just half. He’s searching in the wrong spot!'",
+        "questDeck": [
+          "3501A",
+          "3501B",
+          "3502A",
+          "3502B",
+          "3503A",
+          "3503B"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "4/Bellach-2"
+          },
+          {
+            "type": "objective",
+            "image": "4/The-Orcs-Search"
+          },
+          {
+            "type": "location",
+            "image": "4/The-Secret-Chamber"
+          },
+          {
+            "type": "objective",
+            "image": "4/Celebrimbors-Mould"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Wolf"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands"
+          },
+          {
+            "type": "location",
+            "image": "4/Broken-Lands"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Take-Cover"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Orc-Hound"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Orc-Hunting-Party"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Bellachs-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Bellachs-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Bellachs-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Bellachs-Scout"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Prowling-Orc"
+          },
+          {
+            "type": "location",
+            "image": "4/Ruined-Plaza"
+          },
+          {
+            "type": "location",
+            "image": "4/Ruined-Plaza"
+          },
+          {
+            "type": "location",
+            "image": "4/Ruined-Plaza"
+          },
+          {
+            "type": "location",
+            "image": "4/Collapsed-Tower"
+          },
+          {
+            "type": "location",
+            "image": "4/Collapsed-Tower"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Foundation"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Foundation"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Foundation"
+          },
+          {
+            "type": "location",
+            "image": "4/Ancient-Foundation"
+          },
+          {
+            "type": "location",
+            "image": "4/City-Remains"
+          },
+          {
+            "type": "location",
+            "image": "4/City-Remains"
+          },
+          {
+            "type": "location",
+            "image": "4/City-Remains"
+          },
+          {
+            "type": "location",
+            "image": "4/City-Remains"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Discovered"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Discovered"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Desecrated-Ruins"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Desecrated-Ruins"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Desecrated-Ruins"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Spies-from-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Spies-from-Mordor"
+          }
+        ],
         "discardPile": []
       },
       {
         "id": 36,
         "difficult": 7,
-        "title": "",
-        "text": "",
-        "questDeck": [],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "title": "The Antlered Crown",
+        "text": "The signs of war littered the hills of Dunland. Everywhere the heroes looked there was smoke and blood and fire. Across a wide valley, the bodies of Dunlending warriors lay slain in the dirt. Some wore the trappings of the Boar tribe, others were dressed with Raven feathers. As the heroes searched the battlefield for survivors, they were alerted to an approaching troop by the tromp of marching feet. Looking in the direction of the sound, they descried the banners of the Boar Clan flying above an army of Wild Men. Striding proudly at the front was chieftain Turch wearing the Antlered Crown. He halted when he saw the heroes. “Well met,” said the chief with a smile. “I am glad to see you again, but you cannot travel any further; our country is at war.” His face was stern, but his eyes were weary",
+        "questDeck": [
+          "3601A",
+          "3601B",
+          "3602A",
+          "3602B",
+          "3603A",
+          "3603B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "4/Dunland-Battlefield"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "4/Chief-Turch-2"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-War-camp"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Prowler"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunlending-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunlending-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Raider"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Raider"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Old-Hatreds"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Old-Hatreds"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Tribesman"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Chieftain"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Dunland-Berserker"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Wild-Men-of-Dunland"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Raven-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Raven-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Raven-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Raven-Warrior"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Raven-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Raven-Skirmisher"
+          },
+          {
+            "type": "enemy",
+            "image": "4/Raven-Skirmisher"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-War-camp"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-War-camp"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-War-camp"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-Village"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-Village"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-Village"
+          },
+          {
+            "type": "location",
+            "image": "4/Dunland-Battlefield"
+          },
+          {
+            "type": "location",
+            "image": "4/Dunland-Battlefield"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-Country"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-Country"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Raising-the-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Raising-the-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Raising-the-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Fierce-Folk"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Fierce-Folk"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Driven-Back"
+          },
+          {
+            "type": "treachery",
+            "image": "4/Driven-Back"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "4/Raven-Chief"
+          },
+          {
+            "type": "location",
+            "image": "4/Raven-Chiefs-Camp"
+          }
+        ]
       }
     ]
   }

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { DndModule } from 'ngx-drag-drop';
 import {ToastrModule} from 'ngx-toastr';
@@ -7,7 +8,7 @@ import {LazyLoadImageModule} from 'ng-lazyload-image';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {DataService} from './data/data.service';
 import { HeaderComponent } from './header/header.component';
 import { MaterialModule } from './material.module';
 import {ScenarioComponent} from './scenario/scenario.component';
@@ -20,7 +21,8 @@ import {GameComponent} from './game/game.component';
 import {PacksComponent} from './packs/packs.component';
 import {CardsComponent} from './cards/cards.component';
 import {KeywordsComponent} from './keywords/keywords.component';
-import {DataService} from './data/data.service';
+import {GlossaryModalComponent} from './glossary-modal/glossary-modal.component';
+import {CardsModalComponent} from './cards-modal/cards-modal.component';
 
 @NgModule({
   declarations: [
@@ -33,9 +35,11 @@ import {DataService} from './data/data.service';
     GlossaryComponent,
     CardComponent,
     CardsComponent,
+    CardsModalComponent,
     KeywordsComponent,
     CounterComponent,
-    ImageZoomComponent
+    ImageZoomComponent,
+    GlossaryModalComponent
   ],
   imports: [
     BrowserModule,
@@ -55,6 +59,7 @@ import {DataService} from './data/data.service';
     }),
     DndModule
   ],
+  entryComponents: [GlossaryModalComponent, CardsModalComponent],
   providers: [DataService],
   bootstrap: [AppComponent]
 })

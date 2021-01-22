@@ -1,179 +1,114 @@
-<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-    <div fxFlex>
-        <mat-tab-group color="accent" animationDuration="0ms">
-            <mat-tab>
-                <ng-template mat-tab-label>
-                    Game
-                </ng-template>
+<ng-container
+    *ngIf="{
+        encounterDeck: (encounterDeck$ | async),
+        stagingArea: (stagingArea$ | async),
+        activeLocation: (activeLocation$ | async),
+        shadowCard: (shadowCard$ | async),
+        engagingArea: (engagingArea$ | async),
+        discardPile: (discardPile$ | async),
+        questDeck: (questDeck$ | async)
+    } as data"
+>
+    <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+        <div fxFlex>
+            <button mat-icon-button [matMenuTriggerFor]="menu">
+                <mat-icon>more_vert</mat-icon>
+            </button>
 
-                <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" [ngStyle]="{ 'height': '365px' }">
-                    <div fxFlex="15" fxLayoutAlign="start">
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="openCardsModal()">
+                    <mat-icon>content_copy</mat-icon>
+                    <span>Cards</span>
+                </button>
+
+                <button mat-menu-item (click)="openGlossaryModal()">
+                    <mat-icon>menu_book</mat-icon>
+                    <span>Glossary</span>
+                </button>
+            </mat-menu>
+
+            <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" [ngStyle]="{ 'height': '365px' }">
+                <div fxFlex="15" fxLayoutAlign="start">
+                    <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
+                         [lazyLoad]="'/assets/img/shadow.jpg'"
+                         [matTooltip]="'Encounter deck'"
+                         [matTooltipPosition]="'right'"
+                         width="150" height="210" alt=""
+                         (click)="onDrawCard()"
+                         *ngIf="data.encounterDeck?.length" />
+                </div>
+
+                <div fxFlex="70" fxLayoutAlign="center">
+                  <span *ngFor="let card of data.stagingArea; let i = index; trackBy: trackByFn">
+                    <app-card [card]="card"
+                              [area]="'staging'"
+                              (activateCard)="onCardActivation(card)"
+                              (deactivateCard)="onCardDeactivation(card, 'staging')"></app-card>
+                  </span>
+                </div>
+
+                <div fxFlex="15" fxLayoutAlign="end">
+                  <span *ngIf="data.activeLocation">
+                    <app-card [card]="data.activeLocation"
+                              [area]="'location'"
+                              (activateCard)="onUpdateLocation(data.activeLocation, true)"
+                              (deactivateCard)="onCardDeactivation(data.activeLocation, 'location')"
+                              [matTooltip]="'Active location'"
+                              [matTooltipPosition]="'left'"></app-card>
+                  </span>
+                </div>
+            </div>
+
+            <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap">
+                <div fxFlex="15" fxLayoutAlign="start">
+                    <ng-container *ngIf="data.shadowCard">
+                        <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
+                             [lazyLoad]="'/assets/img/encounter/' + data.shadowCard.image + '.jpg'"
+                             [matTooltip]="'Shadow card'"
+                             [matTooltipPosition]="'right'"
+                             (mouseover)="zoomService.mouseover('/assets/img/encounter/', data.shadowCard.image + '.jpg', 'left')"
+                             (mouseout)="zoomService.mouseout()"
+                             width="150" height="210" alt=""
+                             (click)="onDiscardShadow()" />
+                    </ng-container>
+
+                    <ng-container *ngIf="!data.shadowCard">
                         <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
                              [lazyLoad]="'/assets/img/shadow.jpg'"
-                             [matTooltip]="'Encounter deck'"
+                             [matTooltip]="'Shadow card'"
                              [matTooltipPosition]="'right'"
                              width="150" height="210" alt=""
-                             (click)="onDrawCard()"
-                             *ngIf="encounterDeck?.length" />
-                    </div>
-
-                    <div fxFlex="70" fxLayoutAlign="center">
-                      <span *ngFor="let card of stagingArea; let i = index; trackBy: trackByFn">
-                        <app-card [card]="card"
-                                  [area]="'staging'"
-                                  (activateCard)="onCardActivation(card)"
-                                  (deactivateCard)="onCardDeactivation(card, 'staging')"></app-card>
-                      </span>
-                    </div>
-
-                    <div fxFlex="15" fxLayoutAlign="end">
-                      <span *ngIf="activeLocation">
-                        <app-card [card]="activeLocation"
-                                  [area]="'location'"
-                                  (activateCard)="onUpdateLocation(activeLocation, true)"
-                                  (deactivateCard)="onCardDeactivation(activeLocation, 'location')"
-                                  [matTooltip]="'Active location'"
-                                  [matTooltipPosition]="'left'"></app-card>
-                      </span>
-                    </div>
+                             (click)="onDrawShadow()"
+                             *ngIf="data.encounterDeck?.length" />
+                    </ng-container>
                 </div>
 
-                <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap">
-                    <div fxFlex="15" fxLayoutAlign="start">
-                        <ng-container *ngIf="shadowCard">
-                            <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
-                                 [lazyLoad]="'/assets/img/encounter/' + shadowCard.image + '.jpg'"
-                                 [matTooltip]="'Shadow card'"
-                                 [matTooltipPosition]="'right'"
-                                 (mouseover)="zoomService.mouseover('/assets/img/encounter/', shadowCard.image + '.jpg', 'left')"
-                                 (mouseout)="zoomService.mouseout()"
-                                 width="150" height="210" alt=""
-                                 (click)="onDiscardShadow()" />
-                        </ng-container>
+                <div fxFlex fxLayoutAlign="center">
+                  <span *ngFor="let card of data.engagingArea; trackBy: trackByFn">
+                    <app-card [card]="card"
+                              [area]="'engaging'"
+                              (activateCard)="onDefeatEnemy(card, true)"
+                              (deactivateCard)="onCardDeactivation(card, 'engaging')"></app-card>
+                  </span>
+                </div>
 
-                        <ng-container *ngIf="!shadowCard">
-                            <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
-                                 [lazyLoad]="'/assets/img/shadow.jpg'"
-                                 [matTooltip]="'Shadow card'"
-                                 [matTooltipPosition]="'right'"
-                                 width="150" height="210" alt=""
-                                 (click)="onDrawShadow()"
-                                 *ngIf="encounterDeck?.length" />
-                        </ng-container>
-                    </div>
+                <div fxFlex="15" fxLayoutAlign="end">
+                    <div *ngIf="data.questDeck?.length >= 1">
+                        <app-counter [progress]="progress"></app-counter>
 
-                    <div fxFlex fxLayoutAlign="center">
-                      <span *ngFor="let card of engagingArea; trackBy: trackByFn">
-                        <app-card [card]="card"
-                                  [area]="'engaging'"
-                                  (activateCard)="onDefeatEnemy(card, true)"
-                                  (deactivateCard)="onCardDeactivation(card, 'engaging')"></app-card>
-                      </span>
-                    </div>
-
-                    <div fxFlex="15" fxLayoutAlign="end">
-                        <div *ngIf="questDeck?.length >= 1">
-                            <app-counter></app-counter>
-
-                            <span *ngFor="let quest of questDeck; let i = index; trackBy: trackByFn">
-                              <img [src]="'/assets/img/quest/' + quest + '.jpg'"
-                                   (mouseover)="zoomService.mouseover('/assets/img/quest/', quest + '.jpg', 'left', false)"
-                                   (mouseout)="zoomService.mouseout()"
-                                   width="105" alt="" hspace="5" vspace="5"
-                                   [matTooltip]="'Quest card'"
-                                   [matTooltipPosition]="'left'"
-                                   [ngClass]="questStep === i ? 'active-quest' : 'inactive-quest'"
-                                   (click)="onChangeQuest(i)" />
-                            </span>
-                        </div>
+                        <span *ngFor="let quest of data.questDeck; let i = index; trackBy: trackByFn">
+                          <img [src]="'/assets/img/quest/' + quest + '.jpg'"
+                               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest + '.jpg', 'left', false)"
+                               (mouseout)="zoomService.mouseout()"
+                               width="105" alt="" hspace="5" vspace="5"
+                               [matTooltip]="'Quest card'"
+                               [matTooltipPosition]="'left'"
+                               [ngClass]="questStep === i ? 'active-quest' : 'inactive-quest'"
+                               (click)="onChangeQuest(i)" />
+                        </span>
                     </div>
                 </div>
-            </mat-tab>
-
-            <mat-tab>
-                <ng-template mat-tab-label>
-                    Cards
-                </ng-template>
-
-                <mat-card>
-                    <mat-card-content>
-                        <strong>Discard pile: {{ discardPile.length }}</strong>
-                        <br />
-
-                        <ng-container *ngIf="discardPile.length">
-                            <br />
-                            <button mat-button (click)="onResetDiscardPile()">
-                                Reset discard pile
-                            </button>
-                        </ng-container>
-
-                        <p *ngIf="!discardPile.length">This pile is empty yet.</p>
-
-                        <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-                            <ng-container *ngFor="let card of discardPile; trackBy: trackByFn">
-                                <div fxFlex="25">
-                                    <button mat-button type="button" [matTooltip]="'Play card'" (click)="onResetCard('staging', card)">
-                                        <mat-icon>pan_tool</mat-icon>
-                                    </button>
-
-                                    <button mat-button type="button" [matTooltip]="'Shuffle back'" (click)="onResetCard('encounter', card)">
-                                        <mat-icon>wifi_protected_setup</mat-icon>
-                                    </button>
-
-                                    <button mat-button type="button" color="accent">
-                                        {{ card.image.substr(2, card.image.length) }}
-                                        ({{ card.type.substr(0, 1) | uppercase }})
-                                    </button>
-                                </div>
-                            </ng-container>
-                        </div>
-
-                        <strong>Encounter deck: {{ encounterDeck.length }}</strong>
-                        <br />
-
-                        <ng-container *ngIf="!encounterDeck.length">
-                            <br />
-                            <button mat-button (click)="onCreateEncounterDeck()">
-                                Create new encounter deck
-                            </button>
-                        </ng-container>
-
-                        <ng-container *ngIf="encounterDeck.length">
-                            <br />
-                            <button mat-button (click)="onShuffleEncounter()">
-                                Shuffle encounter deck
-                            </button>
-                        </ng-container>
-
-                        <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-                            <ng-container *ngFor="let card of encounterDeck; let i = index; trackBy: trackByFn">
-                                <div fxFlex="25">
-                                    <button mat-button type="button" [matTooltip]="'Play card'" (click)="onChooseCard(card, i)">
-                                        <mat-icon>pan_tool</mat-icon>
-                                    </button>
-
-                                    <button mat-button type="button" color="accent">
-                                        {{ card.image.substr(2, card.image.length) }}
-                                        ({{ card.type.substr(0, 1) | uppercase }})
-                                    </button>
-                                </div>
-                            </ng-container>
-                        </div>
-                    </mat-card-content>
-                </mat-card>
-            </mat-tab>
-
-            <mat-tab>
-                <ng-template mat-tab-label>
-                    Glossary
-                </ng-template>
-
-                <mat-card>
-                    <mat-card-content>
-                        <app-glossary></app-glossary>
-                    </mat-card-content>
-                </mat-card>
-            </mat-tab>
-        </mat-tab-group>
+            </div>
+        </div>
     </div>
-</div>
+</ng-container>

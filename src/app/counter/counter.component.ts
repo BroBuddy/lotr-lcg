@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-counter',
@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
 })
 export class CounterComponent  {
 
-  public progress = 0;
+  @Input() progress: number;
 
   increaseProgress(): void {
     this.progress++;

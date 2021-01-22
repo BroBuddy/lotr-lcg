@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
+import {MatAccordion} from '@angular/material';
 
 @Component({
   selector: 'app-glossary',
@@ -180,6 +181,8 @@ export class GlossaryComponent {
           'discarded, return that token to the token bank.'
     }
   ];
+
+  @ViewChild(MatAccordion, { static: false } as any) accordion: MatAccordion;
 
   trackByFn(index: number): number {
     return index;

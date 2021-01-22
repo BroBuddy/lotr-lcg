@@ -1,0 +1,78 @@
+<mat-dialog-content>
+    <ng-container
+            *ngIf="{
+        encounterDeck: (encounterDeck$ | async),
+        discardPile: (discardPile$ | async)
+    } as data"
+    >
+        <div>
+            <strong>Discard pile: {{ data.discardPile.length }}</strong>
+            <br />
+
+            <ng-container *ngIf="data.discardPile.length">
+                <br />
+                <button mat-button (click)="onResetDiscardPile()">
+                    Reset discard pile
+                </button>
+            </ng-container>
+
+            <p *ngIf="!data.discardPile.length">This pile is empty yet.</p>
+
+            <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+                <ng-container *ngFor="let card of data.discardPile; trackBy: trackByFn">
+                    <div fxFlex="33.3">
+                        <button mat-button type="button" [matTooltip]="'Play card'" (click)="onPlayCard(card)">
+                            <mat-icon>pan_tool</mat-icon>
+                        </button>
+
+                        <button mat-button type="button" [matTooltip]="'Shuffle back'" (click)="onShuffleBack(card)">
+                            <mat-icon>wifi_protected_setup</mat-icon>
+                        </button>
+
+                        <button mat-button type="button" color="accent">
+                            {{ card.image.substr(2, card.image.length) }}
+                            ({{ card.type.substr(0, 1) | uppercase }})
+                        </button>
+                    </div>
+                </ng-container>
+            </div>
+
+            <strong>Encounter deck: {{ data.encounterDeck.length }}</strong>
+            <br />
+
+            <ng-container *ngIf="!data.encounterDeck.length">
+                <br />
+                <button mat-button (click)="onCreateEncounterDeck()">
+                    Create new encounter deck
+                </button>
+            </ng-container>
+
+            <ng-container *ngIf="data.encounterDeck.length">
+                <br />
+                <button mat-button (click)="onShuffleEncounter()">
+                    Shuffle encounter deck
+                </button>
+            </ng-container>
+
+            <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+                <ng-container *ngFor="let card of data.encounterDeck; let i = index; trackBy: trackByFn">
+                    <div fxFlex="25">
+                        <button mat-button type="button" [matTooltip]="'Play card'" (click)="onChooseCard(card, i)">
+                            <mat-icon>pan_tool</mat-icon>
+                        </button>
+
+                        <button mat-button type="button" color="accent">
+                            {{ card.image.substr(2, card.image.length) }}
+                            ({{ card.type.substr(0, 1) | uppercase }})
+                        </button>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </ng-container>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>
+

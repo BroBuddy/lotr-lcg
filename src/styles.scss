@@ -63,7 +63,8 @@ p {
 }
 
 mat-card,
-.mat-menu-panel {
+.mat-menu-panel,
+.mat-dialog-container {
   background-color: rgba(0,0,0,0.7) !important;
   z-index: 400;
 }

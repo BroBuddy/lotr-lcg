@@ -81,6 +81,7 @@ export class DataService {
     this.discardPile.next(scenario[0].discardPile);
     this.engagingArea.next(null);
     this.questDeck.next(scenario[0].questDeck);
+    this.history.next(null);
 
     if (shuffle) {
       this.onShuffleEncounter();

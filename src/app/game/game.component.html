@@ -11,26 +11,19 @@
 >
     <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
         <div fxFlex>
-            <button mat-icon-button [matMenuTriggerFor]="menu">
-                <mat-icon>more_vert</mat-icon>
-            </button>
-
-            <mat-menu #menu="matMenu">
-                <button mat-menu-item (click)="openCardsModal()">
+            <div>
+                <button mat-icon-button [matTooltip]="'Cards'" (click)="openCardsModal()">
                     <mat-icon>content_copy</mat-icon>
-                    <span>Cards</span>
                 </button>
 
-                <button mat-menu-item (click)="openGlossaryModal()">
+                <button mat-icon-button [matTooltip]="'Glossary'" (click)="openGlossaryModal()">
                     <mat-icon>menu_book</mat-icon>
-                    <span>Glossary</span>
                 </button>
 
-                <button mat-menu-item (click)="openHistoryModal()">
+                <button mat-icon-button [matTooltip]="'History'" (click)="openHistoryModal()">
                     <mat-icon>update</mat-icon>
-                    <span>History</span>
                 </button>
-            </mat-menu>
+            </div>
 
             <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" [ngStyle]="{ 'height': '365px' }">
                 <div fxFlex="15" fxLayoutAlign="start">

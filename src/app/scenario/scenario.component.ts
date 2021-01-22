@@ -47,7 +47,7 @@ export class ScenarioComponent implements OnInit, OnDestroy {
         (params: Params) => {
           this.cId = params.cId;
           this.sId = params.sId;
-          this.dataService.setScenario(this.cId, this.sId);
+          this.dataService.setScenario(this.cId, this.sId, false);
           this.scenario$ = this.dataService.scenario$;
           this.subs.sink = this.dataService.scenario$.subscribe(data => this.text = data.text);
         }

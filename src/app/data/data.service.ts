@@ -54,7 +54,7 @@ export class DataService {
     this.cycles.next(of(Cycle1.concat(Cycle2).concat(Cycle3).concat(Cycle4).concat(Cycle5)));
   }
 
-  setScenario(cId: number, sId: number): void {
+  setScenario(cId: number, sId: number, shuffle?: boolean): void {
     let scenarioData;
 
     switch (Number(cId)) {
@@ -73,13 +73,17 @@ export class DataService {
     }
 
     const scenario = scenarioData[0].scenarios.filter(data => data.id === Number(sId));
+
     this.scenario.next(scenario[0]);
     this.encounterDeck.next(scenario[0].encounterDeck);
     this.activeLocation.next(scenario[0].activeLocation);
     this.stagingArea.next(scenario[0].stagingArea);
     this.discardPile.next(scenario[0].discardPile);
     this.questDeck.next(scenario[0].questDeck);
-    this.onShuffleEncounter();
+
+    if (shuffle) {
+      this.onShuffleEncounter();
+    }
   }
 
   onShuffleEncounter(): void {

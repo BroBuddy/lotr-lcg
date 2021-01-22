@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b70523cd-ef27-422f-83db-87002a0250b7" name="Default Changelist" comment="" />
+    <list default="true" id="b70523cd-ef27-422f-83db-87002a0250b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +105,7 @@
       <workItem from="1611172398207" duration="10453000" />
       <workItem from="1611240949301" duration="1127000" />
       <workItem from="1611252926528" duration="3098000" />
-      <workItem from="1611307421777" duration="10442000" />
+      <workItem from="1611307421777" duration="10999000" />
     </task>
     <servers />
   </component>

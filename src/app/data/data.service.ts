@@ -79,6 +79,7 @@ export class DataService {
     this.activeLocation.next(scenario[0].activeLocation);
     this.stagingArea.next(scenario[0].stagingArea);
     this.discardPile.next(scenario[0].discardPile);
+    this.engagingArea.next(null);
     this.questDeck.next(scenario[0].questDeck);
 
     if (shuffle) {

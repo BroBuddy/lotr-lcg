@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/src/app/data/data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/data.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/game/game.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game/game.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/game/game.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game/game.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/glossary/glossary.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/glossary/glossary.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/material.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/material.module.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1611172398207" duration="10453000" />
       <workItem from="1611240949301" duration="1127000" />
       <workItem from="1611252926528" duration="3098000" />
-      <workItem from="1611307421777" duration="7054000" />
+      <workItem from="1611307421777" duration="10122000" />
     </task>
     <servers />
   </component>

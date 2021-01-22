@@ -1,0 +1,15 @@
+<mat-dialog-content>
+    <mat-list>
+        <ng-container *ngFor="let item of history$ | async; trackBy: trackByFn">
+            <mat-list-item>
+                <mat-icon mat-list-icon color="accent">update</mat-icon>
+                <div mat-line>{{ item.text }}</div>
+                <div mat-line> {{ item.date | date:'h:mm a' }} </div>
+            </mat-list-item>
+        </ng-container>
+    </mat-list>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

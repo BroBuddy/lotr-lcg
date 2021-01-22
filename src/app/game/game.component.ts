@@ -10,6 +10,7 @@ import {DataService} from '../data/data.service';
 import {ImageZoomService} from '../image-zoom/image-zoom.service';
 import {GlossaryModalComponent} from '../glossary-modal/glossary-modal.component';
 import {CardsModalComponent} from '../cards-modal/cards-modal.component';
+import {HistoryModalComponent} from '../history-modal/history-modal.component';
 
 @Component({
   selector: 'app-game',
@@ -65,6 +66,11 @@ export class GameComponent implements OnInit, OnDestroy {
 
   openCardsModal(): void {
     const dialogRef = this.dialog.open(CardsModalComponent);
+    dialogRef.afterClosed();
+  }
+
+  openHistoryModal(): void {
+    const dialogRef = this.dialog.open(HistoryModalComponent);
     dialogRef.afterClosed();
   }
 

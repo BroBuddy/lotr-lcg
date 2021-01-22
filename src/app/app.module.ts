@@ -23,6 +23,7 @@ import {CardsComponent} from './cards/cards.component';
 import {KeywordsComponent} from './keywords/keywords.component';
 import {GlossaryModalComponent} from './glossary-modal/glossary-modal.component';
 import {CardsModalComponent} from './cards-modal/cards-modal.component';
+import {HistoryModalComponent} from './history-modal/history-modal.component';
 
 @NgModule({
   declarations: [
@@ -35,11 +36,12 @@ import {CardsModalComponent} from './cards-modal/cards-modal.component';
     GlossaryComponent,
     CardComponent,
     CardsComponent,
-    CardsModalComponent,
     KeywordsComponent,
     CounterComponent,
     ImageZoomComponent,
-    GlossaryModalComponent
+    CardsModalComponent,
+    GlossaryModalComponent,
+    HistoryModalComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +61,7 @@ import {CardsModalComponent} from './cards-modal/cards-modal.component';
     }),
     DndModule
   ],
-  entryComponents: [GlossaryModalComponent, CardsModalComponent],
+  entryComponents: [GlossaryModalComponent, CardsModalComponent, HistoryModalComponent],
   providers: [DataService],
   bootstrap: [AppComponent]
 })

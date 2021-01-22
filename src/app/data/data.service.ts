@@ -42,6 +42,9 @@ export class DataService {
   private questDeck = new BehaviorSubject<any[]>([]);
   readonly questDeck$ = this.questDeck.asObservable();
 
+  private history = new BehaviorSubject<any[]>([]);
+  readonly history$ = this.history.asObservable();
+
   constructor(private toastr: ToastrService,
               private zoomService: ImageZoomService) {
     this.fetchData();
@@ -76,6 +79,7 @@ export class DataService {
     this.stagingArea.next(scenario[0].stagingArea);
     this.discardPile.next(scenario[0].discardPile);
     this.questDeck.next(scenario[0].questDeck);
+    this.onShuffleEncounter();
   }
 
   onShuffleEncounter(): void {
@@ -94,13 +98,25 @@ export class DataService {
       }
       while (shuffleTime < 3);
 
-      this.toastr.info('Deck was shuffled');
+      const message = 'Deck was shuffled';
+      this.toastr.info(message);
+      this.addHistory(message);
     }
+  }
+
+  addHistory(message: string): void {
+    const content = {
+      text: message,
+      date: new Date()
+    };
+
+    this.history.getValue().unshift(content);
   }
 
   onDrawCard(): void {
     this.stagingArea.getValue().push(this.encounterDeck.getValue()[0]);
     this.encounterDeck.getValue().shift();
+    this.addHistory('Card was drawn');
   }
 
   onCardActivation(card: any): void {
@@ -140,6 +156,7 @@ export class DataService {
         break;
       }
     }
+
     this.encounterDeck.getValue().push(card);
     this.onShuffleEncounter();
   }
@@ -149,6 +166,7 @@ export class DataService {
         index = stagingArea.findIndex((item) => item === card);
 
     this.stagingArea.next(stagingArea.slice(0, Number(index)).concat(stagingArea.slice(Number(index) + 1)));
+    this.addHistory('Card was removed from staging area');
   }
 
   removeCardFromEngaging(card: any): void {
@@ -156,34 +174,35 @@ export class DataService {
         index = engagingArea.findIndex((item) => item === card);
 
     this.engagingArea.next(engagingArea.slice(0, Number(index)).concat(engagingArea.slice(Number(index) + 1)));
+    this.addHistory('Card was removed from engaging area');
   }
 
   onUpdateLocation(card: any, discovered?: boolean): void {
     this.zoomService.mouseout();
 
-    if (this.activeLocation.getValue() === card) {
-      if (discovered) {
-        this.discardPile.getValue().push(this.activeLocation.getValue());
-      }
-
+    if (discovered) {
+      this.discardPile.getValue().push(this.activeLocation.getValue());
       this.activeLocation.next(null);
     } else {
       if (this.activeLocation.getValue()) {
         this.discardPile.getValue().push(this.activeLocation.getValue());
         this.removeCardFromStaging(card);
-        this.activeLocation = card;
+        this.activeLocation.next(card);
       } else {
         setTimeout(() => {
           this.removeCardFromStaging(card);
           this.activeLocation.next(card);
-        }, 100);
+        }, 0);
       }
     }
+
+    this.addHistory('Active location was updated');
   }
 
   onDrawShadow(): void {
     this.shadowCard.next(this.encounterDeck.getValue()[0]);
     this.encounterDeck.getValue().shift();
+    this.addHistory('Shadow card was drawn');
   }
 
   onDiscardShadow(): void {
@@ -191,6 +210,7 @@ export class DataService {
 
     this.discardPile.getValue().push(this.shadowCard);
     this.shadowCard.next(null);
+    this.addHistory('Shadow card was discarded');
   }
 
   onDefeatEnemy(card: any, defeated: boolean): void {
@@ -208,6 +228,8 @@ export class DataService {
     if (this.shadowCard.getValue()) {
       this.shadowCard.next(null);
     }
+
+    this.addHistory('Enemy was defeated');
   }
 
   onResetCard(type: string, card: any): void {
@@ -222,25 +244,36 @@ export class DataService {
         index = discardPile.findIndex((item) => item === card);
 
     this.discardPile.next(discardPile.slice(0, Number(index)).concat(discardPile.slice(Number(index) + 1)));
-    this.toastr.success('Card was played');
+
+    const message = 'Card was played';
+    this.toastr.success(message);
+    this.addHistory(message);
   }
 
   onChooseCard(card: any, index: number): void {
     this.stagingArea.getValue().push(card);
-    this.encounterDeck.next(this.encounterDeck.getValue().slice(0, Number(index)).concat(this.encounterDeck.getValue().slice(Number(index) + 1)));
-    this.toastr.success('Card was played');
+    const newEncounterDeck = this.encounterDeck.getValue().slice(0, Number(index)).concat(this.encounterDeck.getValue().slice(Number(index) + 1));
+    this.encounterDeck.next(newEncounterDeck);
+
+    const message = 'Card was played';
+    this.toastr.success(message);
+    this.addHistory(message);
   }
 
   onCreateEncounterDeck(): void {
     this.encounterDeck.next(this.discardPile.getValue());
     this.onShuffleEncounter();
     this.discardPile.next([]);
+    this.addHistory('Encounter deck was created');
   }
 
   onResetDiscardPile(): void {
     this.encounterDeck.next(this.encounterDeck.getValue().concat(this.discardPile.getValue()));
     this.onShuffleEncounter();
     this.discardPile.next([]);
-    this.toastr.success('Discard pile was reseted');
+
+    const message = 'Discard pile was reseted';
+    this.toastr.success(message);
+    this.addHistory(message);
   }
 }

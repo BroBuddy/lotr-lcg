@@ -25,6 +25,11 @@
                     <mat-icon>menu_book</mat-icon>
                     <span>Glossary</span>
                 </button>
+
+                <button mat-menu-item (click)="openHistoryModal()">
+                    <mat-icon>update</mat-icon>
+                    <span>History</span>
+                </button>
             </mat-menu>
 
             <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" [ngStyle]="{ 'height': '365px' }">

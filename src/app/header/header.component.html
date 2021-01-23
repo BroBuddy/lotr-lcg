@@ -32,58 +32,6 @@
   </div>
 
   <div fxLayoutAlign="space-around center">
-    <div [ngStyle]="{ 'width': '140px' }" fxLayoutAlign="center">
-      <button mat-icon-button (click)="decreaseThreat('first')">
-        <mat-icon>remove_circle_outline</mat-icon>
-      </button>
-
-      <button mat-button
-              [matTooltip]="'Threat Tracker'"
-              [color]="firstPlayerThreat <= 49 ? 'accent' : 'warn'"
-              (click)="setThreat('first', 28)">
-        {{ firstPlayerThreat }}
-      </button>
-
-      <button mat-icon-button (click)="increaseThreat('first')">
-        <mat-icon>add_circle_outline</mat-icon>
-      </button>
-    </div>
-
-    <div [ngStyle]="{ 'width': '100px' }" fxLayoutAlign="center">
-      <button mat-icon-button
-              *ngIf="playerCount === 1"
-              (click)="playerCount = 2">
-        <mat-icon color="accent">person_add</mat-icon>
-      </button>
-
-      <button mat-icon-button
-              *ngIf="playerCount === 2"
-              (click)="playerCount = 1">
-        <mat-icon color="accent">person_remove</mat-icon>
-      </button>
-    </div>
-
-    <div [ngStyle]="{ 'width': '140px' }" fxLayoutAlign="center">
-      <ng-container *ngIf="playerCount >= 2">
-        <button mat-icon-button (click)="decreaseThreat('second')">
-          <mat-icon>remove_circle_outline</mat-icon>
-        </button>
-
-        <button mat-button
-                [matTooltip]="'Threat Tracker'"
-                [color]="secondPlayerThreat <= 49 ? 'accent' : 'warn'"
-                (click)="setThreat('second', 28)">
-          {{ secondPlayerThreat }}
-        </button>
-
-        <button mat-icon-button (click)="increaseThreat('second')">
-          <mat-icon>add_circle_outline</mat-icon>
-        </button>
-      </ng-container>
-    </div>
-  </div>
-
-  <div fxLayoutAlign="space-around center">
     <button mat-button (click)="onOpenLink('https://www.youtube.com/watch?list=PLC3E0FF573F545F56&v=iMyPOFf7Vy4&feature=emb_title&ab_channel=FantasyFlightGames')">
       <mat-icon>play_circle_outline</mat-icon>
       Tutorial

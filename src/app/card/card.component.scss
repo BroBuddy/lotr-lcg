@@ -13,24 +13,28 @@
     width: 20px;
     z-index: 300;
 
-    &.enemy {
-      background-color: rgba(255,0,0,0.2);
+    &.enemy,
+    &.objective {
+      background-color: rgba(255,0,0,0.3);
     }
 
-    &.location {
-      background-color: rgba(0,255,0,0.2);
+    &.location,
+    &.quest {
+      background-color: rgba(0,255,0,0.3);
     }
 
     &:hover {
       cursor: pointer;
       transform: scale(1.3);
 
-      &.enemy {
-        background-color: rgba(255,0,0,0.5);
+      &.enemy,
+      &.objective {
+        background-color: rgba(255,0,0,0.6);
       }
 
-      &.location {
-        background-color: rgba(0,255,0,0.5);
+      &.location,
+      &.quest {
+        background-color: rgba(0,255,0,0.6);
       }
     }
   }

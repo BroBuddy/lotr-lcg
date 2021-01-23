@@ -70,6 +70,9 @@ export class DataService {
       case 4:
         scenarioData = Cycle4;
         break;
+      case 5:
+        scenarioData = Cycle5;
+        break;
     }
 
     const scenario = scenarioData[0].scenarios.filter(data => data.id === Number(sId));
@@ -119,20 +122,23 @@ export class DataService {
     this.history.getValue().unshift(content);
   }
 
+  getCardTypeName(card: any): string {
+    return card.type.charAt(0).toUpperCase() + card.type.slice(1);
+  }
+
   onDrawCard(): void {
     this.stagingArea.getValue().push(this.encounterDeck.getValue()[0]);
     this.encounterDeck.getValue().shift();
-    this.addHistory('Card was drawn');
+    this.addHistory(this.getCardTypeName(this.encounterDeck.getValue()[0]) + ' was drawn');
   }
 
   onCardActivation(card: any): void {
     this.zoomService.mouseout();
 
     switch (card.type) {
-      case 'treachery':
-      case 'objective': {
-        this.discardPile.getValue().push(card);
+      case 'enemy': {
         this.removeCardFromStaging(card);
+        this.engagingArea.getValue().push(card);
         break;
       }
       case 'location': {
@@ -140,8 +146,8 @@ export class DataService {
         break;
       }
       default: {
+        this.discardPile.getValue().push(card);
         this.removeCardFromStaging(card);
-        this.engagingArea.getValue().push(card);
         break;
       }
     }
@@ -172,7 +178,7 @@ export class DataService {
         index = stagingArea.findIndex((item) => item === card);
 
     this.stagingArea.next(stagingArea.slice(0, Number(index)).concat(stagingArea.slice(Number(index) + 1)));
-    this.addHistory('Card was removed from staging area');
+    this.addHistory(this.getCardTypeName(card) + ' was removed from staging area');
   }
 
   removeCardFromEngaging(card: any): void {
@@ -180,7 +186,7 @@ export class DataService {
         index = engagingArea.findIndex((item) => item === card);
 
     this.engagingArea.next(engagingArea.slice(0, Number(index)).concat(engagingArea.slice(Number(index) + 1)));
-    this.addHistory('Card was removed from engaging area');
+    this.addHistory(this.getCardTypeName(card) + ' was removed from engaging area');
   }
 
   onUpdateLocation(card: any, discovered?: boolean): void {
@@ -202,21 +208,21 @@ export class DataService {
       }
     }
 
-    this.addHistory('Active location was updated');
+    this.addHistory(this.getCardTypeName(card) + ' was updated');
   }
 
   onDrawShadow(): void {
     this.shadowCard.next(this.encounterDeck.getValue()[0]);
     this.encounterDeck.getValue().shift();
-    this.addHistory('Shadow card was drawn');
+    this.addHistory(this.getCardTypeName(this.encounterDeck.getValue()[0]) + ' was drawn');
   }
 
   onDiscardShadow(): void {
     this.zoomService.mouseout();
 
-    this.discardPile.getValue().push(this.shadowCard);
+    this.discardPile.getValue().push(this.shadowCard.getValue());
+    this.addHistory(this.getCardTypeName(this.shadowCard.getValue()) + ' was discarded');
     this.shadowCard.next(null);
-    this.addHistory('Shadow card was discarded');
   }
 
   onDefeatEnemy(card: any, defeated: boolean): void {
@@ -235,7 +241,7 @@ export class DataService {
       this.shadowCard.next(null);
     }
 
-    this.addHistory('Enemy was defeated');
+    this.addHistory(this.getCardTypeName(card) + ' was defeated');
   }
 
   onResetCard(type: string, card: any): void {
@@ -251,9 +257,8 @@ export class DataService {
 
     this.discardPile.next(discardPile.slice(0, Number(index)).concat(discardPile.slice(Number(index) + 1)));
 
-    const message = 'Card was played';
-    this.toastr.success(message);
-    this.addHistory(message);
+    this.toastr.success('Card was played');
+    this.addHistory(this.getCardTypeName(card) + ' was played');
   }
 
   onChooseCard(card: any, index: number): void {
@@ -261,9 +266,8 @@ export class DataService {
     const newEncounterDeck = this.encounterDeck.getValue().slice(0, Number(index)).concat(this.encounterDeck.getValue().slice(Number(index) + 1));
     this.encounterDeck.next(newEncounterDeck);
 
-    const message = 'Card was played';
-    this.toastr.success(message);
-    this.addHistory(message);
+    this.toastr.success('Card was played');
+    this.addHistory(this.getCardTypeName(card) + ' was played');
   }
 
   onCreateEncounterDeck(): void {

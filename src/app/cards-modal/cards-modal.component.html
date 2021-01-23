@@ -1,74 +1,69 @@
-<mat-dialog-content>
+<mat-dialog-content [ngStyle]="{ 'width': '1300px' }">
     <ng-container
-            *ngIf="{
+        *ngIf="{
         encounterDeck: (encounterDeck$ | async),
         discardPile: (discardPile$ | async)
     } as data"
     >
-        <div>
-            <strong>Discard pile: {{ data.discardPile.length }}</strong>
-            <br />
+        <mat-tab-group animationDuration="0ms">
+            <mat-tab [label]="'Discard pile: ' + data.discardPile.length">
+                <p *ngIf="!data.discardPile.length">This pile is empty yet.</p>
 
-            <ng-container *ngIf="data.discardPile.length">
-                <br />
-                <button mat-button (click)="onResetDiscardPile()">
-                    Reset discard pile
-                </button>
-            </ng-container>
-
-            <p *ngIf="!data.discardPile.length">This pile is empty yet.</p>
-
-            <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-                <ng-container *ngFor="let card of data.discardPile; trackBy: trackByFn">
-                    <div fxFlex="33.3">
-                        <button mat-button type="button" [matTooltip]="'Play card'" (click)="onPlayCard(card)">
-                            <mat-icon>pan_tool</mat-icon>
-                        </button>
-
-                        <button mat-button type="button" [matTooltip]="'Shuffle back'" (click)="onShuffleBack(card)">
-                            <mat-icon>wifi_protected_setup</mat-icon>
-                        </button>
-
-                        <button mat-button type="button" color="accent">
-                            {{ card.image.substr(2, card.image.length) }}
-                            ({{ card.type.substr(0, 1) | uppercase }})
-                        </button>
-                    </div>
+                <ng-container *ngIf="data.discardPile.length">
+                    <button mat-button (click)="onResetDiscardPile()">
+                        Reset discard pile
+                    </button>
                 </ng-container>
-            </div>
 
-            <strong>Encounter deck: {{ data.encounterDeck.length }}</strong>
-            <br />
+                <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+                    <ng-container *ngFor="let card of data.discardPile; trackBy: trackByFn">
+                        <div fxFlex="33.3">
+                            <button mat-button type="button" [matTooltip]="'Play card'" (click)="onPlayCard(card)">
+                                <mat-icon>pan_tool</mat-icon>
+                            </button>
 
-            <ng-container *ngIf="!data.encounterDeck.length">
-                <br />
-                <button mat-button (click)="onCreateEncounterDeck()">
-                    Create new encounter deck
-                </button>
-            </ng-container>
+                            <button mat-button type="button" [matTooltip]="'Shuffle back'" (click)="onShuffleBack(card)">
+                                <mat-icon>wifi_protected_setup</mat-icon>
+                            </button>
 
-            <ng-container *ngIf="data.encounterDeck.length">
-                <br />
-                <button mat-button (click)="onShuffleEncounter()">
-                    Shuffle encounter deck
-                </button>
-            </ng-container>
+                            <button mat-button type="button" color="accent">
+                                {{ card.image.substr(2, card.image.length) }}
+                                ({{ card.type.substr(0, 1) | uppercase }})
+                            </button>
+                        </div>
+                    </ng-container>
+                </div>
+            </mat-tab>
 
-            <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-                <ng-container *ngFor="let card of data.encounterDeck; let i = index; trackBy: trackByFn">
-                    <div fxFlex="25">
-                        <button mat-button type="button" [matTooltip]="'Play card'" (click)="onChooseCard(card, i)">
-                            <mat-icon>pan_tool</mat-icon>
-                        </button>
-
-                        <button mat-button type="button" color="accent">
-                            {{ card.image.substr(2, card.image.length) }}
-                            ({{ card.type.substr(0, 1) | uppercase }})
-                        </button>
-                    </div>
+            <mat-tab [label]="'Encounter deck: ' + data.encounterDeck.length">
+                <ng-container *ngIf="!data.encounterDeck.length">
+                    <button mat-button (click)="onCreateEncounterDeck()">
+                        Create new encounter deck
+                    </button>
                 </ng-container>
-            </div>
-        </div>
+
+                <ng-container *ngIf="data.encounterDeck.length">
+                    <button mat-button (click)="onShuffleEncounter()">
+                        Shuffle encounter deck
+                    </button>
+                </ng-container>
+
+                <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+                    <ng-container *ngFor="let card of data.encounterDeck; let i = index; trackBy: trackByFn">
+                        <div fxFlex="25">
+                            <button mat-button type="button" [matTooltip]="'Play card'" (click)="onChooseCard(card, i)">
+                                <mat-icon>pan_tool</mat-icon>
+                            </button>
+
+                            <button mat-button type="button" color="accent">
+                                {{ card.image.substr(2, card.image.length) }}
+                                ({{ card.type.substr(0, 1) | uppercase }})
+                            </button>
+                        </div>
+                    </ng-container>
+                </div>
+            </mat-tab>
+        </mat-tab-group>
     </ng-container>
 </mat-dialog-content>
 

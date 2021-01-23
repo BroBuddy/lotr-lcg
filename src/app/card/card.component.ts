@@ -6,12 +6,9 @@ import {ImageZoomService} from '../image-zoom/image-zoom.service';
 
 @Component({
   selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.scss']
+  templateUrl: './card.component.html'
 })
 export class CardComponent {
-
-  public number = 0;
 
  @Input() card: any;
  @Input() area: string;
@@ -21,17 +18,11 @@ export class CardComponent {
  constructor(public zoomService: ImageZoomService) {}
 
   onCardActivation(): void {
-    this.number = 0;
     this.activateCard.next(this.card);
   }
 
   onCardDeactivation(): void {
-    this.number = 0;
     this.deactivateCard.next(this.card);
-  }
-
-  increaseNumber(): void {
-    this.number++;
   }
 
 }

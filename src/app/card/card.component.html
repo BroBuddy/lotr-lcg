@@ -5,14 +5,14 @@
          [width]="card.type === 'quest' ? 213 : 150"
          [height]="card.type === 'quest' ? 150 : 213"
          hspace="6"
-         [matMenuTriggerFor]="menu"
+         [matMenuTriggerFor]="cardMenu"
          (mouseover)="zoomService.mouseover('/assets/img/encounter/',
          card.image + '.jpg',
          (card.type === 'location' || card.type === 'quest') ? 'left' : 'right',
          card.type !== 'quest')"
          (mouseout)="zoomService.mouseout()" />
 
-    <mat-menu #menu="matMenu">
+    <mat-menu #cardMenu="matMenu">
         <ng-container [ngSwitch]="card.type">
             <ng-container *ngSwitchCase="'enemy'">
                 <button mat-menu-item (click)="onCardActivation()" *ngIf="area === 'staging'">
@@ -57,11 +57,9 @@
             <mat-icon>wifi_protected_setup</mat-icon>
             Shuffle back
         </button>
-    </mat-menu>
 
-    <span *ngIf="card.type !== 'treachery'"
-          (click)="increaseNumber()"
-          [ngClass]="card.type">
-        {{ number }}
-    </span>
+        <div mat-menu-item>
+            <app-counter></app-counter>
+        </div>
+    </mat-menu>
 </div>

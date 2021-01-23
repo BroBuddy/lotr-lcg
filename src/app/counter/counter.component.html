@@ -1,15 +1,11 @@
-<mat-card>
-    <mat-card-content fxLayoutAlign="space-around">
-        <button mat-icon-button color="accent" (click)="decreaseProgress()">
-            <mat-icon>remove_circle_outline</mat-icon>
-        </button>
+<button mat-button color="warn" [matTooltip]="'Progress'" (click)="setProgress(0)">
+    {{ progress }}
+</button>
 
-        <button mat-button [matTooltip]="'Quest progress'" (click)="setProgress(0)">
-            {{ progress }}
-        </button>
+<button mat-icon-button color="accent" (click)="decreaseProgress($event)">
+    <mat-icon>remove_circle_outline</mat-icon>
+</button>
 
-        <button mat-icon-button color="accent" (click)="increaseProgress()">
-            <mat-icon>add_circle_outline</mat-icon>
-        </button>
-   </mat-card-content>
-</mat-card>
+<button mat-icon-button color="accent" (click)="increaseProgress($event)">
+    <mat-icon>add_circle_outline</mat-icon>
+</button>

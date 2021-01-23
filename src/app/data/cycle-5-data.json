@@ -57,6 +57,10 @@
             "image": "5/Weight-of-Responsibility"
           },
           {
+            "type": "quest",
+            "image": "5/Lost-in-the-Wilderness"
+          },
+          {
             "type": "enemy",
             "image": "5/Angmar-Orc"
           },
@@ -87,6 +91,10 @@
           {
             "type": "enemy",
             "image": "5/Angmar-Captain"
+          },
+          {
+            "type": "quest",
+            "image": "5/Orc-Ambush"
           },
           {
             "type": "enemy",
@@ -162,13 +170,212 @@
       {
         "id": 38,
         "difficult": 6,
-        "title": "",
-        "text": "",
-        "questDeck": [],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "title": "The Weather Hills",
+        "text": "For days, the heroes pursued the remnants of the war-party east from Chetwood across the northern edge of Midgewater Marshes and into the wide plain beyond. Along the way, they came upon several burnt homesteads. Each was plainly the work of Orcish savagery. However, at each home, the heroes were surprised to find no bodies. Instead, they found signs of struggle and the unmistakable tracks of Orcs dragging their captives away. “Why would retreating Orcs stop to take prisoners?” asked one of the heroes, examining the impressions on the ground. “Perhaps they think to ransom their lives?” answered another as he emerged from the charred ruin of a collapsed hovel. “One or two prisoners would have sufficed if that were their intent, but these Orcs have taken a dozen at least,” replied the first. “Look at the markings here.”",
+        "questDeck": [
+          "3801A",
+          "3801B",
+          "3802A",
+          "3802B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "5/Exposed-Ridge"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "5/Hunting-the-Orcs"
+          },
+          {
+            "type": "location",
+            "image": "5/Weathered-Hilltop"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "5/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Angmar-Captain"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Angmar-Captain"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Freezing-Blast"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Freezing-Blast"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Cold-from-Angmar"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Cold-from-Angmar"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Cold-from-Angmar"
+          },
+          {
+            "type": "quest",
+            "image": "5/Make-Camp"
+          },
+          {
+            "type": "location",
+            "image": "5/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "5/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "5/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "5/Ancient-Causeway"
+          },
+          {
+            "type": "location",
+            "image": "5/Ancient-Causeway"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Tragic-Discovery"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Tragic-Discovery"
+          },
+          {
+            "type": "quest",
+            "image": "5/Search-the-Ruins"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Cornered-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Cornered-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Cornered-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Cornered-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "5/Cornered-Orc"
+          },
+          {
+            "type": "location",
+            "image": "5/Weathered-Hilltop"
+          },
+          {
+            "type": "location",
+            "image": "5/Weathered-Hilltop"
+          },
+          {
+            "type": "location",
+            "image": "5/Exposed-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "5/Exposed-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "5/Sheltered-Valley"
+          },
+          {
+            "type": "location",
+            "image": "5/Sheltered-Valley"
+          },
+          {
+            "type": "location",
+            "image": "5/Concealed-Orc-camp"
+          },
+          {
+            "type": "location",
+            "image": "5/Concealed-Orc-camp"
+          },
+          {
+            "type": "location",
+            "image": "5/Concealed-Orc-camp"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Ice-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "5/Ice-Storm"
+          },
+          {
+            "type": "quest",
+            "image": "5/Find-Shelter"
+          },
+          {
+            "type": "objective",
+            "image": "5/Savage-Counter-attack"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "quest",
+            "image": "5/Orc-Ambush"
+          },
+          {
+            "type": "location",
+            "image": "5/Amon-Forn"
+          }
+        ]
       },
       {
         "id": 39,

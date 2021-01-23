@@ -10,13 +10,13 @@ import {ImageZoomService} from '../image-zoom/image-zoom.service';
 import {DataService} from '../data/data.service';
 
 @Component({
-  selector: 'app-scenario',
-  templateUrl: './scenario.component.html',
+  selector: 'app-scenario-detail',
+  templateUrl: './scenario-detail.component.html',
   styles: [`p {
     line-height: 1.5em;
   }`]
 })
-export class ScenarioComponent implements OnInit, OnDestroy {
+export class ScenarioDetailComponent implements OnInit, OnDestroy {
   public cId: number;
   public sId: number;
   public text: string;

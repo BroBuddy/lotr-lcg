@@ -1,0 +1,50 @@
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid"
+     *ngIf="cycles$ | async as cycles">
+    <div fxFlex="50" *ngFor="let cycle of cycles['value']; trackBy: trackByFn">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>{{ cycle.title }}</mat-card-title>
+                <mat-card-subtitle>Cycle {{ cycle.id }}</mat-card-subtitle>
+            </mat-card-header>
+
+            <mat-card-content fxLayoutAlign="space-between">
+                <div>
+                    <div *ngFor="let scenario of cycle.scenarios; trackBy: trackByFn">
+                        <button mat-button disabled>#{{ scenario.id }}</button>
+
+                        <button mat-button
+                                type="button"
+                                [routerLink]="'/cycle/' + cycle.id + '/scenario/' + scenario.id"
+                                [disabled]="!scenario.title || scenario.id === 12 || scenario.id === 29">
+                            {{ scenario.title ? scenario.title : 'not available' }}
+                        </button>
+
+                        <button mat-button
+                                type="button"
+                                [matTooltip]="scenario.difficult"
+                                [matTooltipPosition]="'right'"
+                                [color]="scenario.difficult <= 4 ? 'accent' : (scenario.difficult >= 7 ? 'primary' : 'warn')">
+                            <ng-container [ngSwitch]="scenario.difficult">
+                                <ng-container *ngSwitchCase="1">Very easy</ng-container>
+                                <ng-container *ngSwitchCase="2">Very easy</ng-container>
+                                <ng-container *ngSwitchCase="3">Easy</ng-container>
+                                <ng-container *ngSwitchCase="4">Easy</ng-container>
+                                <ng-container *ngSwitchCase="5">Medium</ng-container>
+                                <ng-container *ngSwitchCase="6">Medium</ng-container>
+                                <ng-container *ngSwitchCase="7">Hard</ng-container>
+                                <ng-container *ngSwitchCase="8">Hard</ng-container>
+                                <ng-container *ngSwitchCase="9">Very hard</ng-container>
+                                <ng-container *ngSwitchCase="10">Very hard</ng-container>
+                            </ng-container>
+                        </button>
+                    </div>
+                </div>
+
+                <img [defaultImage]="'https://via.placeholder.com/250x250/000/?text=LOTR'"
+                     [lazyLoad]="'../../assets/img/thumbnail/' + cycle.id + '.png'"
+                     [ngStyle]="{ 'margin-right': '10px' }"
+                     alt="" height="250" width="250" />
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

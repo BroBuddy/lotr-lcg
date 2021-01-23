@@ -128,8 +128,8 @@ export class DataService {
 
   onDrawCard(): void {
     this.stagingArea.getValue().push(this.encounterDeck.getValue()[0]);
-    this.encounterDeck.getValue().shift();
     this.addHistory(this.getCardTypeName(this.encounterDeck.getValue()[0]) + ' was drawn');
+    this.encounterDeck.getValue().shift();
   }
 
   onCardActivation(card: any): void {

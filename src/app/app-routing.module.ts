@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import {HomeComponent} from './home/home.component';
-import {ScenarioComponent} from './scenario/scenario.component';
+import {ScenarioDetailComponent} from './scenario-detail/scenario-detail.component';
 import {GameComponent} from './game/game.component';
 import {PacksComponent} from './packs/packs.component';
 import {CardsComponent} from './cards/cards.component';
 import {KeywordsComponent} from './keywords/keywords.component';
+import {ScenariosComponent} from './scenarios/scenarios.component';
 
 const routes: Routes = [
   {
@@ -15,11 +16,15 @@ const routes: Routes = [
   },
   {
     path: 'cycle/:cId/scenario/:sId',
-    component: ScenarioComponent
+    component: ScenarioDetailComponent
   },
   {
     path: 'cycle/:cId/scenario/:sId/game',
     component: GameComponent
+  },
+  {
+    path: 'scenarios',
+    component: ScenariosComponent
   },
   {
     path: 'cards',

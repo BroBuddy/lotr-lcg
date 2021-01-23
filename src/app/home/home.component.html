@@ -1,50 +1,110 @@
-<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid"
-     *ngIf="cycles$ | async as cycles">
-  <div fxFlex="50" *ngFor="let cycle of cycles['value']; trackBy: trackByFn">
+<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
+  <div fxFlex="25">
     <mat-card>
       <mat-card-header>
-        <mat-card-title>{{ cycle.title }}</mat-card-title>
-        <mat-card-subtitle>Cycle {{ cycle.id }}</mat-card-subtitle>
+        <mat-card-title>Scenarios</mat-card-title>
       </mat-card-header>
 
-      <mat-card-content fxLayoutAlign="space-between">
-        <div>
-          <div *ngFor="let scenario of cycle.scenarios; trackBy: trackByFn">
-            <button mat-button disabled>#{{ scenario.id }}</button>
-
-            <button mat-button
-                    type="button"
-                    [routerLink]="'/cycle/' + cycle.id + '/scenario/' + scenario.id"
-                    [disabled]="!scenario.title || scenario.id === 12 || scenario.id === 29">
-              {{ scenario.title ? scenario.title : 'not available' }}
-            </button>
-
-            <button mat-button
-                    type="button"
-                    [matTooltip]="scenario.difficult"
-                    [matTooltipPosition]="'right'"
-                    [color]="scenario.difficult <= 4 ? 'accent' : (scenario.difficult >= 7 ? 'primary' : 'warn')">
-              <ng-container [ngSwitch]="scenario.difficult">
-                <ng-container *ngSwitchCase="1">Very easy</ng-container>
-                <ng-container *ngSwitchCase="2">Very easy</ng-container>
-                <ng-container *ngSwitchCase="3">Easy</ng-container>
-                <ng-container *ngSwitchCase="4">Easy</ng-container>
-                <ng-container *ngSwitchCase="5">Medium</ng-container>
-                <ng-container *ngSwitchCase="6">Medium</ng-container>
-                <ng-container *ngSwitchCase="7">Hard</ng-container>
-                <ng-container *ngSwitchCase="8">Hard</ng-container>
-                <ng-container *ngSwitchCase="9">Very hard</ng-container>
-                <ng-container *ngSwitchCase="10">Very hard</ng-container>
-              </ng-container>
-            </button>
-          </div>
-        </div>
-
-        <img [defaultImage]="'https://via.placeholder.com/250x250/000/?text=LOTR'"
-             [lazyLoad]="'../../assets/img/thumbnail/' + cycle.id + '.png'"
-             [ngStyle]="{ 'margin-right': '10px' }"
-             alt="" height="250" width="250" />
+      <mat-card-content>
+        <p>In each game of The Lord of the Rings: The Card
+        Game, players begin by choosing a scenario, and then
+        work together in an attempt to complete it. A scenario
+        is completed by successfully moving through all stages
+        of the quest deck. During a scenario, the encounter
+        deck aims to harm the heroes and to raise each player’s
+        threat level. A player is eliminated from the game if
+        all of his heroes are destroyed, or if his threat level
+        reaches 50. If all players are eliminated from the game,
+        the players have lost.</p>
       </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-button type="button" routerLink="/scenarios">
+          <mat-icon>list</mat-icon>
+          Go to scenarios
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+  <div fxFlex="25">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Cards</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <p>There are three different types of decks in The Lord
+        of the Rings: The Card Game: the quest deck, the
+        encounter deck, and the player deck. There are also
+        hero cards, which do not belong to any deck. Each deck
+        has its own function and its own set of card types, as
+        described below. In the game, each player plays one
+        player deck, and the players work together to move
+        through a fixed quest deck. A randomized encounter
+        deck operates in conjunction with the quest deck in
+        each scenario to challenge the players as they play
+        against the game.</p>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-button type="button" routerLink="/cards">
+          <mat-icon>content_copy</mat-icon>
+          Go to cards
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+  <div fxFlex="25">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Packs</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <p>In addition, The Lord of the Rings: The Card
+        Game is a Living Card Game®, and the enjoyment
+        and experience of the game can be customized and
+        enhanced through the purchase of regularly released
+        60 card expansions called Adventure Packs. Each
+        Adventure Pack provides players with new options
+        and strategies for their decks, as well
+        as an entirely new scenario against which to play.
+        Additionally, deluxe Quest Packs introduce new areas
+        of Middle-earth in which players can journey, explore,
+        and seek new adventures.</p>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-button type="button" routerLink="/packs">
+          <mat-icon>redeem</mat-icon>
+          Go to packs
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+  <div fxFlex="25">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Keywords</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <p>Keywords are used as shorthand for common
+        game effects that appear on a number of cards. The
+        keywords and their role in the game are explained
+        below. Keywords are denoted textually, usually at the
+        beginning of a card’s rules text.</p>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-button type="button" routerLink="/keywords">
+          <mat-icon>menu_book</mat-icon>
+          Go to keywords
+        </button>
+      </mat-card-actions>
     </mat-card>
   </div>
 </div>

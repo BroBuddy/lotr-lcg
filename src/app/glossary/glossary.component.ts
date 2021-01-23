@@ -33,7 +33,7 @@ export class GlossaryComponent {
     {
       title: 'Clue objectives',
       text: 'In some scenarios, players are searching for Clue objective cards. Players should try to find and claim ' +
-          'as many copies of them as they can while playing the scenario. When one of these cards is claimed, its card ' +
+          'as many copies of them as they can while playing the scenario-detail. When one of these cards is claimed, its card ' +
           'text transforms it into a condition attachment, and it is attached to a hero committed to the quest, with ' +
           'text that returns the card to the top of the encounter deck if the attached hero is destroyed. Additionally, ' +
           'if the attached hero is destroyed or leaves play for any other reason, the clue objective card is returned ' +
@@ -170,7 +170,7 @@ export class GlossaryComponent {
       text: 'Some enemy and location cards award victory points when they are defeated. When such a card leaves play, ' +
           'one player should place it near his threat dial to remind the players of the victory points when they are ' +
           'scoring at the end of the game. It is recommended that one player collects all the victory cards the players ' +
-          'earn during the scenario, as victory points are applied to the score of the entire group.'
+          'earn during the scenario-detail, as victory points are applied to the score of the entire group.'
     },
     {
       title: 'Villagers',

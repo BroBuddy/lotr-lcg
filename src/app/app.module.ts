@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
 import {DataService} from './data/data.service';
 import { HeaderComponent } from './header/header.component';
 import { MaterialModule } from './material.module';
-import {ScenarioComponent} from './scenario/scenario.component';
+import {ScenarioDetailComponent} from './scenario-detail/scenario-detail.component';
 import {HomeComponent} from './home/home.component';
 import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
@@ -24,6 +24,7 @@ import {KeywordsComponent} from './keywords/keywords.component';
 import {GlossaryModalComponent} from './glossary-modal/glossary-modal.component';
 import {CardsModalComponent} from './cards-modal/cards-modal.component';
 import {HistoryModalComponent} from './history-modal/history-modal.component';
+import {ScenariosComponent} from './scenarios/scenarios.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import {HistoryModalComponent} from './history-modal/history-modal.component';
     HomeComponent,
     PacksComponent,
     GameComponent,
-    ScenarioComponent,
+    ScenarioDetailComponent,
     GlossaryComponent,
     CardComponent,
     CardsComponent,
@@ -41,7 +42,8 @@ import {HistoryModalComponent} from './history-modal/history-modal.component';
     ImageZoomComponent,
     CardsModalComponent,
     GlossaryModalComponent,
-    HistoryModalComponent
+    HistoryModalComponent,
+      ScenariosComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,469 @@
+[
+  {
+    "id": 5,
+    "title": "Angmar Awakened",
+    "name": "angmar-awakened",
+    "scenarios": [
+      {
+        "id": 37,
+        "difficult": 6,
+        "title": "Intruders in Chetwood",
+        "name": "intruders-in-chetwood",
+        "text": "The House of Elrond was bustling with preparations. Fall was turning the leaves on the trees of Rivendell to flaming colors, and the valley echoed with the singing of merry voices. The Elves were gathering the last of the summer harvest to celebrate the Autumnal Equinox. All were busy except the Master of the House and his guests, a band of weary travelers who had recently arrived from important errands in Gondor and Dunland. The heroes were tired from a journey of many leagues fraught with peril, and Elrond had welcomed them to rest in his home and tell what they could of their adventures. In the Hall of Fire, Elrond spoke with the heroes at length concerning their service to the White Council. Many great deeds they had done to forestall the growing power of Mordor, and for their acts of valor, Elrond made them honored guests and bid them stay until they were refreshed.",
+        "questDeck": [
+          "3701A",
+          "3701B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Iarion"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Orc-War-Party"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Rugged-Country"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "angmar-awakened/Rugged-Country"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Shrouded-Hills"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Shrouded-Hills"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Pressing-Needs"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Pressing-Needs"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Weight-of-Responsibility"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Weight-of-Responsibility"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Lost-in-the-Wilderness"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Captain"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Captain"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Orc-Ambush"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Orc-War-Party"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Orc-War-Party"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Chetwood-Forest"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Chetwood-Forest"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Chetwood-Forest"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Borders-of-Bree-land"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Borders-of-Bree-land"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Outlying-Homestead"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Outlying-Homestead"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Outlying-Homestead"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Sudden-Assault"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Sudden-Assault"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Surprising-Speed"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Surprising-Speed"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Surprising-Speed"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Orc-Rearguard"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Rescue-Iarion"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 38,
+        "difficult": 6,
+        "title": "The Weather Hills",
+        "name": "the-weather-hills",
+        "text": "For days, the heroes pursued the remnants of the war-party east from Chetwood across the northern edge of Midgewater Marshes and into the wide plain beyond. Along the way, they came upon several burnt homesteads. Each was plainly the work of Orcish savagery. However, at each home, the heroes were surprised to find no bodies. Instead, they found signs of struggle and the unmistakable tracks of Orcs dragging their captives away. “Why would retreating Orcs stop to take prisoners?” asked one of the heroes, examining the impressions on the ground. “Perhaps they think to ransom their lives?” answered another as he emerged from the charred ruin of a collapsed hovel. “One or two prisoners would have sufficed if that were their intent, but these Orcs have taken a dozen at least,” replied the first. “Look at the markings here.”",
+        "questDeck": [
+          "3801A",
+          "3801B",
+          "3802A",
+          "3802B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "angmar-awakened/Exposed-Ridge"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Hunting-the-Orcs"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Weathered-Hilltop"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Captain"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Captain"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Freezing-Blast"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Freezing-Blast"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Make-Camp"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ancient-Causeway"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ancient-Causeway"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Tragic-Discovery"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Tragic-Discovery"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Search-the-Ruins"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cornered-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cornered-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cornered-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cornered-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cornered-Orc"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Weathered-Hilltop"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Weathered-Hilltop"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Exposed-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Exposed-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Sheltered-Valley"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Sheltered-Valley"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Concealed-Orc-camp"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Concealed-Orc-camp"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Concealed-Orc-camp"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Ice-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Ice-Storm"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Find-Shelter"
+          },
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Savage-Counter-attack"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Orc-Ambush"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Amon-Forn"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "difficult": 8,
+        "title": "",
+        "name": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 40,
+        "difficult": 7,
+        "title": "",
+        "name": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 41,
+        "difficult": 4,
+        "title": "",
+        "name": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 42,
+        "difficult": 4,
+        "title": "",
+        "name": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 43,
+        "difficult": 6,
+        "title": "",
+        "name": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 44,
+        "difficult": 10,
+        "title": "",
+        "name": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      },
+      {
+        "id": 45,
+        "difficult": 8,
+        "title": "",
+        "name": "",
+        "text": "",
+        "questDeck": [],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [],
+        "discardPile": []
+      }
+    ]
+  }
+]

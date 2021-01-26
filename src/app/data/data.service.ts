@@ -4,11 +4,12 @@ import {ToastrService} from 'ngx-toastr';
 import {BehaviorSubject, of} from 'rxjs';
 
 import {ImageZoomService} from '../image-zoom/image-zoom.service';
-import Cycle1 from './cycle-1-data.json';
-import Cycle2 from './cycle-2-data.json';
-import Cycle3 from './cycle-3-data.json';
-import Cycle4 from './cycle-4-data.json';
-import Cycle5 from './cycle-5-data.json';
+import ShadowsOfMirkwood from './shadows-of-mirkwood.json';
+import Dwarrowdelf from './dwarrowdelf.json';
+import AgainstTheShadow from './against-the-shadow.json';
+import TheRingMaker from './the-ring-maker.json';
+import AngmarAwakened from './angmar-awakened.json';
+import LordOfTheRings from './lord-of-the-rings.json';
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +18,9 @@ export class DataService {
 
   private cycles = new BehaviorSubject<any>(null);
   readonly cycles$ = this.cycles.asObservable();
+
+  private saga = new BehaviorSubject<any>(null);
+  readonly saga$ = this.saga.asObservable();
 
   private scenario = new BehaviorSubject<any>(null);
   readonly scenario$ = this.scenario.asObservable();
@@ -51,38 +55,42 @@ export class DataService {
   }
 
   fetchData(): void {
-    this.cycles.next(of(Cycle1.concat(Cycle2).concat(Cycle3).concat(Cycle4).concat(Cycle5)));
+    this.cycles.next(of(ShadowsOfMirkwood.concat(Dwarrowdelf).concat(AgainstTheShadow).concat(TheRingMaker).concat(AngmarAwakened)));
+    this.saga.next(of(LordOfTheRings));
   }
 
-  setScenario(cId: number, sId: number, shuffle?: boolean): void {
+  setScenario(cycle: string, scenario: string, shuffle?: boolean): void {
     let scenarioData;
 
-    switch (Number(cId)) {
-      case 1:
-        scenarioData = Cycle1;
+    switch (cycle) {
+      case 'shadows-of-mirkwood':
+        scenarioData = ShadowsOfMirkwood;
         break;
-      case 2:
-        scenarioData = Cycle2;
+      case 'dwarrowdelf':
+        scenarioData = Dwarrowdelf;
         break;
-      case 3:
-        scenarioData = Cycle3;
+      case 'against-the-shadow':
+        scenarioData = AgainstTheShadow;
         break;
-      case 4:
-        scenarioData = Cycle4;
+      case 'the-ring-maker':
+        scenarioData = TheRingMaker;
         break;
-      case 5:
-        scenarioData = Cycle5;
+      case 'angmar-awakened':
+        scenarioData = AngmarAwakened;
+        break;
+      case 'lord-of-the-rings':
+        scenarioData = LordOfTheRings;
         break;
     }
 
-    const scenario = scenarioData[0].scenarios.filter(data => data.id === Number(sId));
+    const scenarioItem = scenarioData[0].scenarios.filter(data => data.name === scenario);
 
-    this.scenario.next(scenario[0]);
-    this.encounterDeck.next(scenario[0].encounterDeck);
-    this.activeLocation.next(scenario[0].activeLocation);
-    this.stagingArea.next(scenario[0].stagingArea);
-    this.discardPile.next(scenario[0].discardPile);
-    this.questDeck.next(scenario[0].questDeck);
+    this.scenario.next(scenarioItem[0]);
+    this.encounterDeck.next(scenarioItem[0].encounterDeck);
+    this.activeLocation.next(scenarioItem[0].activeLocation);
+    this.stagingArea.next(scenarioItem[0].stagingArea);
+    this.discardPile.next(scenarioItem[0].discardPile);
+    this.questDeck.next(scenarioItem[0].questDeck);
     this.engagingArea.next([]);
     this.history.next([]);
 
@@ -196,15 +204,15 @@ export class DataService {
       this.discardPile.getValue().push(this.activeLocation.getValue());
       this.activeLocation.next(null);
     } else {
-      if (this.activeLocation.getValue()) {
-        this.discardPile.getValue().push(this.activeLocation.getValue());
+      if (card === this.activeLocation.getValue()) {
+        this.discardPile.getValue().push(card);
         this.removeCardFromStaging(card);
-        this.activeLocation.next(card);
+        this.activeLocation.next(null);
       } else {
         setTimeout(() => {
           this.removeCardFromStaging(card);
           this.activeLocation.next(card);
-        }, 0);
+        }, 100);
       }
     }
 

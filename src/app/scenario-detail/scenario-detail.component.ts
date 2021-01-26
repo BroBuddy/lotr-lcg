@@ -17,8 +17,8 @@ import {DataService} from '../data/data.service';
   }`]
 })
 export class ScenarioDetailComponent implements OnInit, OnDestroy {
-  public cId: number;
-  public sId: number;
+  public cycle: string;
+  public scenario: string;
   public text: string;
   public scenario$: Observable<any>;
   private subs = new SubSink();
@@ -45,9 +45,9 @@ export class ScenarioDetailComponent implements OnInit, OnDestroy {
     this.route.params
       .subscribe(
         (params: Params) => {
-          this.cId = params.cId;
-          this.sId = params.sId;
-          this.dataService.setScenario(this.cId, this.sId, false);
+          this.cycle = params.cycle;
+          this.scenario = params.scenario;
+          this.dataService.setScenario(this.cycle, this.scenario, false);
           this.scenario$ = this.dataService.scenario$;
           this.subs.sink = this.dataService.scenario$.subscribe(data => this.text = data.text);
         }

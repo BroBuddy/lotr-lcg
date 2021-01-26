@@ -22,8 +22,8 @@ import {HistoryModalComponent} from '../history-modal/history-modal.component';
   }`]
 })
 export class GameComponent implements OnInit, OnDestroy {
-  public cId: number;
-  public sId: number;
+  public cycle: string;
+  public scenario: string;
   public encounterDeck$: Observable<any[]>;
   public stagingArea$: Observable<any[]>;
   public activeLocation$: Observable<any>;
@@ -45,9 +45,9 @@ export class GameComponent implements OnInit, OnDestroy {
     this.route.params
       .subscribe(
         (params: Params) => {
-          this.cId = params.cId;
-          this.sId = params.sId;
-          this.dataService.setScenario(this.cId, this.sId, true);
+          this.cycle = params.cycle;
+          this.scenario = params.scenario;
+          this.dataService.setScenario(this.cycle, this.scenario, true);
           this.encounterDeck$ = this.dataService.encounterDeck$;
           this.stagingArea$ = this.dataService.stagingArea$;
           this.activeLocation$ = this.dataService.activeLocation$;

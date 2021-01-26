@@ -1,0 +1,1968 @@
+[
+  {
+    "id": 1,
+    "title": "Shadows of Mirkwood",
+    "name": "shadows-of-mirkwood",
+    "scenarios": [
+      {
+        "id": 1,
+        "difficult": 2,
+        "title": "Passage Through Mirkwood",
+        "name": "passage-through-mirkwood",
+        "text": "Mirkwood has long been a dangerous place, and recently one of King Thranduil’s patrols has uncovered disconcerting signs of a gathering menace in the vicinity of Dol Guldur. A party of heroes, controlled by the players, has been assembled to carry a message through Mirkwood, down the Anduin, and eventually to Lórien, to warn Lady Galadriel of the imminent danger. ",
+        "questDeck": [
+          "0101A",
+          "0101B",
+          "0102A",
+          "0102B",
+          "0103A",
+          "0103B",
+          "0103A2",
+          "0103B2"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Forest-Spider"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Old-Forest-Road"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hummerhorns"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Ungoliants-Spawn"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Eyes-of-the-Forest"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Caught-in-a-Web"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Caught-in-a-Web"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Forest-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Forest-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Forest-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/East-Bight-Patrol"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Black-Forest-Bats"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Old-Forest-Road"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Forest-Gate"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Forest-Gate"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 2,
+        "difficult": 5,
+        "title": "Journey Along the Anduin",
+        "name": "journey-along-the-anduin",
+        "text": "Having survived the dangers of Mirkwood Forest, the heroes continue their journey along the banks of the Anduin river, toward Lórien, with dire news of a gathering threat in Southern Mirkwood. ",
+        "questDeck": [
+          "0201A",
+          "0201B",
+          "0202A",
+          "0202B",
+          "0203A",
+          "0203B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hill-Troll"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Treacherous-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Treacherous-Fog"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wolf-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Marsh-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wargs"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Despair"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Despair"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bight"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Massing-at-Night"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 3,
+        "difficult": 8,
+        "title": "Escape from Dol Guldur",
+        "name": "escape-from-dol-guldur",
+        "text": "While exploring in the vicinity of Dol Guldur at Lady Galadriel's request, one of the heroes' companions is captured by the Necromancer's forces, and is now awaiting interrogation in a dungeon beneath the hill. Knowing their friend's time is short, the heroes decide to attempt a desperate rescue. ",
+        "questDeck": [
+          "0301A",
+          "0301B",
+          "0302A",
+          "0302B",
+          "0303A",
+          "0303B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Nazgul-of-Dol-Guldur"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hummerhorns"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Ungoliants-Spawn"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Eyes-of-the-Forest"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Caught-in-a-Web"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Caught-in-a-Web"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dungeon-Jailor"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dungeon-Jailor"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Cavern-Guardian"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Cavern-Guardian"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Under-the-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Under-the-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Iron-Shackles"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Endless-Caverns"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Endless-Caverns"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Tower-Gate"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Tower-Gate"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Gandalfs-Map"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Dungeon-Torch"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Shadow-Key"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "difficult": 4,
+        "title": "The Hunt for Gollum",
+        "name": "the-hunt-for-gollum",
+        "text": "At the request of Gandalf, the heroes are searching for Gollum in the Anduin Valley between the Misty Mountains and Mirkwood forest. Rumours have suggested that Gollum is in the area, and the heroes are looking for clues that might put them on the elusive creature’s trail. ",
+        "questDeck": [
+          "0401A",
+          "0401B",
+          "0402A",
+          "0402B",
+          "0403A",
+          "0403B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Massing-at-Night"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Treacherous-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Treacherous-Fog"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Signs-of-Gollum"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Signs-of-Gollum"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Signs-of-Gollum"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Signs-of-Gollum"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Old-Ford"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Old-Ford"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Eaves-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Eaves-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Eaves-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/River-Ninglor"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/River-Ninglor"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bank"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bank"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-West-Bank"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-West-Bank"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblintown-Scavengers"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblintown-Scavengers"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hunters-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hunters-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hunters-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hunters-from-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hunters-from-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/False-Lead"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/False-Lead"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Flooding"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Flooding"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Old-Wives-Tales"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Old-Wives-Tales"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Old-Wives-Tales"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 5,
+        "difficult": 6,
+        "title": "Conflict at the Carrock",
+        "name": "conflict-at-the-carrock",
+        "text": "While searching for Gollum along the banks of the Anduin, the heroes hear rumours of a group Trolls that have come to the Carrock, bringing chaos and strife to the valley. The Beonings, led by Grimbeorn the Old, are known as the peacekeepers in the area, so the heroes set out to find Grimbeorn and assist him in driving the intrusive Trolls back to the mountains from which they came. ",
+        "questDeck": [
+          "0501A",
+          "0501B",
+          "0502A",
+          "0502B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Carrock"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Misty-Mountain-Goblins"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Massing-at-Night"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Banks-of-the-Anduin"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Gladden-Fields"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wolf-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Marsh-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wargs"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Despair"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Despair"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bight"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Grimbeorn-the-Old"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Muck-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Muck-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Muck-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Muck-Adder"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/River-Langflood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/River-Langflood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/River-Langflood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/River-Langflood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Bee-Pastures"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Bee-Pastures"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Bee-Pastures"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Oak-wood-Grove"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Oak-wood-Grove"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Oak-wood-Grove"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/A-Frightened-Beast"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/A-Frightened-Beast"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/A-Frightened-Beast"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Sacked"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Sacked"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Roasted-Slowly"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Roasted-Slowly"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Louis"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Morris"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Stuart"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Rupert"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Sacked"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Sacked"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Sacked"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "difficult": 6,
+        "title": "A Journey to Rhosgobel",
+        "name": "a-journey-to-rhosgobel",
+        "text": "While travelling in the Anduin Valley, the heroes come across a fallen Eagle, dreadfully wounded from a recent battle with Goblins, and on the verge of death. Given their location, the heroes attempt to transport the Eagle to Rhosgobel, on the edge of Mirkwood, in the hope that the wizard Radagast can save the Eagle’s life.",
+        "questDeck": [
+          "0601A",
+          "0601B",
+          "0602A",
+          "0602B",
+          "0603A",
+          "0603B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Rhosgobel"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hummerhorns"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Ungoliants-Spawn"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Eyes-of-the-Forest"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Caught-in-a-Web"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Caught-in-a-Web"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Athelas"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Athelas"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Athelas"
+          },
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Athelas"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Forest-Grove"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Forest-Grove"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Forest-Grove"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Forest-Grove"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Exhaustion"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Exhaustion"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Exhaustion"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Exhaustion"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Swarming-Insects"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Swarming-Insects"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Swarming-Insects"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Swarming-Insects"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Festering-Wounds"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Festering-Wounds"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Mirkwood-Flock"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Mirkwood-Flock"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Mirkwood-Flock"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Mirkwood-Flock"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Black-Forest-Bats-2"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Black-Forest-Bats-2"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Black-Forest-Bats-2"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Black-Forest-Bats-2"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Black-Forest-Bats-2"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Wilyador"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "difficult": 3,
+        "title": "The Hills of Emyn Muil",
+        "name": "the-hills-of-emyn-muil",
+        "text": "Pursuing Gollum to the south, the heroes were led to the hills of Emyn Muil, but there the leads grew cold. Somewhere in this region, Gollum is hiding, and the heroes must explore carefully to regain the trail and resume pursuit.",
+        "questDeck": [
+          "0701A",
+          "0701B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Amon-Hen"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Amon-Lhaw"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Orcs-Enemy"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Chieftan-Ufthak"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Dol-Guldur-Beastmaster"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Driven-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Necromancers-Reach"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Necromancers-Pass"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Enchanted-Stream"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Treacherous-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Treacherous-Fog"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Wall-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Wall-of-Rohan"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-North-Stair"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-North-Stair"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Rauros-Falls"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Rauros-Falls"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Shores-of-Nen-Hithoel"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Shores-of-Nen-Hithoel"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Shores-of-Nen-Hithoel"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Outer-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Outer-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Outer-Ridge"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Highlands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Highlands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Highlands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Highlands"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Impassable-Chasm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Impassable-Chasm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Impassable-Chasm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Impassable-Chasm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Rockslide"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Rockslide"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Rockslide"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Slick-Footing"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Slick-Footing"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Slick-Footing"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Orc-Horse-Thieves"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Orc-Horse-Thieves"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Orc-Horse-Thieves"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 8,
+        "difficult": 4,
+        "title": "The Dead Marshes",
+        "name": "the-dead-marshes",
+        "text": "After regaining his trail in the hills of Emyn Muil, the heroes have tracked Gollum to The Dead Marshes, into which he has fled in a last ditch effort to avoid pursuit. Feeling that the hunt is coming to a close, the heroes enter the treacherous marshlands, ready to capture the creature alive.",
+        "questDeck": [
+          "0801A",
+          "0801B",
+          "0802A",
+          "0802B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Gollum"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Eastern-Crows"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Evil-Storm"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Pursued-by-Shadow"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Treacherous-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Treacherous-Fog"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wolf-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Marsh-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wargs"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Despair"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Despair"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bight"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/A-Wisp-of-Pale-Sheen"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/A-Wisp-of-Pale-Sheen"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/A-Wisp-of-Pale-Sheen"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Nightfall"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Nightfall"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Nightfall"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Through-the-Mist"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Through-the-Mist"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Through-the-Mist"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Lights-of-the-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Lights-of-the-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Lights-of-the-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/The-Lights-of-the-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Giant-Marsh-Worm"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Giant-Marsh-Worm"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Giant-Marsh-Worm"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Giant-Marsh-Worm"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Impassable-Bog"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Impassable-Bog"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Impassable-Bog"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Impassable-Bog"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Heart-of-the-Marshes"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Heart-of-the-Marshes"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Heart-of-the-Marshes"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Heart-of-the-Marshes"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Fens-and-Mires"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Fens-and-Mires"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Fens-and-Mires"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Fens-and-Mires"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 9,
+        "difficult": 7,
+        "title": "Return to Mirkwood",
+        "name": "return-to-mirkwood",
+        "text": "After cornering and capturing Gollum in The Dead Marshes, the heroes must now escort the creature north, through Mirkwood forest, so that he can be held and interrogated at King Thranduil’s palace. The journey will not be easy, however: Mirkwood is always a dangerous place, the Dark Lord’s forces are eager to take Gollum for their own purposes...and Gollum himself is eager to escape.",
+        "questDeck": [
+          "0901A",
+          "0901B",
+          "0902A",
+          "0902B",
+          "0903A",
+          "0903B",
+          "0904A",
+          "0904B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "shadows-of-mirkwood/Gollum-2"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/King-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hummerhorns"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Ungoliants-Spawn"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Great-Forest-Web"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Mountains-of-Mirkwood"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Eyes-of-the-Forest"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Caught-in-a-Web"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Caught-in-a-Web"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wolf-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Hill-Troll"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Goblin-Sniper"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Marsh-Adder"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wargs"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Despair"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Despair"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Brown-Lands"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-East-Bight"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Spiders-Ring"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Spiders-Ring"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Spiders-Ring"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/The-Spiders-Ring"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Dry-Watercourse"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Dry-Watercourse"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Dry-Watercourse"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Woodmans-Glade"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Woodmans-Glade"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Woodmans-Glade"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Wood-Elf-Path"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Wood-Elf-Path"
+          },
+          {
+            "type": "location",
+            "image": "shadows-of-mirkwood/Wood-Elf-Path"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Gollums-Anguish"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Gollums-Anguish"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Gollums-Bite"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Gollums-Bite"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Wasted-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Wasted-Provisions"
+          },
+          {
+            "type": "treachery",
+            "image": "shadows-of-mirkwood/Wasted-Provisions"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Mirkwood-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Mirkwood-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Mirkwood-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Mirkwood-Bats"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Attercop-Attercop"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Attercop-Attercop"
+          },
+          {
+            "type": "enemy",
+            "image": "shadows-of-mirkwood/Attercop-Attercop"
+          }
+        ],
+        "discardPile": []
+      }
+    ]
+  }
+]

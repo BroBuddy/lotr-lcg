@@ -8,6 +8,7 @@ import {PacksComponent} from './packs/packs.component';
 import {CardsComponent} from './cards/cards.component';
 import {KeywordsComponent} from './keywords/keywords.component';
 import {ScenariosComponent} from './scenarios/scenarios.component';
+import {SagaComponent} from './saga/saga.component';
 
 const routes: Routes = [
   {
@@ -15,16 +16,20 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'cycle/:cId/scenario/:sId',
-    component: ScenarioDetailComponent
-  },
-  {
-    path: 'cycle/:cId/scenario/:sId/game',
-    component: GameComponent
+    path: 'saga',
+    component: SagaComponent
   },
   {
     path: 'scenarios',
     component: ScenariosComponent
+  },
+  {
+    path: ':cycle/:scenario',
+    component: ScenarioDetailComponent
+  },
+  {
+    path: ':cycle/:scenario/game',
+    component: GameComponent
   },
   {
     path: 'cards',
@@ -37,6 +42,10 @@ const routes: Routes = [
   {
     path: 'keywords',
     component: KeywordsComponent
+  },
+  {
+    path: '**',
+    redirectTo: ''
   }
 ];
 

@@ -1,0 +1,1676 @@
+[
+  {
+    "id": 3,
+    "title": "Against the Shadow",
+    "name": "against-the-shadow",
+    "scenarios": [
+      {
+        "id": 19,
+        "difficult": 7,
+        "title": "Peril in Pelargir",
+        "name": "peril-in-pelargir",
+        "text": "The shadow of Sauron has risen with increasing violence against the kingdom of Gondor. Our heroes have travelled southeast by ship from the Grey Havens at the request of the White Council, ready to aid the descendants of Númenor in their defense against the forces of Mordor. Upon reaching the port of Pelargir, they are greeted by Lord Alcaron, a nobleman from the city of Minas Tirith. Lord Alcaron has urgent information for Faramir, but he is frightened that the Enemy is after him. He asks the heroes to deliver a scroll to Faramir. The heroes agree when a band of ruffians appear, intent on intercepting the message...",
+        "questDeck": [
+          "1901A",
+          "1901B",
+          "1902A",
+          "1902B",
+          "1903A",
+          "1903B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "against-the-shadow/The-Leaping-Fish-Location"
+        },
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Harbor-Thug"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Scourge-of-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Scourge-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Pickpocket"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Pickpocket"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Pickpocket"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Market-Square"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Market-Square"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lost-in-the-City"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Local-Trouble"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Local-Trouble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Harbor-Thug"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Harbor-Thug"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Harbor-Thug"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Harbor-Thug"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Pelargir-Docks"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Pelargir-Docks"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Harbor-Storehouse"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Harbor-Storehouse"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Collateral-Damage"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Collateral-Damage"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Collateral-Damage"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Collateral-Damage"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Alcarons-Scroll"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "difficult": 8,
+        "title": "Into Ithilien",
+        "name": "into-ithilien",
+        "text": "Having reached the eaves of Ithilien, our heroes enter the green woodlands in search of Faramir, seeking to deliver to him the scroll of Lord Alcaron. There they are met by Celador, a ranger of Gondor, who informs the heroes that Faramir has taken his men to Cair Andros in anticipation of an assault against the island fortress. Celador offers to bring the heroes to Cair Andros by secret paths–after the rangers ambush a company of Southrons marching north on the Ithilien road. Grateful for Celador’s offer and unable to stand by while his men do battle, our heroes volunteer to fight alongside his rangers...",
+        "questDeck": [
+          "2001A",
+          "2001B",
+          "2002A",
+          "2002B",
+          "2003A",
+          "2003B",
+          "2004A",
+          "2004B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "against-the-shadow/Ithilien-Road"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Celador"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Company"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Mumak"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Southron-Support"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Southron-Support"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Forest-Bat"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Watcher-in-the-Wood"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Watcher-in-the-Wood"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Glade"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Glade"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Glade"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lost-Companion"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lost-Companion"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Ithilien-Guardian"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Ithilien-Guardian"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Company"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Company"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Company"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ithilien-Road"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Blocking-Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Blocking-Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Blocking-Wargs"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Blocking-Wargs"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 21,
+        "difficult": 8,
+        "title": "The Siege of Cair Andros",
+        "name": "the-siege-of-cair-andros",
+        "text": "The island fortress of Cair Andros guards Gondor’s northernmost causeways over the Anduin. Our heroes reach the causeway and enter the fortress as skirmishers appear on the eastern shore. They find Faramir in the Citadel, and deliver to him the scroll of Lord Alcaron. Drums are heard, and horns, and the tramping of many feet. An army of Orcs and Southrons prepare a threepronged assault, and the heroes gird themselves for battle. For if Cair Andros falls, the doom of Gondor is nigh...",
+        "questDeck": [
+          "2101A",
+          "2101B",
+          "2102A",
+          "2102B",
+          "2103A",
+          "2103B",
+          "2104A",
+          "2104B",
+          "2105A",
+          "2105B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Citadel"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Approach"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Banks"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Scourge-of-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Scourge-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Lieutenant-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Vanguard"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Vanguard"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Orc-War-Camp"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Orc-War-Camp"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Power-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Mumak"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Southron-Support"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Southron-Support"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Scramblers"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Scramblers"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Scramblers"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Battering-Ram"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Battering-Ram"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Battering-Ram"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Siege-Raft"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Siege-Raft"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Orc-Assault"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Orc-Assault"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 22,
+        "difficult": 6,
+        "title": "The Steward's Fear",
+        "name": "the-stewards-fear",
+        "text": "The heroes arrive in Minas Tirith with news of victory at Cair Andros and a message for Lord Alcaron from Faramir. Upon arriving at the city, they learn that Lord Alcaron is traveling on important business north in Anórien. Even so, the heroes are soon furtively summoned to the White Tower by none other than Denethor, the Steward of Gondor himself. Word has come to Denethor of the heroes’ bravery in the defense of Cair Andros, and he’s learned the heroes have the confidence of Lord Alcaron. In Denethor’s mind, such trusted new arrivals are perfectly suited for a special task of a clandestine nature.",
+        "questDeck": [
+          "2201A",
+          "2201B",
+          "2202A",
+          "2202B",
+          "2203A",
+          "2203B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Pickpocket"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Pickpocket"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Pickpocket"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/City-Street"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Market-Square"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Market-Square"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lost-in-the-City"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Local-Trouble"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Local-Trouble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Zealous-Traitor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Zealous-Traitor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Zealous-Traitor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Lossarnach-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Lossarnach-Bandit"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Umbar-Assassin"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lurking-in-Shadows"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lurking-in-Shadows"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Underworld-Dissident"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Daughter-of-Beruthiel"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/The-Hand-of-Castamir"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Telemnars-Bane"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Sewers"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Sewers"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Sewers"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Storehouse"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Storehouse"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Houses-of-the-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Unwelcome-Discovery"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Unwelcome-Discovery"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/A-Knife-in-the-Back"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/A-Knife-in-the-Back"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/A-Knife-in-the-Back"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/False-Lead"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/False-Lead"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "location",
+            "image": "against-the-shadow/Roots-of-Mindolluin"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/A-Scrap-of-History"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Secret-Map"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/A-Prisoner"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Unholy-Alliance"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Up-in-Flames"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Poisoned-Counsels"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Fourth-Star"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "difficult": 6,
+        "title": "The Drúadan Forest",
+        "name": "the-druadan-forest",
+        "text": "The heroes have unmasked a dangerous conspiracy within the walls of Minas Tirith, but the nameless mastermind of the cabal managed to escape the city before his true identity was revealed. At the request of Denethor, the heroes have pursued the clever villain and his henchmen northward. The conspirators’ trail has lead them north beyond the Rammas Echor, and then west to the doorstep of the Drúadan Forest, an ancient land with a hostile reputation. Now our heroes move to track their quarry among its ancient trees and strange stones... ",
+        "questDeck": [
+          "2301A",
+          "2301B",
+          "2302A",
+          "2302B",
+          "2303A",
+          "2303B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "against-the-shadow/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Overgrown-Trail"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Glade"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Glade"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Glade"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lost-Companion"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lost-Companion"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Drummer"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Hunter"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Thief"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Thief"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Druadan-Thief"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ancestral-Clearing"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Garden-of-Poisons"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Garden-of-Poisons"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Garden-of-Poisons"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Glade-of-Cleansing"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Glade-of-Cleansing"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Glade-of-Cleansing"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Men-in-the-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Men-in-the-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Men-in-the-Dark"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Stars-in-Sky"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Stars-in-Sky"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Stars-in-Sky"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Leaves-on-Tree"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Leaves-on-Tree"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Dru-buri-Dru"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "difficult": 3,
+        "title": "Encounter at Amon Dîn",
+        "name": "encounter-at-amon-din",
+        "text": "Having escaped from the Drúadan Forest and witnessed the demise of the conspirators by the arrows of the Woses, the heroes have begun their journey back to Minas Tirith. In the morning of the second day, they awoke to a grim sight. Dozens of columns of smoke were rising across the hilly farmlands of Anórien. It seems death had crossed the Anduin after all.",
+        "questDeck": [
+          "2401A",
+          "2401B",
+          "2402A",
+          "2402B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "against-the-shadow/Burning-Farmhouse"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Lord-Alcaron"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Rescued-Villagers"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Dead-Villagers"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Scourge-of-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Scourge-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Marauding-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Marauding-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Marauding-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Marauding-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Ravager"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Ravager"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Ravager"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Craven-Eagle"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Craven-Eagle"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Burning-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Burning-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Burning-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Gondorian-Hamlet"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Gondorian-Hamlet"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Gondorian-Hamlet"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Gondorian-Hamlet"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Farmhouse"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Secluded-Farmhouse"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Burnt-Homestead"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Burnt-Homestead"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Trapped-Inside"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Trapped-Inside"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Panicked"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Panicked"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Ghulat"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "difficult": 5,
+        "title": "Assault on Osgiliath",
+        "name": "assault-on-sgiliath",
+        "text": "After saving the villagers near Amon Dîn, the heroes have joined with Lord Alcaron to assist Lord Boromir’s forces in retaking Osgiliath. At the army encampment, you are thrilled to again meet Lord Faramir, and you are introduced to his brother Boromir, eldest son of Denethor and renowned hero of Gondor. Nestled on both sides of the Anduin lies old Osgiliath, a crossroads city bridging the great river. In the long war against Mordor, control of Osgiliath has been a critical piece. One that Boromir means to reclaim. ",
+        "questDeck": [
+          "2501A",
+          "2501B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Uruk-Lieutenant"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/West-Gate"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Lieutenant-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Vanguard"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Vanguard"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Orc-War-Camp"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Orc-War-Camp"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Power-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Mercenaries"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Haradrim-Elite"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Mumak"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Southron-Support"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Southron-Support"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Uruk-Lieutenant"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Uruk-Soldier"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Uruk-Soldier"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Uruk-Soldier"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Uruk-Soldier"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Phalanx"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Phalanx"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Phalanx"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Commander"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Southron-Commander"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Kings-Library"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ancient-Harbor"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Old-Bridge"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/West-Quarter"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/West-Quarter"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/East-Quarter"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/East-Quarter"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ruined-Square"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ruined-Square"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ruined-Square"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ruined-Tower"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ruined-Tower"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Ruined-Tower"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Pinned-Down"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Pinned-Down"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Street-Fighting"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Street-Fighting"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Counter-attack"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Counter-attack"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 26,
+        "difficult": 6,
+        "title": "The Blood of Gondor",
+        "name": "the-blood-of-gondor",
+        "text": "In a great victory for Gondor, the city of Osgiliath has been retaken and the river Anduin is once more under the Steward’s control. Alongside the Lords Boromir, Faramir, and Alcaron, the heroes fought bravely to recapture the ancient city. With the defeated forces of orcs and evil men retreating eastward, Lord Alcaron had urged Boromir to pursue the scattered enemy. “Don’t let a single one of them return to foul the Pelennor again!” Alcaron pleaded. “We should hunt them. Pursue them until their black bones break on the mountains.” Flush with the confidence of victory and swayed by the nobleman’s passion, Boromir agreed and asked his brother to take on this endeavor with his rangers. Faramir reluctantly consented.",
+        "questDeck": [
+          "2601A",
+          "2601B",
+          "2602A",
+          "2602B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Black-Numenorean"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Cross-roads"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Faramir"
+          },
+          {
+            "type": "objective",
+            "image": "against-the-shadow/Lord-Alcaron-2"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Rabble"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arsonist"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Scourge-of-Mordor"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Scourge-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Ambusher"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Ambusher"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Ambusher"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Ambusher"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Brutal-Uruk"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Brutal-Uruk"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Brutal-Uruk"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Evil-Crow"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Evil-Crow"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Southern-Road"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Western-Road"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Northern-Road"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Eastern-Road"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Dark-Woods"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Dark-Woods"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Dark-Woods"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-Dark-Woods"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lying-in-Wait"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lying-in-Wait"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lying-in-Wait"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Lying-in-Wait"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Mordor-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Mordor-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Mordor-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Conflict-at-the-Crossroads"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Conflict-at-the-Crossroads"
+          }
+        ],
+        "discardPile": []
+      },
+      {
+        "id": 27,
+        "difficult": 8,
+        "title": "The Morgul Vale",
+        "name": "the-morgul-vale",
+        "text": "While pursuing the scattered enemy forces into Ithilien, Faramir’s company of rangers are ambushed by orcs near the old crossroads. During the ensuing fight, both Lord Faramir and Lord Alcaron are captured. At the thought of Denethor’s son in Sauron’s torture chambers, the heroes begin a desperate pursuit. Following frantic hours of tracking, they find themselves at the mouth of the dread Morgul Valley. As the Dead City comes into distant view, they have come upon their quarry at last. ",
+        "questDeck": [
+          "2701A",
+          "2701B",
+          "2702A",
+          "2702B",
+          "2703A",
+          "2703B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "against-the-shadow/To-the-Tower"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Murzag"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Morgul-Vale"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Spider"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Forest-Bat"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Forest-Bat"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Watcher-in-the-Wood"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Watcher-in-the-Wood"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Lieutenant-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Arbalesters"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Vanguard"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Orc-Vanguard"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Orc-War-Camp"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Orc-War-Camp"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Masters-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Power-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Bodyguard"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Sorcerer"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Sorcerer"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Tracker"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Tracker"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Morgul-Tracker"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Morgul-Road"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Morgul-Vale"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/Morgul-Vale"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Impenetrable-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Impenetrable-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Sleepless-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Sleepless-Malice"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/Terror-Drives-Them"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Dead-City-Looms"
+          },
+          {
+            "type": "treachery",
+            "image": "against-the-shadow/The-Dead-City-Looms"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Lord-Alcaron-3"
+          },
+          {
+            "type": "enemy",
+            "image": "against-the-shadow/Nazgul-of-Minas-Morgul"
+          },
+          {
+            "type": "location",
+            "image": "against-the-shadow/The-White-Bridge"
+          }
+        ]
+      }
+    ]
+  }
+]

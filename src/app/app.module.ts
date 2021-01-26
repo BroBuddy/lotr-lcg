@@ -26,6 +26,7 @@ import {CardsModalComponent} from './cards-modal/cards-modal.component';
 import {HistoryModalComponent} from './history-modal/history-modal.component';
 import {ScenariosComponent} from './scenarios/scenarios.component';
 import {ThreatTrackerComponent} from './threat-tracker/threat-tracker.component';
+import {SagaComponent} from './saga/saga.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {ThreatTrackerComponent} from './threat-tracker/threat-tracker.component'
     GlossaryModalComponent,
     HistoryModalComponent,
     ScenariosComponent,
-    ThreatTrackerComponent
+    ThreatTrackerComponent,
+      SagaComponent
   ],
   imports: [
     BrowserModule,

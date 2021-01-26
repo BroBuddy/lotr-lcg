@@ -1,6 +1,6 @@
 <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid"
-     *ngIf="cycles$ | async as cycles">
-    <div fxFlex="50" *ngFor="let cycle of cycles['value']; trackBy: trackByFn">
+     *ngIf="saga$ | async as saga">
+    <div fxFlex="50" *ngFor="let cycle of saga['value']; trackBy: trackByFn">
         <mat-card>
             <mat-card-header>
                 <mat-card-title>{{ cycle.title }}</mat-card-title>
@@ -14,7 +14,7 @@
                         <button mat-button
                                 type="button"
                                 [routerLink]="'../' + cycle.name + '/' + scenario.name"
-                                [disabled]="!scenario.name || scenario.id === 12 || scenario.id === 29">
+                                [disabled]="!scenario.name">
                             {{ scenario.title ? scenario.title : 'not available' }}
                         </button>
 
@@ -40,7 +40,7 @@
                 </div>
 
                 <img [defaultImage]="'https://via.placeholder.com/250x250/000/?text=LOTR'"
-                     [lazyLoad]="'../../assets/img/thumbnail/' + cycle.name + '.png'"
+                     [lazyLoad]="'../../assets/img/thumbnail/' + cycle.id + '.png'"
                      [ngStyle]="{ 'margin-right': '10px' }"
                      alt="" height="250" width="250" />
             </mat-card-content>

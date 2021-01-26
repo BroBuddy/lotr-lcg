@@ -120,7 +120,7 @@ export class GlossaryComponent {
       text: 'The Searches X keyword represents the heroes search for the Orc captain, Mugash. When a location with the ' +
           'Searches X keyword leaves play, the player (or players) identified by that location reveals the top X cards ' +
           'of his out-of-play deck. Players who reveal cards this way add each revealed enemy to the staging area, ' +
-          'choose 1 player card to take into their hand, and discard the rest.'
+          'choose shadows-of-mirkwood player card to take into their hand, and discard the rest.'
     },
     {
       title: 'Secrecy X',
@@ -144,14 +144,14 @@ export class GlossaryComponent {
     {
       title: 'Surge',
       text: 'When an encounter card with the surge keyword is revealed during the staging step of the quest phase, ' +
-          'reveal 1 additional card from the encounter deck. Resolve the surge keyword immediately after resolving any ' +
+          'reveal shadows-of-mirkwood additional card from the encounter deck. Resolve the surge keyword immediately after resolving any ' +
           'when revealed effects on the card.'
     },
     {
       title: 'Time X',
       text: 'Time X is a new keyword that represents the urgency of the heroes’ quest. When a card with the Time X ' +
           'keyword is revealed, the players put X resource tokens on that card. These tokens are called time counters. ' +
-          'At the end of each refresh phase, remove 1 time counter from each card with the Time X keyword, if able. ' +
+          'At the end of each refresh phase, remove shadows-of-mirkwood time counter from each card with the Time X keyword, if able. ' +
           'When the last time counter is removed, there will be a triggered effect that resolves on that card. Some ' +
           'encounter cards will also remove time counters, making it more difficult for the players to predict when ' +
           'they will run out of time.'

@@ -67,10 +67,10 @@
                 <div fxFlex="15" fxLayoutAlign="start">
                     <ng-container *ngIf="data.shadowCard">
                         <img [defaultImage]="'https://via.placeholder.com/150x210/000/?text=LOTR'"
-                             [lazyLoad]="'/assets/img/encounter/' + data.shadowCard.image + '.jpg'"
+                             [lazyLoad]="'/assets/img/encounter/' + data.shadowCard['image'] + '.jpg'"
                              [matTooltip]="'Shadow card'"
                              [matTooltipPosition]="'right'"
-                             (mouseover)="zoomService.mouseover('/assets/img/encounter/', data.shadowCard.image + '.jpg', 'left')"
+                             (mouseover)="zoomService.mouseover('/assets/img/encounter/', data.shadowCard['image'] + '.jpg', 'left')"
                              (mouseout)="zoomService.mouseout()"
                              width="150" height="210" alt=""
                              (click)="onDiscardShadow()" />

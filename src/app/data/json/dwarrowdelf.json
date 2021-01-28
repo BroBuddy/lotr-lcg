@@ -1,2063 +1,2063 @@
 [
   {
-    "id": 2,
     "title": "Dwarrowdelf",
+    "name": "dwarrowdelf",
     "scenarios": [
       {
-        "id": 10,
         "difficult": 5,
         "title": "Into the Pit",
+        "name": "into-the-pit",
         "text": "The heroes enter the mines of Moria at the behest of the White Council, carrying an important message to Balin. Balin recently led a group of Dwarves back into Moria to establish a colony in the ancient halls of his ancestors. He has not been heard from in some time. ",
         "questDeck": [
-          "1001A",
-          "1001B",
-          "1002A",
-          "1002B",
-          "1003A",
-          "1003B"
+          "dwarrowdelf/1001A",
+          "dwarrowdelf/1001B",
+          "dwarrowdelf/1002A",
+          "dwarrowdelf/1002B",
+          "dwarrowdelf/1003A",
+          "dwarrowdelf/1003B"
         ],
         "activeLocation": {
           "type": "location",
-          "image": "2/East-gate"
+          "image": "dwarrowdelf/East-gate"
         },
         "stagingArea": [],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Lightless-Passage"
+            "image": "dwarrowdelf/Lightless-Passage"
           },
           {
             "type": "location",
-            "image": "2/Lightless-Passage"
+            "image": "dwarrowdelf/Lightless-Passage"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "treachery",
-            "image": "2/Many-Roads"
+            "image": "dwarrowdelf/Many-Roads"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Crumbling-Ruin"
+            "image": "dwarrowdelf/Crumbling-Ruin"
           },
           {
             "type": "treachery",
-            "image": "2/Crumbling-Ruin"
+            "image": "dwarrowdelf/Crumbling-Ruin"
           },
           {
             "type": "treachery",
-            "image": "2/Dark-and-Dreadful"
+            "image": "dwarrowdelf/Dark-and-Dreadful"
           },
           {
             "type": "treachery",
-            "image": "2/Dark-and-Dreadful"
+            "image": "dwarrowdelf/Dark-and-Dreadful"
           },
           {
             "type": "treachery",
-            "image": "2/Sudden-Pitfall"
+            "image": "dwarrowdelf/Sudden-Pitfall"
           },
           {
             "type": "location",
-            "image": "2/Dreadful-Gap"
+            "image": "dwarrowdelf/Dreadful-Gap"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Tunnels"
+            "image": "dwarrowdelf/Goblin-Tunnels"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Tunnels"
+            "image": "dwarrowdelf/Goblin-Tunnels"
           },
           {
             "type": "enemy",
-            "image": "2/Patrol-Leader"
+            "image": "dwarrowdelf/Patrol-Leader"
           },
           {
             "type": "enemy",
-            "image": "2/Patrol-Leader"
+            "image": "dwarrowdelf/Patrol-Leader"
           },
           {
             "type": "treachery",
-            "image": "2/Signs-of-Conflict"
+            "image": "dwarrowdelf/Signs-of-Conflict"
           },
           {
             "type": "treachery",
-            "image": "2/Signs-of-Conflict"
+            "image": "dwarrowdelf/Signs-of-Conflict"
           },
           {
             "type": "treachery",
-            "image": "2/Signs-of-Conflict"
+            "image": "dwarrowdelf/Signs-of-Conflict"
           },
           {
             "type": "treachery",
-            "image": "2/Signs-of-Conflict"
+            "image": "dwarrowdelf/Signs-of-Conflict"
           },
           {
             "type": "treachery",
-            "image": "2/Signs-of-Conflict"
+            "image": "dwarrowdelf/Signs-of-Conflict"
           },
           {
             "type": "location",
-            "image": "2/Stairs-of-Nain"
+            "image": "dwarrowdelf/Stairs-of-Nain"
           },
           {
             "type": "location",
-            "image": "2/Stairs-of-Nain"
+            "image": "dwarrowdelf/Stairs-of-Nain"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "2/Cave-Torch"
+            "image": "dwarrowdelf/Cave-Torch"
           },
           {
             "type": "location",
-            "image": "2/First-Hall"
+            "image": "dwarrowdelf/First-Hall"
           },
           {
             "type": "location",
-            "image": "2/Bridge-of-Khazad-dum"
+            "image": "dwarrowdelf/Bridge-of-Khazad-dum"
           }
         ]
       },
       {
-        "id": 11,
         "difficult": 4,
         "title": "The Seventh Level",
+        "name": "the-seventh-level",
         "text": "Based on information from a dying Goblin, the heroes have made their way to the Seventh Level of Moria, still searching for any signs of Balin’s colony. The Seventh Level holds the Chamber of Records, and it is there that the Goblin said they would find Balin. An ancient tome also seems to hold clues as to the where-abouts of the colony. ",
         "questDeck": [
-          "1101A",
-          "1101B",
-          "1102A",
-          "1102B"
+          "dwarrowdelf/1101A",
+          "dwarrowdelf/1101B",
+          "dwarrowdelf/1102A",
+          "dwarrowdelf/1102B"
         ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Tunnels"
+            "image": "dwarrowdelf/Goblin-Tunnels"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Tunnels"
+            "image": "dwarrowdelf/Goblin-Tunnels"
           },
           {
             "type": "enemy",
-            "image": "2/Chieftain-of-the-Pit"
+            "image": "dwarrowdelf/Chieftain-of-the-Pit"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Archer"
+            "image": "dwarrowdelf/Goblin-Archer"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Archer"
+            "image": "dwarrowdelf/Goblin-Archer"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "location",
-            "image": "2/Plundered-Armoury"
+            "image": "dwarrowdelf/Plundered-Armoury"
           },
           {
             "type": "location",
-            "image": "2/Plundered-Armoury"
+            "image": "dwarrowdelf/Plundered-Armoury"
           },
           {
             "type": "enemy",
-            "image": "2/Cave-troll"
+            "image": "dwarrowdelf/Cave-troll"
           },
           {
             "type": "enemy",
-            "image": "2/Cave-troll"
+            "image": "dwarrowdelf/Cave-troll"
           },
           {
             "type": "enemy",
-            "image": "2/Orc-Horn-Blower"
+            "image": "dwarrowdelf/Orc-Horn-Blower"
           },
           {
             "type": "treachery",
-            "image": "2/Hidden-Threat"
+            "image": "dwarrowdelf/Hidden-Threat"
           },
           {
             "type": "treachery",
-            "image": "2/Hidden-Threat"
+            "image": "dwarrowdelf/Hidden-Threat"
           },
           {
             "type": "location",
-            "image": "2/Upper-Hall"
+            "image": "dwarrowdelf/Upper-Hall"
           },
           {
             "type": "location",
-            "image": "2/Upper-Hall"
+            "image": "dwarrowdelf/Upper-Hall"
           },
           {
             "type": "location",
-            "image": "2/Upper-Hall"
+            "image": "dwarrowdelf/Upper-Hall"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "2/Book-of-Mazarbul"
+            "image": "dwarrowdelf/Book-of-Mazarbul"
           }
         ]
       },
       {
-        "id": 12,
         "difficult": 6,
         "title": "Flight from Moria",
+        "name": "flight-from-moria",
         "text": "Balin’s colony ended in death and darkness. After paying their respects at his tomb, the heroes fought their way out of the Goblin infested Seventh Level and made their way down toward the gate. But exiting Moria will not be easy, for a shadowy form masses at the end of the hall, and fear and terror go before it. The heroes must escape Moria before it is too late.",
         "questDeck": [
-          "1201A",
-          "1201B",
-          "1202A",
-          "1202B",
-          "1202A7",
-          "1202B7",
-          "1202A8",
-          "1202B8"
+          "dwarrowdelf/1201A",
+          "dwarrowdelf/1201B",
+          "dwarrowdelf/1202A",
+          "dwarrowdelf/1202B",
+          "dwarrowdelf/1202A7",
+          "dwarrowdelf/1202B7",
+          "dwarrowdelf/1202A8",
+          "dwarrowdelf/1202B8"
         ],
         "activeLocation": null,
         "stagingArea": [
           {
             "type": "enemy",
-            "image": "2/The-Nameless-Fear"
+            "image": "dwarrowdelf/The-Nameless-Fear"
           }
         ],
         "encounterDeck": [
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Crumbling-Ruin"
+            "image": "dwarrowdelf/Crumbling-Ruin"
           },
           {
             "type": "treachery",
-            "image": "2/Crumbling-Ruin"
+            "image": "dwarrowdelf/Crumbling-Ruin"
           },
           {
             "type": "treachery",
-            "image": "2/Dark-and-Dreadful"
+            "image": "dwarrowdelf/Dark-and-Dreadful"
           },
           {
             "type": "treachery",
-            "image": "2/Dark-and-Dreadful"
+            "image": "dwarrowdelf/Dark-and-Dreadful"
           },
           {
             "type": "treachery",
-            "image": "2/Sudden-Pitfall"
+            "image": "dwarrowdelf/Sudden-Pitfall"
           },
           {
             "type": "location",
-            "image": "2/Dreadful-Gap"
+            "image": "dwarrowdelf/Dreadful-Gap"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "enemy",
-            "image": "2/Great-Cave-troll"
+            "image": "dwarrowdelf/Great-Cave-troll"
           },
           {
             "type": "enemy",
-            "image": "2/Great-Cave-troll"
+            "image": "dwarrowdelf/Great-Cave-troll"
           },
           {
             "type": "enemy",
-            "image": "2/Orc-Drummer"
+            "image": "dwarrowdelf/Orc-Drummer"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Massing-in-the-Deep"
+            "image": "dwarrowdelf/Massing-in-the-Deep"
           },
           {
             "type": "treachery",
-            "image": "2/Massing-in-the-Deep"
+            "image": "dwarrowdelf/Massing-in-the-Deep"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "enemy",
-            "image": "2/Chieftain-of-the-Pit"
+            "image": "dwarrowdelf/Chieftain-of-the-Pit"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Archer"
+            "image": "dwarrowdelf/Goblin-Archer"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Archer"
+            "image": "dwarrowdelf/Goblin-Archer"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "location",
-            "image": "2/Plundered-Armoury"
+            "image": "dwarrowdelf/Plundered-Armoury"
           },
           {
             "type": "location",
-            "image": "2/Plundered-Armoury"
+            "image": "dwarrowdelf/Plundered-Armoury"
           },
           {
             "type": "treachery",
-            "image": "2/New-Devilry"
+            "image": "dwarrowdelf/New-Devilry"
           },
           {
             "type": "treachery",
-            "image": "2/New-Devilry"
+            "image": "dwarrowdelf/New-Devilry"
           },
           {
             "type": "treachery",
-            "image": "2/New-Devilry"
+            "image": "dwarrowdelf/New-Devilry"
           },
           {
             "type": "treachery",
-            "image": "2/Shadow-of-Fear"
+            "image": "dwarrowdelf/Shadow-of-Fear"
           },
           {
             "type": "treachery",
-            "image": "2/Shadow-of-Fear"
+            "image": "dwarrowdelf/Shadow-of-Fear"
           },
           {
             "type": "treachery",
-            "image": "2/Shadow-of-Fear"
+            "image": "dwarrowdelf/Shadow-of-Fear"
           },
           {
             "type": "treachery",
-            "image": "2/A-Foe-Beyond"
+            "image": "dwarrowdelf/A-Foe-Beyond"
           },
           {
             "type": "objective",
-            "image": "2/Abandoned-Tools"
+            "image": "dwarrowdelf/Abandoned-Tools"
           }
         ],
         "discardPile": [
           {
             "type": "treachery",
-            "image": "2/A-Foe-Beyond"
+            "image": "dwarrowdelf/A-Foe-Beyond"
           },
           {
             "type": "treachery",
-            "image": "2/A-Foe-Beyond"
+            "image": "dwarrowdelf/A-Foe-Beyond"
           },
           {
             "type": "treachery",
-            "image": "2/A-Foe-Beyond"
+            "image": "dwarrowdelf/A-Foe-Beyond"
           }
         ]
       },
       {
-        "id": 13,
         "difficult": 6,
         "title": "The Redhorn Gate",
+        "name": "the-redhorn-gate",
         "text": "Arwen wishes to visit her father Elrond, and Celeborn has bid the heroes to escort her over the Misty Mountains and safely to Rivendell. But the season grows late, and a sudden chill has descended on the three peaks that guard the Redhorn pass.",
         "questDeck": [
-          "1301A",
-          "1301B",
-          "1302A",
-          "1302B",
-          "1303A",
-          "1303B"
+          "dwarrowdelf/1301A",
+          "dwarrowdelf/1301B",
+          "dwarrowdelf/1302A",
+          "dwarrowdelf/1302B",
+          "dwarrowdelf/1303A",
+          "dwarrowdelf/1303B"
         ],
         "activeLocation": null,
         "stagingArea": [
           {
             "type": "location",
-            "image": "2/Caradhras"
+            "image": "dwarrowdelf/Caradhras"
           }
         ],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "location",
-            "image": "2/Knees-of-the-Mountain"
+            "image": "dwarrowdelf/Knees-of-the-Mountain"
           },
           {
             "type": "location",
-            "image": "2/Turbulent-Waters"
+            "image": "dwarrowdelf/Turbulent-Waters"
           },
           {
             "type": "location",
-            "image": "2/Turbulent-Waters"
+            "image": "dwarrowdelf/Turbulent-Waters"
           },
           {
             "type": "location",
-            "image": "2/Warg-Lair"
+            "image": "dwarrowdelf/Warg-Lair"
           },
           {
             "type": "location",
-            "image": "2/Warg-Lair"
+            "image": "dwarrowdelf/Warg-Lair"
           },
           {
             "type": "location",
-            "image": "2/Fanuidhol"
+            "image": "dwarrowdelf/Fanuidhol"
           },
           {
             "type": "location",
-            "image": "2/Celebdil"
+            "image": "dwarrowdelf/Celebdil"
           },
           {
             "type": "location",
-            "image": "2/The-Dimrill-Stair"
+            "image": "dwarrowdelf/The-Dimrill-Stair"
           },
           {
             "type": "location",
-            "image": "2/Rocky-Crags"
+            "image": "dwarrowdelf/Rocky-Crags"
           },
           {
             "type": "location",
-            "image": "2/Rocky-Crags"
+            "image": "dwarrowdelf/Rocky-Crags"
           },
           {
             "type": "location",
-            "image": "2/Rocky-Crags"
+            "image": "dwarrowdelf/Rocky-Crags"
           },
           {
             "type": "treachery",
-            "image": "2/Fell-Voices"
+            "image": "dwarrowdelf/Fell-Voices"
           },
           {
             "type": "treachery",
-            "image": "2/Fell-Voices"
+            "image": "dwarrowdelf/Fell-Voices"
           },
           {
             "type": "treachery",
-            "image": "2/Fallen-Stones"
+            "image": "dwarrowdelf/Fallen-Stones"
           },
           {
             "type": "treachery",
-            "image": "2/Fallen-Stones"
+            "image": "dwarrowdelf/Fallen-Stones"
           },
           {
             "type": "treachery",
-            "image": "2/Freezing-Cold"
+            "image": "dwarrowdelf/Freezing-Cold"
           },
           {
             "type": "treachery",
-            "image": "2/Freezing-Cold"
+            "image": "dwarrowdelf/Freezing-Cold"
           },
           {
             "type": "treachery",
-            "image": "2/Freezing-Cold"
+            "image": "dwarrowdelf/Freezing-Cold"
           },
           {
             "type": "treachery",
-            "image": "2/Avalanche"
+            "image": "dwarrowdelf/Avalanche"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Goblin"
+            "image": "dwarrowdelf/Mountain-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Goblin"
+            "image": "dwarrowdelf/Mountain-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Goblin"
+            "image": "dwarrowdelf/Mountain-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Troll"
+            "image": "dwarrowdelf/Mountain-Troll"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Troll"
+            "image": "dwarrowdelf/Mountain-Troll"
           },
           {
             "type": "enemy",
-            "image": "2/Snow-Warg"
+            "image": "dwarrowdelf/Snow-Warg"
           },
           {
             "type": "enemy",
-            "image": "2/Snow-Warg"
+            "image": "dwarrowdelf/Snow-Warg"
           },
           {
             "type": "enemy",
-            "image": "2/Snow-Warg"
+            "image": "dwarrowdelf/Snow-Warg"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "2/Arwen-Undomiel"
+            "image": "dwarrowdelf/Arwen-Undomiel"
           },
           {
             "type": "treachery",
-            "image": "2/Snowstorm"
+            "image": "dwarrowdelf/Snowstorm"
           },
           {
             "type": "treachery",
-            "image": "2/Snowstorm"
+            "image": "dwarrowdelf/Snowstorm"
           },
           {
             "type": "treachery",
-            "image": "2/Snowstorm"
+            "image": "dwarrowdelf/Snowstorm"
           },
           {
             "type": "treachery",
-            "image": "2/Snowstorm"
+            "image": "dwarrowdelf/Snowstorm"
           },
           {
             "type": "treachery",
-            "image": "2/Snowstorm"
+            "image": "dwarrowdelf/Snowstorm"
           }
         ]
       },
       {
-        "id": 14,
         "difficult": 5,
         "title": "Road to Rivendell",
+        "name": "road-to-rivendell",
         "text": "The heroes continue their journey northward to Rivendell, escorting Arwen to visit her father Elrond. But the road is long, and Orcs ambush the party along the way. With enemies hounding the heroes’ steps, the weather drives the party ever closer to the looming mountains, and the dangers they hold.",
         "questDeck": [
-          "1401A",
-          "1401B",
-          "1402A",
-          "1402B",
-          "1403A",
-          "1403B"
+          "dwarrowdelf/1401A",
+          "dwarrowdelf/1401B",
+          "dwarrowdelf/1402A",
+          "dwarrowdelf/1402B",
+          "dwarrowdelf/1403A",
+          "dwarrowdelf/1403B"
         ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "2/Chieftain-of-the-Pit"
+            "image": "dwarrowdelf/Chieftain-of-the-Pit"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Spearman"
+            "image": "dwarrowdelf/Goblin-Spearman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Archer"
+            "image": "dwarrowdelf/Goblin-Archer"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Archer"
+            "image": "dwarrowdelf/Goblin-Archer"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "treachery",
-            "image": "2/Undisturbed-Bones"
+            "image": "dwarrowdelf/Undisturbed-Bones"
           },
           {
             "type": "location",
-            "image": "2/Plundered-Armoury"
+            "image": "dwarrowdelf/Plundered-Armoury"
           },
           {
             "type": "location",
-            "image": "2/Plundered-Armoury"
+            "image": "dwarrowdelf/Plundered-Armoury"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "location",
-            "image": "2/Knees-of-the-Mountain"
+            "image": "dwarrowdelf/Knees-of-the-Mountain"
           },
           {
             "type": "location",
-            "image": "2/Turbulent-Waters"
+            "image": "dwarrowdelf/Turbulent-Waters"
           },
           {
             "type": "location",
-            "image": "2/Turbulent-Waters"
+            "image": "dwarrowdelf/Turbulent-Waters"
           },
           {
             "type": "location",
-            "image": "2/Warg-Lair"
+            "image": "dwarrowdelf/Warg-Lair"
           },
           {
             "type": "location",
-            "image": "2/Warg-Lair"
+            "image": "dwarrowdelf/Warg-Lair"
           },
           {
             "type": "location",
-            "image": "2/Ruined-Road"
+            "image": "dwarrowdelf/Ruined-Road"
           },
           {
             "type": "location",
-            "image": "2/Ruined-Road"
+            "image": "dwarrowdelf/Ruined-Road"
           },
           {
             "type": "location",
-            "image": "2/Pathless-Country"
+            "image": "dwarrowdelf/Pathless-Country"
           },
           {
             "type": "location",
-            "image": "2/Pathless-Country"
+            "image": "dwarrowdelf/Pathless-Country"
           },
           {
             "type": "location",
-            "image": "2/Pathless-Country"
+            "image": "dwarrowdelf/Pathless-Country"
           },
           {
             "type": "location",
-            "image": "2/Barren-Hills"
+            "image": "dwarrowdelf/Barren-Hills"
           },
           {
             "type": "location",
-            "image": "2/Barren-Hills"
+            "image": "dwarrowdelf/Barren-Hills"
           },
           {
             "type": "treachery",
-            "image": "2/Sleeping-Sentry"
+            "image": "dwarrowdelf/Sleeping-Sentry"
           },
           {
             "type": "treachery",
-            "image": "2/Sleeping-Sentry"
+            "image": "dwarrowdelf/Sleeping-Sentry"
           },
           {
             "type": "treachery",
-            "image": "2/Followed-by-Night"
+            "image": "dwarrowdelf/Followed-by-Night"
           },
           {
             "type": "treachery",
-            "image": "2/Followed-by-Night"
+            "image": "dwarrowdelf/Followed-by-Night"
           },
           {
             "type": "treachery",
-            "image": "2/Followed-by-Night"
+            "image": "dwarrowdelf/Followed-by-Night"
           },
           {
             "type": "treachery",
-            "image": "2/Orc-Ambush"
+            "image": "dwarrowdelf/Orc-Ambush"
           },
           {
             "type": "treachery",
-            "image": "2/Orc-Ambush"
+            "image": "dwarrowdelf/Orc-Ambush"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Taskmaster"
+            "image": "dwarrowdelf/Goblin-Taskmaster"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Taskmaster"
+            "image": "dwarrowdelf/Goblin-Taskmaster"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Taskmaster"
+            "image": "dwarrowdelf/Goblin-Taskmaster"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Taskmaster"
+            "image": "dwarrowdelf/Goblin-Taskmaster"
           },
           {
             "type": "enemy",
-            "image": "2/Orc-Raiders"
+            "image": "dwarrowdelf/Orc-Raiders"
           },
           {
             "type": "enemy",
-            "image": "2/Orc-Raiders"
+            "image": "dwarrowdelf/Orc-Raiders"
           },
           {
             "type": "enemy",
-            "image": "2/Orc-Raiders"
+            "image": "dwarrowdelf/Orc-Raiders"
           },
           {
             "type": "enemy",
-            "image": "2/Crebain"
+            "image": "dwarrowdelf/Crebain"
           },
           {
             "type": "enemy",
-            "image": "2/Crebain"
+            "image": "dwarrowdelf/Crebain"
           },
           {
             "type": "enemy",
-            "image": "2/Crebain"
+            "image": "dwarrowdelf/Crebain"
           },
           {
             "type": "enemy",
-            "image": "2/Wild-Bear"
+            "image": "dwarrowdelf/Wild-Bear"
           },
           {
             "type": "enemy",
-            "image": "2/Wild-Bear"
+            "image": "dwarrowdelf/Wild-Bear"
           },
           {
             "type": "enemy",
-            "image": "2/Wild-Bear"
+            "image": "dwarrowdelf/Wild-Bear"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "2/Arwen-Undomiel-2"
+            "image": "dwarrowdelf/Arwen-Undomiel-2"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Gate"
+            "image": "dwarrowdelf/Goblin-Gate"
           }
         ]
       },
       {
-        "id": 15,
         "difficult": 6,
         "title": "The Watcher in the Water",
+        "name": "the-watcher-in-the-water",
         "text": "Elrond is disturbed by the report of Arwen’s journey to Rivendell. He has requsted that the heroes discover the source of the increased Orc activity along the Misty Mountains. This mission has led the party South to Moria, but the Doors of Durin are blocked by a deep, dark lake. As the heroes make their way around its waters, an ancient evil stirs from within its depths. A desperate battle begins, and the heroes must drive the creature away or find safety in the mines.",
         "questDeck": [
-          "1501A",
-          "1501B",
-          "1502A",
-          "1502B"
+          "dwarrowdelf/1501A",
+          "dwarrowdelf/1501B",
+          "dwarrowdelf/1502A",
+          "dwarrowdelf/1502B"
         ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Black-Uruks"
+            "image": "dwarrowdelf/Black-Uruks"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "enemy",
-            "image": "2/Mountain-Warg"
+            "image": "dwarrowdelf/Mountain-Warg"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "treachery",
-            "image": "2/Bitter-Wind"
+            "image": "dwarrowdelf/Bitter-Wind"
           },
           {
             "type": "location",
-            "image": "2/Knees-of-the-Mountain"
+            "image": "dwarrowdelf/Knees-of-the-Mountain"
           },
           {
             "type": "location",
-            "image": "2/Turbulent-Waters"
+            "image": "dwarrowdelf/Turbulent-Waters"
           },
           {
             "type": "location",
-            "image": "2/Turbulent-Waters"
+            "image": "dwarrowdelf/Turbulent-Waters"
           },
           {
             "type": "location",
-            "image": "2/Warg-Lair"
+            "image": "dwarrowdelf/Warg-Lair"
           },
           {
             "type": "location",
-            "image": "2/Warg-Lair"
+            "image": "dwarrowdelf/Warg-Lair"
           },
           {
             "type": "location",
-            "image": "2/Stair-Falls"
+            "image": "dwarrowdelf/Stair-Falls"
           },
           {
             "type": "location",
-            "image": "2/Perilous-Swamp"
+            "image": "dwarrowdelf/Perilous-Swamp"
           },
           {
             "type": "location",
-            "image": "2/Perilous-Swamp"
+            "image": "dwarrowdelf/Perilous-Swamp"
           },
           {
             "type": "location",
-            "image": "2/Makeshift-Passage"
+            "image": "dwarrowdelf/Makeshift-Passage"
           },
           {
             "type": "location",
-            "image": "2/Makeshift-Passage"
+            "image": "dwarrowdelf/Makeshift-Passage"
           },
           {
             "type": "location",
-            "image": "2/Stagnant-Creek"
+            "image": "dwarrowdelf/Stagnant-Creek"
           },
           {
             "type": "location",
-            "image": "2/Stagnant-Creek"
+            "image": "dwarrowdelf/Stagnant-Creek"
           },
           {
             "type": "location",
-            "image": "2/Stagnant-Creek"
+            "image": "dwarrowdelf/Stagnant-Creek"
           },
           {
             "type": "treachery",
-            "image": "2/Ill-Purpose"
+            "image": "dwarrowdelf/Ill-Purpose"
           },
           {
             "type": "treachery",
-            "image": "2/Disturbed-Waters"
+            "image": "dwarrowdelf/Disturbed-Waters"
           },
           {
             "type": "treachery",
-            "image": "2/Disturbed-Waters"
+            "image": "dwarrowdelf/Disturbed-Waters"
           },
           {
             "type": "treachery",
-            "image": "2/Disturbed-Waters"
+            "image": "dwarrowdelf/Disturbed-Waters"
           },
           {
             "type": "enemy",
-            "image": "2/Grasping-Tentacle"
+            "image": "dwarrowdelf/Grasping-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Grasping-Tentacle"
+            "image": "dwarrowdelf/Grasping-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Grasping-Tentacle"
+            "image": "dwarrowdelf/Grasping-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Grasping-Tentacle"
+            "image": "dwarrowdelf/Grasping-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Thrashing-Tentacle"
+            "image": "dwarrowdelf/Thrashing-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Thrashing-Tentacle"
+            "image": "dwarrowdelf/Thrashing-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Thrashing-Tentacle"
+            "image": "dwarrowdelf/Thrashing-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Thrashing-Tentacle"
+            "image": "dwarrowdelf/Thrashing-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Striking-Tentacle"
+            "image": "dwarrowdelf/Striking-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Striking-Tentacle"
+            "image": "dwarrowdelf/Striking-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Striking-Tentacle"
+            "image": "dwarrowdelf/Striking-Tentacle"
           },
           {
             "type": "enemy",
-            "image": "2/Striking-Tentacle"
+            "image": "dwarrowdelf/Striking-Tentacle"
           },
           {
             "type": "treachery",
-            "image": "2/Wrapped"
+            "image": "dwarrowdelf/Wrapped"
           },
           {
             "type": "treachery",
-            "image": "2/Wrapped"
+            "image": "dwarrowdelf/Wrapped"
           },
           {
             "type": "treachery",
-            "image": "2/Wrapped"
+            "image": "dwarrowdelf/Wrapped"
           },
           {
             "type": "treachery",
-            "image": "2/Wrapped"
+            "image": "dwarrowdelf/Wrapped"
           }
         ],
         "discardPile": [
           {
             "type": "enemy",
-            "image": "2/The-Watcher"
+            "image": "dwarrowdelf/The-Watcher"
           },
           {
             "type": "location",
-            "image": "2/Doors-of-Durin"
+            "image": "dwarrowdelf/Doors-of-Durin"
           }
         ]
       },
       {
-        "id": 16,
         "difficult": 4,
         "title": "The Long Dark",
+        "name": "the-long-dark",
         "text": "The Mines of Moria are a dark labyrinth of narrow tunnels and wide passages, natural caves and impressive caverns of Dwarven workmanship. The heroes must make their way eastward, discovering what they can about the Orcs, and perhaps even meeting up with Balin for more information. But it is easy to get lost in the darkness… ",
         "questDeck": [
-          "1601A",
-          "1601B",
-          "1602A",
-          "1602B"
+          "dwarrowdelf/1601A",
+          "dwarrowdelf/1601B",
+          "dwarrowdelf/1602A",
+          "dwarrowdelf/1602B"
         ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "2/Great-Cave-troll"
+            "image": "dwarrowdelf/Great-Cave-troll"
           },
           {
             "type": "enemy",
-            "image": "2/Great-Cave-troll"
+            "image": "dwarrowdelf/Great-Cave-troll"
           },
           {
             "type": "enemy",
-            "image": "2/Orc-Drummer"
+            "image": "dwarrowdelf/Orc-Drummer"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Massing-in-the-Deep"
+            "image": "dwarrowdelf/Massing-in-the-Deep"
           },
           {
             "type": "treachery",
-            "image": "2/Massing-in-the-Deep"
+            "image": "dwarrowdelf/Massing-in-the-Deep"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Lightless-Passage"
+            "image": "dwarrowdelf/Lightless-Passage"
           },
           {
             "type": "location",
-            "image": "2/Lightless-Passage"
+            "image": "dwarrowdelf/Lightless-Passage"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "treachery",
-            "image": "2/Many-Roads"
+            "image": "dwarrowdelf/Many-Roads"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "objective",
-            "image": "2/Durins-Greaves"
+            "image": "dwarrowdelf/Durins-Greaves"
           },
           {
             "type": "location",
-            "image": "2/Abandoned-Mine"
+            "image": "dwarrowdelf/Abandoned-Mine"
           },
           {
             "type": "location",
-            "image": "2/Abandoned-Mine"
+            "image": "dwarrowdelf/Abandoned-Mine"
           },
           {
             "type": "location",
-            "image": "2/Abandoned-Mine"
+            "image": "dwarrowdelf/Abandoned-Mine"
           },
           {
             "type": "location",
-            "image": "2/Dwarven-Forge"
+            "image": "dwarrowdelf/Dwarven-Forge"
           },
           {
             "type": "location",
-            "image": "2/Dwarven-Forge"
+            "image": "dwarrowdelf/Dwarven-Forge"
           },
           {
             "type": "location",
-            "image": "2/Silent-Caverns"
+            "image": "dwarrowdelf/Silent-Caverns"
           },
           {
             "type": "location",
-            "image": "2/Silent-Caverns"
+            "image": "dwarrowdelf/Silent-Caverns"
           },
           {
             "type": "location",
-            "image": "2/Twisting-Passage"
+            "image": "dwarrowdelf/Twisting-Passage"
           },
           {
             "type": "location",
-            "image": "2/Twisting-Passage"
+            "image": "dwarrowdelf/Twisting-Passage"
           },
           {
             "type": "treachery",
-            "image": "2/Fatigue"
+            "image": "dwarrowdelf/Fatigue"
           },
           {
             "type": "treachery",
-            "image": "2/Fatigue"
+            "image": "dwarrowdelf/Fatigue"
           },
           {
             "type": "treachery",
-            "image": "2/Foul-Air"
+            "image": "dwarrowdelf/Foul-Air"
           },
           {
             "type": "treachery",
-            "image": "2/Foul-Air"
+            "image": "dwarrowdelf/Foul-Air"
           },
           {
             "type": "treachery",
-            "image": "2/Foul-Air"
+            "image": "dwarrowdelf/Foul-Air"
           },
           {
             "type": "treachery",
-            "image": "2/Foul-Air"
+            "image": "dwarrowdelf/Foul-Air"
           },
           {
             "type": "treachery",
-            "image": "2/Gathering-Ground"
+            "image": "dwarrowdelf/Gathering-Ground"
           },
           {
             "type": "treachery",
-            "image": "2/Vast-and-Intricate"
+            "image": "dwarrowdelf/Vast-and-Intricate"
           },
           {
             "type": "treachery",
-            "image": "2/Vast-and-Intricate"
+            "image": "dwarrowdelf/Vast-and-Intricate"
           },
           {
             "type": "enemy",
-            "image": "2/Cave-Spider"
+            "image": "dwarrowdelf/Cave-Spider"
           },
           {
             "type": "enemy",
-            "image": "2/Cave-Spider"
+            "image": "dwarrowdelf/Cave-Spider"
           },
           {
             "type": "enemy",
-            "image": "2/Cave-Spider"
+            "image": "dwarrowdelf/Cave-Spider"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Sneak"
+            "image": "dwarrowdelf/Goblin-Sneak"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Sneak"
+            "image": "dwarrowdelf/Goblin-Sneak"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Sneak"
+            "image": "dwarrowdelf/Goblin-Sneak"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Sneak"
+            "image": "dwarrowdelf/Goblin-Sneak"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Warlord"
+            "image": "dwarrowdelf/Goblin-Warlord"
           },
           {
             "type": "enemy",
-            "image": "2/Rock-Adder"
+            "image": "dwarrowdelf/Rock-Adder"
           },
           {
             "type": "enemy",
-            "image": "2/Rock-Adder"
+            "image": "dwarrowdelf/Rock-Adder"
           },
           {
             "type": "enemy",
-            "image": "2/Rock-Adder"
+            "image": "dwarrowdelf/Rock-Adder"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "2/Cave-Torch"
+            "image": "dwarrowdelf/Cave-Torch"
           }
         ]
       },
       {
-        "id": 17,
         "difficult": 6,
         "title": "Foundations of Stone",
+        "name": "foundations-of-stone",
         "text": "The walls are weeping water, and the air grows damp. A low rumble sounds from above, accompanied by the sound of rushing water. There are underground waterways in Moria that lead to deep darkness, and who knows what else…",
         "questDeck": [
-          "1701A",
-          "1701B",
-          "1702A",
-          "1702B",
-          "1703A",
-          "1703B",
-          "1704A",
-          "1704B",
-          "1705A",
-          "1705B"
+          "dwarrowdelf/1701A",
+          "dwarrowdelf/1701B",
+          "dwarrowdelf/1702A",
+          "dwarrowdelf/1702B",
+          "dwarrowdelf/1703A",
+          "dwarrowdelf/1703B",
+          "dwarrowdelf/1704A",
+          "dwarrowdelf/1704B",
+          "dwarrowdelf/1705A",
+          "dwarrowdelf/1705B"
         ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Tunnels"
+            "image": "dwarrowdelf/Goblin-Tunnels"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Tunnels"
+            "image": "dwarrowdelf/Goblin-Tunnels"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Follower"
+            "image": "dwarrowdelf/Goblin-Follower"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Branching-Paths"
+            "image": "dwarrowdelf/Branching-Paths"
           },
           {
             "type": "location",
-            "image": "2/Lightless-Passage"
+            "image": "dwarrowdelf/Lightless-Passage"
           },
           {
             "type": "location",
-            "image": "2/Lightless-Passage"
+            "image": "dwarrowdelf/Lightless-Passage"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "location",
-            "image": "2/Zigil-Mineshaft"
+            "image": "dwarrowdelf/Zigil-Mineshaft"
           },
           {
             "type": "treachery",
-            "image": "2/Many-Roads"
+            "image": "dwarrowdelf/Many-Roads"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "treachery",
-            "image": "2/Burning-Low"
+            "image": "dwarrowdelf/Burning-Low"
           },
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Cave-In"
+            "image": "dwarrowdelf/Cave-In"
           },
           {
             "type": "treachery",
-            "image": "2/Crumbling-Ruin"
+            "image": "dwarrowdelf/Crumbling-Ruin"
           },
           {
             "type": "treachery",
-            "image": "2/Crumbling-Ruin"
+            "image": "dwarrowdelf/Crumbling-Ruin"
           },
           {
             "type": "treachery",
-            "image": "2/Dark-and-Dreadful"
+            "image": "dwarrowdelf/Dark-and-Dreadful"
           },
           {
             "type": "treachery",
-            "image": "2/Dark-and-Dreadful"
+            "image": "dwarrowdelf/Dark-and-Dreadful"
           },
           {
             "type": "treachery",
-            "image": "2/Sudden-Pitfall"
+            "image": "dwarrowdelf/Sudden-Pitfall"
           },
           {
             "type": "location",
-            "image": "2/Dreadful-Gap"
+            "image": "dwarrowdelf/Dreadful-Gap"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "location",
-            "image": "2/Fouled-Well"
+            "image": "dwarrowdelf/Fouled-Well"
           },
           {
             "type": "location",
-            "image": "2/Drowned-Treasury"
+            "image": "dwarrowdelf/Drowned-Treasury"
           },
           {
             "type": "location",
-            "image": "2/Drowned-Treasury"
+            "image": "dwarrowdelf/Drowned-Treasury"
           },
           {
             "type": "location",
-            "image": "2/Drowned-Treasury"
+            "image": "dwarrowdelf/Drowned-Treasury"
           },
           {
             "type": "location",
-            "image": "2/Mithril-Lode"
+            "image": "dwarrowdelf/Mithril-Lode"
           },
           {
             "type": "treachery",
-            "image": "2/Deep-Deep-Dark"
+            "image": "dwarrowdelf/Deep-Deep-Dark"
           },
           {
             "type": "treachery",
-            "image": "2/Deep-Deep-Dark"
+            "image": "dwarrowdelf/Deep-Deep-Dark"
           },
           {
             "type": "treachery",
-            "image": "2/Deep-Deep-Dark"
+            "image": "dwarrowdelf/Deep-Deep-Dark"
           },
           {
             "type": "treachery",
-            "image": "2/Deep-Deep-Dark"
+            "image": "dwarrowdelf/Deep-Deep-Dark"
           },
           {
             "type": "treachery",
-            "image": "2/Lost-and-Alone"
+            "image": "dwarrowdelf/Lost-and-Alone"
           },
           {
             "type": "treachery",
-            "image": "2/Lost-and-Alone"
+            "image": "dwarrowdelf/Lost-and-Alone"
           },
           {
             "type": "enemy",
-            "image": "2/Nameless-Thing"
+            "image": "dwarrowdelf/Nameless-Thing"
           },
           {
             "type": "enemy",
-            "image": "2/Nameless-Thing"
+            "image": "dwarrowdelf/Nameless-Thing"
           },
           {
             "type": "enemy",
-            "image": "2/Nameless-Thing"
+            "image": "dwarrowdelf/Nameless-Thing"
           },
           {
             "type": "enemy",
-            "image": "2/Nameless-Thing"
+            "image": "dwarrowdelf/Nameless-Thing"
           },
           {
             "type": "enemy",
-            "image": "2/Nameless-Thing"
+            "image": "dwarrowdelf/Nameless-Thing"
           },
           {
             "type": "enemy",
-            "image": "2/Elder-Nameless-Thing"
+            "image": "dwarrowdelf/Elder-Nameless-Thing"
           },
           {
             "type": "enemy",
-            "image": "2/Elder-Nameless-Thing"
+            "image": "dwarrowdelf/Elder-Nameless-Thing"
           },
           {
             "type": "enemy",
-            "image": "2/Elder-Nameless-Thing"
+            "image": "dwarrowdelf/Elder-Nameless-Thing"
           },
           {
             "type": "enemy",
-            "image": "2/Moria-Bats"
+            "image": "dwarrowdelf/Moria-Bats"
           },
           {
             "type": "enemy",
-            "image": "2/Moria-Bats"
+            "image": "dwarrowdelf/Moria-Bats"
           },
           {
             "type": "enemy",
-            "image": "2/Moria-Bats"
+            "image": "dwarrowdelf/Moria-Bats"
           },
           {
             "type": "enemy",
-            "image": "2/Moria-Bats"
+            "image": "dwarrowdelf/Moria-Bats"
           }
         ],
         "discardPile": [
           {
             "type": "objective",
-            "image": "2/Durins-Axe"
+            "image": "dwarrowdelf/Durins-Axe"
           },
           {
             "type": "objective",
-            "image": "2/Durins-Helm"
+            "image": "dwarrowdelf/Durins-Helm"
           },
           {
             "type": "objective",
-            "image": "2/Cave-Torch"
+            "image": "dwarrowdelf/Cave-Torch"
           }
         ]
       },
       {
-        "id": 18,
         "difficult": 8,
         "title": "Shadow and Flame",
+        "name": "shadow-and-flame",
         "text": "The heroes have escaped from the darkness below the mines, and find themselves in the Third Deep, near the East-gate. But as Orcs begin to swarm, a foe more terrible towers before them. Durin's Bane has risen from the depths, to stalk the halls of the Dwarves once more…",
         "questDeck": [
-          "1801A",
-          "1801B",
-          "1802A",
-          "1802B",
-          "1803A",
-          "1803B"
+          "dwarrowdelf/1801A",
+          "dwarrowdelf/1801B",
+          "dwarrowdelf/1802A",
+          "dwarrowdelf/1802B",
+          "dwarrowdelf/1803A",
+          "dwarrowdelf/1803B"
         ],
         "activeLocation": null,
         "stagingArea": [
           {
             "type": "enemy",
-            "image": "2/Durins-Bane"
+            "image": "dwarrowdelf/Durins-Bane"
           }
         ],
         "encounterDeck": [
           {
             "type": "enemy",
-            "image": "2/Great-Cave-troll"
+            "image": "dwarrowdelf/Great-Cave-troll"
           },
           {
             "type": "enemy",
-            "image": "2/Great-Cave-troll"
+            "image": "dwarrowdelf/Great-Cave-troll"
           },
           {
             "type": "enemy",
-            "image": "2/Orc-Drummer"
+            "image": "dwarrowdelf/Orc-Drummer"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Stray-Goblin"
+            "image": "dwarrowdelf/Stray-Goblin"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Chance-Encounter"
+            "image": "dwarrowdelf/Chance-Encounter"
           },
           {
             "type": "treachery",
-            "image": "2/Massing-in-the-Deep"
+            "image": "dwarrowdelf/Massing-in-the-Deep"
           },
           {
             "type": "treachery",
-            "image": "2/Massing-in-the-Deep"
+            "image": "dwarrowdelf/Massing-in-the-Deep"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "location",
-            "image": "2/The-Mountains-Roots"
+            "image": "dwarrowdelf/The-Mountains-Roots"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Scout"
+            "image": "dwarrowdelf/Goblin-Scout"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "enemy",
-            "image": "2/Goblin-Swordsman"
+            "image": "dwarrowdelf/Goblin-Swordsman"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "treachery",
-            "image": "2/Watchful-Eyes"
+            "image": "dwarrowdelf/Watchful-Eyes"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Tunnels"
+            "image": "dwarrowdelf/Goblin-Tunnels"
           },
           {
             "type": "location",
-            "image": "2/Goblin-Tunnels"
+            "image": "dwarrowdelf/Goblin-Tunnels"
           },
           {
             "type": "location",
-            "image": "2/Second-Hall"
+            "image": "dwarrowdelf/Second-Hall"
           },
           {
             "type": "location",
-            "image": "2/Second-Deep"
+            "image": "dwarrowdelf/Second-Deep"
           },
           {
             "type": "location",
-            "image": "2/Second-Deep"
+            "image": "dwarrowdelf/Second-Deep"
           },
           {
             "type": "location",
-            "image": "2/Second-Deep"
+            "image": "dwarrowdelf/Second-Deep"
           },
           {
             "type": "treachery",
-            "image": "2/Fires-in-the-Deep"
+            "image": "dwarrowdelf/Fires-in-the-Deep"
           },
           {
             "type": "treachery",
-            "image": "2/Fires-in-the-Deep"
+            "image": "dwarrowdelf/Fires-in-the-Deep"
           },
           {
             "type": "treachery",
-            "image": "2/Counter-Spell"
+            "image": "dwarrowdelf/Counter-Spell"
           },
           {
             "type": "treachery",
-            "image": "2/Counter-Spell"
+            "image": "dwarrowdelf/Counter-Spell"
           },
           {
             "type": "treachery",
-            "image": "2/Counter-Spell"
+            "image": "dwarrowdelf/Counter-Spell"
           },
           {
             "type": "treachery",
-            "image": "2/Inner-Flame"
+            "image": "dwarrowdelf/Inner-Flame"
           },
           {
             "type": "treachery",
-            "image": "2/Inner-Flame"
+            "image": "dwarrowdelf/Inner-Flame"
           },
           {
             "type": "treachery",
-            "image": "2/Inner-Flame"
+            "image": "dwarrowdelf/Inner-Flame"
           },
           {
             "type": "treachery",
-            "image": "2/Inner-Shadow"
+            "image": "dwarrowdelf/Inner-Shadow"
           },
           {
             "type": "treachery",
-            "image": "2/Inner-Shadow"
+            "image": "dwarrowdelf/Inner-Shadow"
           },
           {
             "type": "treachery",
-            "image": "2/Inner-Shadow"
+            "image": "dwarrowdelf/Inner-Shadow"
           },
           {
             "type": "treachery",
-            "image": "2/Whip-Lash"
+            "image": "dwarrowdelf/Whip-Lash"
           },
           {
             "type": "treachery",
-            "image": "2/Whip-Lash"
+            "image": "dwarrowdelf/Whip-Lash"
           },
           {
             "type": "treachery",
-            "image": "2/Leaping-Flame"
+            "image": "dwarrowdelf/Leaping-Flame"
           },
           {
             "type": "treachery",
-            "image": "2/Leaping-Flame"
+            "image": "dwarrowdelf/Leaping-Flame"
           },
           {
             "type": "treachery",
-            "image": "2/Leaping-Flame"
+            "image": "dwarrowdelf/Leaping-Flame"
           },
           {
             "type": "enemy",
-            "image": "2/Ranging-Goblin"
+            "image": "dwarrowdelf/Ranging-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Ranging-Goblin"
+            "image": "dwarrowdelf/Ranging-Goblin"
           },
           {
             "type": "enemy",
-            "image": "2/Ranging-Goblin"
+            "image": "dwarrowdelf/Ranging-Goblin"
           },
           {
             "type": "treachery",
-            "image": "2/Fiery-Sword"
+            "image": "dwarrowdelf/Fiery-Sword"
           },
           {
             "type": "treachery",
-            "image": "2/Fiery-Sword"
+            "image": "dwarrowdelf/Fiery-Sword"
           },
           {
             "type": "treachery",
-            "image": "2/Many-Thonged-Whip"
+            "image": "dwarrowdelf/Many-Thonged-Whip"
           },
           {
             "type": "treachery",
-            "image": "2/Many-Thonged-Whip"
+            "image": "dwarrowdelf/Many-Thonged-Whip"
           }
         ],
         "discardPile": [
           {
             "type": "location",
-            "image": "2/Dark-Pit"
+            "image": "dwarrowdelf/Dark-Pit"
           }
         ]
       }

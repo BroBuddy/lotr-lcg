@@ -5,10 +5,10 @@ import {Observable} from 'rxjs';
 import {DataService} from '../data/data.service';
 
 @Component({
-  selector: 'app-saga',
-  templateUrl: './saga.component.html',
+  selector: 'app-campaign',
+  templateUrl: './campaign.component.html',
 })
-export class SagaComponent implements OnInit {
+export class CampaignComponent implements OnInit {
 
   public saga$: Observable<any[]>;
 

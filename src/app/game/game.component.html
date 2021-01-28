@@ -12,16 +12,18 @@
     <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
         <div fxFlex="100" fxLayoutAlign="space-between">
             <div>
-                <button mat-mini-fab [color]="null" [matTooltip]="'Cards'" (click)="openCardsModal()">
-                    <mat-icon>content_copy</mat-icon>
-                </button>
-
-                <button mat-mini-fab [color]="null" [matTooltip]="'Glossary'" (click)="openGlossaryModal()">
-                    <mat-icon>menu_book</mat-icon>
-                </button>
-
                 <button mat-mini-fab [color]="null" [matTooltip]="'History'" (click)="openHistoryModal()">
                     <mat-icon>update</mat-icon>
+                </button>
+
+                <span [ngStyle]="{ 'margin': '0 5px' }">
+                    <button mat-mini-fab [color]="null" [matTooltip]="'Glossary'" (click)="openGlossaryModal()">
+                        <mat-icon>menu_book</mat-icon>
+                    </button>
+                </span>
+
+                <button mat-mini-fab [color]="null" [matTooltip]="'Cards'" (click)="openCardsModal()">
+                    <mat-icon>content_copy</mat-icon>
                 </button>
             </div>
 

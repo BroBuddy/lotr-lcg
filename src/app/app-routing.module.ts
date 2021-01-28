@@ -7,8 +7,8 @@ import {GameComponent} from './game/game.component';
 import {PacksComponent} from './packs/packs.component';
 import {CardsComponent} from './cards/cards.component';
 import {KeywordsComponent} from './keywords/keywords.component';
-import {ScenariosComponent} from './scenarios/scenarios.component';
-import {SagaComponent} from './saga/saga.component';
+import {ScenarioComponent} from './scenario/scenario.component';
+import {CampaignComponent} from './campaign/campaign.component';
 
 const routes: Routes = [
   {
@@ -16,12 +16,12 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'saga',
-    component: SagaComponent
+    path: 'scenario',
+    component: ScenarioComponent
   },
   {
-    path: 'scenarios',
-    component: ScenariosComponent
+    path: 'campaign',
+    component: CampaignComponent
   },
   {
     path: ':cycle/:scenario',

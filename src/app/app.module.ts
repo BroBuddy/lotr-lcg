@@ -24,9 +24,9 @@ import {KeywordsComponent} from './keywords/keywords.component';
 import {GlossaryModalComponent} from './glossary-modal/glossary-modal.component';
 import {CardsModalComponent} from './cards-modal/cards-modal.component';
 import {HistoryModalComponent} from './history-modal/history-modal.component';
-import {ScenariosComponent} from './scenarios/scenarios.component';
+import {ScenarioComponent} from './scenario/scenario.component';
 import {ThreatTrackerComponent} from './threat-tracker/threat-tracker.component';
-import {SagaComponent} from './saga/saga.component';
+import {CampaignComponent} from './campaign/campaign.component';
 
 @NgModule({
   declarations: [
@@ -45,9 +45,9 @@ import {SagaComponent} from './saga/saga.component';
     CardsModalComponent,
     GlossaryModalComponent,
     HistoryModalComponent,
-    ScenariosComponent,
+    ScenarioComponent,
     ThreatTrackerComponent,
-      SagaComponent
+    CampaignComponent
   ],
   imports: [
     BrowserModule,

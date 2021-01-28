@@ -1,18 +1,16 @@
 [
   {
-    "id": 5,
     "title": "Angmar Awakened",
     "name": "angmar-awakened",
     "scenarios": [
       {
-        "id": 37,
         "difficult": 6,
         "title": "Intruders in Chetwood",
         "name": "intruders-in-chetwood",
         "text": "The House of Elrond was bustling with preparations. Fall was turning the leaves on the trees of Rivendell to flaming colors, and the valley echoed with the singing of merry voices. The Elves were gathering the last of the summer harvest to celebrate the Autumnal Equinox. All were busy except the Master of the House and his guests, a band of weary travelers who had recently arrived from important errands in Gondor and Dunland. The heroes were tired from a journey of many leagues fraught with peril, and Elrond had welcomed them to rest in his home and tell what they could of their adventures. In the Hall of Fire, Elrond spoke with the heroes at length concerning their service to the White Council. Many great deeds they had done to forestall the growing power of Mordor, and for their acts of valor, Elrond made them honored guests and bid them stay until they were refreshed.",
         "questDeck": [
-          "3701A",
-          "3701B"
+          "angmar-awakened/3701A",
+          "angmar-awakened/3701B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -170,16 +168,15 @@
         "discardPile": []
       },
       {
-        "id": 38,
         "difficult": 6,
         "title": "The Weather Hills",
         "name": "the-weather-hills",
         "text": "For days, the heroes pursued the remnants of the war-party east from Chetwood across the northern edge of Midgewater Marshes and into the wide plain beyond. Along the way, they came upon several burnt homesteads. Each was plainly the work of Orcish savagery. However, at each home, the heroes were surprised to find no bodies. Instead, they found signs of struggle and the unmistakable tracks of Orcs dragging their captives away. “Why would retreating Orcs stop to take prisoners?” asked one of the heroes, examining the impressions on the ground. “Perhaps they think to ransom their lives?” answered another as he emerged from the charred ruin of a collapsed hovel. “One or two prisoners would have sufficed if that were their intent, but these Orcs have taken a dozen at least,” replied the first. “Look at the markings here.”",
         "questDeck": [
-          "3801A",
-          "3801B",
-          "3802A",
-          "3802B"
+          "angmar-awakened/3801A",
+          "angmar-awakened/3801B",
+          "angmar-awakened/3802A",
+          "angmar-awakened/3802B"
         ],
         "activeLocation": {
           "type": "location",

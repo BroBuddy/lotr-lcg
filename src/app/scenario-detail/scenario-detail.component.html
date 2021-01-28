@@ -64,6 +64,13 @@
           </div>
 
           <div fxFlex="17">
+            <span *ngFor="let campaign of scenario.campaignDeck; let i = index; trackBy: trackByFn">
+              <img [src]="'/assets/img/campaign/' + campaign + '.png'"
+                   (mouseover)="zoomService.mouseover('/assets/img/campaign/', campaign + '.png', 'left')"
+                   (mouseout)="zoomService.mouseout()"
+                   width="105" alt="" hspace="5" vspace="5" />
+            </span>
+
             <span *ngFor="let quest of scenario.questDeck; let i = index; trackBy: trackByFn">
               <img [src]="'/assets/img/quest/' + quest + '.jpg'"
                    (mouseover)="zoomService.mouseover('/assets/img/quest/', quest + '.jpg', 'left', false)"

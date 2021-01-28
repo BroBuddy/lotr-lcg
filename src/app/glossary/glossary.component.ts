@@ -32,7 +32,7 @@ export class GlossaryComponent {
     },
     {
       title: 'Clue objectives',
-      text: 'In some scenarios, players are searching for Clue objective cards. Players should try to find and claim ' +
+      text: 'In some scenario, players are searching for Clue objective cards. Players should try to find and claim ' +
           'as many copies of them as they can while playing the scenario-detail. When one of these cards is claimed, its card ' +
           'text transforms it into a condition attachment, and it is attached to a hero committed to the quest, with ' +
           'text that returns the card to the top of the encounter deck if the attached hero is destroyed. Additionally, ' +
@@ -54,7 +54,7 @@ export class GlossaryComponent {
           'staging area, and use the next card of the encounter deck to fulfill the original keyword effect.'
     },
     {
-      title: 'Hide',
+      title: 'Hide X',
       text: 'When an encounter card with the Hide X keyword is revealed, the player who revealed the card must make a ' +
           'Hide test. If the encounter card with the Hide X keyword also has a “When Revealed” or “Forced” effect, the ' +
           'Hide test must be resolved before resolving the rest of the card. When a player is instructed to make a ' +

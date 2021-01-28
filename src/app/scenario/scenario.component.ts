@@ -5,10 +5,10 @@ import {Observable} from 'rxjs';
 import {DataService} from '../data/data.service';
 
 @Component({
-  selector: 'app-scenarios',
-  templateUrl: './scenarios.component.html'
+  selector: 'app-scenario',
+  templateUrl: './scenario.component.html'
 })
-export class ScenariosComponent implements OnInit {
+export class ScenarioComponent implements OnInit {
 
   public cycles$: Observable<any[]>;
 

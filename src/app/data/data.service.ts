@@ -4,12 +4,12 @@ import {ToastrService} from 'ngx-toastr';
 import {BehaviorSubject, of} from 'rxjs';
 
 import {ImageZoomService} from '../image-zoom/image-zoom.service';
-import ShadowsOfMirkwood from './shadows-of-mirkwood.json';
-import Dwarrowdelf from './dwarrowdelf.json';
-import AgainstTheShadow from './against-the-shadow.json';
-import TheRingMaker from './the-ring-maker.json';
-import AngmarAwakened from './angmar-awakened.json';
-import LordOfTheRings from './lord-of-the-rings.json';
+import ShadowsOfMirkwood from './json/shadows-of-mirkwood.json';
+import Dwarrowdelf from './json/dwarrowdelf.json';
+import AgainstTheShadow from './json/against-the-shadow.json';
+import TheRingMaker from './json/the-ring-maker.json';
+import AngmarAwakened from './json/angmar-awakened.json';
+import LordOfTheRings from './json/lord-of-the-rings.json';
 
 @Injectable({
   providedIn: 'root'
@@ -42,6 +42,9 @@ export class DataService {
 
   private discardPile = new BehaviorSubject<any[]>([]);
   readonly discardPile$ = this.discardPile.asObservable();
+
+  private campaignDeck = new BehaviorSubject<any[]>([]);
+  readonly campaignDeck$ = this.campaignDeck.asObservable();
 
   private questDeck = new BehaviorSubject<any[]>([]);
   readonly questDeck$ = this.questDeck.asObservable();
@@ -90,6 +93,7 @@ export class DataService {
     this.activeLocation.next(scenarioItem[0].activeLocation);
     this.stagingArea.next(scenarioItem[0].stagingArea);
     this.discardPile.next(scenarioItem[0].discardPile);
+    this.campaignDeck.next(scenarioItem[0].campaignDeck);
     this.questDeck.next(scenarioItem[0].questDeck);
     this.engagingArea.next([]);
     this.history.next([]);

@@ -4,12 +4,14 @@
             <mat-icon>remove_circle_outline</mat-icon>
         </button>
 
-        <button mat-mini-fab
-                [matTooltip]="'Threat Tracker'"
-                [color]="firstPlayerThreat === 50 ? 'warn' : null"
-                (click)="setThreat('first', 28)">
-            {{ firstPlayerThreat }}
-        </button>
+        <span [ngStyle]="{ 'margin': '0 5px' }">
+            <button mat-mini-fab
+                    [matTooltip]="'Threat Tracker'"
+                    [color]="firstPlayerThreat === 50 ? 'warn' : null"
+                    (click)="setThreat('first', 28)">
+                {{ firstPlayerThreat }}
+            </button>
+        </span>
 
         <button mat-mini-fab (click)="increaseThreat('first')">
             <mat-icon>add_circle_outline</mat-icon>
@@ -36,12 +38,14 @@
                 <mat-icon>remove_circle_outline</mat-icon>
             </button>
 
-            <button mat-mini-fab
-                    [matTooltip]="'Threat Tracker'"
-                    [color]="secondPlayerThreat === 50 ? 'warn' : null"
-                    (click)="setThreat('second', 28)">
-                {{ secondPlayerThreat }}
-            </button>
+            <span [ngStyle]="{ 'margin': '0 5px' }">
+                <button mat-mini-fab
+                        [matTooltip]="'Threat Tracker'"
+                        [color]="secondPlayerThreat === 50 ? 'warn' : null"
+                        (click)="setThreat('second', 28)">
+                    {{ secondPlayerThreat }}
+                </button>
+            </span>
 
             <button mat-mini-fab (click)="increaseThreat('second')">
                 <mat-icon>add_circle_outline</mat-icon>

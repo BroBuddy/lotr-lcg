@@ -4,254 +4,8 @@
     <list default="true" id="b70523cd-ef27-422f-83db-87002a0250b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/against-the-shadow.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/against-the-shadow.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/angmar-awakened.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/angmar-awakened.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/data.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/dwarrowdelf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/dwarrowdelf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/lord-of-the-rings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/lord-of-the-rings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/shadows-of-mirkwood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/shadows-of-mirkwood.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/the-ring-maker.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/the-ring-maker.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/game/game.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game/game.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/glossary/glossary.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/glossary/glossary.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/json/lord-of-the-rings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/json/lord-of-the-rings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/saga/saga.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/campaign/campaign.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/saga/saga.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/campaign/campaign.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/saga/saga.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/campaign/campaign.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/scenario-detail/scenario-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/scenario-detail/scenario-detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/scenarios/scenarios.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/scenario/scenario.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/scenarios/scenarios.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/scenario/scenario.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/scenarios/scenarios.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/scenario/scenario.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/threat-tracker/threat-tracker.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/threat-tracker/threat-tracker.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0101A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0101A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0101B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0101B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0102A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0102A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0102B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0102B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0103A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0103A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0103A2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0103A2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0103B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0103B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0103B2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0103B2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0201A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0201A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0201B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0201B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0202A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0202A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0202B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0202B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0203A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0203A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0203B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0203B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0301A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0301A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0301B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0301B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0302A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0302A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0302B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0302B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0303A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0303A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0303B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0303B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0401A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0401A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0401B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0401B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0402A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0402A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0402B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0402B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0403A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0403A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0403B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0403B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0501A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0501A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0501B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0501B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0502A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0502A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0502B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0502B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0601A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0601A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0601B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0601B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0602A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0602A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0602B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0602B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0603A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0603A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0603B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0603B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0701A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0701A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0701B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0701B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0801A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0801A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0801B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0801B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0802A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0802A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0802B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0802B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0901A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0901A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0901B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0901B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0902A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0902A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0902B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0902B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0903A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0903A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0903B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0903B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0904A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0904A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/0904B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood/0904B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1001A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1001A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1001B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1001B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1002A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1002A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1002B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1002B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1003A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1003A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1003B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1003B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1101A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1101A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1101B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1101B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1102A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1102A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1102B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1102B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1201A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1201A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1201B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1201B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202A2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202A2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202A3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202A3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202A4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202A4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202A5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202A5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202A6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202A6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202A7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202A7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202A8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202A8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202B2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202B2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202B3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202B3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202B4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202B4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202B5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202B5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202B6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202B6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202B7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202B7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1202B8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1202B8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1301A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1301A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1301B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1301B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1302A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1302A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1302B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1302B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1303A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1303A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1303B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1303B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1401A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1401A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1401B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1401B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1402A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1402A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1402B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1402B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1403A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1403A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1403B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1403B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1501A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1501A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1501B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1501B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1502A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1502A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1502B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1502B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1601A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1601A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1601B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1601B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1602A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1602A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1602B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1602B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1701A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1701A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1701B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1701B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1702A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1702A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1702B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1702B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1703A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1703A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1703B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1703B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1704A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1704A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1704B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1704B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1705A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1705A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1705B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1705B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1801A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1801A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1801B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1801B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1802A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1802A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1802B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1802B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1803A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1803A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1803B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf/1803B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1901A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/1901A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1901B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/1901B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1902A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/1902A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1902B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/1902B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1903A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/1903A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/1903B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/1903B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2001A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2001A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2001B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2001B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2002A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2002A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2002B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2002B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2003A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2003A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2003B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2003B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2004A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2004A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2004B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2004B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2101A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2101A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2101B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2101B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2102A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2102A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2102B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2102B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2103A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2103A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2103B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2103B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2104A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2104A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2104B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2104B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2105A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2105A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2105B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2105B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2201A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2201A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2201B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2201B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2202A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2202A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2202B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2202B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2203A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2203A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2203B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2203B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2301A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2301A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2301B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2301B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2302A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2302A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2302B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2302B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2303A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2303A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2303B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2303B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2401A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2401A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2401B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2401B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2402A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2402A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2402B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2402B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2501A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2501A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2501B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2501B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2601A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2601A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2601B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2601B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2602A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2602A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2602B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2602B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2701A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2701A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2701B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2701B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2702A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2702A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2702B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2702B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2703A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2703A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2703B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow/2703B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2801A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2801A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2801B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2801B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2802A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2802A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2802B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2802B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2803A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2803A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2803B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2803B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2901A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2901A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2901B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2901B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2902A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2902A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2902B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2902B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2903A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2903A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/2903B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/2903B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3001A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3001A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3001B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3001B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3002A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3002A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3002B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3002B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3003A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3003A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3003B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3003B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3101A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3101A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3101B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3101B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3102A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3102A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3102B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3102B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3103A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3103A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3103B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3103B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3201A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3201A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3201B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3201B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3202A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3202A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3202A2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3202A2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3202A3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3202A3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3202B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3202B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3202B2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3202B2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3202B3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3202B3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3203A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3203A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3203B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3203B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3301A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3301A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3301B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3301B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3302A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3302A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3302B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3302B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3401A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3401A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3401B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3401B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3402A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3402A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3402B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3402B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3403A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3403A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3403B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3403B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3404A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3404A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3404B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3404B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3501A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3501A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3501B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3501B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3502A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3502A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3502B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3502B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3601A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3601A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3601B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3601B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3602A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3602A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3602B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3602B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3603A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3603A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3603B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker/3603B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3701A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened/3701A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3701B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened/3701B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3801A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened/3801A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3801B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened/3801B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3802A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened/3802A.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/quest/3802B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened/3802B.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -283,11 +37,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/data/json" />
       <recent name="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened" />
       <recent name="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker" />
       <recent name="$PROJECT_DIR$/src/assets/img/quest/against-the-shadow" />
       <recent name="$PROJECT_DIR$/src/assets/img/quest/dwarrowdelf" />
-      <recent name="$PROJECT_DIR$/src/assets/img/quest/shadows-of-mirkwood" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,7 +119,8 @@
       <workItem from="1611307421777" duration="12727000" />
       <workItem from="1611358667585" duration="11238000" />
       <workItem from="1611675727814" duration="5922000" />
-      <workItem from="1611823011713" duration="3113000" />
+      <workItem from="1611823011713" duration="3654000" />
+      <workItem from="1611915889692" duration="1035000" />
     </task>
     <servers />
   </component>

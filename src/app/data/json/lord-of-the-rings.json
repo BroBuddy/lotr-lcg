@@ -26,6 +26,14 @@
         },
         "stagingArea": [
           {
+            "type": "hero",
+            "image": "lord-of-the-rings/Frodo-Baggins"
+          },
+          {
+            "type": "objective",
+            "image": "lord-of-the-rings/The-One-Ring"
+          },
+          {
             "type": "attachment",
             "image": "lord-of-the-rings/Mr-Underhill"
           },

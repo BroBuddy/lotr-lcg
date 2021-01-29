@@ -5,25 +5,30 @@
         <mat-card-title>Scenarios</mat-card-title>
       </mat-card-header>
 
-      <mat-card-content>
-        <p>In each game of The Lord of the Rings: The Card
-        Game, players begin by choosing a scenario, and then
-        work together in an attempt to complete it. A scenario
-        is completed by successfully moving through all stages
-        of the quest deck. During a scenario, the encounter
-        deck aims to harm the heroes and to raise each player’s
-        threat level. A player is eliminated from the game if
-        all of his heroes are destroyed, or if his threat level
-        reaches 50. If all players are eliminated from the game,
-        the players have lost.</p>
-      </mat-card-content>
+      <mat-card-content fxLayoutAlign="space-between">
+        <div>
+          <p>In each game of The Lord of the Rings: The Card
+            Game, players begin by choosing a scenario, and then
+            work together in an attempt to complete it. A scenario
+            is completed by successfully moving through all stages
+            of the quest deck. During a scenario, the encounter
+            deck aims to harm the heroes and to raise each player’s
+            threat level. A player is eliminated from the game if
+            all of his heroes are destroyed, or if his threat level
+            reaches 50. If all players are eliminated from the game,
+            the players have lost.</p>
 
-      <mat-card-actions>
-        <button mat-button type="button" routerLink="/scenario">
-          <mat-icon>list</mat-icon>
-          Choose a scenario
-        </button>
-      </mat-card-actions>
+          <button mat-button type="button" routerLink="/scenario">
+            <mat-icon>list</mat-icon>
+            Choose a scenario
+          </button>
+        </div>
+
+        <img [defaultImage]="'https://via.placeholder.com/250x250/000/?text=LOTR'"
+             [lazyLoad]="'../../assets/img/thumbnail/cards.png'"
+             [ngStyle]="{ 'margin-right': '10px' }"
+             alt="" height="250" width="250" />
+      </mat-card-content>
     </mat-card>
   </div>
 
@@ -33,24 +38,29 @@
         <mat-card-title>Campaign</mat-card-title>
       </mat-card-header>
 
-      <mat-card-content>
-        <p>Campaign mode is an exciting new way of playing The Lord
-          of the Rings: The Card Game that combines all 18 of the
-          scenarios from the six The Lord of the Rings Saga Expansions
-          into one epic adventure! To play campaign mode, the players
-          play through each scenario in order. Players only advance
-          to the next scenario after they have defeated the current
-          scenario. If the players lose a scenario, there is no penalty but
-          they must play it again in order to defeat it before they can
-          advance to the next scenario.</p>
-      </mat-card-content>
+      <mat-card-content fxLayoutAlign="space-between">
+        <div>
+          <p>Campaign mode is an exciting new way of playing The Lord
+            of the Rings: The Card Game that combines all 18 of the
+            scenarios from the six The Lord of the Rings Saga Expansions
+            into one epic adventure! To play campaign mode, the players
+            play through each scenario in order. Players only advance
+            to the next scenario after they have defeated the current
+            scenario. If the players lose a scenario, there is no penalty but
+            they must play it again in order to defeat it before they can
+            advance to the next scenario.</p>
 
-      <mat-card-actions>
-        <button mat-button type="button" routerLink="/campaign">
-          <mat-icon>list</mat-icon>
-          Choose a campaign
-        </button>
-      </mat-card-actions>
+          <button mat-button type="button" routerLink="/campaign">
+            <mat-icon>list</mat-icon>
+            Choose a campaign
+          </button>
+        </div>
+
+        <img [defaultImage]="'https://via.placeholder.com/250x250/000/?text=LOTR'"
+             [lazyLoad]="'../../assets/img/thumbnail/campaign.png'"
+             [ngStyle]="{ 'margin-right': '10px' }"
+             alt="" height="250" width="250" />
+      </mat-card-content>
     </mat-card>
   </div>
 
@@ -61,8 +71,7 @@
       </mat-card-header>
 
       <mat-card-content>
-        <p>There are three different types of decks in The Lord
-        of the Rings: The Card Game: the quest deck, the
+        <p>There are three different types of decks: the quest deck, the
         encounter deck, and the player deck. There are also
         hero cards, which do not belong to any deck. Each deck
         has its own function and its own set of card types, as
@@ -72,14 +81,12 @@
         deck operates in conjunction with the quest deck in
         each scenario to challenge the players as they play
         against the game.</p>
-      </mat-card-content>
 
-      <mat-card-actions>
         <button mat-button type="button" routerLink="/cards">
           <mat-icon>content_copy</mat-icon>
           Go to cards
         </button>
-      </mat-card-actions>
+      </mat-card-content>
     </mat-card>
   </div>
 
@@ -101,14 +108,12 @@
         Additionally, deluxe Quest Packs introduce new areas
         of Middle-earth in which players can journey, explore,
         and seek new adventures.</p>
-      </mat-card-content>
 
-      <mat-card-actions>
         <button mat-button type="button" routerLink="/packs">
           <mat-icon>redeem</mat-icon>
           Go to packs
         </button>
-      </mat-card-actions>
+      </mat-card-content>
     </mat-card>
   </div>
 
@@ -124,14 +129,12 @@
         keywords and their role in the game are explained
         below. Keywords are denoted textually, usually at the
         beginning of a card’s rules text.</p>
-      </mat-card-content>
 
-      <mat-card-actions>
         <button mat-button type="button" routerLink="/keywords">
           <mat-icon>menu_book</mat-icon>
           Go to keywords
         </button>
-      </mat-card-actions>
+      </mat-card-content>
     </mat-card>
   </div>
 </div>

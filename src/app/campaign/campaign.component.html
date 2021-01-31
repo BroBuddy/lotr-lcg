@@ -1,19 +1,19 @@
 <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid"
-     *ngIf="saga$ | async as saga">
-    <div fxFlex="50" *ngFor="let cycle of saga['value']; trackBy: trackByFn">
+     *ngIf="campaign$ | async as campaign">
+    <div fxFlex="50" *ngFor="let campaign of campaign['value']; trackBy: trackByFn">
         <mat-card>
             <mat-card-header>
-                <mat-card-title>{{ cycle.title }}</mat-card-title>
+                <mat-card-title>{{ campaign.title }}</mat-card-title>
             </mat-card-header>
 
             <mat-card-content fxLayoutAlign="space-between">
                 <div>
-                    <div *ngFor="let scenario of cycle.scenarios; let i = index; trackBy: trackByFn">
+                    <div *ngFor="let scenario of campaign.scenarios; let i = index; trackBy: trackByFn">
                         <button mat-button disabled>#{{ i + 1 }}</button>
 
                         <button mat-button
                                 type="button"
-                                [routerLink]="'../' + cycle.name + '/' + scenario.name"
+                                [routerLink]="'../' + campaign.name + '/' + scenario.name"
                                 [disabled]="!scenario.name">
                             {{ scenario.title ? scenario.title : 'not available' }}
                         </button>
@@ -40,7 +40,7 @@
                 </div>
 
                 <img [defaultImage]="'https://via.placeholder.com/250x250/000/?text=LOTR'"
-                     [lazyLoad]="'../../assets/img/thumbnail/' + cycle.name + '.png'"
+                     [lazyLoad]="'../../assets/img/thumbnail/' + campaign.name + '.png'"
                      [ngStyle]="{ 'margin-right': '10px' }"
                      alt="" height="250" width="250" />
             </mat-card-content>

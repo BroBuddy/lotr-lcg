@@ -10,12 +10,12 @@ import {DataService} from '../data/data.service';
 })
 export class CampaignComponent implements OnInit {
 
-  public saga$: Observable<any[]>;
+  public campaign$: Observable<any[]>;
 
   constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.saga$ = this.dataService.saga$;
+    this.campaign$ = this.dataService.campaign$;
   }
 
   trackByFn(index: number): number {

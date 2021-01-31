@@ -9,8 +9,8 @@
         "name": "intruders-in-chetwood",
         "text": "The House of Elrond was bustling with preparations. Fall was turning the leaves on the trees of Rivendell to flaming colors, and the valley echoed with the singing of merry voices. The Elves were gathering the last of the summer harvest to celebrate the Autumnal Equinox. All were busy except the Master of the House and his guests, a band of weary travelers who had recently arrived from important errands in Gondor and Dunland. The heroes were tired from a journey of many leagues fraught with peril, and Elrond had welcomed them to rest in his home and tell what they could of their adventures. In the Hall of Fire, Elrond spoke with the heroes at length concerning their service to the White Council. Many great deeds they had done to forestall the growing power of Mordor, and for their acts of valor, Elrond made them honored guests and bid them stay until they were refreshed.",
         "questDeck": [
-          "angmar-awakened/3701A",
-          "angmar-awakened/3701B"
+          "angmar-awakened/Stop-the-War-Party-1A",
+          "angmar-awakened/Stop-the-War-Party-1B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -173,10 +173,10 @@
         "name": "the-weather-hills",
         "text": "For days, the heroes pursued the remnants of the war-party east from Chetwood across the northern edge of Midgewater Marshes and into the wide plain beyond. Along the way, they came upon several burnt homesteads. Each was plainly the work of Orcish savagery. However, at each home, the heroes were surprised to find no bodies. Instead, they found signs of struggle and the unmistakable tracks of Orcs dragging their captives away. “Why would retreating Orcs stop to take prisoners?” asked one of the heroes, examining the impressions on the ground. “Perhaps they think to ransom their lives?” answered another as he emerged from the charred ruin of a collapsed hovel. “One or two prisoners would have sufficed if that were their intent, but these Orcs have taken a dozen at least,” replied the first. “Look at the markings here.”",
         "questDeck": [
-          "angmar-awakened/3801A",
-          "angmar-awakened/3801B",
-          "angmar-awakened/3802A",
-          "angmar-awakened/3802B"
+          "angmar-awakened/Scattered-Among-the-Hills-1A",
+          "angmar-awakened/Scattered-Among-the-Hills-1B",
+          "angmar-awakened/Cornered-Animals-2A",
+          "angmar-awakened/Cornered-Animals-2B"
         ],
         "activeLocation": {
           "type": "location",
@@ -440,14 +440,277 @@
       {
         "id": 44,
         "difficult": 10,
-        "title": "",
-        "name": "",
-        "text": "",
-        "questDeck": [],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "title": "The Battle of Carn Dûm",
+        "name": "the-battle-of-carn-dum",
+        "text": "The leaves had fallen and winter’s cold bite had crept ever southward by the time the heroes’ company reached Rivendell. They were greeted by Elven guards who recognized the heroes and welcomed them, escorting the company into The Last Homely House and offering them food and drink, which they accepted heartily. When they asked to see Elrond, they were granted a swift audience and brought into Elrond’s Hall. The Elf-lord entered soon after, bidding the heroes to sit and tell their tale. The company spoke at length with Elrond about their long journey - their discovery at Amon Forn, the attack on Fornost, their imprisonment in Mount Gram, and the information they found in the ruins of Rhudaur.",
+        "questDeck": [
+          "angmar-awakened/The-Clutches-of-Carn-Dum-1A",
+          "angmar-awakened/The-Clutches-of-Carn-Dum-1B",
+          "angmar-awakened/Midwinters-Crux-2A",
+          "angmar-awakened/Midwinters-Crux-2B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "angmar-awakened/Accursed-Battlefield"
+        },
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdir-Captain"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Carn-Dum-Garrison"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Captain"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Captain"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Orc-Ambush"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdirs-Damned"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdirs-Damned"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdirs-Damned"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Baleful-Shade"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Baleful-Shade"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Baleful-Shade"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Baleful-Shade"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Broken-Battlements"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Broken-Battlements"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Broken-Battlements"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Norbury-Tombs"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Norbury-Tombs"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fornost-Square"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fornost-Square"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fornost-Square"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Haunted-Keep"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Haunted-Keep"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Haunted-Keep"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Deadmens-Gate"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Deadmens-Gate"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Unnatural-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Unnatural-Fog"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/The-Shadow-World"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Carn-Dum-Garrison"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Carn-Dum-Garrison"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Carn-Dum-Garrison"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Orc-Grunts"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Orc-Grunts"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Orc-Grunts"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Orc-Grunts"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Werewolf-of-Angmar"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Werewolf-of-Angmar"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Accursed-Battlefield"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Accursed-Battlefield"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Mountains-of-Angmar"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Mountains-of-Angmar"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Blight-of-Carn-Dum"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Blight-of-Carn-Dum"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Blight-of-Carn-Dum"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fortress-Walls"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fortress-Walls"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fortress-Walls"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/The-Sky-Darkens"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/The-Sky-Darkens"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Vile-Afflication"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Vile-Afflication"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Vile-Afflication"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Daechanars-Will"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Daechanars-Will"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Furious-Charge"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdir"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdir-Champion"
+          }
+        ]
       },
       {
         "id": 45,

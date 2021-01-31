@@ -19,9 +19,6 @@ export class DataService {
   private cycles = new BehaviorSubject<any>(null);
   readonly cycles$ = this.cycles.asObservable();
 
-  private saga = new BehaviorSubject<any>(null);
-  readonly saga$ = this.saga.asObservable();
-
   private scenario = new BehaviorSubject<any>(null);
   readonly scenario$ = this.scenario.asObservable();
 
@@ -43,11 +40,14 @@ export class DataService {
   private discardPile = new BehaviorSubject<any[]>([]);
   readonly discardPile$ = this.discardPile.asObservable();
 
-  private campaignDeck = new BehaviorSubject<any[]>([]);
-  readonly campaignDeck$ = this.campaignDeck.asObservable();
-
   private questDeck = new BehaviorSubject<any[]>([]);
   readonly questDeck$ = this.questDeck.asObservable();
+
+  private campaign = new BehaviorSubject<any>(null);
+  readonly campaign$ = this.campaign.asObservable();
+
+  private campaignDeck = new BehaviorSubject<any[]>([]);
+  readonly campaignDeck$ = this.campaignDeck.asObservable();
 
   private history = new BehaviorSubject<any[]>([]);
   readonly history$ = this.history.asObservable();
@@ -59,7 +59,7 @@ export class DataService {
 
   fetchData(): void {
     this.cycles.next(of(ShadowsOfMirkwood.concat(Dwarrowdelf).concat(AgainstTheShadow).concat(TheRingMaker).concat(AngmarAwakened)));
-    this.saga.next(of(LordOfTheRings));
+    this.campaign.next(of(LordOfTheRings));
   }
 
   setScenario(cycle: string, scenario: string, shuffle?: boolean): void {
@@ -208,16 +208,15 @@ export class DataService {
       this.discardPile.getValue().push(this.activeLocation.getValue());
       this.activeLocation.next(null);
     } else {
-      if (card === this.activeLocation.getValue()) {
-        this.discardPile.getValue().push(card);
-        this.removeCardFromStaging(card);
-        this.activeLocation.next(null);
-      } else {
-        setTimeout(() => {
-          this.removeCardFromStaging(card);
-          this.activeLocation.next(card);
-        }, 100);
+      this.removeCardFromStaging(card);
+
+      if (this.activeLocation.getValue()) {
+        this.discardPile.getValue().push(this.activeLocation.getValue());
       }
+
+      setTimeout(() => {
+        this.activeLocation.next(card);
+      }, 100);
     }
 
     this.addHistory(this.getCardTypeName(card) + ' was updated');

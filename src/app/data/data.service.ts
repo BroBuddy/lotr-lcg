@@ -181,6 +181,8 @@ export class DataService {
         break;
       }
       default: {
+        card.progress = progress;
+        this.activeLocation.next(card);
         break;
       }
     }
@@ -200,13 +202,12 @@ export class DataService {
         break;
       }
       default: {
+        card.progress = 0;
         this.discardPile.getValue().push(card);
         this.removeCardFromStaging(card);
         break;
       }
     }
-
-    console.log(this.stagingArea.getValue());
   }
 
   onCardDeactivation(card: any, type: string): void {
@@ -249,12 +250,14 @@ export class DataService {
     this.zoomService.mouseout();
 
     if (discovered) {
+      this.activeLocation.getValue().progress = 0;
       this.discardPile.getValue().push(this.activeLocation.getValue());
       this.activeLocation.next(null);
     } else {
       this.removeCardFromStaging(card);
 
       if (this.activeLocation.getValue()) {
+        this.activeLocation.getValue().progress = 0;
         this.discardPile.getValue().push(this.activeLocation.getValue());
       }
 
@@ -289,6 +292,7 @@ export class DataService {
     this.engagingArea.next(engagingArea.slice(0, Number(index)).concat(engagingArea.slice(Number(index) + 1)));
 
     if (defeated) {
+      card.progress = 0;
       this.discardPile.getValue().push(card);
     }
 

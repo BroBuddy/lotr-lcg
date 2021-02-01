@@ -86,15 +86,35 @@ export class DataService {
         break;
     }
 
-    const scenarioItem = scenarioData[0].scenarios.filter(data => data.name === scenario);
+    let scenarioItem = scenarioData[0].scenarios.filter(data => data.name === scenario);
+    scenarioItem = scenarioItem[0];
 
-    this.scenario.next(scenarioItem[0]);
-    this.encounterDeck.next(scenarioItem[0].encounterDeck);
-    this.activeLocation.next(scenarioItem[0].activeLocation);
-    this.stagingArea.next(scenarioItem[0].stagingArea);
-    this.discardPile.next(scenarioItem[0].discardPile);
-    this.campaignDeck.next(scenarioItem[0].campaignDeck);
-    this.questDeck.next(scenarioItem[0].questDeck);
+    scenarioItem.encounterDeck.map( item => {
+      item.progress = 0;
+      return item;
+    });
+
+    scenarioItem.discardPile.map( item => {
+      item.progress = 0;
+      return item;
+    });
+
+    scenarioItem.stagingArea.map( item => {
+      item.progress = 0;
+      return item;
+    });
+
+    if (scenarioItem.activeLocation) {
+      scenarioItem.activeLocation.progress = 0;
+    }
+
+    this.scenario.next(scenarioItem);
+    this.encounterDeck.next(scenarioItem.encounterDeck);
+    this.activeLocation.next(scenarioItem.activeLocation);
+    this.stagingArea.next(scenarioItem.stagingArea);
+    this.discardPile.next(scenarioItem.discardPile);
+    this.campaignDeck.next(scenarioItem.campaignDeck);
+    this.questDeck.next(scenarioItem.questDeck);
     this.engagingArea.next([]);
     this.history.next([]);
 
@@ -163,6 +183,8 @@ export class DataService {
         break;
       }
     }
+
+    console.log(this.stagingArea.getValue());
   }
 
   onCardDeactivation(card: any, type: string): void {
@@ -186,18 +208,18 @@ export class DataService {
   }
 
   removeCardFromStaging(card: any): void {
-    const stagingArea = [...this.stagingArea.getValue()],
-        index = stagingArea.findIndex((item) => item === card);
+    const stagingArea = [...this.stagingArea.getValue()];
+    stagingArea.splice(stagingArea.findIndex((item) => item === card), 1);
 
-    this.stagingArea.next(stagingArea.slice(0, Number(index)).concat(stagingArea.slice(Number(index) + 1)));
+    this.stagingArea.next(stagingArea);
     this.addHistory(this.getCardTypeName(card) + ' was removed from staging area');
   }
 
   removeCardFromEngaging(card: any): void {
-    const engagingArea = [...this.engagingArea.getValue()],
-        index = engagingArea.findIndex((item) => item === card);
+    const engagingArea = [...this.engagingArea.getValue()];
+    engagingArea.splice(engagingArea.findIndex((item) => item === card), 1);
 
-    this.engagingArea.next(engagingArea.slice(0, Number(index)).concat(engagingArea.slice(Number(index) + 1)));
+    this.engagingArea.next(engagingArea);
     this.addHistory(this.getCardTypeName(card) + ' was removed from engaging area');
   }
 

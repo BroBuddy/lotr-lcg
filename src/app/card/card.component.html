@@ -1,4 +1,4 @@
-<div>
+<div class="card-box">
     <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
          [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
          alt=""
@@ -11,6 +11,8 @@
          (card.type === 'location' || card.type === 'quest') ? 'left' : 'right',
          card.type !== 'quest')"
          (mouseout)="zoomService.mouseout()" />
+
+    <div class="card-progress" [ngClass]="'card-' + card.type" *ngIf="progress >= 1">{{ progress }}</div>
 
     <mat-menu #cardMenu="matMenu">
         <ng-container [ngSwitch]="card.type">
@@ -58,8 +60,18 @@
             Shuffle back
         </button>
 
-        <div mat-menu-item>
-            <app-counter></app-counter>
+        <div mat-menu-item *ngIf="card.type !== 'treachery'">
+            <button mat-icon-button color="accent" (click)="decreaseProgress($event)">
+                <mat-icon>remove_circle_outline</mat-icon>
+            </button>
+
+            <button mat-icon-button color="accent" (click)="setProgress(0)">
+                <mat-icon>settings_backup_restore</mat-icon>
+            </button>
+
+            <button mat-icon-button color="accent" (click)="increaseProgress($event)">
+                <mat-icon>add_circle_outline</mat-icon>
+            </button>
         </div>
     </mat-menu>
 </div>

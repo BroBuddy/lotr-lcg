@@ -89,17 +89,17 @@ export class DataService {
     let scenarioItem = scenarioData[0].scenarios.filter(data => data.name === scenario);
     scenarioItem = scenarioItem[0];
 
-    scenarioItem.encounterDeck.map( item => {
+    scenarioItem.encounterDeck.map(item => {
       item.progress = 0;
       return item;
     });
 
-    scenarioItem.discardPile.map( item => {
+    scenarioItem.discardPile.map(item => {
       item.progress = 0;
       return item;
     });
 
-    scenarioItem.stagingArea.map( item => {
+    scenarioItem.stagingArea.map(item => {
       item.progress = 0;
       return item;
     });
@@ -164,13 +164,35 @@ export class DataService {
     this.encounterDeck.getValue().shift();
   }
 
+  onCardProgress(area: string, card: any, progress: number): void {
+    switch (area) {
+      case 'engaging': {
+        const engagingArea = this.engagingArea.getValue();
+        const index = engagingArea.findIndex((item) => item === card);
+        engagingArea[index].progress = progress;
+        this.engagingArea.next(engagingArea);
+        break;
+      }
+      case 'staging': {
+        const stagingArea = this.stagingArea.getValue();
+        const index = stagingArea.findIndex((item) => item === card);
+        stagingArea[index].progress = progress;
+        this.stagingArea.next(stagingArea);
+        break;
+      }
+      default: {
+        break;
+      }
+    }
+  }
+
   onCardActivation(card: any): void {
     this.zoomService.mouseout();
 
     switch (card.type) {
       case 'enemy': {
-        this.removeCardFromStaging(card);
         this.engagingArea.getValue().push(card);
+        this.removeCardFromStaging(card);
         break;
       }
       case 'location': {

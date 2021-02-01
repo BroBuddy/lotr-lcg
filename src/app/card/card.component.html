@@ -12,7 +12,7 @@
          card.type !== 'quest')"
          (mouseout)="zoomService.mouseout()" />
 
-    <div class="card-progress" [ngClass]="'card-' + card.type" *ngIf="progress >= 1">{{ progress }}</div>
+    <div class="card-progress" [ngClass]="'card-' + card.type" *ngIf="card.progress >= 1">{{ card.progress }}</div>
 
     <mat-menu #cardMenu="matMenu">
         <ng-container [ngSwitch]="card.type">

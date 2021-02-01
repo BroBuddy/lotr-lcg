@@ -9,14 +9,14 @@
         "name": "passage-through-mirkwood",
         "text": "Mirkwood has long been a dangerous place, and recently one of King Thranduil’s patrols has uncovered disconcerting signs of a gathering menace in the vicinity of Dol Guldur. A party of heroes, controlled by the players, has been assembled to carry a message through Mirkwood, down the Anduin, and eventually to Lórien, to warn Lady Galadriel of the imminent danger. ",
         "questDeck": [
-          "shadows-of-mirkwood/0101A",
-          "shadows-of-mirkwood/0101B",
-          "shadows-of-mirkwood/0102A",
-          "shadows-of-mirkwood/0102B",
-          "shadows-of-mirkwood/0103A",
-          "shadows-of-mirkwood/0103B",
-          "shadows-of-mirkwood/0103A2",
-          "shadows-of-mirkwood/0103B2"
+          "shadows-of-mirkwood/Flies-and-Spiders-1A",
+          "shadows-of-mirkwood/Flies-and-Spiders-1B",
+          "shadows-of-mirkwood/A-Fork-in-the-Road-2A",
+          "shadows-of-mirkwood/A-Fork-in-the-Road-2B",
+          "shadows-of-mirkwood/A-Chosen-Path-Dont-Leave-the-Path-3A",
+          "shadows-of-mirkwood/A-Chosen-Path-Dont-Leave-the-Path-3B",
+          "shadows-of-mirkwood/A-Chosen-Path-Beorns-Path-3A",
+          "shadows-of-mirkwood/A-Chosen-Path-Beorns-Path-3B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -175,12 +175,12 @@
         "name": "journey-along-the-anduin",
         "text": "Having survived the dangers of Mirkwood Forest, the heroes continue their journey along the banks of the Anduin river, toward Lórien, with dire news of a gathering threat in Southern Mirkwood. ",
         "questDeck": [
-          "shadows-of-mirkwood/0201A",
-          "shadows-of-mirkwood/0201B",
-          "shadows-of-mirkwood/0202A",
-          "shadows-of-mirkwood/0202B",
-          "shadows-of-mirkwood/0203A",
-          "shadows-of-mirkwood/0203B"
+          "shadows-of-mirkwood/To-the-River-1A",
+          "shadows-of-mirkwood/To-the-River-1B",
+          "shadows-of-mirkwood/Anduin-Passage-2A",
+          "shadows-of-mirkwood/Anduin-Passage-2B",
+          "shadows-of-mirkwood/Ambush-on-the-Shore-3A",
+          "shadows-of-mirkwood/Ambush-on-the-Shore-3B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -383,12 +383,12 @@
         "name": "escape-from-dol-guldur",
         "text": "While exploring in the vicinity of Dol Guldur at Lady Galadriel's request, one of the heroes' companions is captured by the Necromancer's forces, and is now awaiting interrogation in a dungeon beneath the hill. Knowing their friend's time is short, the heroes decide to attempt a desperate rescue. ",
         "questDeck": [
-          "shadows-of-mirkwood/0301A",
-          "shadows-of-mirkwood/0301B",
-          "shadows-of-mirkwood/0302A",
-          "shadows-of-mirkwood/0302B",
-          "shadows-of-mirkwood/0303A",
-          "shadows-of-mirkwood/0303B"
+          "shadows-of-mirkwood/The-Necromancers-Tower-1A",
+          "shadows-of-mirkwood/The-Necromancers-Tower-1B",
+          "shadows-of-mirkwood/Through-the-Caverns-2A",
+          "shadows-of-mirkwood/Through-the-Caverns-2B",
+          "shadows-of-mirkwood/Out-of-the-Dungeons-3A",
+          "shadows-of-mirkwood/Out-of-the-Dungeons-3B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -568,12 +568,12 @@
         "name": "the-hunt-for-gollum",
         "text": "At the request of Gandalf, the heroes are searching for Gollum in the Anduin Valley between the Misty Mountains and Mirkwood forest. Rumours have suggested that Gollum is in the area, and the heroes are looking for clues that might put them on the elusive creature’s trail. ",
         "questDeck": [
-          "shadows-of-mirkwood/0401A",
-          "shadows-of-mirkwood/0401B",
-          "shadows-of-mirkwood/0402A",
-          "shadows-of-mirkwood/0402B",
-          "shadows-of-mirkwood/0403A",
-          "shadows-of-mirkwood/0403B"
+          "shadows-of-mirkwood/The-Hunt-Begins-1A",
+          "shadows-of-mirkwood/The-Hunt-Begins-1B",
+          "shadows-of-mirkwood/A-New-Terror-Abroad-2A",
+          "shadows-of-mirkwood/A-New-Terror-Abroad-2B",
+          "shadows-of-mirkwood/On-the-Trail-3A",
+          "shadows-of-mirkwood/On-the-Trail-3B"
         ],
         "activeLocation": null,
         "stagingArea": [],
@@ -779,10 +779,10 @@
         "name": "conflict-at-the-carrock",
         "text": "While searching for Gollum along the banks of the Anduin, the heroes hear rumours of a group Trolls that have come to the Carrock, bringing chaos and strife to the valley. The Beonings, led by Grimbeorn the Old, are known as the peacekeepers in the area, so the heroes set out to find Grimbeorn and assist him in driving the intrusive Trolls back to the mountains from which they came. ",
         "questDeck": [
-          "shadows-of-mirkwood/0501A",
-          "shadows-of-mirkwood/0501B",
-          "shadows-of-mirkwood/0502A",
-          "shadows-of-mirkwood/0502B"
+          "shadows-of-mirkwood/Grimbeorns-Quest-1A",
+          "shadows-of-mirkwood/Grimbeorns-Quest-1B",
+          "shadows-of-mirkwood/Against-the-Trolls-2A",
+          "shadows-of-mirkwood/Against-the-Trolls-2B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -1010,12 +1010,12 @@
         "name": "a-journey-to-rhosgobel",
         "text": "While travelling in the Anduin Valley, the heroes come across a fallen Eagle, dreadfully wounded from a recent battle with Goblins, and on the verge of death. Given their location, the heroes attempt to transport the Eagle to Rhosgobel, on the edge of Mirkwood, in the hope that the wizard Radagast can save the Eagle’s life.",
         "questDeck": [
-          "shadows-of-mirkwood/0601A",
-          "shadows-of-mirkwood/0601B",
-          "shadows-of-mirkwood/0602A",
-          "shadows-of-mirkwood/0602B",
-          "shadows-of-mirkwood/0603A",
-          "shadows-of-mirkwood/0603B"
+          "shadows-of-mirkwood/The-Wounded-Eagle-1A",
+          "shadows-of-mirkwood/The-Wounded-Eagle-1B",
+          "shadows-of-mirkwood/Radagasts-Request-2A",
+          "shadows-of-mirkwood/Radagasts-Request-2B",
+          "shadows-of-mirkwood/Return-to-Rhosgobel-3A",
+          "shadows-of-mirkwood/Return-to-Rhosgobel-3B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -1251,8 +1251,8 @@
         "name": "the-hills-of-emyn-muil",
         "text": "Pursuing Gollum to the south, the heroes were led to the hills of Emyn Muil, but there the leads grew cold. Somewhere in this region, Gollum is hiding, and the heroes must explore carefully to regain the trail and resume pursuit.",
         "questDeck": [
-          "shadows-of-mirkwood/0701A",
-          "shadows-of-mirkwood/0701B"
+          "shadows-of-mirkwood/The-Hills-of-Emyn-Muil-1A",
+          "shadows-of-mirkwood/The-Hills-of-Emyn-Muil-1B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -1487,10 +1487,10 @@
         "name": "the-dead-marshes",
         "text": "After regaining his trail in the hills of Emyn Muil, the heroes have tracked Gollum to The Dead Marshes, into which he has fled in a last ditch effort to avoid pursuit. Feeling that the hunt is coming to a close, the heroes enter the treacherous marshlands, ready to capture the creature alive.",
         "questDeck": [
-          "shadows-of-mirkwood/0801A",
-          "shadows-of-mirkwood/0801B",
-          "shadows-of-mirkwood/0802A",
-          "shadows-of-mirkwood/0802B"
+          "shadows-of-mirkwood/Into-the-Marshes-1A",
+          "shadows-of-mirkwood/Into-the-Marshes-1B",
+          "shadows-of-mirkwood/The-Capture-2A",
+          "shadows-of-mirkwood/The-Capture-2B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -1721,14 +1721,14 @@
         "name": "return-to-mirkwood",
         "text": "After cornering and capturing Gollum in The Dead Marshes, the heroes must now escort the creature north, through Mirkwood forest, so that he can be held and interrogated at King Thranduil’s palace. The journey will not be easy, however: Mirkwood is always a dangerous place, the Dark Lord’s forces are eager to take Gollum for their own purposes...and Gollum himself is eager to escape.",
         "questDeck": [
-          "shadows-of-mirkwood/0901A",
-          "shadows-of-mirkwood/0901B",
-          "shadows-of-mirkwood/0902A",
-          "shadows-of-mirkwood/0902B",
-          "shadows-of-mirkwood/0903A",
-          "shadows-of-mirkwood/0903B",
-          "shadows-of-mirkwood/0904A",
-          "shadows-of-mirkwood/0904B"
+          "shadows-of-mirkwood/Through-the-Forest-1A",
+          "shadows-of-mirkwood/Through-the-Forest-1B",
+          "shadows-of-mirkwood/Escape-Attempt-2A",
+          "shadows-of-mirkwood/Escape-Attempt-2B",
+          "shadows-of-mirkwood/To-the-Elvin-Kings-Halls-3A",
+          "shadows-of-mirkwood/To-the-Elvin-Kings-Halls-3B",
+          "shadows-of-mirkwood/Ambush-4A",
+          "shadows-of-mirkwood/Ambush-4B"
         ],
         "activeLocation": null,
         "stagingArea": [

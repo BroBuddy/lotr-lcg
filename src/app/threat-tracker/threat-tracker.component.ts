@@ -1,56 +1,45 @@
-import { Component } from '@angular/core';
-import {ToastrService} from "ngx-toastr";
+import {Component, OnInit} from '@angular/core';
+
+import {Observable} from 'rxjs';
+
+import {ThreatTrackerService} from './threat-tracker.service';
 
 @Component({
   selector: 'app-threat-tracker',
   templateUrl: './threat-tracker.component.html',
 })
-export class ThreatTrackerComponent {
+export class ThreatTrackerComponent implements OnInit {
 
-  public playerCount = 1;
-  public firstPlayerThreat = 28;
-  public secondPlayerThreat = 28;
+  public playerCount$: Observable<number>;
+  public firstPlayerThreat$: Observable<number>;
+  public secondPlayerThreat$: Observable<number>;
 
-  constructor(private toastr: ToastrService) {}
+  constructor(public threatTrackerService: ThreatTrackerService) {}
 
-  setThreat(player: string, amount?: number): void {
-    if (player === 'first') {
-      this.firstPlayerThreat = amount;
-    } else {
-      this.secondPlayerThreat = amount;
-    }
+  ngOnInit(): void {
+    this.playerCount$ = this.threatTrackerService.playerCount$;
+    this.firstPlayerThreat$ = this.threatTrackerService.firstPlayerThreat$;
+    this.secondPlayerThreat$ = this.threatTrackerService.secondPlayerThreat$;
   }
 
-  decreaseThreat(player: string): void {
-    if (player === 'first') {
-      if (this.firstPlayerThreat >= 1) {
-        this.firstPlayerThreat--;
-      }
-    } else {
-      if (this.secondPlayerThreat >= 1) {
-        this.secondPlayerThreat--;
-      }
-    }
+  onSetThreat(player: string, amount?: number): void {
+    this.threatTrackerService.setThreat(player, amount);
   }
 
-  increaseThreat(player: string): void {
-    if (player === 'first') {
-      if (this.firstPlayerThreat <= 49) {
-        this.firstPlayerThreat++;
+  onDecreaseThreat(player: string): void {
+    this.threatTrackerService.decreaseThreat(player);
+  }
 
-        if(this.firstPlayerThreat === 50) {
-          this.toastr.error('1st player is eliminated');
-        }
-      }
-    } else {
-      if (this.secondPlayerThreat <= 49) {
-        this.secondPlayerThreat++;
+  onIncreaseThreat(player: string): void {
+    this.threatTrackerService.increaseThreat(player);
+  }
 
-        if(this.secondPlayerThreat === 50) {
-          this.toastr.error('2nd player is eliminated');
-        }
-      }
-    }
+  onAddPlayer(): void {
+    this.threatTrackerService.addPlayer();
+  }
+
+  onRemovePlayer(): void {
+    this.threatTrackerService.removePlayer();
   }
 
 }

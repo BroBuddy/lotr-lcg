@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, HostListener, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute, Params} from '@angular/router';
 import {MatDialog} from '@angular/material';
 import {ToastrService} from 'ngx-toastr';
@@ -6,11 +6,13 @@ import { SubSink } from 'subsink';
 
 import {Observable} from 'rxjs';
 
+import {KEY_CODE} from './game-keys.enum';
 import {DataService} from '../data/data.service';
 import {ImageZoomService} from '../image-zoom/image-zoom.service';
 import {GlossaryModalComponent} from '../glossary-modal/glossary-modal.component';
 import {CardsModalComponent} from '../cards-modal/cards-modal.component';
 import {HistoryModalComponent} from '../history-modal/history-modal.component';
+import {ThreatTrackerService} from '../threat-tracker/threat-tracker.service';
 
 @Component({
   selector: 'app-game',
@@ -35,10 +37,17 @@ export class GameComponent implements OnInit, OnDestroy {
   public progress = 0;
   private subs = new SubSink();
 
+
+  @HostListener('window:keyup', ['$event'])
+  handleKeyboardEvent(e: KeyboardEvent) {
+    this.initKeys(e);
+  }
+
   constructor(public dialog: MatDialog,
               private route: ActivatedRoute,
               private toastr: ToastrService,
               private dataService: DataService,
+              private threatTrackerService: ThreatTrackerService,
               public zoomService: ImageZoomService) { }
 
   ngOnInit(): void {
@@ -57,6 +66,28 @@ export class GameComponent implements OnInit, OnDestroy {
           this.questDeck$ = this.dataService.questDeck$;
         }
       );
+  }
+
+  initKeys(e: any): void {
+    const allowedKeys = ['body'];
+
+    if (allowedKeys.indexOf(e.target.nodeName.toLowerCase()) !== -1) {
+      switch (e.keyCode) {
+        case KEY_CODE.ENTER:
+          this.onDrawCard();
+          break;
+
+        case KEY_CODE.PLUS:
+        case KEY_CODE.PLUS_2:
+          this.threatTrackerService.increaseThreat();
+          break;
+
+        case KEY_CODE.MINUS:
+        case KEY_CODE.MINUS_2:
+          this.threatTrackerService.decreaseThreat();
+          break;
+      }
+    }
   }
 
   openGlossaryModal(): void {

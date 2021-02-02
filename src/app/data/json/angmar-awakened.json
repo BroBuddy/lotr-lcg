@@ -378,19 +378,201 @@
         ]
       },
       {
-        "id": 39,
         "difficult": 8,
-        "title": "",
-        "name": "",
-        "text": "",
-        "questDeck": [],
+        "title": "Deadmen's Dike",
+        "name": "deadmens-dike",
+        "text": "It was a long journey from the Weather Hills to Fornost Erain, made longer by the weary survivors the heroes were escorting. The unfortunate villagers had suffered much hardship during their captivity, and the unusually cold weather did not improve their condition. Soon they were all sick from their ordeal. In the end, the heroes had to send a runner ahead to summon help from the Dúnedain they were seeking. With help from the Rangers, the heroes were able to bring the survivors safely to Fornost. Once the capital of Arthedain, the ancient city was abandoned after the war with Angmar, almost a thousand years ago. Now the desolate ruin was called Deadmen’s Dike, yet on high days, the Dúnedain still gathered there, as they did now. Iârion and a younger Ranger were there to greet them when they entered the city gates. The noble Dúnadan had a look of wonder on his face as he watched the heroes bring the survivors inside the walls. “You have exceeded your oath in saving these people,” he exclaimed. “On behalf of the Dúnedain, I thank you friends. Come, join us at the council fire and tell us your tale. My brother, Amarthiúl, will take care of your charges.”",
+        "questDeck": [
+          "angmar-awakened/The-Shades-of-Angmar-1A",
+          "angmar-awakened/The-Shades-of-Angmar-1B",
+          "angmar-awakened/A-Fell-Wraith-2A",
+          "angmar-awakened/A-Fell-Wraith-2B"
+        ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Iarion"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fornost-Square"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Baleful-Shade"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Terror-of-the-North"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Terror-of-the-North"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Terror-of-the-North"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Dark-Sorcery"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Dark-Sorcery"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Heavy-Curse"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Heavy-Curse"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Heavy-Curse"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/The-Power-of-Angmar"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Dead-Lord"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Dead-Lord"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Restless-Evil"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Restless-Evil"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Seal-the-Tomb"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdirs-Damned"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdirs-Damned"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdirs-Damned"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Baleful-Shade"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Baleful-Shade"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Baleful-Shade"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Broken-Battlements"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Broken-Battlements"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Broken-Battlements"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Norbury-Tombs"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Norbury-Tombs"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fornost-Square"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Fornost-Square"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Haunted-Keep"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Haunted-Keep"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Haunted-Keep"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Deadmens-Gate"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Deadmens-Gate"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Unnatural-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Unnatural-Fog"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/The-Shadow-World"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdir"
+          }
+        ]
       },
       {
-        "id": 40,
         "difficult": 7,
         "title": "",
         "name": "",
@@ -402,7 +584,6 @@
         "discardPile": []
       },
       {
-        "id": 41,
         "difficult": 4,
         "title": "",
         "name": "",
@@ -414,7 +595,6 @@
         "discardPile": []
       },
       {
-        "id": 42,
         "difficult": 4,
         "title": "",
         "name": "",
@@ -426,7 +606,6 @@
         "discardPile": []
       },
       {
-        "id": 43,
         "difficult": 6,
         "title": "",
         "name": "",
@@ -438,7 +617,6 @@
         "discardPile": []
       },
       {
-        "id": 44,
         "difficult": 10,
         "title": "The Battle of Carn Dûm",
         "name": "the-battle-of-carn-dum",
@@ -501,96 +679,40 @@
             "image": "angmar-awakened/Orc-Ambush"
           },
           {
-            "type": "enemy",
-            "image": "angmar-awakened/Thaurdirs-Damned"
-          },
-          {
-            "type": "enemy",
-            "image": "angmar-awakened/Thaurdirs-Damned"
-          },
-          {
-            "type": "enemy",
-            "image": "angmar-awakened/Thaurdirs-Damned"
-          },
-          {
-            "type": "enemy",
-            "image": "angmar-awakened/Baleful-Shade"
-          },
-          {
-            "type": "enemy",
-            "image": "angmar-awakened/Baleful-Shade"
-          },
-          {
-            "type": "enemy",
-            "image": "angmar-awakened/Baleful-Shade"
-          },
-          {
-            "type": "enemy",
-            "image": "angmar-awakened/Baleful-Shade"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Broken-Battlements"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Broken-Battlements"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Broken-Battlements"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Norbury-Tombs"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Norbury-Tombs"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Fornost-Square"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Fornost-Square"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Fornost-Square"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Haunted-Keep"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Haunted-Keep"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Haunted-Keep"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Deadmens-Gate"
-          },
-          {
-            "type": "location",
-            "image": "angmar-awakened/Deadmens-Gate"
+            "type": "treachery",
+            "image": "angmar-awakened/Terror-of-the-North"
           },
           {
             "type": "treachery",
-            "image": "angmar-awakened/Unnatural-Fog"
+            "image": "angmar-awakened/Terror-of-the-North"
           },
           {
             "type": "treachery",
-            "image": "angmar-awakened/Unnatural-Fog"
+            "image": "angmar-awakened/Terror-of-the-North"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Dark-Sorcery"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Dark-Sorcery"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Heavy-Curse"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Heavy-Curse"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Heavy-Curse"
           },
           {
             "type": "quest",
-            "image": "angmar-awakened/The-Shadow-World"
+            "image": "angmar-awakened/The-Power-of-Angmar"
           },
           {
             "type": "enemy",
@@ -704,16 +826,11 @@
         "discardPile": [
           {
             "type": "enemy",
-            "image": "angmar-awakened/Thaurdir"
-          },
-          {
-            "type": "enemy",
             "image": "angmar-awakened/Thaurdir-Champion"
           }
         ]
       },
       {
-        "id": 45,
         "difficult": 8,
         "title": "",
         "name": "",

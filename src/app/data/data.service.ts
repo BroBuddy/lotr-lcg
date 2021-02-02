@@ -198,7 +198,7 @@ export class DataService {
         break;
       }
       case 'location': {
-        this.onUpdateLocation(card);
+        this.onTravelToLocation(card);
         break;
       }
       default: {
@@ -217,7 +217,8 @@ export class DataService {
         break;
       }
       case 'location': {
-        this.onUpdateLocation(card, false);
+        this.activeLocation.getValue().progress = 0;
+        this.activeLocation.next(null);
         break;
       }
       default: {
@@ -246,7 +247,7 @@ export class DataService {
     this.addHistory(this.getCardTypeName(card) + ' was removed from engaging area');
   }
 
-  onUpdateLocation(card: any, discovered?: boolean): void {
+  onTravelToLocation(card: any, discovered?: boolean): void {
     this.zoomService.mouseout();
 
     if (discovered) {
@@ -259,6 +260,7 @@ export class DataService {
       if (this.activeLocation.getValue()) {
         this.activeLocation.getValue().progress = 0;
         this.discardPile.getValue().push(this.activeLocation.getValue());
+        this.activeLocation.next(null);
       }
 
       setTimeout(() => {
@@ -283,7 +285,7 @@ export class DataService {
     this.shadowCard.next(null);
   }
 
-  onDefeatEnemy(card: any, defeated: boolean): void {
+  onEnemyDefeated(card: any, defeated: boolean): void {
     this.zoomService.mouseout();
 
     const engagingArea = [...this.engagingArea.getValue()],

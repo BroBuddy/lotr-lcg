@@ -117,8 +117,8 @@ export class GameComponent implements OnInit, OnDestroy {
     this.dataService.onCardDeactivation(card, type);
   }
 
-  onUpdateLocation(card: any, discovered?: boolean): void {
-    this.dataService.onUpdateLocation(card, discovered);
+  onTravelToLocation(card: any, discovered?: boolean): void {
+    this.dataService.onTravelToLocation(card, discovered);
   }
 
   onDrawShadow(): void {
@@ -129,8 +129,8 @@ export class GameComponent implements OnInit, OnDestroy {
     this.dataService.onDiscardShadow();
   }
 
-  onDefeatEnemy(card: any, defeated: boolean): void {
-    this.dataService.onDefeatEnemy(card, defeated);
+  onEnemyDefeated(card: any, defeated: boolean): void {
+    this.dataService.onEnemyDefeated(card, defeated);
   }
 
   onChangeQuest(step: number): void {

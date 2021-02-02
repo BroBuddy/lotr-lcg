@@ -251,6 +251,10 @@
             "image": "lord-of-the-rings/The-One-Ring"
           },
           {
+            "type": "objective",
+            "image": "lord-of-the-rings/Gandalfs-Delay"
+          },
+          {
             "type": "location",
             "image": "lord-of-the-rings/The-Prancing-Pony"
           },
@@ -456,6 +460,10 @@
           {
             "type": "objective",
             "image": "lord-of-the-rings/The-One-Ring"
+          },
+          {
+            "type": "objective",
+            "image": "lord-of-the-rings/Gandalfs-Delay"
           },
           {
             "type": "objective",

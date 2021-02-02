@@ -243,6 +243,14 @@
         "activeLocation": null,
         "stagingArea": [
           {
+            "type": "hero",
+            "image": "lord-of-the-rings/Frodo-Baggins"
+          },
+          {
+            "type": "objective",
+            "image": "lord-of-the-rings/The-One-Ring"
+          },
+          {
             "type": "location",
             "image": "lord-of-the-rings/The-Prancing-Pony"
           },
@@ -444,6 +452,10 @@
           {
             "type": "hero",
             "image": "lord-of-the-rings/Frodo-Baggins"
+          },
+          {
+            "type": "objective",
+            "image": "lord-of-the-rings/The-One-Ring"
           },
           {
             "type": "objective",

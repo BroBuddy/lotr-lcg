@@ -60,7 +60,7 @@
             Shuffle back
         </button>
 
-        <div mat-menu-item *ngIf="card.type !== 'treachery'">
+        <div mat-menu-item *ngIf="card.type !== 'treachery' && card.type !== 'attachment'">
             <button mat-icon-button color="accent" (click)="decreaseProgress($event)">
                 <mat-icon>remove_circle_outline</mat-icon>
             </button>

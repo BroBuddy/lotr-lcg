@@ -2,17 +2,27 @@
   position: relative;
 
   .card-progress {
-    background-color: rgba(0,0,0,0.7);
-    border-radius: 5px;
-    color: #bb2917;
+    color: #fff;
+    font-size: 20px;
     font-weight: bold;
-    left: 43%;
-    padding: 5px 10px;
+    left: 35%;
+    padding: 13px 15px;
     position: absolute;
-    top: 26%;
+    text-align: center;
+    top: 22%;
+    width: 20px;
+
+    &.card-enemy {
+      background-image: url("../../assets/img/token/damage.png");
+    }
 
     &.card-location {
-      color: #c97c30;
+      background-image: url("../../assets/img/token/progress.png");
+    }
+
+    &.card-hero,
+    &.card-objective {
+      background-image: url("../../assets/img/token/ressource.png");
     }
   }
 }

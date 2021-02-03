@@ -251,6 +251,10 @@
             "image": "lord-of-the-rings/The-One-Ring"
           },
           {
+            "type": "attachment",
+            "image": "lord-of-the-rings/Noble-Hero"
+          },
+          {
             "type": "objective",
             "image": "lord-of-the-rings/Gandalfs-Delay"
           },

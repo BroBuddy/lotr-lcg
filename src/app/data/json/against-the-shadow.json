@@ -9,12 +9,12 @@
         "name": "peril-in-pelargir",
         "text": "The shadow of Sauron has risen with increasing violence against the kingdom of Gondor. Our heroes have travelled southeast by ship from the Grey Havens at the request of the White Council, ready to aid the descendants of Númenor in their defense against the forces of Mordor. Upon reaching the port of Pelargir, they are greeted by Lord Alcaron, a nobleman from the city of Minas Tirith. Lord Alcaron has urgent information for Faramir, but he is frightened that the Enemy is after him. He asks the heroes to deliver a scroll to Faramir. The heroes agree when a band of ruffians appear, intent on intercepting the message...",
         "questDeck": [
-          "against-the-shadow/1901A",
-          "against-the-shadow/1901B",
-          "against-the-shadow/1902A",
-          "against-the-shadow/1902B",
-          "against-the-shadow/1903A",
-          "against-the-shadow/1903B"
+          "against-the-shadow/The-Leaping-Fish-Quest-1A",
+          "against-the-shadow/The-Leaping-Fish-Quest-1B",
+          "against-the-shadow/Fighting-in-the-Streets-2A",
+          "against-the-shadow/Fighting-in-the-Streets-2B",
+          "against-the-shadow/Escape-to-the-Quays-3A",
+          "against-the-shadow/Escape-to-the-Quays-3B"
         ],
         "activeLocation": {
           "type": "location",
@@ -165,14 +165,14 @@
         "name": "into-ithilien",
         "text": "Having reached the eaves of Ithilien, our heroes enter the green woodlands in search of Faramir, seeking to deliver to him the scroll of Lord Alcaron. There they are met by Celador, a ranger of Gondor, who informs the heroes that Faramir has taken his men to Cair Andros in anticipation of an assault against the island fortress. Celador offers to bring the heroes to Cair Andros by secret paths–after the rangers ambush a company of Southrons marching north on the Ithilien road. Grateful for Celador’s offer and unable to stand by while his men do battle, our heroes volunteer to fight alongside his rangers...",
         "questDeck": [
-          "against-the-shadow/2001A",
-          "against-the-shadow/2001B",
-          "against-the-shadow/2002A",
-          "against-the-shadow/2002B",
-          "against-the-shadow/2003A",
-          "against-the-shadow/2003B",
-          "against-the-shadow/2004A",
-          "against-the-shadow/2004B"
+          "against-the-shadow/Ambush-in-Ithilien-1A",
+          "against-the-shadow/Ambush-in-Ithilien-1B",
+          "against-the-shadow/Southron-Counter-attack-2A",
+          "against-the-shadow/Southron-Counter-attack-2B",
+          "against-the-shadow/The-Hidden-Way-3A",
+          "against-the-shadow/The-Hidden-Way-3B",
+          "against-the-shadow/Approaching-Cair-Andros-4A",
+          "against-the-shadow/Approaching-Cair-Andros-4B"
         ],
         "activeLocation": {
           "type": "location",
@@ -334,16 +334,16 @@
         "name": "the-siege-of-cair-andros",
         "text": "The island fortress of Cair Andros guards Gondor’s northernmost causeways over the Anduin. Our heroes reach the causeway and enter the fortress as skirmishers appear on the eastern shore. They find Faramir in the Citadel, and deliver to him the scroll of Lord Alcaron. Drums are heard, and horns, and the tramping of many feet. An army of Orcs and Southrons prepare a threepronged assault, and the heroes gird themselves for battle. For if Cair Andros falls, the doom of Gondor is nigh...",
         "questDeck": [
-          "against-the-shadow/2101A",
-          "against-the-shadow/2101B",
-          "against-the-shadow/2102A",
-          "against-the-shadow/2102B",
-          "against-the-shadow/2103A",
-          "against-the-shadow/2103B",
-          "against-the-shadow/2104A",
-          "against-the-shadow/2104B",
-          "against-the-shadow/2105A",
-          "against-the-shadow/2105B"
+          "against-the-shadow/The-Defense-1A",
+          "against-the-shadow/The-Defense-1B",
+          "against-the-shadow/Reinforcing-the-Banks-2A",
+          "against-the-shadow/Reinforcing-the-Banks-2B",
+          "against-the-shadow/Breakthrough-at-the-Approach-3A",
+          "against-the-shadow/Breakthrough-at-the-Approach-3B",
+          "against-the-shadow/Breakthrough-at-the-Citadel-4A",
+          "against-the-shadow/Breakthrough-at-the-Citadel-4B",
+          "against-the-shadow/The-Last-Battle-5A",
+          "against-the-shadow/The-Last-Battle-5B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -518,12 +518,12 @@
         "name": "the-stewards-fear",
         "text": "The heroes arrive in Minas Tirith with news of victory at Cair Andros and a message for Lord Alcaron from Faramir. Upon arriving at the city, they learn that Lord Alcaron is traveling on important business north in Anórien. Even so, the heroes are soon furtively summoned to the White Tower by none other than Denethor, the Steward of Gondor himself. Word has come to Denethor of the heroes’ bravery in the defense of Cair Andros, and he’s learned the heroes have the confidence of Lord Alcaron. In Denethor’s mind, such trusted new arrivals are perfectly suited for a special task of a clandestine nature.",
         "questDeck": [
-          "against-the-shadow/2201A",
-          "against-the-shadow/2201B",
-          "against-the-shadow/2202A",
-          "against-the-shadow/2202B",
-          "against-the-shadow/2203A",
-          "against-the-shadow/2203B"
+          "against-the-shadow/Conspiracy-1A",
+          "against-the-shadow/Conspiracy-1B",
+          "against-the-shadow/The-Grand-Design-2A",
+          "against-the-shadow/The-Grand-Design-2B",
+          "against-the-shadow/The-Confrontation-3A",
+          "against-the-shadow/The-Confrontation-3B"
         ],
         "activeLocation": null,
         "stagingArea": [],
@@ -730,12 +730,12 @@
         "name": "the-druadan-forest",
         "text": "The heroes have unmasked a dangerous conspiracy within the walls of Minas Tirith, but the nameless mastermind of the cabal managed to escape the city before his true identity was revealed. At the request of Denethor, the heroes have pursued the clever villain and his henchmen northward. The conspirators’ trail has lead them north beyond the Rammas Echor, and then west to the doorstep of the Drúadan Forest, an ancient land with a hostile reputation. Now our heroes move to track their quarry among its ancient trees and strange stones... ",
         "questDeck": [
-          "against-the-shadow/2301A",
-          "against-the-shadow/2301B",
-          "against-the-shadow/2302A",
-          "against-the-shadow/2302B",
-          "against-the-shadow/2303A",
-          "against-the-shadow/2303B"
+          "against-the-shadow/The-Pursuit-1A",
+          "against-the-shadow/The-Pursuit-1B",
+          "against-the-shadow/An-Untimely-End-2A",
+          "against-the-shadow/An-Untimely-End-2B",
+          "against-the-shadow/The-Passage-Out-3A",
+          "against-the-shadow/The-Passage-Out-3B"
         ],
         "activeLocation": null,
         "stagingArea": [],
@@ -898,10 +898,10 @@
         "name": "encounter-at-amon-din",
         "text": "Having escaped from the Drúadan Forest and witnessed the demise of the conspirators by the arrows of the Woses, the heroes have begun their journey back to Minas Tirith. In the morning of the second day, they awoke to a grim sight. Dozens of columns of smoke were rising across the hilly farmlands of Anórien. It seems death had crossed the Anduin after all.",
         "questDeck": [
-          "against-the-shadow/2401A",
-          "against-the-shadow/2401B",
-          "against-the-shadow/2402A",
-          "against-the-shadow/2402B"
+          "against-the-shadow/Savagery-of-the-Orcs-1A",
+          "against-the-shadow/Savagery-of-the-Orcs-1B",
+          "against-the-shadow/Protect-the-Villagers-2A",
+          "against-the-shadow/Protect-the-Villagers-2B"
         ],
         "activeLocation": {
           "type": "location",
@@ -1068,8 +1068,8 @@
         "name": "assault-on-sgiliath",
         "text": "After saving the villagers near Amon Dîn, the heroes have joined with Lord Alcaron to assist Lord Boromir’s forces in retaking Osgiliath. At the army encampment, you are thrilled to again meet Lord Faramir, and you are introduced to his brother Boromir, eldest son of Denethor and renowned hero of Gondor. Nestled on both sides of the Anduin lies old Osgiliath, a crossroads city bridging the great river. In the long war against Mordor, control of Osgiliath has been a critical piece. One that Boromir means to reclaim. ",
         "questDeck": [
-          "against-the-shadow/2501A",
-          "against-the-shadow/2501B"
+          "against-the-shadow/Retake-the-City-1A",
+          "against-the-shadow/Retake-the-City-1B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -1284,10 +1284,10 @@
         "name": "the-blood-of-gondor",
         "text": "In a great victory for Gondor, the city of Osgiliath has been retaken and the river Anduin is once more under the Steward’s control. Alongside the Lords Boromir, Faramir, and Alcaron, the heroes fought bravely to recapture the ancient city. With the defeated forces of orcs and evil men retreating eastward, Lord Alcaron had urged Boromir to pursue the scattered enemy. “Don’t let a single one of them return to foul the Pelennor again!” Alcaron pleaded. “We should hunt them. Pursue them until their black bones break on the mountains.” Flush with the confidence of victory and swayed by the nobleman’s passion, Boromir agreed and asked his brother to take on this endeavor with his rangers. Faramir reluctantly consented.",
         "questDeck": [
-          "against-the-shadow/2601A",
-          "against-the-shadow/2601B",
-          "against-the-shadow/2602A",
-          "against-the-shadow/2602B"
+          "against-the-shadow/The-Ambush-1A",
+          "against-the-shadow/The-Ambush-1B",
+          "against-the-shadow/Captured-2A",
+          "against-the-shadow/Captured-2B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -1454,12 +1454,12 @@
         "name": "the-morgul-vale",
         "text": "While pursuing the scattered enemy forces into Ithilien, Faramir’s company of rangers are ambushed by orcs near the old crossroads. During the ensuing fight, both Lord Faramir and Lord Alcaron are captured. At the thought of Denethor’s son in Sauron’s torture chambers, the heroes begin a desperate pursuit. Following frantic hours of tracking, they find themselves at the mouth of the dread Morgul Valley. As the Dead City comes into distant view, they have come upon their quarry at last. ",
         "questDeck": [
-          "against-the-shadow/2701A",
-          "against-the-shadow/2701B",
-          "against-the-shadow/2702A",
-          "against-the-shadow/2702B",
-          "against-the-shadow/2703A",
-          "against-the-shadow/2703B"
+          "against-the-shadow/The-Rearguard-1A",
+          "against-the-shadow/The-Rearguard-1B",
+          "against-the-shadow/The-Betrayal-2A",
+          "against-the-shadow/The-Betrayal-2B",
+          "against-the-shadow/The-Morgul-Rider-3A",
+          "against-the-shadow/The-Morgul-Rider-3B"
         ],
         "activeLocation": null,
         "stagingArea": [

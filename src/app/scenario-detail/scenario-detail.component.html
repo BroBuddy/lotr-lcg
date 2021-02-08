@@ -72,8 +72,8 @@
             </span>
 
             <span *ngFor="let quest of scenario.questDeck; let i = index; trackBy: trackByFn">
-              <img [src]="'/assets/img/quest/' + quest + '.jpg'"
-                   (mouseover)="zoomService.mouseover('/assets/img/quest/', quest + '.jpg', 'left', false)"
+              <img [src]="'/assets/img/quest/' + quest.image + '.jpg'"
+                   (mouseover)="zoomService.mouseover('/assets/img/quest/', quest.image + '.jpg', 'left', false)"
                    (mouseout)="zoomService.mouseout()"
                    width="105" alt="" hspace="5" vspace="5" />
             </span>

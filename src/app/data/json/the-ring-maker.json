@@ -9,12 +9,12 @@
         "name": "the-fords-of-isen",
         "text": "The heroes came upon the dead rider as the afternoon darkened and the rain threatened to turn to ice. They found him facedown on the old road where he lay still and broken among the yellowing grasses. Life had been hacked from his body with axes, nearly destroying the sigil of Rohan on his hauberk. Not far from him lay the remains of his horse, a proud Mearas slain by black-fletched arrows in its graceful neck. As they dismounted to prepare a simple cairn for the body, a gust of western wind suddenly carried the familiar clangor of steel and screams. The dead man’s killers had found new victims. Rain and aching bodies momentarily forgotten, the heroes remounted and urged their horses to speed. ",
         "questDeck": [
-          "the-ring-maker/2801A",
-          "the-ring-maker/2801B",
-          "the-ring-maker/2802A",
-          "the-ring-maker/2802B",
-          "the-ring-maker/2803A",
-          "the-ring-maker/2803B"
+          "the-ring-maker/Fight-at-the-Fords-1A",
+          "the-ring-maker/Fight-at-the-Fords-1B",
+          "the-ring-maker/Dunlending-Attack-2A",
+          "the-ring-maker/Dunlending-Attack-2B",
+          "the-ring-maker/Hold-the-Fords-3A",
+          "the-ring-maker/Hold-the-Fords-3B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -165,12 +165,12 @@
         "name": "to-catch-an-orc",
         "text": "Saruman received Gríma and his escort at the steps of Orthanc. The strange black tower rose coldly from the midst of Isengard’s luscious gardens. It’s ebon walls seemed out of place among the greenery of the vale and stood in stark contrast to Saruman’s brilliant white robes. Saruman, somehow, had already known about the affair at the ford. He lavished praise on the heroes for their rescue, and reassured Threol. The Dunlendings have grown daring of late, dear Captain.” The wizard spoke with a silky voice. It was a voice that enthralled, a voice that rung wiser than the wind, and its faint lilt was as encouraging as dawn itself. “Such an attack surely could not have been imagined until this ambush.”",
         "questDeck": [
-          "the-ring-maker/2901A",
-          "the-ring-maker/2901B",
-          "the-ring-maker/2902A",
-          "the-ring-maker/2902B",
-          "the-ring-maker/2903A",
-          "the-ring-maker/2903B"
+          "the-ring-maker/Orders-from-Orthanc-1A",
+          "the-ring-maker/Orders-from-Orthanc-1B",
+          "the-ring-maker/Searching-for-Mugash-2A",
+          "the-ring-maker/Searching-for-Mugash-2B",
+          "the-ring-maker/The-Wizards-Prize-3A",
+          "the-ring-maker/The-Wizards-Prize-3B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -334,12 +334,12 @@
         "name": "into-fangorn",
         "text": "Mugash was free and running. The sickness lingered in his body, but he savored its malevolent presence. Because of it, his tormentors had thought him near death and loosened his bonds. The fools had even fed him. Mugash’s arms and legs stung. His joints were swollen and throbbing where the ropes had tied him to the poles. His limbs had been useless the first few miles of his escape, and he’d crawled like a worm down the mountainside, pushing himself forward with shoulders and hips. The great Orc had laughed at the pain. His way, the way of the Uruk, was not one of stealth and silence, but last night on the mountainside, stealth and silence had been his closest friends. He flexed his hands. Through the pain he felt strength returning. He had outwitted the hated bright-eyed humans, and now he was free. ",
         "questDeck": [
-          "the-ring-maker/3001A",
-          "the-ring-maker/3001B",
-          "the-ring-maker/3002A",
-          "the-ring-maker/3002B",
-          "the-ring-maker/3003A",
-          "the-ring-maker/3003B"
+          "the-ring-maker/Into-the-Woods-1A",
+          "the-ring-maker/Into-the-Woods-1B",
+          "the-ring-maker/Escape-from-Fangorn-2A",
+          "the-ring-maker/Escape-from-Fangorn-2B",
+          "the-ring-maker/The-Angry-Forest-3A",
+          "the-ring-maker/The-Angry-Forest-3B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -494,12 +494,12 @@
         "name": "the-dunland-trap",
         "text": "In the circle of Isengard, the heroes were preparing themselves for the journey to Tharbad. The leader of the White Council, Saruman, had tasked them with an important quest: to find the hidden forge of Celebrimbor, the master Elf-smith who forged Rings of Power in the Second Age. The Wizard believed that knowledge of Celebrimbor’s secret forge could be learned from a Dwarf who they were to meet in Tharbad. The heroes were tightening their belts and shouldering their bags when Saruman descended the stairs of Orthanc to wish them farewell. This gold should be sufficient to convince the Dwarf, Nalir, to sell you his map, the Wizard said as he handed a heavy purse to the heroes. Guard it well. For the location of Celebrimbor’s forge is a prize beyond worth, and we dare not let the servants of the Enemy find it in our stead.",
         "questDeck": [
-          "the-ring-maker/3101A",
-          "the-ring-maker/3101B",
-          "the-ring-maker/3102A",
-          "the-ring-maker/3102B",
-          "the-ring-maker/3103A",
-          "the-ring-maker/3103B"
+          "the-ring-maker/The-Road-to-Tharbad-1A",
+          "the-ring-maker/The-Road-to-Tharbad-1B",
+          "the-ring-maker/A-Well-Laid-Trap-2A",
+          "the-ring-maker/A-Well-Laid-Trap-2B",
+          "the-ring-maker/No-Way-Out-3A",
+          "the-ring-maker/No-Way-Out-3B"
         ],
         "activeLocation": {
           "type": "location",
@@ -694,16 +694,17 @@
         "name": "the-three-trials",
         "text": "The heroes were bound hand and foot inside a wood lodge of the Dunlendings. Outside they could hear the warriors of the Boar Clan celebrating their victory, when a large Dunlending entered. It was the leader of the war-party that assaulted them, and the same Wild Man who ordered them taken prisoner. He approached the heroes until he stood towering over them. The war-chief stared intently at the heroes, holding the totemic amulet taken from their baggage. 'I am Turch, chieftain of the Boar Clan. Every ten years, an amulet like this is given to a youth of great promise,' he began. 'The gift marks the height of his manhood and signals his worthiness to undertake the three trials.' His eyes grew distant, and for a moment sadness washed over his stern face. Then, with a deep breath he hardened h his face and continued, 'This amulet was given to my son.'",
         "questDeck": [
-          "the-ring-maker/3201A",
-          "the-ring-maker/3201B",
-          "the-ring-maker/3202A",
-          "the-ring-maker/3202B",
-          "the-ring-maker/3202A2",
-          "the-ring-maker/3202B2",
-          "the-ring-maker/3202A3",
-          "the-ring-maker/3202B3",
-          "the-ring-maker/3203A",
-          "the-ring-maker/3203B"],
+          "the-ring-maker/The-Trials-Begin-1A",
+          "the-ring-maker/The-Trials-Begin-1B",
+          "the-ring-maker/The-Trial-of-Strength-2A",
+          "the-ring-maker/The-Trial-of-Strength-2B",
+          "the-ring-maker/The-Trial-of-Perseverance-2A",
+          "the-ring-maker/The-Trial-of-Perseverance-2B",
+          "the-ring-maker/The-Trial-of-Intuition-2A",
+          "the-ring-maker/The-Trial-of-Intuition-2B",
+          "the-ring-maker/The-Antlered-Crown-3A",
+          "the-ring-maker/The-Antlered-Crown-3B"
+        ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [
@@ -861,10 +862,10 @@
         "name": "trouble-in-tharbad",
         "text": "Looking at Tharbad, the heroes were dubious. The river town was little more than a haven of freelancers and highwaymen, filled with dilapidated buildings amongst ruined and crumbling causeways. As soon as they entered the ancient city, they inquired with several townsfolk to discover where they might find Nalir. In due time, the heroes were pointed in the direction of a patched and ramshackle tavern, The Empty Mug. Once inside, the heroes found the Dwarf they sought sitting alone with a tankard of ale. His appearance did little to inspire confidence in the heroes, but there was a glint in his eyes when they spoke of the map that revealed a cunning mind at work. 'Aye, I have the map you seek,' he said, wiping the ale from his mouth. 'However…' he continued slowly, 'I sold it to a man earlier today, name of Bellach. A shady looking character, he was. Not the sort of man to take ‘no’ for an answer. But he offered a fair price, even if he was foul about it. I’m to meet him here at sundown to make the exchange... Unless you can offer a better price?' Nalir punctuated his question with a sly grin.",
         "questDeck": [
-          "the-ring-maker/3301A",
-          "the-ring-maker/3301B",
-          "the-ring-maker/3302A",
-          "the-ring-maker/3302B"
+          "the-ring-maker/Double-Dealings-1A",
+          "the-ring-maker/Double-Dealings-1B",
+          "the-ring-maker/Escape-from-Tharbad-2A",
+          "the-ring-maker/Escape-from-Tharbad-2B"
         ],
         "activeLocation": {
           "type": "location",
@@ -1039,14 +1040,22 @@
         "name": "the-nin-in-eilph",
         "text": "With Bellach’s Orcs scouring the country around Tharbad looking for the Dwarf, Nalir, the heroes had chosen to flee with him into the Nîn-in-Eilph, a vast swampland that had been undisturbed for ages. By taking this path the heroes hoped they would throw the Orcs off their trail and come to Hollin on the other side. But after wandering for a day through the pathless marsh, the heroes were growing tired and Nalir’s complaints were getting louder. 'I told you this was a bad idea,' Nalir grumbled as he struggled through the marsh and sank to his chest. 'I don’t like to get closer to water than the riverbank. Dwarves don’t swim, you see.” Despite the roguish Dwarf’s protests, the heroes trudged on. The mission they had undertaken for Saruman to find Celebrimbor’s forge was important, and all the more urgent now that the Enemy was searching for it too. ",
         "questDeck": [
-          "the-ring-maker/3401A",
-          "the-ring-maker/3401B",
-          "the-ring-maker/3402A",
-          "the-ring-maker/3402B",
-          "the-ring-maker/3403A",
-          "the-ring-maker/3403B",
-          "the-ring-maker/3404A",
-          "the-ring-maker/3404B"
+          "the-ring-maker/Fleeing-from-Tharbad-1A",
+          "the-ring-maker/Fleeing-from-Tharbad-1B",
+          "the-ring-maker/Through-the-Marsh-No-End-in-Sight-2A",
+          "the-ring-maker/Through-the-Marsh-No-End-in-Sight-2B",
+          "the-ring-maker/Through-the-Marsh-A-Weary-Passage-2A",
+          "the-ring-maker/Through-the-Marsh-A-Weary-Passage-2B",
+          "the-ring-maker/Through-the-Marsh-A-Forgotten-Land-2A",
+          "the-ring-maker/Through-the-Marsh-A-Forgotten-Land-2B",
+          "the-ring-maker/Lost-in-the-Swanfleet-Impassable-Marshland-3A",
+          "the-ring-maker/Lost-in-the-Swanfleet-Impassable-Marshland-3B",
+          "the-ring-maker/Lost-in-the-Swanfleet-A-Treacherous-Swamp-3A",
+          "the-ring-maker/Lost-in-the-Swanfleet-A-Treacherous-Swamp-3B",
+          "the-ring-maker/Lost-in-the-Swanfleet-Creatures-of-a-Forgotten-Age-3A",
+          "the-ring-maker/Lost-in-the-Swanfleet-Creatures-of-a-Forgotten-Age-3B",
+          "the-ring-maker/Out-of-the-Swamp-4A",
+          "the-ring-maker/Out-of-the-Swamp-4B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -1186,10 +1195,10 @@
         "name": "celebrimbors-secret",
         "text": "Orcs were crawling over every stone and into every hole in the ruins of Ost-in-Edhil when the heroes arrived at the edge of the valley. From their vantage point, they could see the man, Bellach, as he ordered the search. 'I should’ve guessed that scum would get here first,' hissed the Dwarf. 'He must’ve led the Orcs here while we were lost in that swamp.' The heroes looked on the scene with dismay. After all their travels, it seemed they had come too late to accomplish their mission. Then Nalir noticed something that made him growl, 'He’s got the other half of my map with him! Look, he’s using it to direct the Orcs.' Suddenly the Dwarf started laughing, 'That fool! He’ll never find the hidden chamber with just half. He’s searching in the wrong spot!'",
         "questDeck": [
-          "the-ring-maker/3501A",
-          "the-ring-maker/3501B",
-          "the-ring-maker/3502A",
-          "the-ring-maker/3502B"
+          "the-ring-maker/The-Ruins-of-Ost-in-Edhil-1A",
+          "the-ring-maker/The-Ruins-of-Ost-in-Edhil-1B",
+          "the-ring-maker/The-Enemys-Servant-2A",
+          "the-ring-maker/The-Enemys-Servant-2B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -1400,12 +1409,12 @@
         "name": "the-antlered-crown",
         "text": "The signs of war littered the hills of Dunland. Everywhere the heroes looked there was smoke and blood and fire. Across a wide valley, the bodies of Dunlending warriors lay slain in the dirt. Some wore the trappings of the Boar tribe, others were dressed with Raven feathers. As the heroes searched the battlefield for survivors, they were alerted to an approaching troop by the tromp of marching feet. Looking in the direction of the sound, they descried the banners of the Boar Clan flying above an army of Wild Men. Striding proudly at the front was chieftain Turch wearing the Antlered Crown. He halted when he saw the heroes. “Well met,” said the chief with a smile. “I am glad to see you again, but you cannot travel any further; our country is at war.” His face was stern, but his eyes were weary",
         "questDeck": [
-          "the-ring-maker/3601A",
-          "the-ring-maker/3601B",
-          "the-ring-maker/3602A",
-          "the-ring-maker/3602B",
-          "the-ring-maker/3603A",
-          "the-ring-maker/3603B"
+          "the-ring-maker/Battle-for-Dunland-1A",
+          "the-ring-maker/Battle-for-Dunland-1B",
+          "the-ring-maker/The-Raven-Clan-2A",
+          "the-ring-maker/The-Raven-Clan-2B",
+          "the-ring-maker/The-Last-Stage-3A",
+          "the-ring-maker/The-Last-Stage-3B"
         ],
         "activeLocation": {
           "type": "location",

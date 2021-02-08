@@ -574,14 +574,219 @@
       },
       {
         "difficult": 7,
-        "title": "",
-        "name": "",
-        "text": "",
-        "questDeck": [],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "title": "The Wastes of Eriador",
+        "name": "the-wastes-of-eriador",
+        "text": "The battle at Fornost was fierce and bitter, and left many of the Dúnedain wounded. The sight of the wraiths had very nearly broken their spirit, and had it not been for the valiant efforts of Iârion’s companions, the Rangers would not have withstood the attack. Once dawn had finally arrived, the Dúnedain recuperated their strength, shoring up the defenses of Deadmen’s Dike and tending to the wounded. Amarthiúl had other concerns. Iârion had been captured during the battle by the Wraith Thaurdir, and there was still time to come to his aid. The heroes who had helped defend Fornost vowed to rescue Iârion as well, and so their hunt began. It didn’t take long for them to find the enemy’s tracks leading northeast into the hills",
+        "questDeck": [
+          "angmar-awakened/Across-the-Wastes-1A",
+          "angmar-awakened/Across-the-Wastes-1B",
+          "angmar-awakened/Howling-at-Night-2A",
+          "angmar-awakened/Howling-at-Night-2B",
+          "angmar-awakened/Battle-with-the-Pack-3A",
+          "angmar-awakened/Battle-with-the-Pack-3B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "angmar-awakened/Shrouded-Hills"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Amarthiul"
+          },
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Daybreak"
+          },
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Nightfall"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "angmar-awakened/Rugged-Country"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Rugged-Country"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Rugged-Country"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Shrouded-Hills"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Pressing-Needs"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Pressing-Needs"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Weight-of-Responsibility"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Weight-of-Responsibility"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Lost-in-the-Wilderness"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Freezing-Blast"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Freezing-Blast"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Make-Camp"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Northern-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Northern-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Northern-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Northern-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Blood-thirsty-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Blood-thirsty-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Hunting-Pack"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Hunting-Pack"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/White-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/White-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/White-Warg"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Wolf-of-Angmar"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Wolf-of-Angmar"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Wolf-of-Angmar"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Eriador-Wastes"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Eriador-Wastes"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Wargs-Den"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Wargs-Den"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/North-Downs"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/North-Downs"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/North-Downs"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Sudden-Darkness"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Sudden-Darkness"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Predatory-Wolves"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Predatory-Wolves"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Predatory-Wolves"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Pack-Leader"
+          }
+        ]
       },
       {
         "difficult": 4,

@@ -9,12 +9,12 @@
         "name": "into-the-pit",
         "text": "The heroes enter the mines of Moria at the behest of the White Council, carrying an important message to Balin. Balin recently led a group of Dwarves back into Moria to establish a colony in the ancient halls of his ancestors. He has not been heard from in some time. ",
         "questDeck": [
-          "dwarrowdelf/1001A",
-          "dwarrowdelf/1001B",
-          "dwarrowdelf/1002A",
-          "dwarrowdelf/1002B",
-          "dwarrowdelf/1003A",
-          "dwarrowdelf/1003B"
+          "dwarrowdelf/Entering-the-Mines-1A",
+          "dwarrowdelf/Entering-the-Mines-1B",
+          "dwarrowdelf/Goblin-Patrol-2A",
+          "dwarrowdelf/Goblin-Patrol-2B",
+          "dwarrowdelf/A-Way-Up-3A",
+          "dwarrowdelf/A-Way-Up-3B"
         ],
         "activeLocation": {
           "type": "location",
@@ -244,10 +244,10 @@
         "name": "the-seventh-level",
         "text": "Based on information from a dying Goblin, the heroes have made their way to the Seventh Level of Moria, still searching for any signs of Balin’s colony. The Seventh Level holds the Chamber of Records, and it is there that the Goblin said they would find Balin. An ancient tome also seems to hold clues as to the where-abouts of the colony. ",
         "questDeck": [
-          "dwarrowdelf/1101A",
-          "dwarrowdelf/1101B",
-          "dwarrowdelf/1102A",
-          "dwarrowdelf/1102B"
+          "dwarrowdelf/Search-for-the-Chamber-1A",
+          "dwarrowdelf/Search-for-the-Chamber-1B",
+          "dwarrowdelf/The-Fate-of-Balin-2A",
+          "dwarrowdelf/The-Fate-of-Balin-2B"
         ],
         "activeLocation": null,
         "stagingArea": [],
@@ -402,14 +402,22 @@
         "name": "flight-from-moria",
         "text": "Balin’s colony ended in death and darkness. After paying their respects at his tomb, the heroes fought their way out of the Goblin infested Seventh Level and made their way down toward the gate. But exiting Moria will not be easy, for a shadowy form masses at the end of the hall, and fear and terror go before it. The heroes must escape Moria before it is too late.",
         "questDeck": [
-          "dwarrowdelf/1201A",
-          "dwarrowdelf/1201B",
-          "dwarrowdelf/1202A",
-          "dwarrowdelf/1202B",
-          "dwarrowdelf/1202A7",
-          "dwarrowdelf/1202B7",
-          "dwarrowdelf/1202A8",
-          "dwarrowdelf/1202B8"
+          "dwarrowdelf/A-Presence-in-the-Dark-1A",
+          "dwarrowdelf/A-Presence-in-the-Dark-1B",
+          "dwarrowdelf/Search-for-an-Exit-Heading-Down-2A",
+          "dwarrowdelf/Search-for-an-Exit-Heading-Down-2B",
+          "dwarrowdelf/Search-for-an-Exit-Heading-Up-2A",
+          "dwarrowdelf/Search-for-an-Exit-Heading-Up-2B",
+          "dwarrowdelf/Search-for-an-Exit-A-Wrong-Turn-2A",
+          "dwarrowdelf/Search-for-an-Exit-A-Wrong-Turn-2B",
+          "dwarrowdelf/Search-for-an-Exit-Narrow-Paths-2A",
+          "dwarrowdelf/Search-for-an-Exit-Narrow-Paths-2B",
+          "dwarrowdelf/Search-for-an-Exit-Hasty-Council-2A",
+          "dwarrowdelf/Search-for-an-Exit-Hasty-Council-2B",
+          "dwarrowdelf/Search-for-an-Exit-Blocked-By-Shadow-2A",
+          "dwarrowdelf/Search-for-an-Exit-Blocked-By-Shadow-2B",
+          "dwarrowdelf/Search-for-an-Exit-Escape-from-Darkness-2A",
+          "dwarrowdelf/Search-for-an-Exit-Escape-from-Darkness-2B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -629,12 +637,12 @@
         "name": "the-redhorn-gate",
         "text": "Arwen wishes to visit her father Elrond, and Celeborn has bid the heroes to escort her over the Misty Mountains and safely to Rivendell. But the season grows late, and a sudden chill has descended on the three peaks that guard the Redhorn pass.",
         "questDeck": [
-          "dwarrowdelf/1301A",
-          "dwarrowdelf/1301B",
-          "dwarrowdelf/1302A",
-          "dwarrowdelf/1302B",
-          "dwarrowdelf/1303A",
-          "dwarrowdelf/1303B"
+          "dwarrowdelf/Up-the-Pass-1A",
+          "dwarrowdelf/Up-the-Pass-1B",
+          "dwarrowdelf/Snowdrifts-2A",
+          "dwarrowdelf/Snowdrifts-2B",
+          "dwarrowdelf/The-Mountains-Peaks-3A",
+          "dwarrowdelf/The-Mountains-Peaks-3B"
         ],
         "activeLocation": null,
         "stagingArea": [
@@ -826,12 +834,12 @@
         "name": "road-to-rivendell",
         "text": "The heroes continue their journey northward to Rivendell, escorting Arwen to visit her father Elrond. But the road is long, and Orcs ambush the party along the way. With enemies hounding the heroes’ steps, the weather drives the party ever closer to the looming mountains, and the dangers they hold.",
         "questDeck": [
-          "dwarrowdelf/1401A",
-          "dwarrowdelf/1401B",
-          "dwarrowdelf/1402A",
-          "dwarrowdelf/1402B",
-          "dwarrowdelf/1403A",
-          "dwarrowdelf/1403B"
+          "dwarrowdelf/Along-the-Misty-Mountains-1A",
+          "dwarrowdelf/Along-the-Misty-Mountains-1B",
+          "dwarrowdelf/Orc-Outpost-2A",
+          "dwarrowdelf/Orc-Outpost-2B",
+          "dwarrowdelf/Approaching-Rivendell-3A",
+          "dwarrowdelf/Approaching-Rivendell-3B"
         ],
         "activeLocation": null,
         "stagingArea": [],
@@ -1074,10 +1082,10 @@
         "name": "the-watcher-in-the-water",
         "text": "Elrond is disturbed by the report of Arwen’s journey to Rivendell. He has requsted that the heroes discover the source of the increased Orc activity along the Misty Mountains. This mission has led the party South to Moria, but the Doors of Durin are blocked by a deep, dark lake. As the heroes make their way around its waters, an ancient evil stirs from within its depths. A desperate battle begins, and the heroes must drive the creature away or find safety in the mines.",
         "questDeck": [
-          "dwarrowdelf/1501A",
-          "dwarrowdelf/1501B",
-          "dwarrowdelf/1502A",
-          "dwarrowdelf/1502B"
+          "dwarrowdelf/To-the-West-door-1A",
+          "dwarrowdelf/To-the-West-door-1B",
+          "dwarrowdelf/The-Seething-Lake-2A",
+          "dwarrowdelf/The-Seething-Lake-2B"
         ],
         "activeLocation": null,
         "stagingArea": [],
@@ -1272,10 +1280,10 @@
         "name": "the-long-dark",
         "text": "The Mines of Moria are a dark labyrinth of narrow tunnels and wide passages, natural caves and impressive caverns of Dwarven workmanship. The heroes must make their way eastward, discovering what they can about the Orcs, and perhaps even meeting up with Balin for more information. But it is easy to get lost in the darkness… ",
         "questDeck": [
-          "dwarrowdelf/1601A",
-          "dwarrowdelf/1601B",
-          "dwarrowdelf/1602A",
-          "dwarrowdelf/1602B"
+          "dwarrowdelf/Journey-in-the-Black-Pit-1A",
+          "dwarrowdelf/Journey-in-the-Black-Pit-1B",
+          "dwarrowdelf/Continuing-Eastward-2A",
+          "dwarrowdelf/Continuing-Eastward-2B"
         ],
         "activeLocation": null,
         "stagingArea": [],
@@ -1534,16 +1542,22 @@
         "name": "foundations-of-stone",
         "text": "The walls are weeping water, and the air grows damp. A low rumble sounds from above, accompanied by the sound of rushing water. There are underground waterways in Moria that lead to deep darkness, and who knows what else…",
         "questDeck": [
-          "dwarrowdelf/1701A",
-          "dwarrowdelf/1701B",
-          "dwarrowdelf/1702A",
-          "dwarrowdelf/1702B",
-          "dwarrowdelf/1703A",
-          "dwarrowdelf/1703B",
-          "dwarrowdelf/1704A",
-          "dwarrowdelf/1704B",
-          "dwarrowdelf/1705A",
-          "dwarrowdelf/1705B"
+          "dwarrowdelf/The-Dripping-Walls-1A",
+          "dwarrowdelf/The-Dripping-Walls-1B",
+          "dwarrowdelf/The-Waters-Edge-2A",
+          "dwarrowdelf/The-Waters-Edge-2B",
+          "dwarrowdelf/Washed-Away-3A",
+          "dwarrowdelf/Washed-Away-3B",
+          "dwarrowdelf/Below-the-Mines-Sheltered-Rocks-4A",
+          "dwarrowdelf/Below-the-Mines-Sheltered-Rocks-4B",
+          "dwarrowdelf/Below-the-Mines-The-Endless-Caves-4A",
+          "dwarrowdelf/Below-the-Mines-The-Endless-Caves-4B",
+          "dwarrowdelf/Below-the-Mines-The-Shivering-Bank-4A",
+          "dwarrowdelf/Below-the-Mines-The-Shivering-Bank-4B",
+          "dwarrowdelf/Below-the-Mines-Old-One-Lair-4A",
+          "dwarrowdelf/Below-the-Mines-Old-One-Lair-4B",
+          "dwarrowdelf/Out-of-the-Depths-5A",
+          "dwarrowdelf/Out-of-the-Depths-5B"
         ],
         "activeLocation": null,
         "stagingArea": [],
@@ -1822,12 +1836,12 @@
         "name": "shadow-and-flame",
         "text": "The heroes have escaped from the darkness below the mines, and find themselves in the Third Deep, near the East-gate. But as Orcs begin to swarm, a foe more terrible towers before them. Durin's Bane has risen from the depths, to stalk the halls of the Dwarves once more…",
         "questDeck": [
-          "dwarrowdelf/1801A",
-          "dwarrowdelf/1801B",
-          "dwarrowdelf/1802A",
-          "dwarrowdelf/1802B",
-          "dwarrowdelf/1803A",
-          "dwarrowdelf/1803B"
+          "dwarrowdelf/Nearing-the-Gate-1A",
+          "dwarrowdelf/Nearing-the-Gate-1B",
+          "dwarrowdelf/The-Rear-Guard-2A",
+          "dwarrowdelf/The-Rear-Guard-2B",
+          "dwarrowdelf/Last-Lord-of-Moria-3A",
+          "dwarrowdelf/Last-Lord-of-Moria-3B"
         ],
         "activeLocation": null,
         "stagingArea": [

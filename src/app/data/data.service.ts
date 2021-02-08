@@ -108,6 +108,15 @@ export class DataService {
       scenarioItem.activeLocation.progress = 0;
     }
 
+    scenarioItem.questDeck = scenarioItem.questDeck.map(item => {
+      const quest = {
+        image: item,
+        progress: 0
+      };
+
+      return quest;
+    });
+
     this.scenario.next(scenarioItem);
     this.encounterDeck.next(scenarioItem.encounterDeck);
     this.activeLocation.next(scenarioItem.activeLocation);

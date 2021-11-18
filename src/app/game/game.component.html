@@ -99,7 +99,8 @@
                 </div>
 
                 <div fxFlex="15" fxLayoutAlign="end">
-                    <div *ngIf="data.questDeck?.length >= 1">
+                    {{ data.questDeck | json }}
+                    <div *ngIf="data.questDeck?.length">
                         <span *ngFor="let quest of data.questDeck; let i = index; trackBy: trackByFn">
                           <img [src]="'/assets/img/quest/' + quest.image + '.jpg'"
                                (mouseover)="zoomService.mouseover('/assets/img/quest/', quest.image + '.jpg', 'left', false)"

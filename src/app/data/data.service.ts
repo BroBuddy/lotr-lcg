@@ -103,7 +103,12 @@ export class DataService {
         progress: 0
       };
 
-      return quest;
+      if (item.progress === 0) {
+        return item;
+      } else {
+        return quest;
+      }
+
     });
 
     this.scenario.next(scenarioItem);

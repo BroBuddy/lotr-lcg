@@ -1,5 +1,5 @@
 <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid" *ngIf="scenario$ | async as scenario">
-    <div fxFlex="100">
+    <div fxFlex="33">
         <mat-card>
             <mat-card-header>
                 <mat-card-title>
@@ -27,70 +27,86 @@
             </mat-card-header>
 
             <mat-card-content>
-                <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-                    <div fxFlex="35">
-                        <button mat-button color="warn" [disabled]="!scenario.encounterDeck?.length" (click)="onStartQuest()">
-                            <mat-icon>wifi_protected_setup</mat-icon>
-                            Shuffle &amp; Start
-                        </button>
+                <button mat-button color="warn" [disabled]="!scenario.encounterDeck?.length" (click)="onStartQuest()">
+                    <mat-icon>wifi_protected_setup</mat-icon>
+                    Shuffle &amp; Start
+                </button>
 
-                        <p>{{ scenario.text }}</p>
+                <p>{{ scenario.text }}</p>
 
-                        <button mat-button color="accent" [disabled]="!speechSupport" (click)="onStartReading()">
-                            <mat-icon>play_circle_outline</mat-icon>
-                            Read
-                        </button>
+                <button mat-button color="accent" [disabled]="!speechSupport" (click)="onStartReading()">
+                    <mat-icon>play_circle_outline</mat-icon>
+                    Read
+                </button>
 
-                        <button mat-button color="accent" [disabled]="!speechSupport" (click)="onPauseReading()">
-                            <mat-icon>pause_circle_outline</mat-icon>
-                            Stop
-                        </button>
-                    </div>
+                <button mat-button color="accent" [disabled]="!speechSupport" (click)="onPauseReading()">
+                    <mat-icon>pause_circle_outline</mat-icon>
+                    Stop
+                </button>
+            </mat-card-content>
+        </mat-card>
+    </div>
 
-                    <div fxFlex="50">
-                        <span *ngFor="let campaign of scenario.campaignDeck; let i = index; trackBy: trackByFn">
-                          <img [src]="'/assets/img/campaign/' + campaign + '.png'"
-                               (mouseover)="zoomService.mouseover('/assets/img/campaign/', campaign + '.png', 'left')"
-                               (mouseout)="zoomService.mouseout()"
-                               width="150" alt="" hspace="5" vspace="5" />
-                        </span>
+    <div fxFlex="45">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>
+                    Quest deck
+                </mat-card-title>
+            </mat-card-header>
 
-                        <span *ngFor="let quest of scenario.questDeck; let i = index; trackBy: trackByFn">
-                          <img [src]="'/assets/img/quest/' + quest.image + '.jpg'"
-                               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest.image + '.jpg', 'left', false)"
-                               (mouseout)="zoomService.mouseout()"
-                               width="150" alt="" hspace="5" vspace="5" />
-                        </span>
-                    </div>
+            <mat-card-content>
+                <span *ngFor="let campaign of scenario.campaignDeck; let i = index; trackBy: trackByFn">
+                  <img [src]="'/assets/img/campaign/' + campaign + '.png'"
+                       (mouseover)="zoomService.mouseover('/assets/img/campaign/', campaign + '.png', 'left')"
+                       (mouseout)="zoomService.mouseout()"
+                       width="150" alt="" hspace="5" vspace="5" />
+                </span>
 
-                    <div fxFlex="15">
-                        <mat-list role="list">
-                            <mat-list-item role="listitem">
-                                {{ scenario.questDeck.length }}x
-                                <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">note</mat-icon>
-                                Quest deck
-                            </mat-list-item>
+                <span *ngFor="let quest of scenario.questDeck; let i = index; trackBy: trackByFn">
+                  <img [src]="'/assets/img/quest/' + quest.image + '.jpg'"
+                       (mouseover)="zoomService.mouseover('/assets/img/quest/', quest.image + '.jpg', 'left', false)"
+                       (mouseout)="zoomService.mouseout()"
+                       width="150" alt="" hspace="5" vspace="5" />
+                </span>
+            </mat-card-content>
+        </mat-card>
+    </div>
 
-                            <mat-list-item role="listitem">
-                                {{ scenario.encounterDeck.length }}x
-                                <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">file_copy</mat-icon>
-                                Encounter deck
-                            </mat-list-item>
+    <div fxFlex="22">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>
+                    Card overview
+                </mat-card-title>
+            </mat-card-header>
 
-                            <mat-list-item role="listitem">
-                                {{ scenario.stagingArea.length }}x
-                                <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">note_add</mat-icon>
-                                Staging area
-                            </mat-list-item>
+            <mat-card-content>
+                <mat-list role="list">
+                    <mat-list-item role="listitem">
+                        {{ scenario.questDeck.length }}x
+                        <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">note</mat-icon>
+                        Quest cards
+                    </mat-list-item>
 
-                            <mat-list-item role="listitem">
-                                {{ scenario.discardPile.length }}x
-                                <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">restore_page</mat-icon>
-                                Discard pile
-                            </mat-list-item>
-                        </mat-list>
-                    </div>
-                </div>
+                    <mat-list-item role="listitem">
+                        {{ scenario.encounterDeck.length }}x
+                        <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">file_copy</mat-icon>
+                        Encounter cards
+                    </mat-list-item>
+
+                    <mat-list-item role="listitem">
+                        {{ scenario.stagingArea.length }}x
+                        <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">note_add</mat-icon>
+                        Cards @ staging area
+                    </mat-list-item>
+
+                    <mat-list-item role="listitem">
+                        {{ scenario.discardPile.length }}x
+                        <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">restore_page</mat-icon>
+                        Cards @ discard pile
+                    </mat-list-item>
+                </mat-list>
             </mat-card-content>
         </mat-card>
     </div>

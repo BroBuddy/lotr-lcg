@@ -11,7 +11,6 @@ import { AppComponent } from './app.component';
 import {DataService} from './data/data.service';
 import { HeaderComponent } from './header/header.component';
 import { MaterialModule } from './material.module';
-import {ScenarioDetailComponent} from './scenario-detail/scenario-detail.component';
 import {HomeComponent} from './home/home.component';
 import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
@@ -26,7 +25,6 @@ import {CardsModalComponent} from './cards-modal/cards-modal.component';
 import {HistoryModalComponent} from './history-modal/history-modal.component';
 import {ScenarioComponent} from './scenario/scenario.component';
 import {ThreatTrackerComponent} from './threat-tracker/threat-tracker.component';
-import {CampaignComponent} from './campaign/campaign.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +33,6 @@ import {CampaignComponent} from './campaign/campaign.component';
     HomeComponent,
     PacksComponent,
     GameComponent,
-    ScenarioDetailComponent,
     GlossaryComponent,
     CardComponent,
     CardsComponent,
@@ -46,8 +43,7 @@ import {CampaignComponent} from './campaign/campaign.component';
     GlossaryModalComponent,
     HistoryModalComponent,
     ScenarioComponent,
-    ThreatTrackerComponent,
-    CampaignComponent
+    ThreatTrackerComponent
   ],
   imports: [
     BrowserModule,

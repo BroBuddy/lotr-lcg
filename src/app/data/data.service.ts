@@ -9,7 +9,6 @@ import Dwarrowdelf from './json/dwarrowdelf.json';
 import AgainstTheShadow from './json/against-the-shadow.json';
 import TheRingMaker from './json/the-ring-maker.json';
 import AngmarAwakened from './json/angmar-awakened.json';
-import LordOfTheRings from './json/lord-of-the-rings.json';
 
 @Injectable({
   providedIn: 'root'
@@ -43,12 +42,6 @@ export class DataService {
   private questDeck = new BehaviorSubject<any[]>([]);
   readonly questDeck$ = this.questDeck.asObservable();
 
-  private campaign = new BehaviorSubject<any>(null);
-  readonly campaign$ = this.campaign.asObservable();
-
-  private campaignDeck = new BehaviorSubject<any[]>([]);
-  readonly campaignDeck$ = this.campaignDeck.asObservable();
-
   private history = new BehaviorSubject<any[]>([]);
   readonly history$ = this.history.asObservable();
 
@@ -59,7 +52,6 @@ export class DataService {
 
   fetchData(): void {
     this.cycles.next(of(ShadowsOfMirkwood.concat(Dwarrowdelf).concat(AgainstTheShadow).concat(TheRingMaker).concat(AngmarAwakened)));
-    this.campaign.next(of(LordOfTheRings));
   }
 
   setScenario(cycle: string, scenario: string, shuffle?: boolean): void {
@@ -80,9 +72,6 @@ export class DataService {
         break;
       case 'angmar-awakened':
         scenarioData = AngmarAwakened;
-        break;
-      case 'lord-of-the-rings':
-        scenarioData = LordOfTheRings;
         break;
     }
 
@@ -122,7 +111,6 @@ export class DataService {
     this.activeLocation.next(scenarioItem.activeLocation);
     this.stagingArea.next(scenarioItem.stagingArea);
     this.discardPile.next(scenarioItem.discardPile);
-    this.campaignDeck.next(scenarioItem.campaignDeck);
     this.questDeck.next(scenarioItem.questDeck);
     this.engagingArea.next([]);
     this.history.next([]);

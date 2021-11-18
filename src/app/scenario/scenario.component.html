@@ -5,11 +5,7 @@
                 <mat-card-title>
                     {{ scenario.title }}
 
-                    <button mat-button
-                            type="button"
-                            [matTooltip]="scenario.difficult"
-                            [matTooltipPosition]="'right'"
-                            [color]="scenario.difficult <= 4 ? 'accent' : (scenario.difficult >= 7 ? 'primary' : 'warn')">
+                    <span [ngStyle]="{ 'margin-left': '25px', 'color': scenario.difficult <= 4 ? '#DAF7A6' : (scenario.difficult >= 7 ? '#900C3F' : '#FF5733') }">
                         <ng-container [ngSwitch]="scenario.difficult">
                             <ng-container *ngSwitchCase="1">Very easy</ng-container>
                             <ng-container *ngSwitchCase="2">Very easy</ng-container>
@@ -22,16 +18,11 @@
                             <ng-container *ngSwitchCase="9">Very hard</ng-container>
                             <ng-container *ngSwitchCase="10">Very hard</ng-container>
                         </ng-container>
-                    </button>
+                    </span>
                 </mat-card-title>
             </mat-card-header>
 
             <mat-card-content>
-                <button mat-button color="warn" [disabled]="!scenario.encounterDeck?.length" (click)="onStartQuest()">
-                    <mat-icon>wifi_protected_setup</mat-icon>
-                    Shuffle &amp; Start
-                </button>
-
                 <p>{{ scenario.text }}</p>
 
                 <button mat-button color="accent" [disabled]="!speechSupport" (click)="onStartReading()">
@@ -42,6 +33,11 @@
                 <button mat-button color="accent" [disabled]="!speechSupport" (click)="onPauseReading()">
                     <mat-icon>pause_circle_outline</mat-icon>
                     Stop
+                </button>
+
+                <button mat-button color="warn" [disabled]="!scenario.encounterDeck?.length" (click)="onStartQuest()">
+                    <mat-icon>wifi_protected_setup</mat-icon>
+                    Shuffle &amp; Start
                 </button>
             </mat-card-content>
         </mat-card>

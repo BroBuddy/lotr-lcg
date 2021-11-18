@@ -2,8 +2,8 @@
     <img [defaultImage]="'https://via.placeholder.com/240x340/000/?text=LOTR'"
          [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
          alt=""
-         [width]="card.type === 'quest' ? 213 : 150"
-         [height]="card.type === 'quest' ? 150 : 213"
+         [width]="card.type === 'quest' ? 198 : 140"
+         [height]="card.type === 'quest' ? 140 : 198"
          hspace="6"
          [matMenuTriggerFor]="cardMenu"
          (mouseover)="zoomService.mouseover('/assets/img/encounter/',

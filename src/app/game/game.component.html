@@ -39,7 +39,7 @@
                          [lazyLoad]="'/assets/img/shadow.jpg'"
                          [matTooltip]="'Encounter deck'"
                          [matTooltipPosition]="'right'"
-                         width="150" height="210" alt=""
+                         width="140" height="198" alt=""
                          (click)="onDrawCard()"
                          *ngIf="data.encounterDeck?.length" />
                 </div>
@@ -74,7 +74,7 @@
                              [matTooltipPosition]="'right'"
                              (mouseover)="zoomService.mouseover('/assets/img/encounter/', data.shadowCard['image'] + '.jpg', 'left')"
                              (mouseout)="zoomService.mouseout()"
-                             width="150" height="210" alt=""
+                             width="140" height="198" alt=""
                              (click)="onDiscardShadow()" />
                     </ng-container>
 
@@ -83,7 +83,7 @@
                              [lazyLoad]="'/assets/img/shadow.jpg'"
                              [matTooltip]="'Shadow card'"
                              [matTooltipPosition]="'right'"
-                             width="150" height="210" alt=""
+                             width="140" height="198" alt=""
                              (click)="onDrawShadow()"
                              *ngIf="data.encounterDeck?.length" />
                     </ng-container>
@@ -104,7 +104,7 @@
                           <img [src]="'/assets/img/quest/' + quest.image + '.jpg'"
                                (mouseover)="zoomService.mouseover('/assets/img/quest/', quest.image + '.jpg', 'left', false)"
                                (mouseout)="zoomService.mouseout()"
-                               width="105" alt="" hspace="5" vspace="5"
+                               width="110" alt="" hspace="5" vspace="5"
                                [matTooltip]="'Quest card'"
                                [matTooltipPosition]="'left'"
                                [matMenuTriggerFor]="questMenu"

@@ -16,25 +16,21 @@
                     [routerLink]="'../' + cycle.name + '/' + scenario.name"
                     [disabled]="!scenario.name || scenario.id === 12 || scenario.id === 29">
               {{ scenario.title ? scenario.title : 'not available' }}
-            </button>
 
-            <button mat-button
-                    type="button"
-                    [matTooltip]="scenario.difficult"
-                    [matTooltipPosition]="'right'"
-                    [color]="scenario.difficult <= 4 ? 'accent' : (scenario.difficult >= 7 ? 'primary' : 'warn')">
-              <ng-container [ngSwitch]="scenario.difficult">
-                <ng-container *ngSwitchCase="1">Very easy</ng-container>
-                <ng-container *ngSwitchCase="2">Very easy</ng-container>
-                <ng-container *ngSwitchCase="3">Easy</ng-container>
-                <ng-container *ngSwitchCase="4">Easy</ng-container>
-                <ng-container *ngSwitchCase="5">Medium</ng-container>
-                <ng-container *ngSwitchCase="6">Medium</ng-container>
-                <ng-container *ngSwitchCase="7">Hard</ng-container>
-                <ng-container *ngSwitchCase="8">Hard</ng-container>
-                <ng-container *ngSwitchCase="9">Very hard</ng-container>
-                <ng-container *ngSwitchCase="10">Very hard</ng-container>
-              </ng-container>
+              <span [ngStyle]="{ 'margin-left': '25px', 'color': scenario.difficult <= 4 ? '#DAF7A6' : (scenario.difficult >= 7 ? '#900C3F' : '#FF5733') }">
+                <ng-container [ngSwitch]="scenario.difficult">
+                  <ng-container *ngSwitchCase="1">Very easy</ng-container>
+                  <ng-container *ngSwitchCase="2">Very easy</ng-container>
+                  <ng-container *ngSwitchCase="3">Easy</ng-container>
+                  <ng-container *ngSwitchCase="4">Easy</ng-container>
+                  <ng-container *ngSwitchCase="5">Medium</ng-container>
+                  <ng-container *ngSwitchCase="6">Medium</ng-container>
+                  <ng-container *ngSwitchCase="7">Hard</ng-container>
+                  <ng-container *ngSwitchCase="8">Hard</ng-container>
+                  <ng-container *ngSwitchCase="9">Very hard</ng-container>
+                  <ng-container *ngSwitchCase="10">Very hard</ng-container>
+                </ng-container>
+              </span>
             </button>
           </div>
         </div>

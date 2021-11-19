@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b70523cd-ef27-422f-83db-87002a0250b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9sb3JkLW9mLXRoZS1yaW5ncw.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/card/card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/card/card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/scenario/scenario.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/scenario/scenario.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/card/card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/card/card.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/json/angmar-awakened.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/json/angmar-awakened.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,18 +30,18 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/img/encounter/lord-of-the-rings" />
-      <recent name="$PROJECT_DIR$/src/assets/img/quest/lord-of-the-rings" />
-      <recent name="$PROJECT_DIR$/src/app/data/json" />
-      <recent name="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened" />
-      <recent name="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/data" />
       <recent name="$PROJECT_DIR$/src/app/mission" />
       <recent name="$PROJECT_DIR$/src/app/cards" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/quest/angmar-awakened" />
+      <recent name="$PROJECT_DIR$/src/assets/img/encounter/lord-of-the-rings" />
+      <recent name="$PROJECT_DIR$/src/assets/img/quest/lord-of-the-rings" />
+      <recent name="$PROJECT_DIR$/src/app/data/json" />
+      <recent name="$PROJECT_DIR$/src/assets/img/quest/the-ring-maker" />
     </key>
   </component>
   <component name="RunDashboard">

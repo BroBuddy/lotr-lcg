@@ -790,21 +790,177 @@
       },
       {
         "difficult": 4,
-        "title": "",
-        "name": "",
-        "text": "",
-        "questDeck": [],
+        "title": "Escape from Mount Gram",
+        "name": "escape-from-mount-gram",
+        "text": "Blindfolded, the company was marched into the tunnels of Mount Gram. It seemed they walked for miles uphill, and through many winding corridors. When the blindfolds were removed, they were deep in the heart of the Goblin stronghold, with no knowledge of an escape route. Gornákh’s dungeons were gruesome and awful. They smelled of rot and decay, and the floor was damp, covered in frost and slime. Flickering torchlight scarcely illuminated the dungeon’s halls. The Goblins separated the companions and brought them down different tunnels, passing by chambers filled with wicked instruments. Cries of lament and pain echoed throughout the dungeons, filling them with dread.",
+        "questDeck": [
+          "angmar-awakened/Unexpected-Rescue-1A",
+          "angmar-awakened/Unexpected-Rescue-1B",
+          "angmar-awakened/Gornakhs-Dungeons-2A",
+          "angmar-awakened/Gornakhs-Dungeons-2B",
+          "angmar-awakened/Flight-from-Mount-Gram-3A",
+          "angmar-awakened/Flight-from-Mount-Gram-3B"
+        ],
         "activeLocation": null,
         "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Marauder"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Captain"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Captain"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Orc-Ambush"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cruel-Torturer"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cruel-Torturer"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Dungeon-Guard"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Dungeon-Guard"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Dungeon-Guard"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Goblin-Tormentor"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Goblin-Tormentor"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Prison-Cell"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Prison-Cell"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Prison-Cell"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Prison-Cell"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Patrol-Room"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Patrol-Room"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Tunnels-of-Mount-Gram"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Tunnels-of-Mount-Gram"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Sound-the-Alarm"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Sound-the-Alarm"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Feeble-and-Weary"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Feeble-and-Weary"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Captives-of-Gornakh"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Captives-of-Gornakh"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Interrogation"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Interrogation"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Stop-the-Executioners"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Jailor-Gornakh"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Southern-Gate"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Angmar-Orc"
+          }
+        ]
       },
       {
         "difficult": 4,
-        "title": "",
-        "name": "",
-        "text": "",
-        "questDeck": [],
+        "title": "Across the Ettenmoors",
+        "name": "across-the-ettenmoors",
+        "text": "The company had barely escaped from the dungeons of Mount Gram with their lives, thanks to the bravery of the Ranger Amarthiúl and the skill and guile of the heroes who rescued their companions. Heading south from Mount Gram, they found the return to Rivendell fraught with peril at every turn. The need for haste forced the company to travel into the wild lands of the Ettenmoors, a decision they quickly regretted. The Ettenmoors were an untamed and dreary land, overrun with Trolls and beasts that roamed the wilds, constantly searching for food. The heroes had recovered some of their belongings in the dungeons, but were exhausted from their imprisonment and in bad shape to be fighting such monsters.",
+        "questDeck": [
+          "angmar-awakened/Into-the-Ettenmoors-1A",
+          "angmar-awakened/Into-the-Ettenmoors-1B",
+          "angmar-awakened/A-Miserable-Journey-2A",
+          "angmar-awakened/A-Miserable-Journey-2B",
+          "angmar-awakened/Journeys-End-3A",
+          "angmar-awakened/Journeys-End-3B"
+        ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [],
@@ -812,10 +968,15 @@
       },
       {
         "difficult": 6,
-        "title": "",
-        "name": "",
-        "text": "",
-        "questDeck": [],
+        "title": "The Treachery of Rhudaur",
+        "name": "the-treachery-of-rhudaur",
+        "text": "Having escaped imprisonment in the Goblin dungeons of Mount Gram and an icy death in the rugged Coldfells at the hands of hungry Trolls, the heroes had finally reached the woods of Rhudaur. The company made good time for several days, fair weather and plentiful food motivating them to travel at a brisk pace. Yet, no matter how many leagues they crossed, the dark presence and fear that had been tugging at the back of their minds ever since escaping Mount Gram never ceased to haunt them. When they slept, they were plagued by dreadful nightmares, and every waking moment was filled with the sensation of being pursued.",
+        "questDeck": [
+          "angmar-awakened/Secrets-of-Rhudaur-1A",
+          "angmar-awakened/Secrets-of-Rhudaur-1B",
+          "angmar-awakened/Thaurdirs-Pursuit-2A",
+          "angmar-awakened/Thaurdirs-Pursuit-2B"
+        ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [],
@@ -1037,10 +1198,17 @@
       },
       {
         "difficult": 8,
-        "title": "",
-        "name": "",
-        "text": "",
-        "questDeck": [],
+        "title": "The Dread Realm",
+        "name": "the-dread-realm",
+        "text": "The capital of Angmar was a terrifying place. Once the heroes had defeated the Orcs guarding the entrance and made their way inside, all was eerily quiet in comparison to the battle raging outside. The halls of Carn Dûm were cold and lonesome, though no matter where the heroes ventured within its walls, the feeling that they were being watched never ceased. The realm of Angmar had claimed immeasurable lives over many hundreds of years in its long war with the Dúnedain. With each step they took, their burden grew worse. The fortress was sprawling, but if they strained their senses, they heard cries of pain coming from below. So, deeper into the stronghold they ventured, down many long and steep flights of stairs, the corridors becoming narrower, the stone walls pressing in all around them.",
+        "questDeck": [
+          "angmar-awakened/The-Catacombs-of-Carn-Dum-1A",
+          "angmar-awakened/The-Catacombs-of-Carn-Dum-1B",
+          "angmar-awakened/Angmar-Awakened-2A",
+          "angmar-awakened/Angmar-Awakened-2B",
+          "angmar-awakened/Daechanars-Fall-3A",
+          "angmar-awakened/Daechanars-Fall-3B"
+        ],
         "activeLocation": null,
         "stagingArea": [],
         "encounterDeck": [],

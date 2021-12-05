@@ -37,7 +37,6 @@ export class GameComponent implements OnInit, OnDestroy {
   public progress = 0;
   private subs = new SubSink();
 
-
   @HostListener('window:keyup', ['$event'])
   handleKeyboardEvent(e: KeyboardEvent) {
     this.initKeys(e);
@@ -109,6 +108,10 @@ export class GameComponent implements OnInit, OnDestroy {
     this.dataService.onDrawCard();
   }
 
+  onShuffleEncounter(): void {
+    this.dataService.onShuffleEncounter();
+  }
+
   onCardActivation(card: any): void {
     this.dataService.onCardActivation(card);
   }
@@ -131,6 +134,10 @@ export class GameComponent implements OnInit, OnDestroy {
 
   onEnemyDefeated(card: any, defeated: boolean): void {
     this.dataService.onEnemyDefeated(card, defeated);
+  }
+
+  onBackToStaging(card: any): void {
+    this.dataService.onBackToStaging(card);
   }
 
   onChangeQuest(step: number): void {

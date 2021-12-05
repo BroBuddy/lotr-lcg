@@ -288,12 +288,7 @@ export class DataService {
   }
 
   onEnemyDefeated(card: any, defeated: boolean): void {
-    this.zoomService.mouseout();
-
-    const engagingArea = [...this.engagingArea.getValue()],
-        index = engagingArea.findIndex((item) => item === card);
-
-    this.engagingArea.next(engagingArea.slice(0, Number(index)).concat(engagingArea.slice(Number(index) + 1)));
+    this.updateEngagingArea(card);
 
     if (defeated) {
       card.progress = 0;
@@ -305,6 +300,29 @@ export class DataService {
     }
 
     this.addHistory(this.getCardTypeName(card) + ' was defeated');
+  }
+
+  onBackToStaging(card: any): void {
+    switch (card.type) {
+      case 'location':
+        this.activeLocation.next(null);
+        break;
+      default:
+        this.updateEngagingArea(card);
+        break;
+    }
+
+    this.stagingArea.getValue().push(card);
+    this.addHistory(this.getCardTypeName(card) + ' was staged again');
+  }
+
+  updateEngagingArea(card: any): void {
+    this.zoomService.mouseout();
+
+    const engagingArea = [...this.engagingArea.getValue()],
+        index = engagingArea.findIndex((item) => item === card);
+
+    this.engagingArea.next(engagingArea.slice(0, Number(index)).concat(engagingArea.slice(Number(index) + 1)));
   }
 
   onResetCard(type: string, card: any): void {

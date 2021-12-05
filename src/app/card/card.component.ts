@@ -16,6 +16,7 @@ export class CardComponent {
  @Input() area: string;
  @Output() activateCard: Subject<any> = new Subject<any>();
  @Output() deactivateCard: Subject<any> = new Subject<any>();
+ @Output() stagingCard: Subject<any> = new Subject<any>();
 
  constructor(private dataService: DataService, public zoomService: ImageZoomService) {}
 
@@ -42,6 +43,10 @@ export class CardComponent {
 
   onCardDeactivation(): void {
     this.deactivateCard.next(this.card);
+  }
+
+  onBackToStaging(): void {
+    this.stagingCard.next(this.card);
   }
 
 }

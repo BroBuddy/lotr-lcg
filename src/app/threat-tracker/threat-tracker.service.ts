@@ -90,4 +90,10 @@ export class ThreatTrackerService {
       }
     }
   }
+
+  resetPlayerThreat(): void {
+    this.playerCount.next(1);
+    this.firstPlayerThreat.next(28);
+    this.secondPlayerThreat.next(28);
+  }
 }

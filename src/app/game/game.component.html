@@ -12,13 +12,13 @@
     <div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
         <div fxFlex="100" fxLayoutAlign="space-between">
             <div>
-                <button mat-mini-fab [color]="null" [matTooltip]="'Glossary'" (click)="openGlossaryModal()">
-                    <mat-icon>menu_book</mat-icon>
+                <button mat-mini-fab [color]="null" [matTooltip]="'Cards'" (click)="openCardsModal()">
+                    <mat-icon>content_copy</mat-icon>
                 </button>
 
-                <span [ngStyle]="{ 'margin': '0 5px' }">
-                    <button mat-mini-fab [color]="null" [matTooltip]="'Cards'" (click)="openCardsModal()">
-                        <mat-icon>content_copy</mat-icon>
+                <span [ngStyle]="{ 'margin': '0 5px' }" *ngIf="data.encounterDeck.length">
+                    <button mat-mini-fab [color]="null" [matTooltip]="'Shuffle encounter deck'" (click)="onShuffleEncounter()">
+                        <mat-icon>shuffle</mat-icon>
                     </button>
                 </span>
             </div>
@@ -26,6 +26,12 @@
             <app-threat-tracker></app-threat-tracker>
 
             <div>
+                <span [ngStyle]="{ 'margin': '0 5px' }">
+                    <button mat-mini-fab [color]="null" [matTooltip]="'Glossary'" (click)="openGlossaryModal()">
+                        <mat-icon>menu_book</mat-icon>
+                    </button>
+                </span>
+
                 <button mat-mini-fab [color]="null" [matTooltip]="'History'" (click)="openHistoryModal()">
                     <mat-icon>update</mat-icon>
                 </button>
@@ -57,6 +63,7 @@
                   <span *ngIf="data.activeLocation">
                     <app-card [card]="data.activeLocation"
                               [area]="'location'"
+                              (stagingCard)="onBackToStaging(data.activeLocation)"
                               (activateCard)="onTravelToLocation(data.activeLocation, true)"
                               (deactivateCard)="onCardDeactivation(data.activeLocation, 'location')"
                               [matTooltip]="'Active location'"
@@ -93,6 +100,7 @@
                   <span *ngFor="let card of data.engagingArea; trackBy: trackByFn">
                     <app-card [card]="card"
                               [area]="'engaging'"
+                              (stagingCard)="onBackToStaging(card)"
                               (activateCard)="onEnemyDefeated(card, true)"
                               (deactivateCard)="onCardDeactivation(card, 'engaging')"></app-card>
                   </span>

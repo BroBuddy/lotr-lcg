@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 
 import {Observable} from 'rxjs';
 
@@ -8,7 +8,7 @@ import {ThreatTrackerService} from './threat-tracker.service';
   selector: 'app-threat-tracker',
   templateUrl: './threat-tracker.component.html',
 })
-export class ThreatTrackerComponent implements OnInit {
+export class ThreatTrackerComponent implements OnInit, OnDestroy {
 
   public playerCount$: Observable<number>;
   public firstPlayerThreat$: Observable<number>;
@@ -40,6 +40,10 @@ export class ThreatTrackerComponent implements OnInit {
 
   onRemovePlayer(): void {
     this.threatTrackerService.removePlayer();
+  }
+
+  ngOnDestroy(): void {
+    this.threatTrackerService.resetPlayerThreat();
   }
 
 }

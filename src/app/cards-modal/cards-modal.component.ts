@@ -7,6 +7,17 @@ import {DataService} from '../data/data.service';
 @Component({
   selector: 'app-cards-modal',
   templateUrl: './cards-modal.component.html',
+    styles: [`.enemy-card {
+      color: red !important;
+    }
+
+    .treachery-card {
+      color: orange !important;
+    }
+
+    .location-card {
+      color: yellow !important;
+    }`]
 })
 export class CardsModalComponent implements OnInit {
 
@@ -22,10 +33,6 @@ export class CardsModalComponent implements OnInit {
 
   onChooseCard(card: any, index: number): void {
     this.dataService.onChooseCard(card, index);
-  }
-
-  onShuffleEncounter(): void {
-    this.dataService.onShuffleEncounter();
   }
 
   onCreateEncounterDeck(): void {

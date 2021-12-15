@@ -78,29 +78,27 @@
             </mat-card-header>
 
             <mat-card-content>
-                <mat-list role="list">
-                    <mat-list-item role="listitem">
-                        {{ scenario.questDeck.length }}x
-                        <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">note</mat-icon>
-                        Quest cards
+                <mat-list>
+                    <div mat-subheader>Decks</div>
+                    <mat-list-item>
+                        <mat-icon mat-list-icon>note</mat-icon>
+                        <div mat-line>{{ scenario.questDeck.length }} quest cards</div>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <mat-icon mat-list-icon>file_copy</mat-icon>
+                        <div mat-line>{{ scenario.encounterDeck.length }} encounter cards</div>
                     </mat-list-item>
 
-                    <mat-list-item role="listitem">
-                        {{ scenario.encounterDeck.length }}x
-                        <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">file_copy</mat-icon>
-                        Encounter cards
-                    </mat-list-item>
+                    <mat-divider></mat-divider>
 
-                    <mat-list-item role="listitem">
-                        {{ scenario.stagingArea.length }}x
-                        <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">note_add</mat-icon>
-                        Cards @ staging area
+                    <div mat-subheader>Setup</div>
+                    <mat-list-item>
+                        <mat-icon mat-list-icon>note_add</mat-icon>
+                        <div mat-line>{{ scenario.stagingArea.length }} cards staged</div>
                     </mat-list-item>
-
-                    <mat-list-item role="listitem">
-                        {{ scenario.discardPile.length }}x
-                        <mat-icon [ngStyle]="{ 'margin': '0 5px' }" color="accent">restore_page</mat-icon>
-                        Cards @ discard pile
+                    <mat-list-item>
+                        <mat-icon mat-list-icon>restore_page</mat-icon>
+                        <div mat-line>{{ scenario.discardPile.length }} cards discarded</div>
                     </mat-list-item>
                 </mat-list>
             </mat-card-content>

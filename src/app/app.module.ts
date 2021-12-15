@@ -12,7 +12,6 @@ import {DataService} from './data/data.service';
 import { HeaderComponent } from './header/header.component';
 import { MaterialModule } from './material.module';
 import {HomeComponent} from './home/home.component';
-import {CounterComponent} from './counter/counter.component';
 import {CardComponent} from './card/card.component';
 import {GlossaryComponent} from './glossary/glossary.component';
 import {ImageZoomComponent} from './image-zoom/image-zoom.component';
@@ -25,6 +24,7 @@ import {CardsModalComponent} from './cards-modal/cards-modal.component';
 import {HistoryModalComponent} from './history-modal/history-modal.component';
 import {ScenarioComponent} from './scenario/scenario.component';
 import {ThreatTrackerComponent} from './threat-tracker/threat-tracker.component';
+import {QuestDeckComponent} from "./quest-deck/quest-deck.component";
 
 @NgModule({
   declarations: [
@@ -37,7 +37,7 @@ import {ThreatTrackerComponent} from './threat-tracker/threat-tracker.component'
     CardComponent,
     CardsComponent,
     KeywordsComponent,
-    CounterComponent,
+    QuestDeckComponent,
     ImageZoomComponent,
     CardsModalComponent,
     GlossaryModalComponent,

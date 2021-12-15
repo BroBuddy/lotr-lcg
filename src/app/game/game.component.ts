@@ -140,10 +140,10 @@ export class GameComponent implements OnInit, OnDestroy {
     this.dataService.onBackToStaging(card);
   }
 
-  onChangeQuest(step: number): void {
+  onChangeQuest(): void {
     this.progress = 0;
 
-    this.questStep = step;
+    this.questStep += 1;
   }
 
   trackByFn(index: number): number {

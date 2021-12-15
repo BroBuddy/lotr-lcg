@@ -107,25 +107,7 @@
                 </div>
 
                 <div fxFlex="15" fxLayoutAlign="end">
-                    <div *ngIf="data.questDeck?.length">
-                        <span *ngFor="let quest of data.questDeck; let i = index; trackBy: trackByFn">
-                          <img [src]="'/assets/img/quest/' + quest.image + '.jpg'"
-                               (mouseover)="zoomService.mouseover('/assets/img/quest/', quest.image + '.jpg', 'left', false)"
-                               (mouseout)="zoomService.mouseout()"
-                               width="110" alt="" hspace="5" vspace="5"
-                               [matTooltip]="'Quest card'"
-                               [matTooltipPosition]="'left'"
-                               [matMenuTriggerFor]="questMenu"
-                               [ngClass]="questStep === i ? 'active-quest' : 'inactive-quest'"
-                               (click)="onChangeQuest(i)" />
-                        </span>
-
-                        <mat-menu #questMenu="matMenu">
-                            <div mat-menu-item>
-                                <app-counter></app-counter>
-                            </div>
-                        </mat-menu>
-                    </div>
+                    <app-quest-deck [deck]="data.questDeck"></app-quest-deck>
                 </div>
             </div>
         </div>

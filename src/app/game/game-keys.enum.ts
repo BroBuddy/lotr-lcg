@@ -7,4 +7,12 @@ export enum KEY_CODE {
     // -
     MINUS = 109,
     MINUS_2 = 189,
+    // left
+    LEFT = 37,
+    // up
+    UP = 38,
+    // right
+    RIGHT = 39,
+    // down
+    DOWN = 40,
 }

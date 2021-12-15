@@ -1,0 +1,42 @@
+<div class="quest-box">
+    <img [defaultImage]="'https://via.placeholder.com/340x240/000/?text=LOTR'"
+         [lazyLoad]="'/assets/img/quest/' + deck[questStep].image + '.jpg'"
+         alt=""
+         [width]="198"
+         [height]="140"
+         hspace="6"
+         [matMenuTriggerFor]="cardMenu"
+         (mouseover)="zoomService.mouseover('/assets/img/quest/',
+         deck[questStep].image + '.jpg',
+         'left',
+         false)"
+         (mouseout)="zoomService.mouseout()" />
+
+    <div class="quest-progress" *ngIf="progress >= 1">{{ progress }}</div>
+
+    <mat-menu #cardMenu="matMenu">
+        <button mat-menu-item [disabled]="questStep === 0" (click)="onPreviousCard()">
+            <mat-icon>arrow_back</mat-icon>
+            Previous card
+        </button>
+
+        <button mat-menu-item [disabled]="questStep === (deck.length - 1)" (click)="onNextCard()">
+            <mat-icon>arrow_forward</mat-icon>
+            Next card
+        </button>
+
+        <div mat-menu-item *ngIf="questStep % 2">
+            <button mat-icon-button color="accent" (click)="decreaseProgress($event)">
+                <mat-icon>remove_circle_outline</mat-icon>
+            </button>
+
+            <button mat-icon-button color="accent" (click)="setProgress(0)">
+                <mat-icon>settings_backup_restore</mat-icon>
+            </button>
+
+            <button mat-icon-button color="accent" (click)="increaseProgress($event)">
+                <mat-icon>add_circle_outline</mat-icon>
+            </button>
+        </div>
+    </mat-menu>
+</div>

@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Lord of the Rings",
+    "name": "lord-of-the-rings",
+    "scenarios": [
+      {
+        "difficult": 6,
+        "title": "A Shadow of the Past",
+        "name": "a-shadow-of-the-past",
+        "text": "Gandalf explains to Frodo the true nature of Bilbo's (now Frodo's) magic ring, how it is the One Ring and must be destroyed for the good of the Shire and all the Free Peoples of the world. Frodo brings the Ring out of the fireplace, and asks Gandalf about the markings on the side. Gandalf explains the text is the Black Speech of Mordor, and then reads the loosely translated version.",
+        "questDeck": [
+          "lord-of-the-rings/Three-is-Company-1A",
+          "lord-of-the-rings/Three-is-Company-1B",
+          "lord-of-the-rings/A-Shortcut-to-Mushrooms-2A",
+          "lord-of-the-rings/A-Shortcut-to-Mushrooms-2B",
+          "lord-of-the-rings/Escape-to-Buckland-3A",
+          "lord-of-the-rings/Escape-to-Buckland-3B"
+        ],
+        "activeLocation": {
+          "type": "location",
+          "image": "lord-of-the-rings/Bag-End"
+        },
+        "stagingArea": [
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Black-Rider"
+          },
+          {
+            "type": "objective",
+            "image": "lord-of-the-rings/Gandalfs-Delay"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "objective",
+            "image": "lord-of-the-rings/Gildor-Inglorion"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/The-Ring-Draws-Them"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Woody-End"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Stock-Brook"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Bamfurlong"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Green-Hill-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Green-Hill-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Green-Hill-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Stock-Road"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Stock-Road"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Stock-Road"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/The-Marish"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/The-Marish"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Black-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Black-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Black-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Black-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Evil-Crow"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Evil-Crow"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Evil-Crow"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Crawling-Towards-Him"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Crawling-Towards-Him"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Crawling-Towards-Him"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Hunting-For-The-Ring"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Hunting-For-The-Ring"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Hunting-For-The-Ring"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Have-You-Seen-Baggins"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Have-You-Seen-Baggins"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Black-Steed"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Black-Steed"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Black-Steed"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Rode-Like-a-Gale"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Rode-Like-a-Gale"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Lure-of-the-Ring"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Lure-of-the-Ring"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Lure-of-the-Ring"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Bucklebury-Ferry"
+          }
+        ]
+      }
+    ]
+  }
+]

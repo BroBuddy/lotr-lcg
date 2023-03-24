@@ -22,6 +22,10 @@
         },
         "stagingArea": [
           {
+            "type": "objective",
+            "image": "lord-of-the-rings/The-One-Ring"
+          },
+          {
             "type": "enemy",
             "image": "lord-of-the-rings/Black-Rider"
           },
@@ -204,6 +208,430 @@
           {
             "type": "location",
             "image": "lord-of-the-rings/Bucklebury-Ferry"
+          }
+        ]
+      },
+      {
+        "difficult": 6,
+        "title": "A Knife in the Dark",
+        "name": "a-knife-in-the-dark",
+        "text": "The Hobbits with Strider set out from Bree on foot, after their horses had fled at the arrival of the Black Riders. The Riders had attacked the beds which they were supposed to be staying in, though in vain, as Strider had the four Hobbits stay in another room. They buy a pony from Bill Ferny, and then pass through the Midgewater Marshes, and reach Weathertop. There they are attacked by five Black Riders; Frodo puts on the Ring to escape them, and is stabbed in the shoulder by the Witch-king of Angmar, the lord of the nine Ringwraiths.",
+        "questDeck": [
+          "lord-of-the-rings/Trouble-in-Bree-1A",
+          "lord-of-the-rings/Trouble-in-Bree-1B",
+          "lord-of-the-rings/Into-the-Wild-2A",
+          "lord-of-the-rings/Into-the-Wild-2B",
+          "lord-of-the-rings/The-Ringwraiths-Attack-3A",
+          "lord-of-the-rings/The-Ringwraiths-Attack-3B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/The-Prancing-Pony"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Bill-Ferny"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Chetwood"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Chetwood"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Chetwood"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Weather-Hills"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Weather-Hills"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Weather-Hills"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Rider-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Rider-of-Mordor"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Shady-Bree-Lander"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Shady-Bree-Lander"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Shady-Bree-Lander"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Shady-Bree-Lander"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Squint-Eyed-Southerner"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Squint-Eyed-Southerner"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Squint-Eyed-Southerner"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Unwanted-Attention"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Unwanted-Attention"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Unwanted-Attention"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Black-Breath"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Black-Breath"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pale-Blade"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pale-Blade"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pale-Blade"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Power-In-Their-Terror"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Power-In-Their-Terror"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Power-In-Their-Terror"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Lure-of-the-Ring"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Lure-of-the-Ring"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Lure-of-the-Ring"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/The-Witch-king"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Ringwraith"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Ringwraith"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Ringwraith"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Ringwraith"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Midgewater"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Weathertop"
+          }
+        ]
+      },
+      {
+        "difficult": 5,
+        "title": "Flight to the Ford",
+        "name": "flight-to-the-ford",
+        "text": "The Hobbits and Strider pass the Trolls Tom, Bert, and William, who were turned to stone by Gandalf during the Quest of Erebor. Eventually, they meet the Elf Glorfindel from Rivendell, who takes Frodo with him back to Rivendell on his white horse Asfaloth. At last, the Black Riders are washed away in the Flood over the Ford of Bruinen.",
+        "questDeck": [
+          "lord-of-the-rings/Pursued-by-the-Enemy-1A",
+          "lord-of-the-rings/Pursued-by-the-Enemy-1B",
+          "lord-of-the-rings/Race-To-Rivendell-2A",
+          "lord-of-the-rings/Race-To-Rivendell-2B"
+        ],
+        "activeLocation": null,
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "lord-of-the-rings/The-One-Ring"
+          },
+          {
+            "type": "objective",
+            "image": "lord-of-the-rings/An-Evil-Wound"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/The-Last-Bridge"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Fell-Rider"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/The-Trolls-Camp"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Ettenmoors"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Ettenmoors"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Ettenmoors"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/The-Old-Road"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/The-Old-Road"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/The-Old-Road"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Fell-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Fell-Rider"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Fell-Rider"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Stricken-Dumb"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Stricken-Dumb"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Stricken-Dumb"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/The-Enemy-is-Upon-Us"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/The-Enemy-is-Upon-Us"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pain-Assailed-Him"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pain-Assailed-Him"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pain-Assailed-Him"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/The-Nine-are-Abroad"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/The-Nine-are-Abroad"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Weight-of-the-Ring"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Fear-of-Discovery"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Eaten-Alive"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Panicked"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Overcome-by-Terror"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Pathless-Country"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Piercing-Cry"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Black-Steed"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Black-Steed"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Black-Steed"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Rode-Like-a-Gale"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Rode-Like-a-Gale"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Ringwraith"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Ringwraith"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Ringwraith"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/Ringwraith"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pale-Blade"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pale-Blade"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Pale-Blade"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Power-In-Their-Terror"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Power-In-Their-Terror"
+          },
+          {
+            "type": "treachery",
+            "image": "lord-of-the-rings/Power-In-Their-Terror"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "location",
+            "image": "lord-of-the-rings/Ford-of-Bruinen"
+          },
+          {
+            "type": "enemy",
+            "image": "lord-of-the-rings/The-Witch-king"
           }
         ]
       }

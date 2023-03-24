@@ -1,5 +1,10 @@
-<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid"
-     *ngIf="cycles$ | async as cycles">
+<div
+  class="container"
+  fxLayout="column"
+  fxLayout.gt-sm="row wrap"
+  fxLayoutGap="15px grid"
+  *ngIf="cycles$ | async as cycles"
+>
   <div fxFlex="33" *ngFor="let cycle of cycles['value']; trackBy: trackByFn">
     <mat-card>
       <mat-card-header>
@@ -8,16 +13,38 @@
 
       <mat-card-content fxLayoutAlign="space-between">
         <div>
-          <div *ngFor="let scenario of cycle.scenarios; let i = index; trackBy: trackByFn">
-            <button mat-button disabled>#{{ i + 1 }}</button>
+          <div
+            *ngFor="
+              let scenario of cycle.scenarios;
+              let i = index;
+              trackBy: trackByFn
+            "
+          >
+            <button mat-button disabled>
+              {{ countCards(scenario) }} Cards
+            </button>
 
-            <button mat-button
-                    type="button"
-                    [routerLink]="'../' + cycle.name + '/' + scenario.name"
-                    [disabled]="!scenario.name || scenario.id === 12 || scenario.id === 29">
-              {{ scenario.title ? scenario.title : 'not available' }}
+            <button
+              mat-button
+              type="button"
+              [routerLink]="'../' + cycle.name + '/' + scenario.name"
+              [disabled]="
+                !scenario.name || scenario.id === 12 || scenario.id === 29
+              "
+            >
+              {{ scenario.title ? scenario.title : "not available" }}
 
-              <span [ngStyle]="{ 'margin-left': '25px', 'color': scenario.difficult <= 4 ? '#DAF7A6' : (scenario.difficult >= 7 ? '#900C3F' : '#FF5733') }">
+              <span
+                [ngStyle]="{
+                  'margin-left': '25px',
+                  color:
+                    scenario.difficult <= 4
+                      ? '#DAF7A6'
+                      : scenario.difficult >= 7
+                      ? '#900C3F'
+                      : '#FF5733'
+                }"
+              >
                 <ng-container [ngSwitch]="scenario.difficult">
                   <ng-container *ngSwitchCase="1">Very easy</ng-container>
                   <ng-container *ngSwitchCase="2">Very easy</ng-container>

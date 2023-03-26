@@ -963,7 +963,200 @@
         ],
         "activeLocation": null,
         "stagingArea": [],
-        "encounterDeck": [],
+        "encounterDeck": [
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Amarthiul"
+          },
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Secluded-Cave"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/The-Hoarwell"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Abandoned-Camp"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Patch-of-Woods"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Savage-Trollspawn"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Savage-Trollspawn"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Savage-Trollspawn"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Savage-Trollspawn"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Coldfell-Giant"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Coldfell-Giant"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cruel-Mountain-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cruel-Mountain-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Ruthless-Hill-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Ruthless-Hill-troll"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Goblin-Pursuer"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Goblin-Pursuer"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Troll-fells"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Troll-fells"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Barren-Moorland"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Barren-Moorland"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Aradors-Bane"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Aradors-Bane"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/No-Rest"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/No-Rest"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/No-Rest"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Lie-Low"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Forage-for-Food"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Scavenge-for-Supplies"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Rugged-Country"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Rugged-Country"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Rugged-Country"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Shrouded-Hills"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Shrouded-Hills"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Pressing-Needs"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Pressing-Needs"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Weight-of-Responsibility"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Weight-of-Responsibility"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Lost-in-the-Wilderness"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Biting-Wind"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Freezing-Blast"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Freezing-Blast"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Cold-from-Angmar"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Make-Camp"
+          }
+        ],
         "discardPile": []
       },
       {

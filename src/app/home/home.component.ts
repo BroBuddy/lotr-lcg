@@ -19,10 +19,11 @@ export class HomeComponent implements OnInit {
 
   countCards(scenario: any): number {
     let cardAmount = scenario.activeLocation ? 1 : 0;
+
     cardAmount += scenario.discardPile.length;
     cardAmount += scenario.encounterDeck.length;
     cardAmount += scenario.stagingArea.length;
-    console.log(scenario.title, cardAmount, scenario);
+
     return cardAmount;
   }
 

@@ -10,29 +10,36 @@
         Cards
       </button>
 
-      <button mat-menu-item routerLink="/packs">
-        <mat-icon>redeem</mat-icon>
-        Packs
-      </button>
-
       <button mat-menu-item routerLink="/keywords">
         <mat-icon>menu_book</mat-icon>
         Keywords
       </button>
     </mat-menu>
 
-    <button mat-button type="button" routerLink="/">
-      Lord of the rings
-    </button>
+    <button mat-button type="button" routerLink="/">Lord of the rings</button>
   </div>
 
   <div fxLayoutAlign="space-around center">
-    <button mat-button (click)="onOpenLink('https://www.youtube.com/watch?list=PLC3E0FF573F545F56&v=iMyPOFf7Vy4&feature=emb_title&ab_channel=FantasyFlightGames')">
+    <button
+      mat-button
+      (click)="
+        onOpenLink(
+          'https://www.youtube.com/watch?list=PLC3E0FF573F545F56&v=iMyPOFf7Vy4&feature=emb_title&ab_channel=FantasyFlightGames'
+        )
+      "
+    >
       <mat-icon>play_circle_outline</mat-icon>
       Tutorial
     </button>
 
-    <button mat-button (click)="onOpenLink('https://images-cdn.fantasyflightgames.com/ffg_content/lotr-lcg/LOTR%20Rules.pdf')">
+    <button
+      mat-button
+      (click)="
+        onOpenLink(
+          'https://images-cdn.fantasyflightgames.com/ffg_content/lotr-lcg/LOTR%20Rules.pdf'
+        )
+      "
+    >
       <mat-icon>description</mat-icon>
       Rules of play
     </button>

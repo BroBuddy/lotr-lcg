@@ -1,70 +1,206 @@
-<div class="container" fxLayout="column" fxLayout.gt-sm="row wrap" fxLayoutGap="15px grid">
-    <div fxFlex="100">
-        <mat-card>
-            <mat-card-header>
-                <mat-card-title>Cards</mat-card-title>
-                <mat-card-subtitle>Card size: {{ cardsSize }}</mat-card-subtitle>
-            </mat-card-header>
+<div
+  class="container"
+  fxLayout="column"
+  fxLayout.gt-sm="row wrap"
+  fxLayoutGap="15px grid"
+  *ngIf="cards$ | async as cards"
+>
+  <div>
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Cards</mat-card-title>
+      </mat-card-header>
 
-            <mat-card-content>
-                <table mat-table [dataSource]="cards" matSort>
-                    <ng-container matColumnDef="name">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.name }} </td>
-                    </ng-container>
+      <mat-card-content fxLayoutAlign="space-between">
+        <mat-tab-group animationDuration="0ms">
+          <mat-tab label="{{ cards.enemy.length }} Enemies">
+            <div
+              class="container"
+              fxLayout="column"
+              fxLayout.gt-sm="row wrap"
+              fxLayoutGap="15px grid"
+            >
+              <div
+                fxFlex="10"
+                *ngFor="
+                  let card of cards.enemy;
+                  let i = index;
+                  trackBy: trackByFn
+                "
+              >
+                <div>
+                  <img
+                    [defaultImage]="
+                      'https://via.placeholder.com/150x210/000/?text=LOTR'
+                    "
+                    [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
+                    (mouseover)="
+                      zoomService.mouseover(
+                        '/assets/img/encounter/',
+                        card.image + '.jpg',
+                        'right'
+                      )
+                    "
+                    (mouseout)="zoomService.mouseout()"
+                    width="140"
+                    height="198"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="{{ cards.location.length }} Locations">
+            <div
+              class="container"
+              fxLayout="column"
+              fxLayout.gt-sm="row wrap"
+              fxLayoutGap="15px grid"
+            >
+              <div
+                fxFlex="10"
+                *ngFor="
+                  let card of cards.location;
+                  let i = index;
+                  trackBy: trackByFn
+                "
+              >
+                <div>
+                  <img
+                    [defaultImage]="
+                      'https://via.placeholder.com/150x210/000/?text=LOTR'
+                    "
+                    [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
+                    (mouseover)="
+                      zoomService.mouseover(
+                        '/assets/img/encounter/',
+                        card.image + '.jpg',
+                        'right'
+                      )
+                    "
+                    (mouseout)="zoomService.mouseout()"
+                    width="140"
+                    height="198"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="{{ cards.treachery.length }} Treacheries">
+            <div
+              class="container"
+              fxLayout="column"
+              fxLayout.gt-sm="row wrap"
+              fxLayoutGap="15px grid"
+            >
+              <div
+                fxFlex="10"
+                *ngFor="
+                  let card of cards.treachery;
+                  let i = index;
+                  trackBy: trackByFn
+                "
+              >
+                <div>
+                  <img
+                    [defaultImage]="
+                      'https://via.placeholder.com/150x210/000/?text=LOTR'
+                    "
+                    [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
+                    (mouseover)="
+                      zoomService.mouseover(
+                        '/assets/img/encounter/',
+                        card.image + '.jpg',
+                        'right'
+                      )
+                    "
+                    (mouseout)="zoomService.mouseout()"
+                    width="140"
+                    height="198"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="{{ cards.objective.length }} Objectives">
+            <div
+              class="container"
+              fxLayout="column"
+              fxLayout.gt-sm="row wrap"
+              fxLayoutGap="15px grid"
+            >
+              <div
+                fxFlex="10"
+                *ngFor="
+                  let card of cards.objective;
+                  let i = index;
+                  trackBy: trackByFn
+                "
+              >
+                <div>
+                  <img
+                    [defaultImage]="
+                      'https://via.placeholder.com/150x210/000/?text=LOTR'
+                    "
+                    [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
+                    (mouseover)="
+                      zoomService.mouseover(
+                        '/assets/img/encounter/',
+                        card.image + '.jpg',
+                        'right'
+                      )
+                    "
+                    (mouseout)="zoomService.mouseout()"
+                    [width]="140"
+                    [height]="card.type === 'quest' ? 98 : 198"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </mat-tab>
 
-                    <ng-container matColumnDef="sphere">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Sphere </th>
-                        <td mat-cell *matCellDef="let element">
-                            <span [ngClass]="'icon icon-' + element.sphere"></span>
-                            {{ element.sphere }}
-                        </td>
-                    </ng-container>
-
-                    <ng-container matColumnDef="type">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Type </th>
-                        <td mat-cell *matCellDef="let element">
-                            <span [ngClass]="'icon icon-' + element.type"></span>
-                            {{ element.type }}
-                        </td>
-                    </ng-container>
-
-                    <ng-container matColumnDef="th">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Threat </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.th }} </td>
-                    </ng-container>
-
-                    <ng-container matColumnDef="wt">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Willpower </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.wt }} </td>
-                    </ng-container>
-
-                    <ng-container matColumnDef="atk">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Attack </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.atk }} </td>
-                    </ng-container>
-
-                    <ng-container matColumnDef="def">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Defense </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.def }} </td>
-                    </ng-container>
-
-                    <ng-container matColumnDef="hp">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Health </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.hp }} </td>
-                    </ng-container>
-
-                    <ng-container matColumnDef="trait">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Traits </th>
-                        <td mat-cell *matCellDef="let element"> {{ element.trait }} </td>
-                    </ng-container>
-
-                    <tr mat-header-row *matHeaderRowDef="columns"></tr>
-                    <tr mat-row *matRowDef="let row; columns: columns;"></tr>
-                </table>
-
-                <mat-paginator [pageSizeOptions]="[12, 24, 36]" showFirstLastButtons></mat-paginator>
-            </mat-card-content>
-        </mat-card>
-    </div>
+          <mat-tab label="{{ cards.quest.length }} Quests">
+            <div
+              class="container"
+              fxLayout="column"
+              fxLayout.gt-sm="row wrap"
+              fxLayoutGap="15px grid"
+            >
+              <div
+                fxFlex="10"
+                *ngFor="
+                  let card of cards.quest;
+                  let i = index;
+                  trackBy: trackByFn
+                "
+              >
+                <div>
+                  <img
+                    [defaultImage]="
+                      'https://via.placeholder.com/150x210/000/?text=LOTR'
+                    "
+                    [lazyLoad]="'/assets/img/encounter/' + card.image + '.jpg'"
+                    (mouseover)="
+                      zoomService.mouseover(
+                        '/assets/img/encounter/',
+                        card.image + '.jpg',
+                        'right'
+                      )
+                    "
+                    (mouseout)="zoomService.mouseout()"
+                    [width]="140"
+                    [height]="card.type === 'quest' ? 98 : 198"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-card-content>
+    </mat-card>
+  </div>
 </div>

@@ -962,12 +962,17 @@
           "angmar-awakened/Journeys-End-3B"
         ],
         "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [
+        "stagingArea": [
           {
             "type": "objective",
             "image": "angmar-awakened/Amarthiul"
           },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Savage-Trollspawn"
+          }
+        ],
+        "encounterDeck": [
           {
             "type": "objective",
             "image": "angmar-awakened/Secluded-Cave"
@@ -983,10 +988,6 @@
           {
             "type": "location",
             "image": "angmar-awakened/Patch-of-Woods"
-          },
-          {
-            "type": "enemy",
-            "image": "angmar-awakened/Savage-Trollspawn"
           },
           {
             "type": "enemy",

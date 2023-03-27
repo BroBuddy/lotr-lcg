@@ -1171,10 +1171,200 @@
           "angmar-awakened/Thaurdirs-Pursuit-2A",
           "angmar-awakened/Thaurdirs-Pursuit-2B"
         ],
-        "activeLocation": null,
-        "stagingArea": [],
-        "encounterDeck": [],
-        "discardPile": []
+        "activeLocation": {
+          "type": "location",
+          "image": "angmar-awakened/The-Great-Hall"
+        },
+        "stagingArea": [
+          {
+            "type": "objective",
+            "image": "angmar-awakened/Amarthiul"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ancient-Causeway"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Quiet-the-Spirits"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Sift-through-the-Debris"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Decipher-Ancient-Texts"
+          }
+        ],
+        "encounterDeck": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Dead-Lord"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Dead-Lord"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Cursed-Dead"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Restless-Evil"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Restless-Evil"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Seal-the-Tomb"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ruins-of-Arnor"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ancient-Causeway"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Tragic-Discovery"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Tragic-Discovery"
+          },
+          {
+            "type": "quest",
+            "image": "angmar-awakened/Search-the-Ruins"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Wight-of-Rhudaur"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Wight-of-Rhudaur"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Traitorous-Wight"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Traitorous-Wight"
+          },
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Traitorous-Wight"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Forbidden-Descent"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Forbidden-Descent"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Eerie-Halls"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Eerie-Halls"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ghostly-Ruins"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Ghostly-Ruins"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Decrepit-Remains"
+          },
+          {
+            "type": "location",
+            "image": "angmar-awakened/Decrepit-Remains"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Centuries-of-Sorrow"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Centuries-of-Sorrow"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Curse-of-the-Years"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Curse-of-the-Years"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Dark-Covenant"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Dark-Covenant"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Dark-Covenant"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Haunting-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Haunting-Fog"
+          },
+          {
+            "type": "treachery",
+            "image": "angmar-awakened/Haunting-Fog"
+          }
+        ],
+        "discardPile": [
+          {
+            "type": "enemy",
+            "image": "angmar-awakened/Thaurdir"
+          }
+        ]
       },
       {
         "difficult": 10,

@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "lord-of-the-rings"
+  "defaultProject": "lord-of-the-rings",
+  "cli": {
+    "analytics": "84d6df21-81be-495e-91ad-554f687b3b16"
+  }
 }
